@@ -1,15 +1,7 @@
 <resources>
     <string name="click_next_for_setup">Click Next button in order to start setup process</string>
-    <string name="please_wait_search_server">Please wait while the Home Assistant server discovery finishes</string>
-    <string name="server_not_found">Server not found</string>
-    <string name="server_not_found_message">We are sorry, but we couldn\'t find the Home Assistant server on this network. Please check if this device is on the same network as the Home Assistant server. As an alternative you can manually add the server ip address. Do you wish to try searching again or enter manually?</string>
     <string name="try_again_text">Try Again</string>
-    <string name="enter_manually_text">Enter Manually</string>
-    <string name="enter_assistant_url">Enter Home Assistant URL</string>
     <string name="continue_text">Continue</string>
-    <string name="ha_url_hint">Home Assistant URL/IP and Port</string>
-    <string name="server_found">Server Found</string>
-    <string name="server_found_message">Server found at address\n%s . If this is not correct choose search again button, else please click "Continue" button.</string>
     <string name="connecting_please_wait">Connecting. Please wait…</string>
     <string name="connection_server_failed">Server connection failed</string>
     <string name="connection_server_failed_message">Connection to Home Assistant server failed. Please check the URL / IP provided and try again.</string>
@@ -18,7 +10,6 @@
     <string name="connection_success_text_message">Connection to Home Assistant server is successful. Press "Continue" button to proceed further.</string>
     <string name="enter_assistant_password">Enter Home Assistant credentials</string>
     <string name="password_text">Password</string>
-    <string name="incorrect_password_text">Incorrect password</string>
     <string name="incorrect_password_message_text">Failed to authenticate using the credentials provided. Please check the credentials and try again.</string>
     <string name="setup_complete_text">Setup Complete</string>
     <string name="setup_complete_message_text">Home Assistant setup process is successful. Now you can use this app to control Home Assistant.</string>
@@ -42,7 +33,6 @@
 
     <string name="button_scene_activate">activate</string>
     <string name="climate_current_temperature">Currently: %1$.1f %2$s</string>
-    <string name="media_player_byline_format">%1$s • <i>on %2$s</i></string>
     <string name="media_player_stop_toast">Stopping playback…</string>
 
     <string name="location_permission_required">In order to proceed further Location permission is required. Would you like to manual enable it?</string>
@@ -51,8 +41,6 @@
     <string name="skip_text">Skip</string>
     <string name="connect_text">Connect</string>
     <string name="server_connection_lost_message">Connection to Home Assistant server has been lost. Please check your network connection and press connect button when ready.</string>
-    <string name="incorrect_network">Incorrect Network</string>
-    <string name="incorrect_network_message">No network connection or the currently connection is not via "%s". If you want to access Home Assistant from outside your home network, you must configure that.</string>
     <string name="contact_text">Contact</string>
     <string name="about_text">About</string>
     <string name="open_web_ui_text">Open Web-UI</string>
@@ -71,15 +59,9 @@
     <string name="air_pressure_text">Air pressure: </string>
     <string name="humidity_text">Humidity: </string>
     <string name="wind_speed_text">Wind speed: </string>
-    <string name="nougat_function_text">This function requires at least Android Nougat SP1</string>
-    <string name="shortcut_already_created">A shortcut on Home screen for this item already exists.</string>
-    <string name="add_widget">Add widget</string>
-    <string name="choose_switch_text">Choose Switch</string>
     <string name="choose_sensor_text">Choose item</string>
-    <string name="no_switches_messages">Can\'t add the switch widget because we couldn\'t find any configured switches.</string>
     <string name="no_sensors_messages">Can\'t add the sensor widget because we couldn\'t find any configured sensors.</string>
     <string name="remove_ads">Remove Ads</string>
-    <string name="no_zone_defined">No Zone</string>
     <string name="no_zone_message">We couldn\'t find a zone entity in your Home Assistant configuration. Please check your config.</string>
     <string name="ads_disabled_message">Thank you! Ads has been disabled.</string>
     <string name="video_ad_failed_load">Failed to load video ads. Please try again later.</string>
@@ -90,7 +72,6 @@
     <string name="logout_text">Logout</string>
     <string name="locked_text">Locked</string>
     <string name="unlocked_text">Unlocked</string>
-    <string name="on_text">ON</string>
     <string name="target_temperature">Target Temperature</string>
     <string name="operation_text">Operation</string>
     <string name="away_mode_string">Away Mode</string>
@@ -126,8 +107,6 @@
     <string name="settings_phone_name_summary">Value used by Home Assistant server to identify this device.</string>
     <string name="settings_phone_name_title">Device Name</string>
     <string name="get_pro_version_text">Get PRO Version</string>
-    <string name="opening_string">Opening </string>
-    <string name="closing_string">Closing </string>
     <string name="choose_text_size">Choose Text Size</string>
     <string name="choose_text">Choose</string>
     <string name="trigger_text">TRIGGER</string>
@@ -217,7 +196,6 @@
     <string name="minute_ago_text">minute ago</string>
 
     <string name="seconds_ago_text">seconds ago</string>
-    <string name="second_ago_text">second ago</string>
     <string name="config_validation_text">Configuration validation</string>
     <string name="config_valid_message_text">Validate your configuration if you recently made some changes to your configuration and want to make sure that it is all valid</string>
     <string name="check_config_text">Check config</string>
@@ -246,14 +224,6 @@
     <string name="users_config_summary">Manage users</string>
     <string name="general_text">General</string>
     <string name="general_config_summary">Validate your configuration file and control the server</string>
-    <string name="customization_text">Customization</string>
-    <string name="customization_config_summary">Customize your entities</string>
-    <string name="automation_text">Automation</string>
-    <string name="automation_config_summary">Create and edit automations</string>
-    <string name="script_text">Script</string>
-    <string name="script_config_summary">Create and edit scripts</string>
-    <string name="integrations_text">Integrations</string>
-    <string name="integrations_config_summary">Manage connected devices and services</string>
     <string name="delete_text">Delete</string>
     <string name="failed_to_retrieve_users">Failed to retrieve users. Please try again later.</string>
     <string name="something_went_wrong">Something went wrong</string>
@@ -300,13 +270,8 @@
     <string name="mqtt_string">MQTT</string>
     <string name="enable_mqtt_text">Enable MQTT Sensors</string>
     <string name="enable_mqtt_summary">Send your device sensors information to Home Assistant</string>
-    <string name="mqtt_configure_text">Configure</string>
-    <string name="mqtt_configure_summary">Setup the MQTT client</string>
     <string name="mqtt_sensors_text">Sensors</string>
     <string name="mqtt_sensors_summary">Choose the sensors you want to have their info send to the broker</string>
-
-    <string name="mqtt_setup_success">The MQTT process successfully connected. Now you can go to MQTT sensors in order to choose which informations should be send to Home Assistant.</string>
-    <string name="mqtt_setup_failed">The MQTT connection process failed. Please check the data you entered and try again.</string>
 
     <string name="battery">Battery</string>
     <string name="battery_message">Send this device battery information\'s</string>
@@ -328,21 +293,15 @@
     <string name="instructions_copied_to_memory">Instructions copied to clipboard</string>
 
     <string name="setup_mqtt_first">Setup MQTT first to use this option</string>
-    <string name="sms_sender">SMS Sender</string>
-    <string name="sms_sender_message">Enable this in order to use this device to send SMS from HA.</string>
-    <string name="sms_permission_required">This function require SMS permission, please try again.</string>
 
     <string name="discovery_topic">Discovery topic</string>
     <string name="discovery_topic_message">Value used for automatic MQTT discovery</string>
 
-    <string name="developer_tools">Developer Tools</string>
-    <string name="developer_tools_summary">Update entities, publish MQTT packets etc</string>
     <string name="mqtt_topic">Topic</string>
     <string name="mqtt_payload">Payload (template allowed)</string>
     <string name="publish_text">Publish</string>
     <string name="publish_a_packet_text">MQTT: Publish a packet</string>
 
-    <string name="change_text">Change</string>
     <string name="time_text">Change Time</string>
     <string name="date_text">Change Date</string>
     <string name="add_item_text">Add Item</string>
@@ -370,8 +329,6 @@
     <string name="relative_humidity">Relative Humidity</string>
     <string name="relative_humidity_message">Send this device Relative Humidity sensor information\'s</string>
 
-    <string name="device_admin_description">Allow Ariela to turn off this device screen</string>
-
     <string name="screen_mqtt_sensor_text">Wake up / sleep this device from Home Assistant</string>
     <string name="screen_text">Screen</string>
 
@@ -383,7 +340,6 @@
     <string name="no_voice_recognition">No voice recognition installed</string>
 
     <string name="states_text">States</string>
-    <string name="states_summary">Set the representation of a device within Ariela.</string>
     <string name="effects_text">Effects</string>
     <string name="color_temp_text">Color Temperature</string>
     <string name="title_text">Title</string>
@@ -436,4 +392,20 @@
     <string name="services_summary_text">The service dev tool allows you to call any available service in Home Assistant.</string>
     <string name="service_data_text">Service Data (JSON, optional)</string>
     <string name="call_service_text">Call Service</string>
+
+    <string name="intro_text">Intro</string>
+    <string name="previous_text">Previous</string>
+    <string name="next_text">Next</string>
+    <string name="enter_local_network_info_message">Please enter your home WiFi information\'s</string>
+
+    <string name="enter_wifi_home_name">Please enter your home WiFi name. When Ariela will be connected to this network, it would use the local IP address of Home Assistant which you will set. Also, this network name can be used later to inform Home Assistant that your are Home when Ariela will be connected to this network.</string>
+    <string name="wifi_name_hint">WiFi name</string>
+
+    <string name="please_enter_wifi_name">Please enter a valid WiFi name.</string>
+    <string name="local_ip_address">Home Assistant IP address</string>
+    <string name="local_ip_address_msg">Please enter Home Assistant IP address. If that is currently not available and you can access your server outside your network, you can put that address too.</string>
+    <string name="check_connection_text">Check connection</string>
+    <string name="external_ip_address_msg">Please enter Home Assistant IP external address. If you are not exposing your server over the internet, use \"Skip\" button to proceed further</string>
+    <string name="credentials_message">Please enter your user name and password. If you are using Home Assistant 0.78 or older, you can leave username empty in order to login via API_PASSWORD. If you have any issues logging in or you use 2FA please use the web login instead.</string>
+    <string name="home_wifi_network_choose">WiFi network chooser</string>
 </resources>
