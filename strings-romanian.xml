@@ -1,0 +1,457 @@
+<resources>
+    <string name="click_next_for_setup">Apăsăți butonul înainte pentru a începe procesul de configurare </string>
+    <string name="try_again_text">Mai încearcă</string>
+    <string name="continue_text">Continuă</string>
+    <string name="connecting_please_wait">Se conectează. Va rugăm asteptați…</string>
+    <string name="connection_server_failed">Conexiune server eșuată</string>
+    <string name="connection_server_failed_message">Conexiunea la serverul Home Assistant a eșuat.
+        Verificați va rog URL-ul / IP-ul introdus și reincercați.
+    </string>
+    <string name="ok_text">OK</string>
+    <string name="connection_success_text">Conexiune realizată</string>
+    <string name="connection_success_text_message">Conectarea la serverul Home Assistant are succes.
+        Apăsăți butonul "Continuare" pentru a continuă.
+    </string>
+    <string name="enter_assistant_password">Introduceți parolă Home Assistant</string>
+    <string name="password_text">Parolă / Token</string>
+    <string name="incorrect_password_message_text">Nu a reușit autentificarea utilizând parolă /
+        jetonul furnizat. Verificați parolă / jetonul și încercați din nou. De asemenea, verificăți
+        dacă activăți componentă http (dacă utilizați modul parolă) în fișierul configuration.yaml:
+        \n\nhttp: \n api_password: yourpassword
+    </string>
+    <string name="setup_complete_text">Configurare completă</string>
+    <string name="setup_complete_message_text">Procesul de instalare a Home Assistant a avut succes.
+        Acum puteți utiliza această aplicație pentru a controla Home Assistant.
+    </string>
+    <string name="configure_text">Configurează</string>
+    <string name="connection_server_failed_splash">Nu să putut conecta la serverul Home Assistant.
+        Puteți încerca din nou să conectați sau să configurați din nou serverul. Ce ai vrea să faci?
+    </string>
+    <string name="server_not_configured_text">Server-ul nu este configurat</string>
+    <string name="server_not_configured_message_text">Asistentul de acasă nu este configurat încă.
+        Doriți să îl configurați?
+    </string>
+    <string name="title_activity_dashboard">Tablou de bord</string>
+    <string name="navigation_drawer_open">Deschideți sertarul de navigare</string>
+    <string name="navigation_drawer_close">Închide sertarul de navigare</string>
+    <string name="action_settings">Setări</string>
+    <string name="location_enable_text">Pornește locația</string>
+    <string name="wifi_enable_text">Pornește Wi-Fi</string>
+    <string name="wifi_state_connected">CONECTAT</string>
+    <string name="wifi_state_connecting">SE CONECTEAZĂ</string>
+    <string name="wifi_state_disconnected">DECONECTAT</string>
+    <string name="wifi_state_disconnecting">SE DECONECTEAZĂ</string>
+    <string name="wifi_choose_message">Alegeți rețeaua Wi-Fi de acasă în care rulează serverul Home
+        Assistant. Acesta va fi folosit mai târziu de această aplicație pentru a ști dacă rețeaua
+        conectată în prezent este cea de acasă sau nu. Glisați în jos pentru a actualiza lista de
+        rețele Wi-Fi dacă nu vă vedeți rețeaua.
+    </string>
+    <string name="searching_wifi_networks">Se caută rețele Wi-Fi…</string>
+    <string name="home_text">ACASĂ</string>
+
+    <string name="button_scene_activate">activează</string>
+    <string name="climate_current_temperature">Curent: %1$.1f %2$s</string>
+    <string name="media_player_stop_toast">Stopping playback…</string>
+
+    <string name="location_permission_required">Pentru a continuă, este necesară permisiunea de
+        localizare. Doriți să o activăți manual?
+    </string>
+    <string name="yes_text">DA</string>
+    <string name="no_text">NU</string>
+    <string name="skip_text">Omite</string>
+    <string name="connect_text">Connect</string>
+    <string name="server_connection_lost_message">Conexiunea la serverul Home Assistant a fost
+        pierdută. Verificați conexiunea la rețea și apăsăți pe butonul de conectare când sunteți
+        gata.
+    </string>
+    <string name="contact_text">Contact</string>
+    <string name="about_text">Despre</string>
+    <string name="open_web_ui_text">Deschide Web-UI</string>
+    <string name="logbook_text">Logbook</string>
+    <string name="configure_external_text">Configureza access extern</string>
+    <string name="rate_app_text">Rate App</string>
+    <string name="enter_external_ip">Enter external Home Assistant IP / URL and Port</string>
+    <string name="ip_url_text">IP / URL și Port</string>
+    <string name="external_access_text">Acces extern</string>
+    <string name="external_access_message">Pentru a configura accesul extern la Home Assistant, vă
+        rugăm să vă conectați la o rețea diferită de cea a rețelei Wi-Fi (de ex .: 3G / 4G / alte
+        rețele). Rețineți că, pentru a funcționa, serverul Home Assistant trebuie să fie accesibil
+        din exterior, prin urmare vă rugăm să verificăți router-ul cu privire la cum să procedați
+        mai întâi.
+    </string>
+    <string name="cancel_text">Renunță</string>
+    <string name="off_text">Închis</string>
+    <string name="idle_text">În așteptare</string>
+    <string name="media_players_text">Media Players</string>
+    <string name="server_not_running_text">Conexiunea la server-ul Home Assistant a eșuat.</string>
+    <string name="air_pressure_text">Presiune aer:</string>
+    <string name="humidity_text">Umiditate:</string>
+    <string name="wind_speed_text">Viteză vânt:</string>
+    <string name="choose_sensor_text">Alegeți elementul</string>
+    <string name="no_sensors_messages">Nu se poate adăuga widget-ul senzorului deoarece nu am putut
+        găși senzori configurați.
+    </string>
+    <string name="remove_ads">Elimina anunțurile</string>
+    <string name="no_zone_message">Nu am putut găși o entitate de zonă în configurația dvs. Home
+        Assistant. Verificați configurația dvs.
+    </string>
+    <string name="ads_disabled_message">Mulțumesc! Anunțurile au fost dezactivate.</string>
+    <string name="video_ad_failed_load">Imposibil de încărcat anunțuri video. Vă rugăm să încercați
+        din nou mai târziu.
+    </string>
+    <string name="remove_ads_text_info">Pentru a elimina anunțurile necesare pentru a viziona un
+        videoclip publicitar. Vrei să continui?
+    </string>
+    <string name="exit_text">Ieșire</string>
+    <string name="map_text">Harta</string>
+    <string name="server_config_text">Configurare server</string>
+    <string name="logout_text">Deconectare</string>
+    <string name="locked_text">Închis</string>
+    <string name="unlocked_text">Deschis</string>
+    <string name="target_temperature">Temperatura țintă</string>
+    <string name="operation_text">Operațiune</string>
+    <string name="away_mode_string">Mod departe</string>
+    <string name="default_notification_channel_id">Ariela Canal Notificări</string>
+    <string name="firebase_notifications_enabled">Notificările Firebase au fost activate</string>
+    <string name="firebase_notifications_failed">Eroare la activarea notificărilor Firebase pentru
+        acest dispozitiv. Verificați dacă componentă HANotify este instalată pe serverul Home
+        Assistant
+    </string>
+    <string name="lovelaceui_failed_to_enable">Nu s-a putut activă interfață Lovelace. Va rugăm
+        verificăți dacă componentă Lovelace este instalată pe server.
+    </string>
+
+    <string name="firebase_notifications_disabled">Notificările Firebase au fost dezactivate
+    </string>
+    <string name="firebase_notifications_disabled_failed">Nu s-au putut dezactiva notificările
+        Firebase pentru acest device. Verificați va rog dacă componentă HANotify este instalată pe
+        server-ul Home Assistant.
+    </string>
+    <string name="show_all_text">Arată tot</string>
+    <string name="show_groups_text">Arată grupuri</string>
+    <string name="setting_firebase_summary">Permiteți serverului Home Assistant să trimită
+        notificări push pe telefon prin Firebase. Pentru mai multe detalii, va rugăm vizitați
+        https://github.com/MCrissDev/HANotify
+    </string>
+    <string name="setting_firebase_title">Notificări Firebase</string>
+
+    <string name="setting_webui_summary">Când această opțiune este activată, interfață Web va fi folosită în loc de cea nativă.</string>
+    <string name="setting_webui_title">Interfață Web</string>
+
+    <string name="setting_autoreconnect_summary">Când această opțiune este activată, Ariela va încerca să restabilească conexiunea la fiecare 10 secunde dacă a fost pierdută anterior.</string>
+    <string name="setting_autoreconnect_title">Auto-reconectare</string>
+
+    <string name="settings_permanent_notification_title">Notificare permanentă</string>
+    <string name="settings_permanent_notification_summary">Arată notificare în timp ce Ariela este conectată la server.</string>
+
+    <string name="settings_lovelaceui_title">Interfață Lovelace</string>
+    <string name="settings_lovelaceui_summary">Utilizează interfață Lovelace configuration în loc de cea implicită</string>
+    <string name="settings_debugmode_title">Mod Debug</string>
+    <string name="settings_debugmode_summary">Activează / Dezactivează modul Debug</string>
+
+    <string name="settings_device_tracker_title">Device Tracker</string>
+    <string name="settings_device_tracker_summary">Activează / dezactivează urmărirea acestui dispozitiv</string>
+
+    <string name="settings_phone_name_summary">Valoare atribuită pentru a identifica acest dispozitiv</string>
+    <string name="settings_phone_name_title">Nume dispozitiv</string>
+    <string name="get_pro_version_text">Obțineți versiunea PRO</string>
+    <string name="choose_text_size">Alege mărime text</string>
+    <string name="choose_text">Alege</string>
+    <string name="trigger_text">DECLANȘEAZĂ</string>
+    <string name="debug_mode_activated">Modul Debug activat</string>
+    <string name="debug_mode_deactivated">Modul Debug dezactivat</string>
+    <string name="debug_mode_failed">Nu s-a putut activă modul Debug</string>
+    <string name="device_tracker_failed">Nu s-a putut activă componenta Device Tracker</string>
+    <string name="notifications_string">Notificări</string>
+    <string name="common_string">Comun</string>
+    <string name="ui_string">UI</string>
+    <string name="others_string">Alții</string>
+    <string name="away_text">Departe</string>
+    <string name="home_status_text">Acasă</string>
+
+    <string-array name="array_setting_tracker_position">
+        <item>1 metru</item>
+        <item>10 metri</item>
+        <item>50 metri</item>
+        <item>100 metri</item>
+        <item>300 metri</item>
+        <item>500 metri</item>
+    </string-array>
+
+    <string-array name="array_setting_tracker_position_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="array_setting_tracker_time">
+        <item>30 secunde</item>
+        <item>1 minut</item>
+        <item>5 minute</item>
+        <item>15 minute</item>
+        <item>30 minute</item>
+        <item>1 ora</item>
+    </string-array>
+
+    <string-array name="array_setting_tracker_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="device_tracker_position_title">Poziția update-urilor</string>
+    <string name="device_tracker_position_summary">Alegeți poziția la care update-urile pot fi trimise</string>
+
+    <string name="device_tracker_period_title">Perioada update-urilor</string>
+    <string name="device_tracker_period_summary">Alegeți perioda la care update-urile pot fi trimise</string>
+
+    <string name="web_login_text">Login Web</string>
+    <string name="please_wait_text">Vă rugăm asteptați...</string>
+    <string name="title_activity_map_viewer">Hartă</string>
+
+    <string name="hours_ago_text">ore în urmă</string>
+    <string name="hour_ago_text">oră în urmă</string>
+
+    <string name="minutes_ago_text">minute în urmă</string>
+    <string name="minute_ago_text">minut în urmă</string>
+
+    <string name="seconds_ago_text">secunde în urmă</string>
+    <string name="config_validation_text">Validarea configurației</string>
+    <string name="config_valid_message_text">Validați configurația dvs dacă ați făcut recent
+        modificări în această și dorit să fiți sigur că această este valida
+    </string>
+    <string name="check_config_text">Verificați configurația</string>
+    <string name="config_valid_text">Configurație validă</string>
+    <string name="config_invalid_text">Configurație invalidă</string>
+    <string name="failed_to_check_config">Nu s-a putut verifică configurația. Va rugăm încercați mai
+        târziu
+    </string>
+    <string name="config_reload_text">Reîncărcarea configurației</string>
+    <string name="config_reload_msg_text">Câteva părți componente Home Assistant se pot reîncarcă
+        fără a restarta server-ul. Apăsând reîncarcă va avea că efect re-încărcarea configurației.
+    </string>
+
+    <string name="reload_core_text">Reîncarcă core-ul</string>
+    <string name="reload_groups_text">Reîncarcă grupuri</string>
+    <string name="reload_automations_text">Reîncarcă automatizări</string>
+    <string name="reload_scripts_text">Reîncarcă script-uri</string>
+    <string name="service_has_been_called">Service-ul a fost apelat</string>
+
+    <string name="settings_wifi_home_summary">Când telefonul dvs va fi conectat la una din rețelele Wi-Fi din această list, Ariela va informa serverul Home Assistant că sunteți acasă.</string>
+    <string name="settings_wifi_home_title">Rețele Wi-Fi</string>
+    <string name="server_management_text">Management Server</string>
+    <string name="server_management_message_text">Controlați server-ul Home Assistant…din Ariela.</string>
+    <string name="restart_text">Restart</string>
+    <string name="stop_text">Stop</string>
+    <string name="brightness_text">Brightness</string>
+    <string name="rgb_color_text">Culoare RGB</string>
+    <string name="unknown_text">Necunoscut</string>
+    <string name="users_text">Utilizatori</string>
+    <string name="users_config_summary">Management utilizatori</string>
+    <string name="general_text">General</string>
+    <string name="general_config_summary">Validați fișierul de configurare și controlați serverul</string>
+    <string name="delete_text">Șterge</string>
+    <string name="failed_to_retrieve_users">Nu s-au putut obține utilizatorii. Va rugăm încercați mai târziu.</string>
+    <string name="something_went_wrong">Eroare necunoscută</string>
+    <string name="unable_to_delete_own_account">Contul propriu nu poate fi șters</string>
+    <string name="alarm_code_text">Cod</string>
+    <string name="arm_home_text">ARMEAZA ACASA</string>
+    <string name="arm_away_text">ARMEAZA DEPARTE</string>
+    <string name="disarm_text">DEZARMEAZA</string>
+
+    <string name="device_tracker_type_title">Mod tracking</string>
+    <string name="device_tracker_type_summary">Alegeți metoda prin care doriți ca Ariela să updateze poziția telefonului.</string>
+
+    <string-array name="array_setting_theme">
+        <item>Default</item>
+        <item>Dark</item>
+        <item>Purple</item>
+    </string-array>
+    <string-array name="array_setting_theme_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="theme_text">Tema</string>
+    <string name="theme_summary">Alegeți tema aplicației</string>
+
+    <string name="low_text">Low</string>
+    <string name="normal_text">Normal</string>
+    <string name="cold_text">Rece</string>
+    <string name="connected_text">Conectat</string>
+    <string name="disconnected_text">Deconectat</string>
+    <string name="open_text">Deschis</string>
+    <string name="closed_text">Inchis</string>
+    <string name="gas_detected_text">Gaz detectat</string>
+    <string name="clear_text">Liber</string>
+    <string name="hot_text">Fierbinte</string>
+    <string name="light_detected_text">Lumină detectată</string>
+    <string name="no_light_text">Nici o Lumină</string>
+    <string name="wet_text">Ud</string>
+    <string name="dry_text">Uscat</string>
+    <string name="motion_detected_text">Miscare detectată</string>
+    <string name="no_motion_text">Fara miscare</string>
+    <string name="moving_text">Deplasare</string>
+    <string name="stopped_text">Oprit</string>
+    <string name="occupied_text">Ocupat</string>
+    <string name="plugged_in_text">Plugged in</string>
+    <string name="unplugged_text">Unplugged</string>
+    <string name="power_text">Power</string>
+    <string name="no_power_text">No power</string>
+    <string name="problem_detected_text">Problema detectată</string>
+    <string name="no_problem_detected_text">Fara Probleme</string>
+    <string name="unsafe_text">Nesigur</string>
+    <string name="safe_text">Sigur</string>
+    <string name="smoke_detected_text">Fum detectat</string>
+    <string name="sound_detected_text">Sunet detectat</string>
+    <string name="vibration_detected_text">Vibratie detectată</string>
+
+    <string name="mqtt_string">MQTT</string>
+    <string name="enable_mqtt_text">Permite senzori MQTT</string>
+    <string name="enable_mqtt_summary">Trimite informațiile senzorilor acestui device la Home Assistant</string>
+    <string name="mqtt_sensors_text">Senzori</string>
+    <string name="mqtt_sensors_summary">Alegeți senzorii ce doriți ca informațiile acestora să fie trimise</string>
+
+    <string name="battery">Baterie</string>
+    <string name="battery_message">Trimite informațiile bateriei</string>
+
+    <string name="light">Lumină</string>
+    <string name="light_message">Trimite informațiile senzorului de Lumină</string>
+    <string name="step_counter">Counter Pasi</string>
+    <string name="step_counter_message">Trimite informațiile senzorului numărului de pasi</string>
+
+    <string name="instructions_text">Instructiuni</string>
+    <string name="wi_fi_message">Trimite informatiile Wi-Fi ale acestui dispozitiv</string>
+
+    <string name="clear_current_config">Sterge configuratia curentă</string>
+    <string name="current_external_config_cleared">Current external access configuration has been cleared</string>
+    <string name="call_state">Starea apelului</string>
+    <string name="call_state_message">Trimite informatii despre starea apelurilor acestui dispozitiv</string>
+    <string name="copy_to_clipboard">Copie in memorie</string>
+    <string name="instructions_copied_to_memory">Instructions copied to clipboard</string>
+
+    <string name="setup_mqtt_first">Setup MQTT first to use this option</string>
+
+    <string name="discovery_topic">Discovery topic</string>
+    <string name="discovery_topic_message">Value used for automatic MQTT discovery</string>
+
+    <string name="mqtt_topic">Topic</string>
+    <string name="mqtt_payload">Payload (template allowed)</string>
+    <string name="publish_text">Publica</string>
+    <string name="publish_a_packet_text">MQTT: publica un pachet</string>
+
+    <string name="time_text">Schimba Timp</string>
+    <string name="date_text">Schimba Data</string>
+
+    <string name="add_item_text">Adauga Item</string>
+    <string name="checked_items">Itemi bifati</string>
+
+    <string name="ambient_temperature">Temperatura ambient</string>
+    <string name="ambient_temperature_message">Trimite informatiile senzorului de temperatura ambientala ale acestui dispozitiv</string>
+
+    <string name="pressure_text">Presiune</string>
+    <string name="pressure_message">Trimite informatiile senzorului de presiune ale acestui dispozitiv</string>
+
+    <string name="user_text">Utilizator</string>
+    <string name="setting_keepscreenon_summary">If this option is enabled, while the Ariela dashboard will be visible the screen will not going to close</string>
+    <string name="setting_keepscreenon_title">Pastreaza ecranul deschis</string>
+    <string name="shopping_list_text">Lista cumparaturi</string>
+
+    <string name="text_to_speek">Text to speek</string>
+    <string name="send_text">Trimite</string>
+    <string name="input_source">Sursa audio</string>
+    <string name="sound_mode">Mod sunet</string>
+
+    <string name="bluetooth_text">Bluetooth</string>
+    <string name="bluetooth_mqtt_text">Send this device Bluetooth information\'s</string>
+
+    <string name="relative_humidity">Relative Humidity</string>
+    <string name="relative_humidity_message">Send this device Relative Humidity sensor information\'s</string>
+
+    <string name="screen_mqtt_sensor_text">Wake up / sleep this device from Home Assistant</string>
+    <string name="screen_text">Ecran</string>
+
+    <string name="apps_mqtt_text">Sensor containing installed apps on this device</string>
+    <string name="apps_text">Aplicatii</string>
+
+    <string name="setting_fullscreen_summary">If this option is enabled, Ariela will be shown in fullscreen mode</string>
+    <string name="setting_fullscreen_title">Full Screen Mode</string>
+    <string name="no_voice_recognition">Nu s-a detectat un sistem de recunoastere vocala instalat</string>
+
+    <string name="states_text">Stari</string>
+    <string name="effects_text">Efecte</string>
+    <string name="color_temp_text">Temperatura culoare</string>
+    <string name="title_text">Titlu</string>
+    <string name="icon_text">Icon</string>
+    <string name="url_path_text">Cale URL</string>
+    <string name="view_configuration">Configuratie view</string>
+    <string name="save_text">Salveaza</string>
+    <string name="settings_text">Setari</string>
+    <string name="badges_text">Badges</string>
+    <string name="activate_text">Activeaza</string>
+    <string name="execute_text">Executa</string>
+    <string name="setting_scrolllongtext_title">Scroll Long Text</string>
+    <string name="setting_scrolllongtext_summary">If this option is enabled, text that is too long to fit it will be animated (scrolled), else truncated</string>
+
+    <string name="vacuum_cleaner_commands">Comenzi:</string>
+    <string name="notifications_empty">Nu aveti nici o notificare</string>
+    <string name="dismiss_text">Inlatura</string>
+    <string name="failed_to_retrieve_shopping_list">Failed to retrieve shopping list. Please check if the component is enabled on the server.</string>
+    <string name="entity_editor_text">Editor entitate</string>
+    <string name="message_toast_failed_to_save_entity_info">Nu s-au putut salva informatiile entitatii</string>
+
+    <string-array name="array_setting_cards_column">
+        <item>Automat</item>
+        <item>1 rand</item>
+        <item>2 rand-uri</item>
+        <item>3 rand-uri</item>
+        <item>4 rand-uri</item>
+    </string-array>
+
+    <string-array name="array_setting_cards_column_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="number_of_columns_cards">Rand card-uri</string>
+    <string name="number_of_columns_cards_info">Alegeti pe cate randuri vor fi afisate card-urile.</string>
+
+    <string name="debug_enabled_message">Modul depanare a fost activat. Vă rugăm sa restartati aplicatia si sa reproduceti problema gasita. Pentru a trimite log-urile, folositi functia \"Contact\" din aplicatie si utilizati client-ul email preferat. Log-urile ar trebui sa fie atasate automat. Daca asta nu se intampla, pe telefonul dvs veti gasi un fisier numit \'ariela_logfile.log\'. Trimiteti acel fisier la adresa de email: \'micro.criss.dev@gmail.com\'.</string>
+    <string name="picture_text">Imagine</string>
+
+    <string name="create_notification">Creează Notificare</string>
+    <string name="message_text">Mesaj</string>
+    <string name="create_text">Creează</string>
+
+    <string name="service_text">Service</string>
+    <string name="services_text">Services</string>
+    <string name="services_summary_text">The service dev tool allows you to call any available service in Home Assistant.</string>
+    <string name="service_data_text">Service Data (JSON, optional)</string>
+    <string name="call_service_text">Call Service</string>
+
+    <string name="intro_text">Intro</string>
+    <string name="previous_text">Previous</string>
+    <string name="next_text">Next</string>
+    <string name="enter_local_network_info_message">Please enter your home WiFi information\'s</string>
+
+    <string name="enter_wifi_home_name">Please enter your home WiFi name. When Ariela will be connected to this network, it would use the local IP address of Home Assistant which you will set. Also, this network name can be used later to inform Home Assistant that your are Home when Ariela will be connected to this network.</string>
+    <string name="wifi_name_hint">WiFi name</string>
+
+    <string name="please_enter_wifi_name">Please enter a valid WiFi name.</string>
+    <string name="local_ip_address">Home Assistant IP address</string>
+    <string name="local_ip_address_msg">Please enter Home Assistant IP address. If that is currently not available and you can access your server outside your network, you can put that address too.</string>
+    <string name="check_connection_text">Check connection</string>
+    <string name="external_ip_address_msg">Please enter Home Assistant IP external address. If you are not exposing your server over the internet, use \"Skip\" button to proceed further</string>
+    <string name="credentials_message">Please enter your user name and password. If you are using Home Assistant 0.78 or older, you can leave username empty in order to login via API_PASSWORD. If you have any issues logging in or you use 2FA please use the web login instead.</string>
+    <string name="home_wifi_network_choose">WiFi network chooser</string>
+</resources>
