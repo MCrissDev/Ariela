@@ -15,12 +15,12 @@
     <string name="setup_complete_message_text">Home Assistant konfigurasjon ferdig. Du kan nå bruke denne app til å styre Home Assistant.</string>
     <string name="configure_text">Konfigurer</string>
     <string name="connection_server_failed_splash">Tilkobling til Home Assistant server misslykkes. Du kan forsøke å koble til på nytt eller kjøre installasjon på nytt. Hva ønsker du?</string>
-    <string name="server_not_configured_text">Server instillinger ikke definert</string>
-    <string name="server_not_configured_message_text">Home Assistant instillinger er ikke definert enda. Ønsker du å starte installasjon?</string>
+    <string name="server_not_configured_text">Server innstillinger ikke definert</string>
+    <string name="server_not_configured_message_text">Home Assistant innstillinger er ikke definert enda. Ønsker du å starte installasjon?</string>
     <string name="title_activity_dashboard">Dashboard</string>
     <string name="navigation_drawer_open">Åpne navigasjonsmeny</string>
     <string name="navigation_drawer_close">Lukke navigasjonsmeny</string>
-    <string name="action_settings">Instillinger</string>
+    <string name="action_settings">Innstillinger</string>
     <string name="location_enable_text">Skru på lokasjon</string>
     <string name="wifi_enable_text">Skru på Wifi</string>
     <string name="wifi_state_connected">TILKOBLET</string>
@@ -62,7 +62,7 @@
     <string name="choose_sensor_text">Velg</string>
     <string name="no_sensors_messages">Kan ikke legge til sensor widget, finner ingen konfigurerte sensorer.</string>
     <string name="remove_ads">Fjerne Reklame</string>
-    <string name="no_zone_message">Finner ingen Zone definert i Home Assistant server konfigurasjon. Vennligst sjekk dine server instillinger.</string>
+    <string name="no_zone_message">Finner ingen Zone definert i Home Assistant server konfigurasjon. Vennligst sjekk dine server innstillinger.</string>
     <string name="ads_disabled_message">Takk for støtten! Reklame fjernet.</string>
     <string name="video_ad_failed_load">Misslykkes i å vise video reklame. Vennligst forsøk igjen senere.</string>
     <string name="remove_ads_text_info">For å fjerne reklamen må du se reklame video. Ønsker du å fortsette?</string>
@@ -90,7 +90,7 @@
     <string name="setting_webui_summary">Når denne funskjon er aktivert, vises web grensesnitt istedefor app grensesnitt.</string>
     <string name="setting_webui_title">Web Grensesnitt</string>
 
-    <string name="setting_autoreconnect_summary">Når denne funksjon er aktivert, vil Ariela forsøke å koble til server hvert 10 seconds hvis tilkobling blir brutt.</string>
+    <string name="setting_autoreconnect_summary">Når denne funksjon er aktivert, vil Ariela forsøke å koble til server hvert 10 sekund hvis tilkobling blir brutt.</string>
     <string name="setting_autoreconnect_title">Automatisk koble til på nytt</string>
 
     <string name="settings_permanent_notification_title">Permanent Melding</string>
@@ -99,12 +99,12 @@
     <string name="settings_lovelaceui_title">Lovelace Grensesnitt</string>
     <string name="settings_lovelaceui_summary">Bruk Lovelace konfigurasjon istedefor standard</string>
     <string name="settings_debugmode_title">Debug Modus</string>
-    <string name="settings_debugmode_summary">Skru på / av Debug Modus</string>
+    <string name="settings_debugmode_summary">Skru av / på Debug Modus</string>
 
     <string name="settings_device_tracker_title">Device Tracker</string>
-    <string name="settings_device_tracker_summary">Skru på / av tracking på denne enhet</string>
+    <string name="settings_device_tracker_summary">Skru av / på tracking på denne enhet</string>
 
-    <string name="settings_phone_name_summary">Navn denne enheten identifiseres som i Home Assistant server.</string>
+    <string name="settings_phone_name_summary">Velg navn denne enheten skal identifiseres som i Home Assistant server.</string>
     <string name="settings_phone_name_title">Enhets Navn</string>
     <string name="get_pro_version_text">Kjøp PRO Versjon</string>
     <string name="choose_text_size">Velg tekst størrelse</string>
@@ -177,13 +177,13 @@
     </string-array>
 
     <string name="device_tracker_type_title">Tracking Modus</string>
-    <string name="device_tracker_type_summary">Velg device tracking modus for denne enhet, for å rapportere lokasjon til HA server</string>
+    <string name="device_tracker_type_summary">Velg hvordan hvilke tjenester Ariela skal bruke for å rapportere lokasjon til HA server</string>
 
     <string name="device_tracker_position_title">Oppdatering av posisjon</string>
     <string name="device_tracker_position_summary">Velg hvor mange meter du må flytte deg før lokasjon oppdateres</string>
 
     <string name="device_tracker_period_title">Tidsintervall på oppdatering</string>
-    <string name="device_tracker_period_summary">Velg hvor ofte lokasjon skal oppdateres</string>
+    <string name="device_tracker_period_summary">Velg hvor ofte lokasjon skal rapporteres</string>
 
     <string name="web_login_text">Web Login</string>
     <string name="please_wait_text">Vennligst vent...</string>
@@ -213,7 +213,7 @@
 
     <string name="settings_wifi_home_summary">Når din telefon er koblet til ett nett i denne lista, vil den fortelle Home Assistant server at du er hjemme</string>
     <string name="settings_wifi_home_title">Hjemme Wi-Fi Nettverk</string>
-    <string name="server_management_text">Server instillinger</string>
+    <string name="server_management_text">Server innstillinger</string>
     <string name="server_management_message_text">Styr din Home Assistant server…fra Ariela.</string>
     <string name="restart_text">Starte på nytt</string>
     <string name="stop_text">Stoppe</string>
@@ -269,9 +269,9 @@
 
     <string name="mqtt_string">MQTT</string>
     <string name="enable_mqtt_text">Aktiver MQTT Sensorer</string>
-    <string name="enable_mqtt_summary">Send dine telefon sensor informasjon til Home Assistant</string>
+    <string name="enable_mqtt_summary">Send sensor informasjon fra din telefon til Home Assistant</string>
     <string name="mqtt_sensors_text">Sensorer</string>
-    <string name="mqtt_sensors_summary">Velg hvilke sensor info du vil sende til MQTT Broker</string>
+    <string name="mqtt_sensors_summary">Velg hvilke sensorer som skal rapportere via MQTT Broker</string>
 
     <string name="battery">Batteri</string>
     <string name="battery_message">Send batteri status fra denne enheten</string>
@@ -285,7 +285,7 @@
     <string name="wi_fi_message">Send Wi-Fi informasjon fra denne enheten</string>
 
     <string name="clear_current_config">Nullstill gjeldende konfigurasjon</string>
-    <string name="current_external_config_cleared">Gjeldende ekstern tilkobling instillinger er nullstilt</string>
+    <string name="current_external_config_cleared">Gjeldende ekstern tilkobling innstillinger er nullstilt</string>
     <string name="call_state">Samtale status</string>
     <string name="call_state_message">Send samtale status informasjon fra denne enheten</string>
 
@@ -294,10 +294,10 @@
 
     <string name="setup_mqtt_first">Setup MQTT først for å bruke denne funksjon</string>
 
-    <string name="discovery_topic">Discovery instillinger</string>
+    <string name="discovery_topic">Discovery innstillinger</string>
     <string name="discovery_topic_message">Verdier brukt for automatisk MQTT discovery</string>
 
-    <string name="mqtt_topic">Instillinger</string>
+    <string name="mqtt_topic">Innstillinger</string>
     <string name="mqtt_payload">Innhold (template tillat)</string>
     <string name="publish_text">Publiser</string>
     <string name="publish_a_packet_text">MQTT: Publiser en pakke</string>
@@ -314,7 +314,7 @@
     <string name="pressure_message">Send barrometer informasjon fra denne enheten</string>
 
     <string name="user_text">Bruker</string>
-    <string name="setting_keepscreenon_summary">Aktiver denne funskjon for å ikke skru av skjerm så lenge Ariela er i forgrunn</string>
+    <string name="setting_keepscreenon_summary">Aktiver funksjon for å holde skjerm på så lenge Ariela er aktiv</string>
     <string name="setting_keepscreenon_title">Behold skjermen på</string>
 
     <string name="shopping_list_text">Handleliste</string>
@@ -347,7 +347,7 @@
     <string name="url_path_text">URL Path</string>
     <string name="view_configuration">Vis konfigurasjon</string>
     <string name="save_text">Lagre</string>
-    <string name="settings_text">Instillinger</string>
+    <string name="settings_text">Innstillinger</string>
     <string name="badges_text">Merker</string>
     <string name="activate_text">Aktiver</string>
     <string name="execute_text">Utfør</string>
@@ -389,7 +389,7 @@
 
     <string name="service_text">Service</string>
     <string name="services_text">Services</string>
-    <string name="services_summary_text">Service funksjonen gir det mulighet til å aktivere alle Services i Home Assistant.</string>
+    <string name="services_summary_text">Service funksjonen gir deg mulighet til å manuelt aktivere Services i Home Assistant.</string>
     <string name="service_data_text">Service Data (JSON, optional)</string>
     <string name="call_service_text">Kjør Service</string>
 
