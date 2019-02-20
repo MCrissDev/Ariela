@@ -78,7 +78,7 @@
     <string name="default_notification_channel_id">Aktivie Benachrichtigungen</string>
     <string name="firebase_notifications_enabled">Firebase Benachrichtigungen wurden aktiviert</string>
     <string name="firebase_notifications_failed">Das Aktivieren von Firebase Benachrichtungen für dieses Gerät ist fehlgeschlagen. Bitte überprüfe ob die HANotify Komponente auf dem Home Assistant Server aktiviert ist</string>
-    <string name="lovelaceui_failed_to_enable">Das aktivieren des Lovelace UI ist fehlgeschlagen. Bitte überprüfe ob die Lovelace Komponente auf dem Server aktiviert ist.</string>
+    <string name="lovelaceui_failed_to_enable">Das Aktivieren des Lovelace UI ist fehlgeschlagen. Bitte überprüfe ob die Lovelace Komponente auf dem Server aktiviert ist.</string>
 
     <string name="firebase_notifications_disabled">Firebase Benachrichtigungen wurden aktiviert</string>
     <string name="firebase_notifications_disabled_failed">Deaktivieren von Firebase ist für diese Geät fehlgeschlagen. Kitte überpüfe dass die HANotify Komponente auf dem Server aktiviert ist.</string>
@@ -179,11 +179,11 @@
     <string name="device_tracker_type_title">Tracking Modus</string>
     <string name="device_tracker_type_summary">Wähle die Art wie die Position deines Gerätes ermittelt werden soll</string>
 
-    <string name="device_tracker_position_title">Positions Aktualisieruge</string>
+    <string name="device_tracker_position_title">Positions Aktualisierung</string>
     <string name="device_tracker_position_summary">Wähle ab welcher Entfernung zur letzten Position die neue Position an HA gesendet werden soll</string>
 
     <string name="device_tracker_period_title">Aktualisirungs Intervall</string>
-    <string name="device_tracker_period_summary">Wäle wie of Ariela die Position aktualisieren soll</string>
+    <string name="device_tracker_period_summary">Wähle wie oft Ariela die Position aktualisieren soll</string>
 
     <string name="web_login_text">Web Login</string>
     <string name="please_wait_text">Bitte Warten...</string>
@@ -295,7 +295,7 @@
     <string name="setup_mqtt_first">Richte den MQTT Client ein bevor du diese Funktion benutzt</string>
 
     <string name="discovery_topic">Discovery topic</string>
-    <string name="discovery_topic_message">Wert für das MQTT discovery</string>
+    <string name="discovery_topic_message">Topicc für das MQTT discovery</string>
 
     <string name="mqtt_topic">Topic</string>
     <string name="mqtt_payload">Payload (Template erlaubt)</string>
@@ -354,7 +354,7 @@
     <string name="setting_scrolllongtext_title">scrolle langen Text</string>
     <string name="setting_scrolllongtext_summary">Zu langen Text als Laufschrift anzeigen anstatt ihn abschneiden</string>
 
-    <string name="vacuum_cleaner_commands">Staubsauber Befehle:</string>
+    <string name="vacuum_cleaner_commands">Staubsauger Befehle:</string>
     <string name="notifications_empty">Keine Benachrichtiungen</string>
     <string name="dismiss_text">Verwerfen</string>
     <string name="failed_to_retrieve_shopping_list">Abrufen der Einkaufsliste fehlgeschlagen. Bitte überprüfe ob die Komponente auf dem Server aktiviert ist.</string>
@@ -399,7 +399,7 @@
     <string name="enter_local_network_info_message">Bitte gebe deine WLAN Informationen ein</string>
 
     <string name="enter_wifi_home_name">Bitte gebe den Namen deines WLANs ein. Dieser wir benötigt damit Ariela entscheiden kann ob die interne oder externe Adresse deines Servers verwendet werden soll. Später kannst du sie auch benutzen um HA mitzuteilen ob du zuhause bist.</string>
-    <string name="wifi_name_hint">WLAN name</string>
+    <string name="wifi_name_hint">WLAN Name</string>
 
     <string name="please_enter_wifi_name">Bitte gebe einen korrekten WLAN Namen ein</string>
     <string name="local_ip_address">Home Assistant IP Adresse</string>
