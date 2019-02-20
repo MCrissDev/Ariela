@@ -348,4 +348,7 @@
     <string name="external_ip_address_msg">Please enter Home Assistant IP external address. If you are not exposing your server over the internet, use \"Skip\" button to proceed further</string>
     <string name="credentials_message">Please enter your user name and password. If you are using Home Assistant 0.78 or older, you can leave username empty in order to login via API_PASSWORD. If you have any issues logging in or you use 2FA please use the web login instead.</string>
     <string name="home_wifi_network_choose">WiFi network chooser</string>
+
+    <string name="nfc_text">NFC</string>
+    <string name="nfc_summary_text">Read NFC and send the tags read to Home Assistant</string>
 </resources>
