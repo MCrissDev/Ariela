@@ -1,0 +1,414 @@
+<resources>
+    <string name="click_next_for_setup">Drücke auf "Weiter" um den Einrichtungsprozess zu starten</string>
+    <string name="try_again_text">Erneut suchen</string>
+    <string name="continue_text">Weiter</string>
+    <string name="connecting_please_wait">Verbinde, bitte warten…</string>
+    <string name="connection_server_failed">Server-Verbindung fehlgeschlagen</string>
+    <string name="connection_server_failed_message">Verbindung zum Home Assistant Server fehlgeschlagen. Bitte überprüfe die angegebene URL/IP und versuche es erneut.</string>
+    <string name="ok_text">OK</string>
+    <string name="connection_success_text">Verbindung erfolgreich</string>
+    <string name="connection_success_text_message">Verbindung zum Home Assistant Server erfolgreich. Drücke auf "Weiter" um fortzufahren.</string>
+    <string name="enter_assistant_password">Home Assistant Zugangsdaten</string>
+    <string name="password_text">Passwort</string>
+    <string name="incorrect_password_message_text">Authentifizirung fehlgeschlagen. Bitte überprüfe deine Zugangsdaten und versuche es erneut.</string>
+    <string name="setup_complete_text">Einrichtung vollständig</string>
+    <string name="setup_complete_message_text">Die Home Assistant Einrichtung war erfolgreich. Du kannst die App nun benutzen.</string>
+    <string name="configure_text">Konfigurieren</string>
+    <string name="connection_server_failed_splash">Verbindung zum Home Assistant Server fehlgeschlagen. Du kannst es erneut versuchen, oder den Server erneut konfigurieren. Was möchtest du machen?</string>
+    <string name="server_not_configured_text">Server nicht konfiguriert</string>
+    <string name="server_not_configured_message_text">Home Assistant ist noch nicht konfikuriert. Möchtest du ihn jetzt konfigurieren?</string>
+    <string name="title_activity_dashboard">Übersicht</string>
+    <string name="navigation_drawer_open">Navigation öffnen</string>
+    <string name="navigation_drawer_close">Navigation schließen</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="location_enable_text">Ortung aktivieren</string>
+    <string name="wifi_enable_text">WLAN aktivieren</string>
+    <string name="wifi_state_connected">VERBUNDEN</string>
+    <string name="wifi_state_connecting">VERBINDE</string>
+    <string name="wifi_state_disconnected">GETRENNT</string>
+    <string name="wifi_state_disconnecting">TRENNE</string>
+    <string name="wifi_choose_message">Wähle dein WLAN in dem auch der Home Assistant Server erreichbar ist. Dieses wird später in der App verwendet herauszufinden ob du dich in deinem Heim-WLAN befindest und ob die lokale Adresse verwendet werden kann. Solltest du dein Netzwerk nicht sehen, wische nach unten um die Liste zu aktualisieren.</string>
+    <string name="searching_wifi_networks">Suche nach WLAN Netzwerken…</string>
+    <string name="home_text">ZUHAUSE</string>
+
+    <string name="button_scene_activate">aktiviere</string>
+    <string name="climate_current_temperature">Aktuell: %1$.1f %2$s</string>
+    <string name="media_player_stop_toast">stoppe Wiedergabe…</string>
+
+    <string name="location_permission_required">Die Berechtigung zur Standortbestimmuning ist erforderlich um forzufahren. Möchtest du dies händisch aktivieren?</string>
+    <string name="yes_text">JA</string>
+    <string name="no_text">NEIN</string>
+    <string name="skip_text">Überspringen</string>
+    <string name="connect_text">Verbinden</string>
+    <string name="server_connection_lost_message">Die Verbindung zu Home Assistant wurde getrennt. Bitte überprüfe deine Netzwerkverbindung und tippe auf Verbinden um es erneut zu versuchen.</string>
+    <string name="contact_text">Kontakt</string>
+    <string name="about_text">Über</string>
+    <string name="open_web_ui_text">Webinterface</string>
+    <string name="logbook_text">Logbuch</string>
+    <string name="configure_external_text">Konfiguriere extern</string>
+    <string name="rate_app_text">App bewerten</string>
+    <string name="enter_external_ip">Externe Home Assistant IP / URL und Port eingeben</string>
+    <string name="ip_url_text">IP / URL und Port</string>
+    <string name="external_access_text">Externer Zugriff</string>
+    <string name="external_access_message">Um den externen Zugriff einzurichten verbinde dich bitte mit einem anderen Netzwerk. z.B. über UMTS/LTE oder einem anderen WLAN. Der Home Assisten Server muss dafür von aussen erreichbar sein. Bitte Prüfe dieses in den Einstellungen deines Routers.</string>
+    <string name="cancel_text">Abbrechen</string>
+    <string name="off_text">Aus</string>
+    <string name="idle_text">ungenutzt</string>
+    <string name="media_players_text">Media Player</string>
+    <string name="server_not_running_text">Verbindung zu Home Assistant Server fehlgeschlagen</string>
+    <string name="air_pressure_text">Luftdruck: </string>
+    <string name="humidity_text">Feuchtigkeit: </string>
+    <string name="wind_speed_text">Windgeschwindigkeit: </string>
+    <string name="choose_sensor_text">Währe ein Objekt</string>
+    <string name="no_sensors_messages">Sensor Widget konnte nicht hinzugrfügt werden da wir keine konfigurierten Sensorgen gefunden haben.</string>
+    <string name="remove_ads">Werbung entfernen</string>
+    <string name="no_zone_message">Wir konnten in der Home Assistant Konfiguration keine Zone finden. Bitte überprüfe deine Einstellungen.</string>
+    <string name="ads_disabled_message">Vielen Dank! Die Werbung wurde deaktiviert.</string>
+    <string name="video_ad_failed_load">Laden von Video Werbung fehlgeschlagen. Bitte versuche er später erneut.</string>
+    <string name="remove_ads_text_info">Um Werbung zu entfernen ist es erforderlich ein Video zu schauen. Möchtest du fortfahren?</string>
+    <string name="exit_text">Beenden</string>
+    <string name="map_text">Karte</string>
+    <string name="server_config_text">Server Konfiguration</string>
+    <string name="logout_text">Abmelden</string>
+    <string name="locked_text">Gesperrt</string>
+    <string name="unlocked_text">Entsperrt</string>
+    <string name="target_temperature">Ziel Temperatur</string>
+    <string name="operation_text">Betrieb</string>
+    <string name="away_mode_string">Abwesend Modus</string>
+    <string name="default_notification_channel_id">Aktivie Benachrichtigungen</string>
+    <string name="firebase_notifications_enabled">Firebase Benachrichtigungen wurden aktiviert</string>
+    <string name="firebase_notifications_failed">Das Aktivieren von Firebase Benachrichtungen für dieses Gerät ist fehlgeschlagen. Bitte überprüfe ob die HANotify Komponente auf dem Home Assistant Server aktiviert ist</string>
+    <string name="lovelaceui_failed_to_enable">Das Aktivieren des Lovelace UI ist fehlgeschlagen. Bitte überprüfe ob die Lovelace Komponente auf dem Server aktiviert ist.</string>
+
+    <string name="firebase_notifications_disabled">Firebase Benachrichtigungen wurden aktiviert</string>
+    <string name="firebase_notifications_disabled_failed">Deaktivieren von Firebase ist für diese Geät fehlgeschlagen. Kitte überpüfe dass die HANotify Komponente auf dem Server aktiviert ist.</string>
+    <string name="show_all_text">Alles anzeigen</string>
+    <string name="show_groups_text">Gruppen anzeigen</string>
+    <string name="setting_firebase_summary">Erlaube dem Home Assistant Server Push Benachrichtigungen via Firebase an dieses Gerät zu senden. Für weitere Informationen findest du unter https://github.com/MCrissDev/HANotify (englisch)</string>
+    <string name="setting_firebase_title">Firebase Benachrichtigungen</string>
+
+    <string name="setting_webui_summary">Verwende das Web Interface anstatt den nativen Android Steuerelementen.</string>
+    <string name="setting_webui_title">Web Interface</string>
+
+    <string name="setting_autoreconnect_summary">Versuche die Verbidung alle 10 Sekunden wiederherzustellen sofern sie zuvor getrennt wurde.</string>
+    <string name="setting_autoreconnect_title">automatisch neuverbinden</string>
+
+    <string name="settings_permanent_notification_title">Permanente Benachrichtigung</string>
+    <string name="settings_permanent_notification_summary">Zeige eine permanente Benachrichtigung sobald eine Verbingung zum Server besteht.</string>
+
+    <string name="settings_lovelaceui_title">Lovelace UI</string>
+    <string name="settings_lovelaceui_summary">Benutze die Lovelace UI Konfiguration</string>
+    <string name="settings_debugmode_title">Debug Modus</string>
+    <string name="settings_debugmode_summary">Debug Modus aktivieren</string>
+
+    <string name="settings_device_tracker_title">Device Tracker</string>
+    <string name="settings_device_tracker_summary">Das Tracking für dieses Gerät aktivieren</string>
+
+    <string name="settings_phone_name_summary">Name dieses Gerätes auf dem Home Assistent Server.</string>
+    <string name="settings_phone_name_title">Geräte Name</string>
+    <string name="get_pro_version_text">PRO Version kaufen</string>
+    <string name="choose_text_size">Wähle eine Textgröße</string>
+    <string name="choose_text">Wähle</string>
+    <string name="trigger_text">auslösen</string>
+    <string name="debug_mode_activated">Debug Modus aktiviert</string>
+    <string name="debug_mode_deactivated">Debug Modus deaktiviert</string>
+    <string name="debug_mode_failed">Debug Modus konnte nicht aktiviert werden</string>
+    <string name="device_tracker_failed">Device Tracker konnte nicht aktiviert werden</string>
+    <string name="notifications_string">Benachrichtigungen</string>
+    <string name="common_string">Allgemein</string>
+    <string name="ui_string">UI</string>
+    <string name="others_string">Andere</string>
+    <string name="away_text">abwesend</string>
+    <string name="home_status_text">zuhause</string>
+
+    <string-array name="array_setting_theme">
+        <item>Standard</item>
+        <item>Dukel</item>
+        <item>Violett</item>
+    </string-array>
+    <string-array name="array_setting_theme_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="array_setting_tracker_position">
+        <item>1 Meter</item>
+        <item>10 Meter</item>
+        <item>50 Meter</item>
+        <item>100 Meter</item>
+        <item>300 Meter</item>
+        <item>500 Meter</item>
+    </string-array>
+
+    <string-array name="array_setting_tracker_position_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="array_setting_tracker_time">
+        <item>30 Sekunden</item>
+        <item>1 Minute</item>
+        <item>5 Minuten</item>
+        <item>15 Minuten</item>
+        <item>30 Minuten</item>
+        <item>1 Stunde</item>
+    </string-array>
+
+    <string-array name="array_setting_tracker_type">
+        <item>GPS</item>
+        <item>WLAN</item>
+    </string-array>
+    <string-array name="array_setting_tracker_type_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="array_setting_tracker_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="device_tracker_type_title">Tracking Modus</string>
+    <string name="device_tracker_type_summary">Wähle die Art wie die Position deines Gerätes ermittelt werden soll</string>
+
+    <string name="device_tracker_position_title">Positions Aktualisierung</string>
+    <string name="device_tracker_position_summary">Wähle ab welcher Entfernung zur letzten Position die neue Position an HA gesendet werden soll</string>
+
+    <string name="device_tracker_period_title">Aktualisirungs Intervall</string>
+    <string name="device_tracker_period_summary">Wähle wie oft Ariela die Position aktualisieren soll</string>
+
+    <string name="web_login_text">Web Login</string>
+    <string name="please_wait_text">Bitte Warten...</string>
+    <string name="title_activity_map_viewer">Karte</string>
+
+    <string name="hours_ago_text">vor %d Stunden</string>
+    <string name="hour_ago_text">vor %d Stunde</string>
+
+    <string name="minutes_ago_text">vor %d Minuten</string>
+    <string name="minute_ago_text">vor %d Minute</string>
+
+    <string name="seconds_ago_text">vor %d Sekunden</string>
+    <string name="config_validation_text">Konfiguration überprüfen</string>
+    <string name="config_valid_message_text">Überprüfe die HA Konfiguration um sicherzustellen das die korrekt ist.</string>
+    <string name="check_config_text">überprüfen</string>
+    <string name="config_valid_text">Konfiguration OK</string>
+    <string name="config_invalid_text">Konfiguration nicht OK</string>
+    <string name="failed_to_check_config">Überprüfen der Konfiguration fehlgeschlagen. Bitte versuche es später erneut.</string>
+    <string name="config_reload_text">Konfiguration neuladen</string>
+    <string name="config_reload_msg_text">Einige Parameter von Home Assistent können ohne neustart neugeladen werden. Drücke auf neuladen um die aktuellen Einstellungen zu entfernen und neu aus der Datei zu laden. </string>
+
+    <string name="reload_core_text">Core neuladen</string>
+    <string name="reload_groups_text">Gruppen neuladen</string>
+    <string name="reload_automations_text">Automationen neuladen</string>
+    <string name="reload_scripts_text">Scripte neuladen</string>
+    <string name="service_has_been_called">Service wurde aufgerufen</string>
+
+    <string name="settings_wifi_home_summary">Wenn dein Telefon mit einem WLAN aus der Liste verbunden ist signalisiert es HA automatisch dass du zuhause bist.</string>
+    <string name="settings_wifi_home_title">Heim WLAN Netzwerke</string>
+    <string name="server_management_text">Server Management</string>
+    <string name="server_management_message_text">Kontrolliere deinen Server…from Ariela.</string>
+    <string name="restart_text">Neustarten</string>
+    <string name="stop_text">Beenden</string>
+    <string name="brightness_text">Helligkeit</string>
+    <string name="rgb_color_text">RGB Farbe</string>
+    <string name="unknown_text">Unbekannt</string>
+    <string name="users_text">Benutzer</string>
+    <string name="users_config_summary">Benutzer verwalten</string>
+    <string name="general_text">Generell</string>
+    <string name="general_config_summary">Konfigurationdatei überprüfen und Server steuern</string>
+    <string name="delete_text">Löschen</string>
+    <string name="failed_to_retrieve_users">Abrufen der Beutzerliste fehlgeschlagen. Bitte versuche es später erneut.</string>
+    <string name="something_went_wrong">Irgendetwas ist schiefgegangen.</string>
+    <string name="unable_to_delete_own_account">Deinen eigenen Benutzer kannst du nicht löschen.</string>
+    <string name="alarm_code_text">Code</string>
+    <string name="arm_home_text">ARM HOME</string>
+    <string name="arm_away_text">ARM AWAY</string>
+    <string name="disarm_text">DISARM</string>
+
+    <string name="theme_text">Thema</string>
+    <string name="theme_summary">Wähle Arielas look and feel</string>
+
+    <string name="low_text">Nidrig</string>
+    <string name="normal_text">Normal</string>
+    <string name="cold_text">Kalt</string>
+    <string name="connected_text">Verbunden</string>
+    <string name="disconnected_text">Getrennt</string>
+    <string name="open_text">Offen</string>
+    <string name="closed_text">Geschlossen</string>
+    <string name="gas_detected_text">Gas detektiert</string>
+    <string name="clear_text">Löschen</string>
+    <string name="hot_text">Heiß</string>
+    <string name="light_detected_text">Licht detektiert</string>
+    <string name="no_light_text">Kein Licht</string>
+    <string name="wet_text">Nass</string>
+    <string name="dry_text">Trocken</string>
+    <string name="motion_detected_text">Bewegung detektiert</string>
+    <string name="no_motion_text">Keine Bewegung</string>
+    <string name="moving_text">Bewege</string>
+    <string name="stopped_text">Gestoppt</string>
+    <string name="occupied_text">Besetzt</string>
+    <string name="plugged_in_text">Eingesteckt</string>
+    <string name="unplugged_text">Ausgesteckt</string>
+    <string name="power_text">Energie</string>
+    <string name="no_power_text">Keine Energie</string>
+    <string name="problem_detected_text">Problem erkannt</string>
+    <string name="no_problem_detected_text">Kein Problem</string>
+    <string name="unsafe_text">Unsicher</string>
+    <string name="safe_text">Sicher</string>
+    <string name="smoke_detected_text">Rauch detektiert</string>
+    <string name="sound_detected_text">Geräusche detektiert</string>
+    <string name="vibration_detected_text">Vibrationen detektiert</string>
+
+    <string name="mqtt_string">MQTT</string>
+    <string name="enable_mqtt_text">Aktiviere MQTT Sensors</string>
+    <string name="enable_mqtt_summary">Sende Sensor Informationen dieses Gerätes an Home Assistant</string>
+    <string name="mqtt_sensors_text">Sensoren</string>
+    <string name="mqtt_sensors_summary">Wähle die Sensoren dessen Informationen an den Broker gesendet werden sollen</string>
+
+    <string name="battery">Batterie</string>
+    <string name="battery_message">Sende die Batterie Infomationen dieses Gerätes</string>
+
+    <string name="light">Licht</string>
+    <string name="light_message">Sende die Infomationen des Licht-Sensos dieses Gerätes</string>
+    <string name="step_counter">Schritt-Zähler</string>
+    <string name="step_counter_message">Sende die Daten des Schritt-Zähles dieses Gerätes</string>
+    <string name="instructions_text">Anleitung</string>
+
+    <string name="wi_fi_message">Sende die WLAN Informationen dieses Gerätes</string>
+
+    <string name="clear_current_config">Lösche die aktuelle Konfiguration</string>
+    <string name="current_external_config_cleared">Die aktuelle Konfiguration für den externen Zugriff wurde gelöscht</string>
+    <string name="call_state">Anruf Zustand</string>
+    <string name="call_state_message">Sende die Informationen über den aktuellen Anruf an den Server</string>
+
+    <string name="copy_to_clipboard">In die Zwischenablage</string>
+    <string name="instructions_copied_to_memory">Anleitung wurde in die Zwischenablage kopiert</string>
+
+    <string name="setup_mqtt_first">Richte den MQTT Client ein bevor du diese Funktion benutzt</string>
+
+    <string name="discovery_topic">Discovery topic</string>
+    <string name="discovery_topic_message">Topicc für das MQTT discovery</string>
+
+    <string name="mqtt_topic">Topic</string>
+    <string name="mqtt_payload">Payload (Template erlaubt)</string>
+    <string name="publish_text">Publish</string>
+    <string name="publish_a_packet_text">MQTT: Sende ein Packet</string>
+
+    <string name="time_text">Zeit ändern</string>
+    <string name="date_text">Datum ändern</string>
+    <string name="add_item_text">Eintrag hinzufügen</string>
+    <string name="checked_items">Markierte Einträge</string>
+
+    <string name="ambient_temperature">Umgebungstemperatur</string>
+    <string name="ambient_temperature_message">Sende Informationen des temperatur Sensors dieses Gerätes</string>
+
+    <string name="pressure_text">Luftdruck</string>
+    <string name="pressure_message">Sende Luftdruck-Information von diesem Gerät</string>
+
+    <string name="user_text">Benutzer</string>
+    <string name="setting_keepscreenon_summary">Diese Option verhinder dass das Gerät den Bildschirm abschaltet solange dass Dashboard aktiv ist.</string>
+    <string name="setting_keepscreenon_title">Bildschim aktiviert lassen</string>
+
+    <string name="shopping_list_text">Einkaufsliste List</string>
+    <string name="text_to_speek">Sprachausgabe</string>
+    <string name="send_text">Senden</string>
+    <string name="input_source">Quelle</string>
+    <string name="sound_mode">Sound Modus</string>
+
+    <string name="bluetooth_text">Bluetooth</string>
+    <string name="bluetooth_mqtt_text">Sende Bluetooth Informationen für dieses Gerät</string>
+
+    <string name="relative_humidity">Relative Luftfeuchtigkeit</string>
+    <string name="relative_humidity_message">Sende Luftfeuchtigkeits Informationen für dieses Gerät</string>
+
+    <string name="screen_mqtt_sensor_text">Dieses Gerät über Home Assistant aufwecken</string>
+    <string name="screen_text">Bildschirm</string>
+
+    <string name="apps_mqtt_text">Sensor enthält die installirten Apps auf diesem Gerät</string>
+    <string name="apps_text">Anwendungen</string>
+
+    <string name="setting_fullscreen_summary">Benutze den gesamten Bildschirm für Ariela</string>
+    <string name="setting_fullscreen_title">Vollbild Modus</string>
+    <string name="no_voice_recognition">Keine Spracherkennung aktiviert</string>
+
+    <string name="states_text">Status</string>
+    <string name="effects_text">Effekte</string>
+    <string name="color_temp_text">Farb Temperatur</string>
+    <string name="title_text">Titel</string>
+    <string name="icon_text">Symbol</string>
+    <string name="url_path_text">URL Pfad</string>
+    <string name="view_configuration">Zeige Einstellungen</string>
+    <string name="save_text">Speichern</string>
+    <string name="settings_text">Einstellungen</string>
+    <string name="badges_text">Plaketten</string>
+    <string name="activate_text">Aktivieren</string>
+    <string name="execute_text">Ausführen</string>
+    <string name="setting_scrolllongtext_title">scrolle langen Text</string>
+    <string name="setting_scrolllongtext_summary">Zu langen Text als Laufschrift anzeigen anstatt ihn abschneiden</string>
+
+    <string name="vacuum_cleaner_commands">Staubsauger Befehle:</string>
+    <string name="notifications_empty">Keine Benachrichtiungen</string>
+    <string name="dismiss_text">Verwerfen</string>
+    <string name="failed_to_retrieve_shopping_list">Abrufen der Einkaufsliste fehlgeschlagen. Bitte überprüfe ob die Komponente auf dem Server aktiviert ist.</string>
+    <string name="entity_editor_text">Entitäten Editor</string>
+    <string name="message_toast_failed_to_save_entity_info">Speichern der Entität fehlgeschlagen</string>
+
+    <string-array name="array_setting_cards_column">
+        <item>Automatisch</item>
+        <item>1 Spalten</item>
+        <item>2 Spalten</item>
+        <item>3 Spalten</item>
+        <item>4 Spalten</item>
+    </string-array>
+
+    <string-array name="array_setting_cards_column_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="number_of_columns_cards">Karten Spalten</string>
+    <string name="number_of_columns_cards_info">Wähle wieviele Spalten angezeigt werden sollen.</string>
+
+    <string name="debug_enabled_message">Der Debug-Modus wurde aktiviert. Bitte starte die App neu und reproduziere den Fehler den du gefunden hast. Benutze danach die Kontakt-Funktion und wähle einen eMail-Client. Die Log-Datei sollt automatisch an die neue eMail angehängt werden. Sollte dieses nicht funktionieren findest du sie in deinem Geräte-Ordner unter dem Namen \'ariela_logfile.log\'. Sende diese eMail mit der Datei bitte an \'micro.criss.dev@gmail.com\'.</string>
+    <string name="picture_text">Bild</string>
+
+    <string name="create_notification">Erstelle Benachrichtigungen</string>
+    <string name="message_text">Nachricht</string>
+    <string name="create_text">Erstelle</string>
+
+    <string name="service_text">Dienst</string>
+    <string name="services_text">Dienste</string>
+    <string name="services_summary_text">Das Servce dev Tool erlaubt es dir Dienste in HA aufzurufen</string>
+    <string name="service_data_text">Service Data (JSON, optional)</string>
+    <string name="call_service_text">Service aufrufen</string>
+
+    <string name="intro_text">Einleitung</string>
+    <string name="previous_text">Zurück</string>
+    <string name="next_text">Weiter</string>
+    <string name="enter_local_network_info_message">Bitte gebe deine WLAN Informationen ein</string>
+
+    <string name="enter_wifi_home_name">Bitte gebe den Namen deines WLANs ein. Dieser wir benötigt damit Ariela entscheiden kann ob die interne oder externe Adresse deines Servers verwendet werden soll. Später kannst du sie auch benutzen um HA mitzuteilen ob du zuhause bist.</string>
+    <string name="wifi_name_hint">WLAN Name</string>
+
+    <string name="please_enter_wifi_name">Bitte gebe einen korrekten WLAN Namen ein</string>
+    <string name="local_ip_address">Home Assistant IP Adresse</string>
+    <string name="local_ip_address_msg">Bitte gebe die lokale IP-Adresse deines Homeassistent Servers ein. Wenn diese gerade nicht verfügbar ist, du deinen Server aber von extern erreichen kannst, kannst du hier auch die externe Adresse verwenden.</string>
+    <string name="check_connection_text">Verbindung überprüfen</string>
+    <string name="external_ip_address_msg">Bitte gebe die externe Adresse deines Servers ein. Wenn du deinen Server nicht nach ausen freigibst, drücke Überspringen um weiter zu machen.</string>
+    <string name="credentials_message">Gebe hier deinen Benutzenamen und Passwort zum Home Assistent ein. Wenn du Home Assistant 0.78 oder älter verwendest, lasse den Benutzernamen frei und benute nur das API_PASSWORD. Solltest du Probleme beim Login haben oder die 2-Faktor Authorisirug aktiviert haben, benutze bitte den Web-Login.</string>
+    <string name="home_wifi_network_choose">WLAN Netzwerk auswählen</string>
+
+    <string name="nfc_text">NFC</string>
+    <string name="nfc_summary_text">Lese NFC und sende erkannte Tags an Home Assistant</string>
+</resources>
