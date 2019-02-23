@@ -167,13 +167,13 @@
     <string name="please_wait_text">Proszę czekać...</string>
     <string name="title_activity_map_viewer">Mapa</string>
 
-    <string name="hours_ago_text">godzin(y) temu</string>
-    <string name="hour_ago_text">godzina temu</string>
+    <string name="hours_ago_text">%d godzin(y) temu</string>
+    <string name="hour_ago_text">%d godzina temu</string>
 
-    <string name="minutes_ago_text">minut(y) temu</string>
-    <string name="minute_ago_text">minuta temu</string>
+    <string name="minutes_ago_text">%d minut(y) temu</string>
+    <string name="minute_ago_text">%d minuta temu</string>
 
-    <string name="seconds_ago_text">sekund(y) temu</string>
+    <string name="seconds_ago_text">%d sekund(y) temu</string>
     <string name="config_validation_text">Sprawdzanie konfiguracji</string>
     <string name="config_valid_message_text">Jeśli ostatnio wprowadzono zmiany w konfiguracji i chcesz się upewnić, że jest ona poprawna, kliknij Sprawdź konfigurację</string>
     <string name="check_config_text">Sprawdź konfigurację</string>
@@ -218,11 +218,13 @@
         <item>Domyślny</item>
         <item>Ciemny</item>
         <item>Fioletowy</item>
+        <item>Dark Green</item>
     </string-array>
     <string-array name="array_setting_theme_values">
         <item>0</item>
         <item>1</item>
         <item>2</item>
+        <item>3</item>
     </string-array>
 
     <string name="theme_text">Motyw</string>
@@ -403,4 +405,34 @@
 
     <string name="nfc_text">NFC</string>
     <string name="nfc_summary_text">Read NFC and send the tags read to Home Assistant</string>
+
+    <string name="mqtt_client">MQTT Client</string>
+    <string name="mqtt_client_summary">Choose the default MQTT client to be used</string>
+
+    <string-array name="array_setting_mqtt_client">
+        <item>HomeAssistant</item>
+        <item>Build-In</item>
+    </string-array>
+    <string-array name="array_setting_mqtt_client_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string name="configure_build_in_mqtt_title">Configure build-in MQTT client</string>
+    <string name="configure_build_in_mqtt_title_summary">Use this option to configure access of the build-in MQTT client to your broker</string>
+    <string name="mqtt_setup_title">MQTT Setup</string>
+
+    <string name="local_mqtt_address">Local MQTT Address and Port</string>
+    <string name="external_mqtt_address">Extern MQTT Address and Port</string>
+    <string name="mqtt_connection_succeeded">MQTT connection succeeded</string>
+    <string name="mqtt_connection_failed">MQTT connection failed. Please check the data introduced and try again.</string>
+    <string name="mqtt_connection_external_failed">MQTT connection to external IP failed. Please check the data introduced and try again.</string>
+
+    <string name="mqtt_setup_address_message">   Please enter the IP address and port that will be used to connect to the MQTT broker.\n   If you do not have access to your local network instance you can also put the external IP to the local one.\n   If you do not want to connect to MQTT when you are not home, leave the external IP entry blank.\n   If you are using SSL connection, the IP address should start with \"ssl://\" instead of \"tcp://\".</string>
+    <string name="back_camera">Back Camera</string>
+    <string name="back_camera_summary">Send pictures from back camera</string>
+
+    <string name="front_camera">Front Camera</string>
+    <string name="front_camera_summary">Send pictures from front camera</string>
+    <string name="enable_camera_permission">Please enable camera permission to use this feature.</string>
 </resources>
