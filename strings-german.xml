@@ -1,5 +1,5 @@
 <resources>
-    <string name="click_next_for_setup">Drücke auf "Weiter" um den Einrichtungsprozess zu starten</string>
+    <string name="click_next_for_setup">Tippe auf "Weiter" um den Einrichtungsprozess zu starten</string>
     <string name="try_again_text">Erneut suchen</string>
     <string name="continue_text">Weiter</string>
     <string name="connecting_please_wait">Verbinde, bitte warten…</string>
@@ -7,7 +7,7 @@
     <string name="connection_server_failed_message">Verbindung zum Home Assistant Server fehlgeschlagen. Bitte überprüfe die angegebene URL/IP und versuche es erneut.</string>
     <string name="ok_text">OK</string>
     <string name="connection_success_text">Verbindung erfolgreich</string>
-    <string name="connection_success_text_message">Verbindung zum Home Assistant Server erfolgreich. Drücke auf "Weiter" um fortzufahren.</string>
+    <string name="connection_success_text_message">Die Verbindung zum Home Assistant Server erfolgreich überprüft. Tippe auf "Weiter" um fortzufahren.</string>
     <string name="enter_assistant_password">Home Assistant Zugangsdaten</string>
     <string name="password_text">Passwort</string>
     <string name="incorrect_password_message_text">Authentifizirung fehlgeschlagen. Bitte überprüfe deine Zugangsdaten und versuche es erneut.</string>
@@ -16,7 +16,7 @@
     <string name="configure_text">Konfigurieren</string>
     <string name="connection_server_failed_splash">Verbindung zum Home Assistant Server fehlgeschlagen. Du kannst es erneut versuchen, oder den Server erneut konfigurieren. Was möchtest du machen?</string>
     <string name="server_not_configured_text">Server nicht konfiguriert</string>
-    <string name="server_not_configured_message_text">Home Assistant ist noch nicht konfikuriert. Möchtest du ihn jetzt konfigurieren?</string>
+    <string name="server_not_configured_message_text">Dein Home Assistant Server ist in Ariela noch nicht konfiguriert. Möchtest du damit jetzt starten?</string>
     <string name="title_activity_dashboard">Übersicht</string>
     <string name="navigation_drawer_open">Navigation öffnen</string>
     <string name="navigation_drawer_close">Navigation schließen</string>
@@ -45,7 +45,7 @@
     <string name="about_text">Über</string>
     <string name="open_web_ui_text">Webinterface</string>
     <string name="logbook_text">Logbuch</string>
-    <string name="configure_external_text">Konfiguriere extern</string>
+    <string name="configure_external_text">Zugriff von extern</string>
     <string name="rate_app_text">App bewerten</string>
     <string name="enter_external_ip">Externe Home Assistant IP / URL und Port eingeben</string>
     <string name="ip_url_text">IP / URL und Port</string>
@@ -68,7 +68,7 @@
     <string name="remove_ads_text_info">Um Werbung zu entfernen ist es erforderlich ein Video zu schauen. Möchtest du fortfahren?</string>
     <string name="exit_text">Beenden</string>
     <string name="map_text">Karte</string>
-    <string name="server_config_text">Server Konfiguration</string>
+    <string name="server_config_text">Server Einstellungen</string>
     <string name="logout_text">Abmelden</string>
     <string name="locked_text">Gesperrt</string>
     <string name="unlocked_text">Entsperrt</string>
@@ -84,17 +84,17 @@
     <string name="firebase_notifications_disabled_failed">Deaktivieren von Firebase ist für diese Geät fehlgeschlagen. Kitte überpüfe dass die HANotify Komponente auf dem Server aktiviert ist.</string>
     <string name="show_all_text">Alles anzeigen</string>
     <string name="show_groups_text">Gruppen anzeigen</string>
-    <string name="setting_firebase_summary">Erlaube dem Home Assistant Server Push Benachrichtigungen via Firebase an dieses Gerät zu senden. Für weitere Informationen findest du unter https://github.com/MCrissDev/HANotify (englisch)</string>
+    <string name="setting_firebase_summary">Erlaube dem Home Assistant Server Push Benachrichtigungen via Firebase an dieses Gerät zu senden. Weitere Informationen findest du unter https://github.com/MCrissDev/HANotify (englisch)</string>
     <string name="setting_firebase_title">Firebase Benachrichtigungen</string>
 
     <string name="setting_webui_summary">Verwende das Web Interface anstatt den nativen Android Steuerelementen.</string>
     <string name="setting_webui_title">Web Interface</string>
 
-    <string name="setting_autoreconnect_summary">Versuche die Verbidung alle 10 Sekunden wiederherzustellen sofern sie zuvor getrennt wurde.</string>
-    <string name="setting_autoreconnect_title">automatisch neuverbinden</string>
+    <string name="setting_autoreconnect_summary">Falls die Verbindung getrennt wurde versucht Ariela alle 10 Sekunden sie wiederherzustellen</string>
+    <string name="setting_autoreconnect_title">Automatisch neuverbinden</string>
 
     <string name="settings_permanent_notification_title">Permanente Benachrichtigung</string>
-    <string name="settings_permanent_notification_summary">Zeige eine permanente Benachrichtigung sobald eine Verbingung zum Server besteht.</string>
+    <string name="settings_permanent_notification_summary">Zeige eine permanente Benachrichtigung sobald eine Verbingung zum Server besteht</string>
 
     <string name="settings_lovelaceui_title">Lovelace UI</string>
     <string name="settings_lovelaceui_summary">Benutze die Lovelace UI Konfiguration</string>
@@ -102,10 +102,10 @@
     <string name="settings_debugmode_summary">Debug Modus aktivieren</string>
 
     <string name="settings_device_tracker_title">Device Tracker</string>
-    <string name="settings_device_tracker_summary">Das Tracking für dieses Gerät aktivieren</string>
+    <string name="settings_device_tracker_summary">Tracking für dieses Gerät aktivieren</string>
 
-    <string name="settings_phone_name_summary">Name dieses Gerätes auf dem Home Assistent Server.</string>
-    <string name="settings_phone_name_title">Geräte Name</string>
+    <string name="settings_phone_name_summary">Der Name dieses Gerätes auf dem Home Assistent Server</string>
+    <string name="settings_phone_name_title">Name</string>
     <string name="get_pro_version_text">PRO Version kaufen</string>
     <string name="choose_text_size">Wähle eine Textgröße</string>
     <string name="choose_text">Wähle</string>
@@ -203,7 +203,7 @@
     <string name="config_invalid_text">Konfiguration nicht OK</string>
     <string name="failed_to_check_config">Überprüfen der Konfiguration fehlgeschlagen. Bitte versuche es später erneut.</string>
     <string name="config_reload_text">Konfiguration neuladen</string>
-    <string name="config_reload_msg_text">Einige Parameter von Home Assistent können ohne neustart neugeladen werden. Drücke auf neuladen um die aktuellen Einstellungen zu entfernen und neu aus der Datei zu laden. </string>
+    <string name="config_reload_msg_text">Einige Parameter von Home Assistent können ohne neustart neugeladen werden. Tippe auf neuladen um die aktuellen Einstellungen zu entfernen und neu aus der Datei zu laden. </string>
 
     <string name="reload_core_text">Core neuladen</string>
     <string name="reload_groups_text">Gruppen neuladen</string>
@@ -314,10 +314,10 @@
     <string name="pressure_message">Sende Luftdruck-Information von diesem Gerät</string>
 
     <string name="user_text">Benutzer</string>
-    <string name="setting_keepscreenon_summary">Diese Option verhinder dass das Gerät den Bildschirm abschaltet solange dass Dashboard aktiv ist.</string>
+    <string name="setting_keepscreenon_summary">Diese Option verhindert das abschlaten des Bildschirms solange das Dashboard aktiv ist</string>
     <string name="setting_keepscreenon_title">Bildschim aktiviert lassen</string>
 
-    <string name="shopping_list_text">Einkaufsliste List</string>
+    <string name="shopping_list_text">Einkaufsliste</string>
     <string name="text_to_speek">Sprachausgabe</string>
     <string name="send_text">Senden</string>
     <string name="input_source">Quelle</string>
@@ -351,8 +351,8 @@
     <string name="badges_text">Plaketten</string>
     <string name="activate_text">Aktivieren</string>
     <string name="execute_text">Ausführen</string>
-    <string name="setting_scrolllongtext_title">scrolle langen Text</string>
-    <string name="setting_scrolllongtext_summary">Zu langen Text als Laufschrift anzeigen anstatt ihn abschneiden</string>
+    <string name="setting_scrolllongtext_title">Scrolle langen Text</string>
+    <string name="setting_scrolllongtext_summary">Zu langen Texte werden als Laufschrift angezeigt anstatt abgeschnitten</string>
 
     <string name="vacuum_cleaner_commands">Staubsauger Befehle:</string>
     <string name="notifications_empty">Keine Benachrichtiungen</string>
@@ -377,7 +377,7 @@
         <item>4</item>
     </string-array>
 
-    <string name="number_of_columns_cards">Karten Spalten</string>
+    <string name="number_of_columns_cards">Spalten</string>
     <string name="number_of_columns_cards_info">Wähle wieviele Spalten angezeigt werden sollen.</string>
 
     <string name="debug_enabled_message">Der Debug-Modus wurde aktiviert. Bitte starte die App neu und reproduziere den Fehler den du gefunden hast. Benutze danach die Kontakt-Funktion und wähle einen eMail-Client. Die Log-Datei sollt automatisch an die neue eMail angehängt werden. Sollte dieses nicht funktionieren findest du sie in deinem Geräte-Ordner unter dem Namen \'ariela_logfile.log\'. Sende diese eMail mit der Datei bitte an \'micro.criss.dev@gmail.com\'.</string>
@@ -398,47 +398,47 @@
     <string name="next_text">Weiter</string>
     <string name="enter_local_network_info_message">Bitte gebe deine WLAN Informationen ein</string>
 
-    <string name="enter_wifi_home_name">Bitte gebe den Namen deines WLANs ein. Dieser wir benötigt damit Ariela entscheiden kann ob die interne oder externe Adresse deines Servers verwendet werden soll. Später kannst du sie auch benutzen um HA mitzuteilen ob du zuhause bist.</string>
+    <string name="enter_wifi_home_name">Bitte gebe den Namen deines WLANs ein. Dieser wird von Ariela verwendet um zu entscheiden ob die interne oder externe Adresse deines Servers verwendet werden soll. Später kannst du ihn auch benutzen um HA mitzuteilen ob du zuhause bist oder nicht.</string>
     <string name="wifi_name_hint">WLAN Name</string>
 
     <string name="please_enter_wifi_name">Bitte gebe einen korrekten WLAN Namen ein</string>
     <string name="local_ip_address">Home Assistant IP Adresse</string>
-    <string name="local_ip_address_msg">Bitte gebe die lokale IP-Adresse deines Homeassistent Servers ein. Wenn diese gerade nicht verfügbar ist, du deinen Server aber von extern erreichen kannst, kannst du hier auch die externe Adresse verwenden.</string>
+    <string name="local_ip_address_msg">Bitte gebe die lokale IP-Adresse deines Home Assistent Servers ein. Wenn diese gerade nicht verfügbar ist, du deinen Server aber von extern erreichen kannst, kannst du hier auch die externe Adresse verwenden.</string>
     <string name="check_connection_text">Verbindung überprüfen</string>
-    <string name="external_ip_address_msg">Bitte gebe die externe Adresse deines Servers ein. Wenn du deinen Server nicht nach ausen freigibst, drücke Überspringen um weiter zu machen.</string>
-    <string name="credentials_message">Gebe hier deinen Benutzenamen und Passwort zum Home Assistent ein. Wenn du Home Assistant 0.78 oder älter verwendest, lasse den Benutzernamen frei und benute nur das API_PASSWORD. Solltest du Probleme beim Login haben oder die 2-Faktor Authorisirug aktiviert haben, benutze bitte den Web-Login.</string>
+    <string name="external_ip_address_msg">Bitte gebe die externe Adresse deines Servers ein. Solltest du deinen Server nicht von extern erreichen können, tippe auf überspringen um fortzufahren.</string>
+    <string name="credentials_message">Gebe hier deinen Benutzenamen und Passwort zum Home Assistent ein. Wenn du Home Assistant 0.78 oder älter verwendest, lasse den Benutzernamen frei und benute nur das API_PASSWORD. Solltest du Probleme beim Login haben oder die 2-Faktor Authorisirung nutzen, verwende bitte den Web-Login.</string>
     <string name="home_wifi_network_choose">WLAN Netzwerk auswählen</string>
 
     <string name="nfc_text">NFC</string>
     <string name="nfc_summary_text">Lese NFC und sende erkannte Tags an Home Assistant</string>
 
     <string name="mqtt_client">MQTT Client</string>
-    <string name="mqtt_client_summary">Choose the default MQTT client to be used</string>
+    <string name="mqtt_client_summary">Wähle den standard MQTT client</string>
 
     <string-array name="array_setting_mqtt_client">
-        <item>HomeAssistant</item>
-        <item>Build-In</item>
+        <item>HomeAssistant Server</item>
+        <item>Ariela intern</item>
     </string-array>
     <string-array name="array_setting_mqtt_client_values">
         <item>0</item>
         <item>1</item>
     </string-array>
 
-    <string name="configure_build_in_mqtt_title">Configure build-in MQTT client</string>
-    <string name="configure_build_in_mqtt_title_summary">Use this option to configure access of the build-in MQTT client to your broker</string>
-    <string name="mqtt_setup_title">MQTT Setup</string>
+    <string name="configure_build_in_mqtt_title">Ariela internen MQTT client konfigurieren</string>
+    <string name="configure_build_in_mqtt_title_summary">Benutze diese Option um die Verbindung des eingebauten MQTT clients zum Broker zu konfigurieren</string>
+    <string name="mqtt_setup_title">MQTT Einstellungen</string>
 
-    <string name="local_mqtt_address">Local MQTT Address and Port</string>
-    <string name="external_mqtt_address">Extern MQTT Address and Port</string>
-    <string name="mqtt_connection_succeeded">MQTT connection succeeded</string>
-    <string name="mqtt_connection_failed">MQTT connection failed. Please check the data introduced and try again.</string>
-    <string name="mqtt_connection_external_failed">MQTT connection to external IP failed. Please check the data introduced and try again.</string>
+    <string name="local_mqtt_address">Lokale Adresse und Port des MQTT Borkers</string>
+    <string name="external_mqtt_address">Externe Adresse und Port des MQTT Borkers</string>
+    <string name="mqtt_connection_succeeded">MQTT Verbindung erfolgreich</string>
+    <string name="mqtt_connection_failed">MQTT Verbindung fehlgeschlagen. Bitte überprüfe die Einstellungen und versuche es erneut.</string>
+    <string name="mqtt_connection_external_failed">MQTT Verbindung zur externen Adresse fehlgeschlagen. Bitte überprüfe die Einstellungen und versuche es erneut.</string>
 
-    <string name="mqtt_setup_address_message">   Please enter the IP address and port that will be used to connect to the MQTT broker.\n   If you do not have access to your local network instance you can also put the external IP to the local one.\n   If you do not want to connect to MQTT when you are not home, leave the external IP entry blank.\n   If you are using SSL connection, the IP address should start with \"ssl://\" instead of \"tcp://\".</string>
-    <string name="back_camera">Back Camera</string>
-    <string name="back_camera_summary">Send pictures from back camera</string>
+    <string name="mqtt_setup_address_message">Bitte gebe hier die externe und interne Adresse deines MQTT Brokers an.\nSolltest du derzeit keinen Zugriff auf die interne Adresse haben, kannst du dort auch die externe benutzen. Sofern du MQTT nicht benutzen möchtest wenn du nicht zuhause bist lass die externe Adresse einfach frei. Um eine verschlüsselte Verbindung herzustellen, benutze ssl:// anstatt tcp:// .</string>
+    <string name="back_camera">Hintere Kamera</string>
+    <string name="back_camera_summary">Sende Bilder der Hinteren Kamera</string>
 
-    <string name="front_camera">Front Camera</string>
-    <string name="front_camera_summary">Send pictures from front camera</string>
-    <string name="enable_camera_permission">Please enable camera permission to use this feature.</string>
+    <string name="front_camera">Vordere Kamera</string>
+    <string name="front_camera_summary">Sende Bilder der vorderen Kamera</string>
+    <string name="enable_camera_permission">Bitte aktivieren den Zugriffsberechtigung auf die Kamera um diese Funktion nutzen zu können.</string>
 </resources>
