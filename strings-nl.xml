@@ -383,4 +383,13 @@
     <string name="front_camera">Front Camera</string>
     <string name="front_camera_summary">Send pictures from front camera</string>
     <string name="enable_camera_permission">Please enable camera permission to use this feature.</string>
+
+    <string name="common_text">Common</string>
+    <string name="wear_credentials_force">Force Android Wear credentials</string>
+    <string name="wear_credentials_force_summary">Force Android Wear credentials to be send to the device</string>
+    <string name="wear_successfully_sync">Credentials had been synced.</string>
+    <string name="wear_failed_sync">Failed to sync wear credentials.</string>
+
+    <string name="tts_text">Text to Speech</string>
+    <string name="tts_mqtt_summary">Enable this to have your phone convert text to speech</string>
 </resources>
