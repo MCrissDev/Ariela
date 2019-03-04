@@ -1,0 +1,465 @@
+<resources>
+    <string name="click_next_for_setup">Klicka Nästa för att starta</string>
+    <string name="try_again_text">Försök igen</string>
+    <string name="continue_text">Fortsätt</string>
+    <string name="connecting_please_wait">Ansluter. Vänligen vänta…</string>
+    <string name="connection_server_failed">Anslutning till server misslyckades</string>
+    <string name="connection_server_failed_message">Anslutningen till Home Assistant misslyckades. Dubbelkolla URL / IP och försök igen.</string>
+    <string name="ok_text">OK</string>
+    <string name="connection_success_text">Anslutningen lyckades</string>
+    <string name="connection_success_text_message">Lyckades anslut till Home Assistant. Tryck "Fortsätt" för att gå vidare.</string>
+    <string name="enter_assistant_password">Fyll i uppgifter för Home Assistant</string>
+    <string name="password_text">Lösenord</string>
+    <string name="incorrect_password_message_text">Lyckades inte att logga in med uppgifterna. Dubbelkolla uppgifterna och försök igen.</string>
+    <string name="setup_complete_text">Installation klar</string>
+    <string name="setup_complete_message_text">Installationen av Home Assistant lyckades. Du kan nu använda appen för att styra Home Assistant.</string>
+    <string name="configure_text">Konfigurera</string>
+    <string name="connection_server_failed_splash">Misslyckdes med att ansluta till Home Assistant. Du kan försöka att ansluta igen eller konfigurera servern igen. Vad vill du göra?</string>
+    <string name="server_not_configured_text">Server är inte konfigurerad</string>
+    <string name="server_not_configured_message_text">Home Assistant är inte konfigurerad ännu. Vill du ställa in den?</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="navigation_drawer_open">Öppna navigation</string>
+    <string name="navigation_drawer_close">Stäng navigation</string>
+    <string name="action_settings">Inställningar</string>
+    <string name="location_enable_text">Aktivera plats</string>
+    <string name="wifi_enable_text">Aktivera Wifi</string>
+    <string name="wifi_state_connected">ANSLUTEN</string>
+    <string name="wifi_state_connecting">ANSLUTER</string>
+    <string name="wifi_state_disconnected">FRÅNKOPPLAD</string>
+    <string name="wifi_state_disconnecting">KOPPLAR IFRÅN</string>
+    <string name="wifi_choose_message">Välj ditt hemma Wi-Fi-nätverk som Home Assistant också använder. Det kommer att användas senare för att veta om det nätverk du är ansluten till är hemma, eller inte. Svep neråt för att uppdatera listan med Wi-Fi-nätverk om du inte ser rätt nätverk.</string>
+    <string name="searching_wifi_networks">Söker efter Wi-Fi-nätvker…</string>
+    <string name="home_text">HEMMA</string>
+
+    <string name="button_scene_activate">aktivera</string>
+    <string name="climate_current_temperature">Nuvarande: %1$.1f %2$s</string>
+    <string name="media_player_stop_toast">Stoppar…</string>
+
+    <string name="location_permission_required">För att fortsätta behöver du ge tillgång till Platsrättigheter för appen. Vill du aktivera det manuellt?</string>
+    <string name="yes_text">JA</string>
+    <string name="no_text">NEJ</string>
+    <string name="skip_text">Hoppa över</string>
+    <string name="connect_text">Anslut</string>
+    <string name="server_connection_lost_message">Anslutningen till Home Assistant har tappats. Kolla din nätverksanslutning och tryck på anslut för att försöka igen.</string>
+    <string name="contact_text">Kontakt</string>
+    <string name="about_text">Om</string>
+    <string name="open_web_ui_text">Öppna Web-UI</string>
+    <string name="logbook_text">Loggbok</string>
+    <string name="configure_external_text">Konfigurera Extern</string>
+    <string name="rate_app_text">Betygsätt App</string>
+    <string name="enter_external_ip">Fyll i extern Home Assistant IP / URL och Port</string>
+    <string name="ip_url_text">IP / URL och Port</string>
+    <string name="external_access_text">Extern tillgång</string>
+    <string name="external_access_message">För att ställa in extern tillgång till Home Assistant anslut till ett annat nätverk än hemmanätverket(eg: 3G / 4G / andra nätverk). Kom ihåg att för att det ska fungera måste du ha öppnat för Home Assistant att bli ansluten till i din router. Konsultera manualen för routern för hur du öppnar en port och styr den till rätt enhet. </string>
+    <string name="cancel_text">Avbryt</string>
+    <string name="off_text">Av</string>
+    <string name="idle_text">Idle</string>
+    <string name="media_players_text">Mediaspelare</string>
+    <string name="server_not_running_text">Lyckades inte ansluta till Home Assistant</string>
+    <string name="air_pressure_text">Lufttryck: </string>
+    <string name="humidity_text">Luftfuktighet: </string>
+    <string name="wind_speed_text">Vindhastighet: </string>
+    <string name="choose_sensor_text">Välj</string>
+    <string name="no_sensors_messages">Kan inte lägga till sensor-widget eftersom det inte finns några konfigurerade sensorer.</string>
+    <string name="remove_ads">Ta bort annonser</string>
+    <string name="no_zone_message">Vi kunde inte hitta någon zone entity i din Home Assistant-konfiguration. Kolla din konfiguration.</string>
+    <string name="ads_disabled_message">Tack! Annonser har inaktiverats.</string>
+    <string name="video_ad_failed_load">Misslyckades med att ladda videoannonser. Försök igen senare.</string>
+    <string name="remove_ads_text_info">För att ta bort annonser krävs det att man kollar på ett reklamklipp först. Vill du fortsätta?</string>
+    <string name="exit_text">Exit</string>
+    <string name="map_text">Karta</string>
+    <string name="server_config_text">Serverkonfiguration</string>
+    <string name="logout_text">Logga ut</string>
+    <string name="locked_text">Låst</string>
+    <string name="unlocked_text">Öppen</string>
+    <string name="target_temperature">Måltemperatur</string>
+    <string name="operation_text">Funktion</string>
+    <string name="away_mode_string">Bortaläge</string>
+    <string name="default_notification_channel_id">Ihållande notis</string>
+    <string name="firebase_notifications_enabled">Firebase-notiser har aktiverats</string>
+    <string name="firebase_notifications_failed">Misslyckades med att aktivera Firebase-notiser. Dubbelkolla att HANotify är installerat på Home Assistant</string>
+    <string name="lovelaceui_failed_to_enable">Misslyckades med att ladda Lovelace UI. Dubbelkolla att Lovelace är installerat på servern.</string>
+
+    <string name="firebase_notifications_disabled">Firebase-notiser har inaktiverats</string>
+    <string name="firebase_notifications_disabled_failed">Mosslyckades med att inaktivera Firebase-notiser på denna enhet. Dubbelkolla att HANotify är installerad på Home Assistant</string>
+    <string name="show_all_text">Visa Alla</string>
+    <string name="show_groups_text">Visa Grupper</string>
+    <string name="setting_firebase_summary">Tillåt Home Assistant server sända push-notiser till telefonen via Firebase. För mer informationgå till https://github.com/MCrissDev/HANotify</string>
+    <string name="setting_firebase_title">Firebase-notiser</string>
+
+    <string name="setting_webui_summary">När det här valet är aktiverat kommer Web UI att bli förhandsva istället för den inbyggda Android-vyn.</string>
+    <string name="setting_webui_title">Web UI</string>
+
+    <string name="setting_autoreconnect_summary">När det här valet är aktiverat kommer Ariela att försöka återuppta to kontakten med servern var 10:e sekund om anslutningen försvinner.</string>
+    <string name="setting_autoreconnect_title">Återanslut automatiskt</string>
+
+    <string name="settings_permanent_notification_title">Permanent Notis</string>
+    <string name="settings_permanent_notification_summary">Visa en permanent notis när Ariela är ansluten till servern</string>
+
+    <string name="settings_lovelaceui_title">Lovelace UI</string>
+    <string name="settings_lovelaceui_summary">Använd Lovelace UI istället för standardvyn</string>
+    <string name="settings_debugmode_title">Debug Mode</string>
+    <string name="settings_debugmode_summary">Aktivera / Inaktivera Debug Mode</string>
+
+    <string name="settings_device_tracker_title">Platsspårning</string>
+    <string name="settings_device_tracker_summary">Aktivera / Inaktivera platsspårning för denna enhet</string>
+
+    <string name="settings_phone_name_summary">Namn på denna enhet att visa för Home Assistant-server.</string>
+    <string name="settings_phone_name_title">Enhetsnamn</string>
+    <string name="get_pro_version_text">Skaffa PRO</string>
+    <string name="choose_text_size">Välj textstorlek</string>
+    <string name="choose_text">Välj</string>
+    <string name="trigger_text">TRIGGER</string>
+    <string name="debug_mode_activated">Debug Mode aktiverat</string>
+    <string name="debug_mode_deactivated">Debug Mode inaktiverat</string>
+    <string name="debug_mode_failed">Misslycakdes med att aktivera Debug Mode</string>
+    <string name="device_tracker_failed">Misslyckdes med att aktiver platsspårning</string>
+    <string name="notifications_string">Notiser</string>
+    <string name="common_string">Vanliga</string>
+    <string name="ui_string">UI</string>
+    <string name="others_string">Andra</string>
+    <string name="away_text">Borta</string>
+    <string name="home_status_text">Hemma</string>
+
+    <string-array name="array_setting_theme">
+        <item>Förvalt</item>
+        <item>Mörk</item>
+        <item>Lila</item>
+        <item>Mörkgrön</item>
+    </string-array>
+    <string-array name="array_setting_theme_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="array_setting_tracker_position">
+        <item>1 meter</item>
+        <item>10 meter</item>
+        <item>50 meter</item>
+        <item>100 meter</item>
+        <item>300 meter</item>
+        <item>500 meter</item>
+    </string-array>
+
+    <string-array name="array_setting_tracker_position_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="array_setting_tracker_time">
+        <item>30 sekunder</item>
+        <item>1 minut</item>
+        <item>5 minuter</item>
+        <item>15 minuter</item>
+        <item>30 minuter</item>
+        <item>1 timme</item>
+    </string-array>
+
+    <string-array name="array_setting_tracker_type">
+        <item>GPS</item>
+        <item>Wi-Fi</item>
+    </string-array>
+    <string-array name="array_setting_tracker_type_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="array_setting_tracker_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="device_tracker_type_title">Platsläge</string>
+    <string name="device_tracker_type_summary">Välj metod för att informera Home Assistant om enhetens plats</string>
+
+    <string name="device_tracker_position_title">Uppdatera Position</string>
+    <string name="device_tracker_position_summary">Välj positionsändring i meter för när platsuppdateringar ska skickas</string>
+
+    <string name="device_tracker_period_title">Updateringsintervall</string>
+    <string name="device_tracker_period_summary">Välj tidsintervall för hur ofta platsinformation ska skickas</string>
+
+    <string name="web_login_text">Webbinloggning</string>
+    <string name="please_wait_text">Vänligen vänta...</string>
+    <string name="title_activity_map_viewer">Karta</string>
+
+    <string name="hours_ago_text">%d timmar sedan</string>
+    <string name="hour_ago_text">%d timme sedan</string>
+
+    <string name="minutes_ago_text">%d minuter sedan</string>
+    <string name="minute_ago_text">%d minut sedan</string>
+
+    <string name="seconds_ago_text">%d sekunder sedan</string>
+    <string name="config_validation_text">Kontrollera konfiguration</string>
+    <string name="config_valid_message_text">Kontrollera din konfiguration om du nyligen gjort ändringar och vill dubbelkolla att allt stämmer</string>
+    <string name="check_config_text">Kolla konfiguration</string>
+    <string name="config_valid_text">Konfiguration är korrekt</string>
+    <string name="config_invalid_text">Konfiguration är inte korrekt</string>
+    <string name="failed_to_check_config">Misslyckades med att kolla konfiguration. Försök igen senare</string>
+    <string name="config_reload_text">Konfiguration laddas om</string>
+    <string name="config_reload_msg_text">Vissa delar av Home Assistant kan startas om utan starta om servern. Tryck på ladda omför att starta om just den komponenten. </string>
+
+    <string name="reload_core_text">Ladda om core</string>
+    <string name="reload_groups_text">Ladda om grupper</string>
+    <string name="reload_automations_text">Ladda om automationer</string>
+    <string name="reload_scripts_text">Ladda om skript</string>
+    <string name="service_has_been_called">Tjänsten har blivit anropad</string>
+
+    <string name="settings_wifi_home_summary">När din telefon är ansluten till ett Wi-Fi-nätverk i listan kommer Home Assistant veta om att du är hemma</string>
+    <string name="settings_wifi_home_title">Hemmanätverk</string>
+    <string name="server_management_text">Serverhantering</string>
+    <string name="server_management_message_text">Kontrollera din Home Assistant-server…från Ariela.</string>
+    <string name="restart_text">Starta om</string>
+    <string name="stop_text">Stopp</string>
+    <string name="brightness_text">Ljusstyrka</string>
+    <string name="rgb_color_text">RGB-färg</string>
+    <string name="unknown_text">Okänd</string>
+    <string name="users_text">Användare</string>
+    <string name="users_config_summary">Hantera användare</string>
+    <string name="general_text">Generellt</string>
+    <string name="general_config_summary">Validera din konfigurationsfil och ta kontroll över servern</string>
+    <string name="delete_text">Ta bort</string>
+    <string name="failed_to_retrieve_users">Misslyckades med att hämta användare. Försök igen senare.</string>
+    <string name="something_went_wrong">Något gick fel</string>
+    <string name="unable_to_delete_own_account">Du kan inte ta bort ditt eget konto</string>
+    <string name="alarm_code_text">Kod</string>
+    <string name="arm_home_text">AKTIVERA HEMMA</string>
+    <string name="arm_away_text">AKTIVERA BORTA</string>
+    <string name="disarm_text">STÄNG AV</string>
+
+    <string name="theme_text">Tema</string>
+    <string name="theme_summary">Välj hur Ariela ska se ut och kännas</string>
+
+    <string name="low_text">Låg</string>
+    <string name="normal_text">Normal</string>
+    <string name="cold_text">Kall</string>
+    <string name="connected_text">Ansluten</string>
+    <string name="disconnected_text">Bortkopplad</string>
+    <string name="open_text">Öppen</string>
+    <string name="closed_text">Stängd</string>
+    <string name="gas_detected_text">Gas detekterad</string>
+    <string name="clear_text">Klar</string>
+    <string name="hot_text">Het</string>
+    <string name="light_detected_text">Ljus detekterat</string>
+    <string name="no_light_text">Inget ljus</string>
+    <string name="wet_text">Våt</string>
+    <string name="dry_text">Torr</string>
+    <string name="motion_detected_text">Rörelse detekterat</string>
+    <string name="no_motion_text">Ingel rörelse</string>
+    <string name="moving_text">Rörelse pågår</string>
+    <string name="stopped_text">Stoppad</string>
+    <string name="occupied_text">Upptagen</string>
+    <string name="plugged_in_text">Inkopplad</string>
+    <string name="unplugged_text">Ej inkopplad</string>
+    <string name="power_text">Ström</string>
+    <string name="no_power_text">Ingen ström</string>
+    <string name="problem_detected_text">Problem upptäckt</string>
+    <string name="no_problem_detected_text">Inga Problem</string>
+    <string name="unsafe_text">Osäker</string>
+    <string name="safe_text">Säker</string>
+    <string name="smoke_detected_text">Rök detekterat</string>
+    <string name="sound_detected_text">Ljud detekterat</string>
+    <string name="vibration_detected_text">Vibration detekterat</string>
+
+    <string name="mqtt_string">MQTT</string>
+    <string name="enable_mqtt_text">Aktivera MQTT Sensorer</string>
+    <string name="enable_mqtt_summary">Skicka dina enhetssensorer till Home Assistant</string>
+    <string name="mqtt_sensors_text">Sensorer</string>
+    <string name="mqtt_sensors_summary">Välj vilka sensorer du vill skicka till din MQTT-mäklare</string>
+
+    <string name="battery">Batteri</string>
+    <string name="battery_message">Skicka batteriinformation</string>
+
+    <string name="light">Ljus</string>
+    <string name="light_message">Skicka ljussensor</string>
+    <string name="step_counter">Stegräknare</string>
+    <string name="step_counter_message">Skicka stegräknare</string>
+    <string name="instructions_text">Instruktioner</string>
+
+    <string name="wi_fi_message">Skicka nätverksinformation (Wi-Fi)</string>
+
+    <string name="clear_current_config">Rensa nuvarande konfiguration</string>
+    <string name="current_external_config_cleared">Nuvarande tillgång via extern anslutning har återställts</string>
+    <string name="call_state">Samtalstillstånd</string>
+    <string name="call_state_message">Skicka information om den här enhetens samtalstilstånd (call state)</string>
+
+    <string name="copy_to_clipboard">Kopiera till minnet</string>
+    <string name="instructions_copied_to_memory">Instruktioner kopierat till minnet</string>
+
+    <string name="setup_mqtt_first">Ställ in MQTT först för att kunna använda detta</string>
+
+    <string name="discovery_topic">MQTT-prenumeration</string>
+    <string name="discovery_topic_message">Värde för automatiskt bli upptäckt av MQTT</string>
+
+    <string name="mqtt_topic">Rubrik</string>
+    <string name="mqtt_payload">Meddelande (template tillåten)</string>
+    <string name="publish_text">Publicera</string>
+    <string name="publish_a_packet_text">MQTT: Publicera ett paket</string>
+
+    <string name="time_text">Ändra tid</string>
+    <string name="date_text">Ändra datum</string>
+    <string name="add_item_text">Lägg till</string>
+    <string name="checked_items">Valda</string>
+
+    <string name="ambient_temperature">Temperatur omgivning</string>
+    <string name="ambient_temperature_message">Skicka omgivningens temperatur</string>
+
+    <string name="pressure_text">Lufttryck</string>
+    <string name="pressure_message">Skicka lufttryck</string>
+
+    <string name="user_text">Användare</string>
+    <string name="setting_keepscreenon_summary">Om detta alternativ är aktiverat kommer Ariela dashboard att hålla skärmen vaken</string>
+    <string name="setting_keepscreenon_title">Håll skärmen vaken</string>
+
+    <string name="shopping_list_text">Inköpslista</string>
+    <string name="text_to_speek">Text till tal</string>
+    <string name="send_text">Skicka</string>
+    <string name="input_source">Källa</string>
+    <string name="sound_mode">Ljudläge</string>
+
+    <string name="bluetooth_text">Blåtand</string>
+    <string name="bluetooth_mqtt_text">Skicka blåtandsinformation</string>
+
+    <string name="relative_humidity">Relativ luftfuktighet</string>
+    <string name="relative_humidity_message">SKicka relativ luftfuktighet</string>
+
+    <string name="screen_mqtt_sensor_text">Vakna / släck den här enheten från Home Assistant</string>
+    <string name="screen_text">Skärm</string>
+
+    <string name="apps_mqtt_text">Sensor med installerade appar på denna enhet</string>
+    <string name="apps_text">Appar</string>
+
+    <string name="setting_fullscreen_summary">Om detta alternativ är aktiverat kommer Ariela att visas i helskärmsläge</string>
+    <string name="setting_fullscreen_title">Helskärmsläge</string>
+    <string name="no_voice_recognition">Ingen röstigenkänning installerad</string>
+
+    <string name="states_text">Tillstånd</string>
+    <string name="effects_text">Effekter</string>
+    <string name="color_temp_text">Färgtemperatur</string>
+    <string name="title_text">Titel</string>
+    <string name="icon_text">Ikon</string>
+    <string name="url_path_text">URL</string>
+    <string name="view_configuration">Visa Konfiguration</string>
+    <string name="save_text">Spara</string>
+    <string name="settings_text">Inställningar</string>
+    <string name="badges_text">Märke</string>
+    <string name="activate_text">Aktivera</string>
+    <string name="execute_text">Exekvera</string>
+    <string name="setting_scrolllongtext_title">Skrolla Lång Text</string>
+    <string name="setting_scrolllongtext_summary">Om detta är aktiverat kommer text som är för lång för att visas i sin helhet att skrolla automatiskt istället för att bli förkortad</string>
+
+    <string name="vacuum_cleaner_commands">Dammsugarkommandon:</string>
+    <string name="notifications_empty">Inga notiser</string>
+    <string name="dismiss_text">Avfärda</string>
+    <string name="failed_to_retrieve_shopping_list">Misslyckades med att ladda inköpslistan. Dubbelkolla att komponenten är aktiverad på servern.</string>
+    <string name="entity_editor_text">Enhetsredigerare</string>
+    <string name="message_toast_failed_to_save_entity_info">Misslyckades med att spara enhet</string>
+
+    <string-array name="array_setting_cards_column">
+        <item>Auto</item>
+        <item>1 kolumn</item>
+        <item>2 kolumner</item>
+        <item>3 kolumner</item>
+        <item>4 kolumner</item>
+    </string-array>
+
+    <string-array name="array_setting_cards_column_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="number_of_columns_cards">Kortkolumner</string>
+    <string name="number_of_columns_cards_info">Välj hur många kolumner som korten ska visas på.</string>
+
+    <string name="debug_enabled_message">Debug mode har aktiverats. Starta om appen och försöker återskapa buggen du hittade. Efter det, för att kunna skicka en loggfil till oss, använd kontaktfunktionen inuti Ariela och välj din e-post-app. Loggfilen kommer att bifogas automatiskt. Om det inte sker finns det en fil på din telefon so heter  \'ariela_logfile.log\'. Bifoga den i ett mejl till: \'micro.criss.dev@gmail.com\'.</string>
+    <string name="picture_text">Bild</string>
+
+    <string name="create_notification">Skapa notis</string>
+    <string name="message_text">Meddelande</string>
+    <string name="create_text">Skapa</string>
+
+    <string name="service_text">Tjänst</string>
+    <string name="services_text">Tjänster</string>
+    <string name="services_summary_text">Tjänsten utvecklarverktyg låter dig kalla på valfri tjänst tillgänglig i Home Assistant.</string>
+    <string name="service_data_text">Tjänstdata (JSON, valfri)</string>
+    <string name="call_service_text">Kör tjänst</string>
+
+    <string name="intro_text">Introduktion</string>
+    <string name="previous_text">Föregående</string>
+    <string name="next_text">Nästa</string>
+    <string name="enter_local_network_info_message">Vänligen fyll i uppgifter om ditt hemmanätverk (WiFi)</string>
+
+    <string name="enter_wifi_home_name">Fyll i namnet på ditt hemma-WiFi. När Ariela är ansluten till detta nätvker kommer den använda den lokala adressen till Home Assistant. Det här nätkverket kommer också att användas för att informera Home Assistant att du är hemmma när Ariela är ansluten till detta nätverk.</string>
+    <string name="wifi_name_hint">WiFi-namn</string>
+
+    <string name="please_enter_wifi_name">Ange ett giltigt WiFi-namn.</string>
+    <string name="local_ip_address">Home Assistant IP-adress</string>
+    <string name="local_ip_address_msg">Ange IP-adress till Home Assistant IP. Om det inte är tillgängligt för tillfället kan du ange din externa adress istället om du ställt in så att du kan ansluta utifrån.</string>
+    <string name="check_connection_text">Testa anslutning</string>
+    <string name="external_ip_address_msg">Ange extern adress till Home Assistant. Om du inte tillåter externa anslutningar till din server kan du bara trycka på \"Hoppa över\" för att fortsätta</string>
+    <string name="credentials_message">Ange namn och lösenord. Om du använderHome Assistant 0.78 eller tidigare kan du lämna fälten tomma och sedan logga in via API_PASSWORD. Om du har problem med inloggning eller använder 2FA använd webbinloggningen istället.</string>
+    <string name="home_wifi_network_choose">WiFi-nätverksväljare</string>
+
+    <string name="nfc_text">NFC</string>
+    <string name="nfc_summary_text">Läs och skicka NFC-taggar till Home Assistant</string>
+
+    <string name="mqtt_client">MQTT Client</string>
+    <string name="mqtt_client_summary">Välj förvald MQTT-klient</string>
+
+    <string-array name="array_setting_mqtt_client">
+        <item>HomeAssistant</item>
+        <item>Inbyggd</item>
+    </string-array>
+    <string-array name="array_setting_mqtt_client_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string name="configure_build_in_mqtt_title">Konfigurera inbyggd MQTT-klient</string>
+    <string name="configure_build_in_mqtt_title_summary">Dessa inställningar låter dig konfigurera den inbyggda MQTT-klienten</string>
+    <string name="mqtt_setup_title">MQTT Inställningar</string>
+
+    <string name="local_mqtt_address">Lokal MQTT-adress och port</string>
+    <string name="external_mqtt_address">Extern MQTT-adress och Port</string>
+    <string name="mqtt_connection_succeeded">MQTT-anslutning lyckades</string>
+    <string name="mqtt_connection_failed">MQTT-anslutning misslyckades. Dubbelkolla inställningarna och försök igen.</string>
+    <string name="mqtt_connection_external_failed">MQTT-anslutning till externt IP misslyckades. Dubbelkolla inställningarna och försök igen.</string>
+
+    <string name="mqtt_setup_address_message">   Ange IP-adressen och port till MQTT-mäklaren.\n   Om du inte har tillgång till ditt lokala nätverk kan du ange den externa adressen för den lokala anslutningen.\n   Om du inte vill koppla upp dig mot MQTT när du inte är hemma lämna externt IP blankt.\n   Om du använder SSL behöver du ange \"ssl://\" istället för \"tcp://\" innan IP-adressen.</string>
+    <string name="back_camera">Bakkamera</string>
+    <string name="back_camera_summary">Skicka bilder från bakkamera</string>
+
+    <string name="front_camera">Frontkamera</string>
+    <string name="front_camera_summary">Skicka bild från frontkameran</string>
+    <string name="enable_camera_permission">Tillåt appen att hantera kameran för att använda denna funktion.</string>
+
+    <string name="common_text">Vanlig</string>
+    <string name="wear_credentials_force">Tvinga Android Wear användaruppgifter</string>
+    <string name="wear_credentials_force_summary">Tvinga Android Wear användaruppgifter att skickas till enheten</string>
+    <string name="wear_successfully_sync">Användaruppgifter har synkroniserats.</string>
+    <string name="wear_failed_sync">Misslyckades med att synkronisera Wear användaruppgifter.</string>
+
+    <string name="tts_text">Text till tal</string>
+    <string name="tts_mqtt_summary">Aktivera detta för att låta din telefon omvandla text till tal´</string>
+
+    <string name="server_connection_text">Server connection</string>
+    <string name="server_setting_read_timeout_title">Read timeout</string>
+    <string name="server_setting_read_timeout_summary">Choose timeout value when reading data from the socket.</string>
+
+    <string name="server_setting_connect_timeout_title">Connect timeout</string>
+    <string name="server_setting_connect_timeout_summary">Choose timeout value when trying to connect to socket.</string>
+
+    <string name="alarm_text">Alarm</string>
+    <string name="alarm_summary">Send this device time when the next alarm will be triggered</string>
+</resources>
