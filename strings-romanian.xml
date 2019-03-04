@@ -498,4 +498,14 @@
 
     <string name="tts_text">Text to Speech</string>
     <string name="tts_mqtt_summary">Enable this to have your phone convert text to speech</string>
+
+    <string name="server_connection_text">Server connection</string>
+    <string name="server_setting_read_timeout_title">Read timeout</string>
+    <string name="server_setting_read_timeout_summary">Choose timeout value when reading data from the socket.</string>
+
+    <string name="server_setting_connect_timeout_title">Connect timeout</string>
+    <string name="server_setting_connect_timeout_summary">Choose timeout value when trying to connect to socket.</string>
+
+    <string name="alarm_text">Alarm</string>
+    <string name="alarm_summary">Send this device time when the next alarm will be triggered</string>
 </resources>
