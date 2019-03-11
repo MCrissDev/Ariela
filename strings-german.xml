@@ -414,7 +414,7 @@
     <string name="nfc_text">NFC</string>
     <string name="nfc_summary_text">Lese NFC und sende erkannte Tags an Home Assistant</string>
 
-    <string name="mqtt_client">MQTT Client</string>
+    <string name="mqtt_client">MQTT-Client</string>
     <string name="mqtt_client_summary">Wähle den standard MQTT client</string>
 
     <string-array name="array_setting_mqtt_client">
@@ -444,43 +444,42 @@
     <string name="front_camera_summary">Sende Bilder von der vorderen Kamera</string>
     <string name="enable_camera_permission">Bitte aktiviere die Zugriffsberechtigung auf die Kamera, um diese Funktion nutzen zu können.</string>
 
-    <string name="common_text">Common</string>
-    <string name="wear_credentials_force">Force Android Wear credentials</string>
-    <string name="wear_credentials_force_summary">Force Android Wear credentials to be send to the device</string>
-    <string name="wear_successfully_sync">Credentials had been synced.</string>
-    <string name="wear_failed_sync">Failed to sync wear credentials.</string>
+    <string name="common_text">Allgemein</string>
+    <string name="wear_credentials_force">Android Wear-Anmeldedaten erzwingen</string>
+    <string name="wear_credentials_force_summary">Erzwinge die Nutzung Android Wear-Anmeldedaten mit dem Gerät</string>
+    <string name="wear_successfully_sync">Anmeldedaten wurden synchronsiert.</string>
+    <string name="wear_failed_sync">Android Wear-Anmeldendaten konnten nicht synchronisiert werden.</string>
 
-    <string name="tts_text">Text to Speech</string>
-    <string name="tts_mqtt_summary">Enable this to have your phone convert text to speech</string>
+    <string name="tts_text">Text zu Sprache (TTS)</string>
+    <string name="tts_mqtt_summary">Aktivieren, um das Telefon Texte vorlesen zu lassen.</string>
 
-    <string name="server_connection_text">Server connection</string>
-    <string name="server_setting_read_timeout_title">Read timeout</string>
-    <string name="server_setting_read_timeout_summary">Choose timeout value when reading data from the socket.</string>
+    <string name="server_connection_text">Server-Verbindung</string>
+    <string name="server_setting_read_timeout_title">Zeitüberschreitung beim Lesen</string>
+    <string name="server_setting_read_timeout_summary">Maximale Zeitspanne für den Datentransfer von Home Assitant</string>
 
-    <string name="server_setting_connect_timeout_title">Connect timeout</string>
-    <string name="server_setting_connect_timeout_summary">Choose timeout value when trying to connect to socket.</string>
+    <string name="server_setting_connect_timeout_title">Zeitüberschreitung beim Verbinden</string>
+    <string name="server_setting_connect_timeout_summary">Maximale Zeitspanne für den Verbindungsaufbau zu Home Assistant</string>
 
     <string name="alarm_text">Alarm</string>
-    <string name="alarm_summary">Send this device time when the next alarm will be triggered</string>
+    <string name="alarm_summary">Sende die Gerätezeit bei der nächsten Alarmauslösung.</string>
+    <string name="start_app_boot">Beim Gerätestart laden</string>
+    <string name="start_app_boot_summary">Ariela wird automatisch beim Gerätestart geladen.</string>
 
-    <string name="start_app_boot">Start at boot</string>
-    <string name="start_app_boot_summary">Automatic start Ariela when the device start-up.</string>
+    <string name="ariela_available_mqtt_sensor">Ariela-Verfügbarkeit</string>
+    <string name="ariela_available_mqtt_sensor_summary">Aktivieren um zu sehen, wann Ariela zuletzt mit Home Assistant kommunzierte.</string>
 
-    <string name="ariela_available_mqtt_sensor">Ariela Availability</string>
-    <string name="ariela_available_mqtt_sensor_summary">Enable this to see time when Ariela last communicated with Home Assistant</string>
+    <string name="notification_entities_empty">Entitäten hinzufügen, um sie in Benachrichtigungen anzeigen zu lassen.</string>
+    <string name="notification_entities_title">Benachrichtungs-Entitäten</string>
+    <string name="notification_entities_summary">Wähle, welche Entitäten in Benachrichtungen angezeigt werden sollen</string>
+    <string name="notification_entities_max_reached">Maximale Anzahl an Entitäten zum Anzeigen erreicht. Lösche eine Entität und versuche es erneut.</string>
+    <string name="choose_entity_text">Wähle Entität</string>
 
-    <string name="notification_entities_empty">Add some entities in order to appear in notification.</string>
-    <string name="notification_entities_title">Notification Entities</string>
-    <string name="notification_entities_summary">Choose entities that should appear in notification</string>
-    <string name="notification_entities_max_reached">Maximum entities to display reached. Delete an existing entity and try again.</string>
-    <string name="choose_entity_text">Choose Entity</string>
+    <string name="internal_ip">Interne IP</string>
+    <string name="internal_ip_summary">Verwende diese Option, um die lokale IP anzugeben, auf der HA erreicht werden kann.</string>
 
-    <string name="internal_ip">Internal IP</string>
-    <string name="internal_ip_summary">Use this option to modify the local IP where the HA instance can be found</string>
+    <string name="external_ip">Externe IP</string>
+    <string name="external_ip_summary">Verwende diese Option, um die externe IP anzugeben, auf der HA erreicht werden kann.</string>
 
-    <string name="external_ip">External IP</string>
-    <string name="external_ip_summary">Use this option to modify the external IP where the HA instance can be found</string>
-
-    <string name="force_vertical_stack">Force vertical behaviour</string>
-    <string name="force_vertical_summary">When this option is enabled, Horizontal Stack cards will behave like vertical ones</string>
+    <string name="force_vertical_stack">Erzwinge vertikales Verhalten</string>
+    <string name="force_vertical_summary">Wenn diese Option aktiviert ist, werden \"horizontal Stack cards\" wie \"vertical Stack cards\" behandelt.</string>
 </resources>
