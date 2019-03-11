@@ -402,4 +402,25 @@
 
     <string name="alarm_text">Alarm</string>
     <string name="alarm_summary">Send this device time when the next alarm will be triggered</string>
+
+    <string name="start_app_boot">Start at boot</string>
+    <string name="start_app_boot_summary">Automatic start Ariela when the device start-up.</string>
+
+    <string name="ariela_available_mqtt_sensor">Ariela Availability</string>
+    <string name="ariela_available_mqtt_sensor_summary">Enable this to see time when Ariela last communicated with Home Assistant</string>
+
+    <string name="notification_entities_empty">Add some entities in order to appear in notification.</string>
+    <string name="notification_entities_title">Notification Entities</string>
+    <string name="notification_entities_summary">Choose entities that should appear in notification</string>
+    <string name="notification_entities_max_reached">Maximum entities to display reached. Delete an existing entity and try again.</string>
+    <string name="choose_entity_text">Choose Entity</string>
+
+    <string name="internal_ip">Internal IP</string>
+    <string name="internal_ip_summary">Use this option to modify the local IP where the HA instance can be found</string>
+
+    <string name="external_ip">External IP</string>
+    <string name="external_ip_summary">Use this option to modify the external IP where the HA instance can be found</string>
+
+    <string name="force_vertical_stack">Force vertical behaviour</string>
+    <string name="force_vertical_summary">When this option is enabled, Horizontal Stack cards will behave like vertical ones</string>
 </resources>
