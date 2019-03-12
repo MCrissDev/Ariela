@@ -1,0 +1,492 @@
+<resources>
+    <string name="click_next_for_setup">Нажмите далее для начала настройки</string>
+    <string name="try_again_text">Попробуйте снова</string>
+    <string name="continue_text">Продолжить</string>
+    <string name="connecting_please_wait">Соединение. Пожалуйста подождите…</string>
+    <string name="connection_server_failed">Ошибка подключения к серверу</string>
+    <string name="connection_server_failed_message">Ошибка соединения с сервером Home Assistant. Проверьте URL / IP и попробуйте снова.</string>
+    <string name="ok_text">ОК</string>
+    <string name="connection_success_text">Соединение установлено</string>
+    <string name="connection_success_text_message">Подключение к серверу Home Assistant установлено. Для продолжения нажмите клавишу "Продолжить".</string>
+    <string name="enter_assistant_password">Введите учетные данные для Home Assistant</string>
+    <string name="password_text">Пароль</string>
+    <string name="incorrect_password_message_text">Ошибка авторизации. Проверьте учетные данные и попробуйте снова.</string>
+    <string name="setup_complete_text">Настройка завершена</string>
+    <string name="setup_complete_message_text">Настройка сервера Home Assistant успешно завершена. Вы можете использовать приложение для управления Home Assistant.</string>
+    <string name="configure_text">Настроить</string>
+    <string name="connection_server_failed_splash">Ошибка соединения с сервером Home Assistant. Вы можете повторить повторить попытку либо настроить сервер заново. Что вы хотите?</string>
+    <string name="server_not_configured_text">Сервер не сконфигурирован</string>
+    <string name="server_not_configured_message_text">Сервер Home Assistant еще не сконфигурирован. Вы хотите сделать это?</string>
+    <string name="title_activity_dashboard">Панель управления</string>
+    <string name="navigation_drawer_open">Открыть навигационную панель</string>
+    <string name="navigation_drawer_close">Закрыть навигационную панель</string>
+    <string name="action_settings">Настройки</string>
+    <string name="location_enable_text">Включить местоположение</string>
+    <string name="wifi_enable_text">Включить Wi-fi</string>
+    <string name="wifi_state_connected">СОЕДИНЕНО</string>
+    <string name="wifi_state_connecting">СОЕДИНЕНИЕ</string>
+    <string name="wifi_state_disconnected">ОТКЛЮЧЕНО</string>
+    <string name="wifi_state_disconnecting">ОТКЛЮЧЕНИЕ</string>
+    <string name="wifi_choose_message">Выберите свою домашнюю сеть Wi-Fi в которой запущен сервер Home Assistant. Это будет использоваться в будущем для определения подключения к домашней сети. Проведите пальцем вниз для обновления списка Wi-Fi сетей если вы не видите свою сеть.</string>
+    <string name="searching_wifi_networks">Поиск Wi-Fi сетей…</string>
+    <string name="home_text">ДОМ</string>
+
+    <string name="button_scene_activate">Активировать</string>
+    <string name="climate_current_temperature">Текущая: %1$.1f %2$s</string>
+    <string name="media_player_stop_toast">Остановка воспроизведения…</string>
+
+    <string name="location_permission_required">Для определения местоположения необходимы дополнительные разрешения. Вы ходите включить их?</string>
+    <string name="yes_text">Да</string>
+    <string name="no_text">Нет</string>
+    <string name="skip_text">Пропустить</string>
+    <string name="connect_text">Соединить</string>
+    <string name="server_connection_lost_message">Соединения с сервером Home Assistant было потеряно. Пожалуйста проверьте ваше соединения с сетью и повторите попытку снова.</string>
+    <string name="contact_text">Контакты</string>
+    <string name="about_text">О программе</string>
+    <string name="open_web_ui_text">Открыть Web-UI</string>
+    <string name="logbook_text">Журнал событий</string>
+    <string name="configure_external_text">Настроить внешний</string>
+    <string name="rate_app_text">Оценить приложение</string>
+    <string name="enter_external_ip">Введите внешний IP / URL адрес для Home Assistant и порт</string>
+    <string name="ip_url_text">IP / URL и порт</string>
+    <string name="external_access_text">Внешний доступ</string>
+    <string name="external_access_message">Для продолжения настройки внешнего доступа к серверу Home Assistant пожалуйста отключитесь от домашней сети Wi-Fi(например используйте: 3G / 4G / и другие сети). Обратите внимание, что для работы сервер Home Assistant должен быть доступен из внешних сетей, проверьте настройки своего роутера либо сначала узнайте, как это сделать.</string>
+    <string name="cancel_text">Отмена</string>
+    <string name="off_text">Выкл</string>
+    <string name="idle_text">Ожидание</string>
+    <string name="media_players_text">Медиа проигрыватели</string>
+    <string name="server_not_running_text">Ошибка подключения к серверу Home Assistant</string>
+    <string name="air_pressure_text">Давление: </string>
+    <string name="humidity_text">Влажность: </string>
+    <string name="wind_speed_text">Скорость ветра: </string>
+    <string name="choose_sensor_text">Выбрать элемент</string>
+    <string name="no_sensors_messages">Не удалось добавить сенсор потому что мы не смогли найти настроенных сенсоров.</string>
+    <string name="remove_ads">Убрать рекламу</string>
+    <string name="no_zone_message">Не удалось найти настройки "зоны" в конфигурации сервера Home Assistant. Проверьте свою конфигурацию.</string>
+    <string name="ads_disabled_message">Спасибо! Рекламный баннер был удален.</string>
+    <string name="video_ad_failed_load">Ошибка загрузки видео баннера. Попробуйте позже.</string>
+    <string name="remove_ads_text_info">Для удаление рекламного баннера необходимо просмотреть видеоролик. Вы хотите продолжить?</string>
+    <string name="exit_text">Выход</string>
+    <string name="map_text">Карта</string>
+    <string name="server_config_text">Настройки сервера</string>
+    <string name="logout_text">Выйти</string>
+    <string name="locked_text">Заблокировать</string>
+    <string name="unlocked_text">Разблокировать</string>
+    <string name="target_temperature">Требуемая температура</string>
+    <string name="operation_text">Операции</string>
+    <string name="away_mode_string">Вне дома</string>
+    <string name="default_notification_channel_id">Текущие уведомления</string>
+    <string name="firebase_notifications_enabled">Firebase уведомления были включены</string>
+    <string name="firebase_notifications_failed">Ошибка включения Firebase уведомлений для этого устройства. Пожалуйста проверьте что компонент HANotify установлен на сервере Home Assistant</string>
+    <string name="lovelaceui_failed_to_enable">Ошибка включения Lovelace UI. Пожалуйста проверьте установлен ли компонент Lovelace на сервере.</string>
+
+    <string name="firebase_notifications_disabled">Firebase уведомления были отключены</string>
+    <string name="firebase_notifications_disabled_failed">Ошибка отключения Firebase уведомлений для этого устройства. Пожалуйста проверьте что компонент HANotify установлен на сервере Home Assistant</string>
+    <string name="show_all_text">Показать всё</string>
+    <string name="show_groups_text">Показать группы</string>
+    <string name="setting_firebase_summary">Разрешить серверу Home Assistant отправлять уведомления на ваш телефон через Firebase. Для подробной информации посетите адрес https://github.com/MCrissDev/HANotify</string>
+    <string name="setting_firebase_title">Firebase уведомления</string>
+
+    <string name="setting_webui_summary">Когда эта опция включена, Web UI будет использоваться вместо обычного представления Android.</string>
+    <string name="setting_webui_title">Web UI</string>
+
+    <string name="setting_autoreconnect_summary">Когда эта опция включена, Ariela будет пытаться восстановить соединение каждые 10 секунд в случаи его потери.</string>
+    <string name="setting_autoreconnect_title">Автоматическое пере подключение</string>
+
+    <string name="settings_permanent_notification_title">Постоянные уведомления</string>
+    <string name="settings_permanent_notification_summary">Показывать постоянные уведомления когда Ariela подключена к серверу</string>
+
+    <string name="settings_lovelaceui_title">Lovelace UI</string>
+    <string name="settings_lovelaceui_summary">Использовать интерфейс Lovelace UI по умолчанию</string>
+    <string name="settings_debugmode_title">Режим отладки</string>
+    <string name="settings_debugmode_summary">Включить / Выключить режим отладки</string>
+
+    <string name="settings_device_tracker_title">Отслеживание устройства</string>
+    <string name="settings_device_tracker_summary">Включить / Выключить отслеживание для этого устройства</string>
+
+    <string name="settings_phone_name_summary">Значения используемые в сервере Home Assistant для идентификации этого устройства.</string>
+    <string name="settings_phone_name_title">Имя устройства</string>
+    <string name="get_pro_version_text">Получить версию PRO</string>
+    <string name="choose_text_size">Выберите размер текста</string>
+    <string name="choose_text">Выбрать</string>
+    <string name="trigger_text">ПЕРЕКЛЮЧАТЕЛЬ</string>
+    <string name="debug_mode_activated">Режим отладки включен</string>
+    <string name="debug_mode_deactivated">Режим отладки выключен</string>
+    <string name="debug_mode_failed">Ошибка при включении режима отладки</string>
+    <string name="device_tracker_failed">Ошибка при включении отслеживания устройства</string>
+    <string name="notifications_string">Уведомления</string>
+    <string name="common_string">Общие</string>
+    <string name="ui_string">UI</string>
+    <string name="others_string">Другое</string>
+    <string name="away_text">Вне дома</string>
+    <string name="home_status_text">Дома</string>
+
+    <string-array name="array_setting_theme">
+        <item>По умолчанию</item>
+        <item>Темная</item>
+        <item>Пурпурная</item>
+        <item>Темно-Зеленая</item>
+    </string-array>
+    <string-array name="array_setting_theme_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="array_setting_tracker_position">
+        <item>1 метр</item>
+        <item>10 метров</item>
+        <item>50 метров</item>
+        <item>100 метров</item>
+        <item>300 метров</item>
+        <item>500 метров</item>
+    </string-array>
+
+    <string-array name="array_setting_tracker_position_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="array_setting_tracker_time">
+        <item>30 секунд</item>
+        <item>1 минута</item>
+        <item>5 минут</item>
+        <item>15 минут</item>
+        <item>30 минут</item>
+        <item>1 час</item>
+    </string-array>
+
+    <string-array name="array_setting_tracker_type">
+        <item>GPS</item>
+        <item>Wi-Fi</item>
+    </string-array>
+    <string-array name="array_setting_tracker_type_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="array_setting_tracker_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="device_tracker_type_title">Режим отслеживания</string>
+    <string name="device_tracker_type_summary">Выберите режим отслеживания, который будет использоваться для информирования Home Assistant о местонахождении этого устройства</string>
+
+    <string name="device_tracker_position_title">Обновление местоположения</string>
+    <string name="device_tracker_position_summary">Выберите изменения местоположения в метрах, через которые будут отправляться обновленные данные о местоположении.</string>
+
+    <string name="device_tracker_period_title">Интервал обновления</string>
+    <string name="device_tracker_period_summary">Выберите интервал времени через который будут отправляться обновленные данные о местоположении.</string>
+
+    <string name="web_login_text">Web-Логин</string>
+    <string name="please_wait_text">Пожалуйста подождите...</string>
+    <string name="title_activity_map_viewer">Карта</string>
+
+    <string name="hours_ago_text">%d часов назад</string>
+    <string name="hour_ago_text">%d час назад</string>
+
+    <string name="minutes_ago_text">%d минут назад</string>
+    <string name="minute_ago_text">%d минута назад</string>
+
+    <string name="seconds_ago_text">%d секунд назад</string>
+    <string name="config_validation_text">Проверка конфигурации</string>
+    <string name="config_valid_message_text">Проверьте свою конфигурацию если вы недавно вносили изменения и хотите убедиться, что она не содержит ошибок</string>
+    <string name="check_config_text">Проверить конфигурацию</string>
+    <string name="config_valid_text">Конфигурация верна</string>
+    <string name="config_invalid_text">Не верная конфигурация</string>
+    <string name="failed_to_check_config">Ошибка проверка конфигурации. Пожалуйста попробуйте еще раз.</string>
+    <string name="config_reload_text">Перезагрузить конфигурацию</string>
+    <string name="config_reload_msg_text">Некоторые части Home Assistant могут быть перезагружены без необходимости перезагрузки. Hitting reload will unload their current configuration and load the new one. </string>
+
+    <string name="reload_core_text">Перезагрузить ядро</string>
+    <string name="reload_groups_text">Перезагрузить группы</string>
+    <string name="reload_automations_text">Перезагрузить автоматизации</string>
+    <string name="reload_scripts_text">Перезагрузить скрипты</string>
+    <string name="service_has_been_called">Сервис был вызван</string>
+
+    <string name="settings_wifi_home_summary">Когда ваш телефон подключен к сети Wi-Fi из этого списка, он автоматически сообщит Home Assistant, что вы дома.</string>
+    <string name="settings_wifi_home_title">Домашняя Wi-Fi сеть</string>
+    <string name="server_management_text">Управление сервером</string>
+    <string name="server_management_message_text">Управляйте своим сервером Home Assistant… из Ariela.</string>
+    <string name="restart_text">Перезагрузить</string>
+    <string name="stop_text">Стоп</string>
+    <string name="brightness_text">Яркость</string>
+    <string name="rgb_color_text">RGB Цвет</string>
+    <string name="unknown_text">Неизвестно</string>
+    <string name="users_text">Пользователи</string>
+    <string name="users_config_summary">Управление пользователями</string>
+    <string name="general_text">Главные</string>
+    <string name="general_config_summary">Проверяйте свою конфигурацию и управляйте сервером</string>
+    <string name="delete_text">Удалить</string>
+    <string name="failed_to_retrieve_users">Ошибка получения пользователей. Пожалуйста попытайтесь позже.</string>
+    <string name="something_went_wrong">Что-то пошло не так</string>
+    <string name="unable_to_delete_own_account">Невозможно удалить свой аккаунт</string>
+    <string name="alarm_code_text">Код</string>
+    <string name="arm_home_text">Сигнализация режим "Дома"</string>
+    <string name="arm_away_text">Сигнализация режим "Вне дома"</string>
+    <string name="disarm_text">Сигнализация отключена</string>
+
+    <string name="theme_text">Тема</string>
+    <string name="theme_summary">Выбрать внешний вид Ariela</string>
+
+    <string name="low_text">Низко</string>
+    <string name="normal_text">Обычно</string>
+    <string name="cold_text">Холодно</string>
+    <string name="connected_text">Подключено</string>
+    <string name="disconnected_text">Отключено</string>
+    <string name="open_text">Открыть</string>
+    <string name="closed_text">Закрыть</string>
+    <string name="gas_detected_text">Обнаружен Газ</string>
+    <string name="clear_text">Чисто</string>
+    <string name="hot_text">Горячо</string>
+    <string name="light_detected_text">Обнаружен свет</string>
+    <string name="no_light_text">Нет света</string>
+    <string name="wet_text">Мокро</string>
+    <string name="dry_text">Сухо</string>
+    <string name="motion_detected_text">Обнаружено движение</string>
+    <string name="no_motion_text">Нет движения</string>
+    <string name="moving_text">Движение</string>
+    <string name="stopped_text">Остановлен</string>
+    <string name="occupied_text">Занято</string>
+    <string name="plugged_in_text">Подключено</string>
+    <string name="unplugged_text">Отключено</string>
+    <string name="power_text">Питание</string>
+    <string name="no_power_text">Нет питания</string>
+    <string name="problem_detected_text">Обнаружена проблема</string>
+    <string name="no_problem_detected_text">Проблем не обнаружено</string>
+    <string name="unsafe_text">Не сохранять</string>
+    <string name="safe_text">Сохранить</string>
+    <string name="smoke_detected_text">Обнаружен дым</string>
+    <string name="sound_detected_text">Обнаружен шум</string>
+    <string name="vibration_detected_text">Обнаружена вибрация</string>
+
+    <string name="mqtt_string">MQTT</string>
+    <string name="enable_mqtt_text">Включить датчики MQTT</string>
+    <string name="enable_mqtt_summary">Отправить информацию о вашем оборудовании в Home Assistant</string>
+    <string name="mqtt_sensors_text">Датчики</string>
+    <string name="mqtt_sensors_summary">Выберите датчики информацию о которых вы ходите отправлять брокеру</string>
+
+    <string name="battery">Батарея</string>
+    <string name="battery_message">Отправить информацию о статусе батарее этого устройства</string>
+
+    <string name="light">Освещение</string>
+    <string name="light_message">Отправить информацию с датчика света этого устройства</string>
+    <string name="step_counter">Счетчик шагов</string>
+    <string name="step_counter_message">Отправить информацию с датчика шагов этого устройства</string>
+    <string name="instructions_text">Инструкции</string>
+
+    <string name="wi_fi_message">Отправить информацию Wi-Fi этого устройства</string>
+
+    <string name="clear_current_config">Сбросить текущую конфигурацию</string>
+    <string name="current_external_config_cleared">Текущая настройка внешнего доступа была сброшена</string>
+    <string name="call_state">Вызов состояния</string>
+    <string name="call_state_message">Отправить состояние этого устройства</string>
+
+    <string name="copy_to_clipboard">Копировать в память</string>
+    <string name="instructions_copied_to_memory">Инструкции скопированы в буфер обмена</string>
+
+    <string name="setup_mqtt_first">Сначала настройте MQTT перед использованием этих опций</string>
+
+    <string name="discovery_topic">Обнаружение топиков</string>
+    <string name="discovery_topic_message">Значения, используемые для автоматического обнаружения MQTT</string>
+
+    <string name="mqtt_topic">Топик</string>
+    <string name="mqtt_payload">Полезная нагрузка (Возможен шаблон)</string>
+    <string name="publish_text">Опубликовать</string>
+    <string name="publish_a_packet_text">MQTT: Опубликовать пакет</string>
+
+    <string name="time_text">Изменить время</string>
+    <string name="date_text">Изменить дату</string>
+    <string name="add_item_text">Добавить объект</string>
+    <string name="checked_items">Проверить объект</string>
+
+    <string name="ambient_temperature">Окружающая температура</string>
+    <string name="ambient_temperature_message">Отправить информацию с датчика окружающей температуры этого устройства</string>
+
+    <string name="pressure_text">Давление</string>
+    <string name="pressure_message">Отправить информация с датчика давления этого устройства</string>
+
+    <string name="user_text">Пользователь</string>
+    <string name="setting_keepscreenon_summary">Если эта опция включена, то во время видимости панель интсрументов Ariela, экран не будет выключаться</string>
+    <string name="setting_keepscreenon_title">Оставить экран включенным</string>
+
+    <string name="shopping_list_text">Список покупок</string>
+    <string name="text_to_speek">Текст в Речь</string>
+    <string name="send_text">Отправить</string>
+    <string name="input_source">Входящий источник</string>
+    <string name="sound_mode">Режим звука</string>
+
+    <string name="bluetooth_text">Bluetooth</string>
+    <string name="bluetooth_mqtt_text">Отправить информацию Bluetooth этого устройства</string>
+
+    <string name="relative_humidity">Относительная влажность</string>
+    <string name="relative_humidity_message">Отправить информация с датчика относительной влажности этого устройства</string>
+
+    <string name="screen_mqtt_sensor_text">Пробудить / Отправить в сон это устройство из Home Assistant</string>
+    <string name="screen_text">Экран</string>
+
+    <string name="apps_mqtt_text">Датчик, содержащий установленные приложения на этом устройстве</string>
+    <string name="apps_text">Приложения</string>
+
+    <string name="setting_fullscreen_summary">Если эта опция включена, то Ariela будет работать в полноэкранном режиме</string>
+    <string name="setting_fullscreen_title">Полноэкранный режим</string>
+    <string name="no_voice_recognition">Системы распознавания голоса не установлены</string>
+
+    <string name="states_text">Состояние</string>
+    <string name="effects_text">Результаты</string>
+    <string name="color_temp_text">Цветовая температура</string>
+    <string name="title_text">Заголовок</string>
+    <string name="icon_text">Изображение</string>
+    <string name="url_path_text">URL путь</string>
+    <string name="view_configuration">Просмотр конфигурации</string>
+    <string name="save_text">Сохранить</string>
+    <string name="settings_text">Настройки</string>
+    <string name="badges_text">Значок</string>
+    <string name="activate_text">Активировать</string>
+    <string name="execute_text">Выполнить</string>
+    <string name="setting_scrolllongtext_title">Прокрутка длинного текста</string>
+    <string name="setting_scrolllongtext_summary">Если эта опция включена, то слишком длинный текст будет прокручен иначе обрезан</string>
+
+    <string name="vacuum_cleaner_commands">Команды робота-пылесоса:</string>
+    <string name="notifications_empty">Нет уведомлений</string>
+    <string name="dismiss_text">Отклонить</string>
+    <string name="failed_to_retrieve_shopping_list">Ошибка получения списка. Пожалуйста проверьте, включен ли компонент на сервере.</string>
+    <string name="entity_editor_text">Редактор объектов</string>
+    <string name="message_toast_failed_to_save_entity_info">Ошибка сохранения информации об объекте</string>
+
+    <string-array name="array_setting_cards_column">
+        <item>Авто</item>
+        <item>1 столбец</item>
+        <item>2 столбца</item>
+        <item>3 столбца</item>
+        <item>4 столбца</item>
+    </string-array>
+
+    <string-array name="array_setting_cards_column_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="number_of_columns_cards">Столбцы карточек</string>
+    <string name="number_of_columns_cards_info">Выберите, на сколько столбцов будут отображаться карточки</string>
+
+    <string name="debug_enabled_message">Режим отладки был включен. Пожалуйста, перезапустите приложение и воспроизведите обнаруженную проблему. После этого, для отправки логов, используйте функцию контакта от Ariela и выберите приложение электронной почты. Журналы должны быть добавлены автоматически. Если этого не произойдет, на вашем телефоне вы найдете файл с именем \'ariela_logfile.log \'. Пожалуйста, пришлите мне этот файл на адрес электронной почты: micro.criss.dev@gmail.com</string>
+    <string name="picture_text">Изображение</string>
+
+    <string name="create_notification">Создать уведомление</string>
+    <string name="message_text">Сообщение</string>
+    <string name="create_text">Создать</string>
+
+    <string name="service_text">Обслуживание</string>
+    <string name="services_text">Сервисы</string>
+    <string name="services_summary_text">Сервисный инструмент позволяет вам вызывать любой доступный сервис в Home Assistant.</string>
+    <string name="service_data_text">Данные сервиса (JSON, optional)</string>
+    <string name="call_service_text">Вызов сервиса</string>
+
+    <string name="intro_text">Введение</string>
+    <string name="previous_text">Предыдущий</string>
+    <string name="next_text">Следующий</string>
+    <string name="enter_local_network_info_message">Пожалуйста введите информацию о вашей домашней сети Wi-Fi</string>
+
+    <string name="enter_wifi_home_name">Пожалуйста введите название вашей домашней Wi-Fi сети. Когда Ariela будет подключена к этой сети, она будет использовать локальный IP-адрес Home Assistant, который вы зададите. Кроме того, это имя сети можно использовать позже, чтобы сообщить Home Assistant, что вы находитесь дома, когда Ariela будет подключена к этой сети.</string>
+    <string name="wifi_name_hint">Имя Wi-Fi сети</string>
+
+    <string name="please_enter_wifi_name">Пожалуйста введите имя Wi-Fi сети.</string>
+    <string name="local_ip_address">Home Assistant IP адрес</string>
+    <string name="local_ip_address_msg">Пожалуйста введите IP-адрес Home Assistant. Если это на текущий момент не доступно, но вы можете получить доступ к вашему серверу за пределами вашей сети, вы также можете указать этот адрес.</string>
+    <string name="check_connection_text">Проверить соединение</string>
+    <string name="external_ip_address_msg">Пожалуйста введите внешний адрес Home Assistant. Если ваш сервер не публикуется через Интернет, нажмите кнопку "Пропустить".</string>
+    <string name="credentials_message">Пожалуйста введите имя пользователя и пароль. Если вы используете Home Assistant версии 0.78 или старше, вы можете оставить имя пользователя пустым, чтобы войти через API_PASSWORD. Если у вас возникли проблемы со входом в систему или вы используете 2FA, используйте вместо этого веб-вход.</string>
+    <string name="home_wifi_network_choose">Выбор Wi-Fi сети</string>
+
+    <string name="nfc_text">NFC</string>
+    <string name="nfc_summary_text">Прочитать NFC и отправить метку в Home Assistant</string>
+
+    <string name="mqtt_client">MQTT Клиент</string>
+    <string name="mqtt_client_summary">Выберите какой клиент MQTT будет использован по умолчанию</string>
+
+    <string-array name="array_setting_mqtt_client">
+        <item>Home Assistant клиент</item>
+        <item>Встроенный клиент</item>
+    </string-array>
+    <string-array name="array_setting_mqtt_client_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string name="configure_build_in_mqtt_title">Настроить встроенный MQTT клиент</string>
+    <string name="configure_build_in_mqtt_title_summary">Используйте эту опция для настройки доступа встроенного MQTT клиента к брокеру.</string>
+    <string name="mqtt_setup_title">Настройки MQTT</string>
+
+    <string name="local_mqtt_address">Локальный IP адрес MQTT и порт</string>
+    <string name="external_mqtt_address">Внешний IP адрес MQTT и порт</string>
+    <string name="mqtt_connection_succeeded">Соединения с MQTT успешно установлено</string>
+    <string name="mqtt_connection_failed">Ошибка соединения с MQTT. Пожалуйста проверьте настройки и попробуйте снова.</string>
+    <string name="mqtt_connection_external_failed">Ошибка соединения с MQTT через внешний IP адрес. Пожалуйста проверьте настройки и попробуйте снова.</string>
+
+    <string name="mqtt_setup_address_message">Пожалуйста введите IP-адрес и порт, который будет использоваться для подключения к брокеру MQTT. Если у вас нет доступа к экземпляру локальной сети, вы также можете назначить внешний IP-адрес локальному. Если вы не хотите использовать его для подключения к MQTT, когда вас нет дома, оставьте запись внешнего IP-адреса пустой. Если вы используете соединение SSL, IP-адрес должен начинаться с "ssl: //" вместо "tcp: //".</string>
+    <string name="back_camera">Основная камера</string>
+    <string name="back_camera_summary">Отправить фото с основной камеры</string>
+
+    <string name="front_camera">Фронтальная камера</string>
+    <string name="front_camera_summary">Отправить фото с фронтальной камеры</string>
+    <string name="enable_camera_permission">Пожалуйста включите разрешения для камеры, чтобы использовать эту функцию.</string>
+
+    <string name="common_text">Общие</string>
+    <string name="wear_credentials_force">Использоваться учетные данные Android</string>
+    <string name="wear_credentials_force_summary">Использовать учетные данные Android для отправки на устройство</string>
+    <string name="wear_successfully_sync">Учетные данные были синхронизированы.</string>
+    <string name="wear_failed_sync">Ошибка синхронизации учетных данных.</string>
+
+    <string name="tts_text">Текст в Речь</string>
+    <string name="tts_mqtt_summary">Включите, если хотите, что бы телефон преобразовывал текст в речь</string>
+
+    <string name="server_connection_text">Подключение к серверу</string>
+    <string name="server_setting_read_timeout_title">Время чтения</string>
+    <string name="server_setting_read_timeout_summary">Выберите значение времени ожидания при чтении данных из сокета.</string>
+
+    <string name="server_setting_connect_timeout_title">Время ожидания</string>
+    <string name="server_setting_connect_timeout_summary">Выберите значение времени ожидания при попытке подключения к сокету.</string>
+
+    <string name="alarm_text">Сигнализация</string>
+    <string name="alarm_summary">Отправлять на устройство время, когда будет срабатывать следующий сигнал</string>
+
+    <string name="start_app_boot">Старт при загрузке</string>
+    <string name="start_app_boot_summary">Автоматически запускать Ariela когда устройство включается.</string>
+
+    <string name="ariela_available_mqtt_sensor">Доступность Ariela</string>
+    <string name="ariela_available_mqtt_sensor_summary">Включите эту функцию, если вы хотите видеть, когда Ariela последний раз обращалась к Home Assistant</string>
+
+    <string name="notification_entities_empty">Добавьте объекты, что бы они появились в панели уведомлений.</string>
+    <string name="notification_entities_title">Объекты уведомлений</string>
+    <string name="notification_entities_summary">Выберите объекты, которые должны появиться в панели уведомлений</string>
+    <string name="notification_entities_max_reached">Достигнуто максимальное количество объектов для уведомления. Удалите лишние объекты и попробуйте снова.</string>
+    <string name="choose_entity_text">Выбор объектов</string>
+
+    <string name="internal_ip">Внутренний IP</string>
+    <string name="internal_ip_summary">Используйте эту опцию для изменения локального IP адреса Home Assistant</string>
+
+    <string name="external_ip">Внешний IP</string>
+    <string name="external_ip_summary">Используйте эту опцию для изменения внешнего IP адреса Home Assistant</string>
+
+    <string name="force_vertical_stack">Использовать вертикальное отображение</string>
+    <string name="force_vertical_summary">Когда данная опция включена, то горизонтальные карточки будут отображаться как вертикальные.</string>
+
+    <string name="bluetooth_headphone">Bluetooth Наушники</string>
+    <string name="bluetooth_headphone_summary">Отправить информацию о подключенных Bluetooth наушниках</string>
+
+    <string name="bluetooth_a2dp">Bluetooth Медиа</string>
+    <string name="bluetooth_a2dp_summary">Отправить информацию о подключенном устройстве Bluetooth (A2DP)</string>
+</resources>
