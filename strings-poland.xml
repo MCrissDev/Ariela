@@ -475,4 +475,10 @@
 
     <string name="force_vertical_stack">Force vertical behaviour</string>
     <string name="force_vertical_summary">When this option is enabled, Horizontal Stack cards will behave like vertical ones</string>
+
+    <string name="bluetooth_headphone">Bluetooth Headphone</string>
+    <string name="bluetooth_headphone_summary">Send Bluetooth Headphone connected device information</string>
+
+    <string name="bluetooth_a2dp">Bluetooth Media</string>
+    <string name="bluetooth_a2dp_summary">Send Bluetooth Media (A2DP) connected device information</string>
 </resources>
