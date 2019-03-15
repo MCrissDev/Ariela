@@ -489,4 +489,10 @@
 
     <string name="bluetooth_a2dp">Bluetooth Media</string>
     <string name="bluetooth_a2dp_summary">Send Bluetooth Media (A2DP) connected device information</string>
+
+    <string name="paused_text">paused</string>
+
+    <string name="start_app_update">Start after update</string>
+    <string name="start_app_update_summary">Automatic start Ariela when application get\'s updated.</string>
+
 </resources>
