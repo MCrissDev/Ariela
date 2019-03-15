@@ -482,9 +482,9 @@
 
     <string name="force_vertical_stack">Erzwinge vertikales Verhalten</string>
     <string name="force_vertical_summary">Wenn diese Option aktiviert ist, werden \"horizontal Stack cards\" wie \"vertical Stack cards\" behandelt.</string>
-    <string name="bluetooth_headphone">Bluetooth Headphone</string>
-    <string name="bluetooth_headphone_summary">Send Bluetooth Headphone connected device information</string>
+    <string name="bluetooth_headphone">Bluetooth-Kopfhörer</string>
+    <string name="bluetooth_headphone_summary">Sende Informationen über verbundene Bluetooth-Kopfhörer</string>
 
-    <string name="bluetooth_a2dp">Bluetooth Media</string>
-    <string name="bluetooth_a2dp_summary">Send Bluetooth Media (A2DP) connected device information</string>
+    <string name="bluetooth_a2dp">Bluetooth-Media</string>
+    <string name="bluetooth_a2dp_summary">Sende Informationen über per Bluetooth Media (A2DP) verbundene Geräte</string>
 </resources>
