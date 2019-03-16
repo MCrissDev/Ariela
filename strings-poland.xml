@@ -455,7 +455,7 @@
     <string name="alarm_text">Alarm</string>
     <string name="alarm_summary">Send this device time when the next alarm will be triggered</string>
 
-    <string name="start_app_boot">Uruchom na starcie</string>
+    <string name="start_app_boot">Uruchom po włączeniu urządzenia</string>
     <string name="start_app_boot_summary">Automatycznie uruchamia Ariela po włączeniu urządzenia.</string>
 
     <string name="ariela_available_mqtt_sensor">Ariela Availability</string>
@@ -476,14 +476,14 @@
     <string name="force_vertical_stack">Force vertical behaviour</string>
     <string name="force_vertical_summary">When this option is enabled, Horizontal Stack cards will behave like vertical ones</string>
 
-    <string name="bluetooth_headphone">Bluetooth Headphone</string>
-    <string name="bluetooth_headphone_summary">Send Bluetooth Headphone connected device information</string>
+    <string name="bluetooth_headphone">Słuchawki Bluetooth</string>
+    <string name="bluetooth_headphone_summary">Wyślij informacje o podłączonych słuchawkach Bluetooth</string>
 
     <string name="bluetooth_a2dp">Bluetooth Media</string>
-    <string name="bluetooth_a2dp_summary">Send Bluetooth Media (A2DP) connected device information</string>
+    <string name="bluetooth_a2dp_summary">Wyślij informacje o podłączonym urzadzeniu Bluetooth Media (A2DP)</string>
 
-    <string name="paused_text">paused</string>
+    <string name="paused_text">wstrzymane</string>
 
-    <string name="start_app_update">Start after update</string>
-    <string name="start_app_update_summary">Automatic start Ariela when application get\'s updated.</string>
+    <string name="start_app_update">Uruchom po aktualizacji</string>
+    <string name="start_app_update_summary">Automatycznie uruchamia Ariela po instalacji aktualizacji.</string>
 </resources>
