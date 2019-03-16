@@ -50,7 +50,7 @@
     <string name="enter_external_ip">Wprowadź zewnętrzny adres IP / URL i port serwera Home Assistant</string>
     <string name="ip_url_text">Adres IP / URL i port</string>
     <string name="external_access_text">Dostęp zewnętrzny</string>
-    <string name="external_access_message">Aby skonfigurować zewnętrzny dostęp do serwera Home Assistant, połącz się z siecią inną niż Twoja domowa sieć WiFi (np.: 3G / 4G / inne sieci). Weź pod uwagę, że aby skonfigurowac dostęp zewnętrzny twój serwer Home Assistant musi być dostępny spoza Twojej sieci lokalnej, więc najpierw sprawdź konfigurację routera.</string>
+    <string name="external_access_message">Aby skonfigurować zewnętrzny dostęp do serwera Home Assistant, połącz się z siecią inną niż Twoja domowa sieć WiFi (np.: 3G / 4G / inne sieci). Weź pod uwagę, że aby skonfigurować dostęp zewnętrzny twój serwer Home Assistant musi być dostępny spoza Twojej sieci lokalnej, więc najpierw sprawdź konfigurację routera.</string>
     <string name="cancel_text">Anuluj</string>
     <string name="off_text">wył</string>
     <string name="idle_text">nieaktywny</string>
@@ -118,8 +118,8 @@
     <string name="common_string">Ogólne</string>
     <string name="ui_string">Interfejs użytkownika</string>
     <string name="others_string">Inne</string>
-    <string name="away_text">poza domem</string>
-    <string name="home_status_text">w domu</string>
+    <string name="away_text">POZA</string>
+    <string name="home_status_text">DOM</string>
 
     <string-array name="array_setting_tracker_position">
         <item>1 metr</item>
@@ -377,41 +377,41 @@
     <string name="debug_enabled_message">Tryb debugowania został włączony. Zrestartuj urządzenie i odtówrz problem. Później, aby wysłać logi, wybierz zakładkę Kontakt i wybierz klienta email. Logi powinny zostać dodane automatycznie. Jeśli tak się nie stanie, na swoim urządzeniu znajdziesz taki plik \'ariela_logfile.log\'. Wyślij mi ten plik na adres: \'micro.criss.dev@gmail.com\'.</string>
     <string name="picture_text">Zdjęcie</string>
 
-    <string name="create_notification">Create Notification</string>
-    <string name="message_text">Message</string>
-    <string name="create_text">Create</string>
+    <string name="create_notification">Stwórz powiadomienie</string>
+    <string name="message_text">Wiadomość</string>
+    <string name="create_text">Stwórz</string>
 
-    <string name="service_text">Service</string>
-    <string name="services_text">Services</string>
-    <string name="services_summary_text">The service dev tool allows you to call any available service in Home Assistant.</string>
-    <string name="service_data_text">Service Data (JSON, optional)</string>
-    <string name="call_service_text">Call Service</string>
+    <string name="service_text">Usługa</string>
+    <string name="services_text">Usługi</string>
+    <string name="services_summary_text">Narzędzie deweloperskie Usługi pozwala wywoływać dostepne w Home Assistant usługi.</string>
+    <string name="service_data_text">Dane usługi (JSON, opcjonalnie)</string>
+    <string name="call_service_text">Wywołaj usługę</string>
 
-    <string name="intro_text">Intro</string>
-    <string name="previous_text">Previous</string>
-    <string name="next_text">Next</string>
-    <string name="enter_local_network_info_message">Please enter your home WiFi information\'s</string>
+    <string name="intro_text">Wprowadzenie</string>
+    <string name="previous_text">Powrót</string>
+    <string name="next_text">Dalej</string>
+    <string name="enter_local_network_info_message">Proszę wprowadzić informacje o domowej sieci WiFi\'s</string>
 
-    <string name="enter_wifi_home_name">Please enter your home WiFi name. When Ariela will be connected to this network, it would use the local IP address of Home Assistant which you will set. Also, this network name can be used later to inform Home Assistant that your are Home when Ariela will be connected to this network.</string>
-    <string name="wifi_name_hint">WiFi name</string>
+    <string name="enter_wifi_home_name">Proszę wprowadzić nazwę domowej sieci WiFi. Kiedy Ariela wykryje połączenie z tą siecią będzie używać lokalnego adresu IP serwera Home Assistant. Połączenie z tą siecią może być używane jako informacja dla Home Assistant o obecności użytkownika w domu.</string>
+    <string name="wifi_name_hint">Nazwa sieci WiFi</string>
 
-    <string name="please_enter_wifi_name">Please enter a valid WiFi name.</string>
-    <string name="local_ip_address">Home Assistant IP address</string>
-    <string name="local_ip_address_msg">Please enter Home Assistant IP address. If that is currently not available and you can access your server outside your network, you can put that address too.</string>
-    <string name="check_connection_text">Check connection</string>
-    <string name="external_ip_address_msg">Please enter Home Assistant IP external address. If you are not exposing your server over the internet, use \"Skip\" button to proceed further</string>
-    <string name="credentials_message">Please enter your user name and password. If you are using Home Assistant 0.78 or older, you can leave username empty in order to login via API_PASSWORD. If you have any issues logging in or you use 2FA please use the web login instead.</string>
-    <string name="home_wifi_network_choose">WiFi network chooser</string>
+    <string name="please_enter_wifi_name">Proszę wprowadzić nazwę sieci WiFi.</string>
+    <string name="local_ip_address">Adres IP serwera Home Assistant</string>
+    <string name="local_ip_address_msg">Proszę wprowadzić lokalny adres IP serwera Home Assistant. Jeśli jest on obecnie niedostepny, można podać adres publiczny jeśli jest skonfigurowany.</string>
+    <string name="check_connection_text">Sprawdź połączenie</string>
+    <string name="external_ip_address_msg">Proszę wprowadzić publiczny adres IP serwera Home Assistant. Jeśli serwer nie posiada skonfigurowanego adresu publicznego naciśnij Pomiń by przejść dalej.</string>
+    <string name="credentials_message">Proszę wprowadzić nazwę użytkowniak i hasło. Jesli używasz wersji 0.78 Home Assistant'a lub starszej, możesz nie podawać nazwy użytkownika by zalogować się poprzez API_PASSWORD. Jeśli masz problem z logowaniem lub używasz logowania dwuskładnikowego użyj logowania poprzez stronę WWW.</string>
+    <string name="home_wifi_network_choose">Wybór sieci WiFi</string>
 
     <string name="nfc_text">NFC</string>
-    <string name="nfc_summary_text">Read NFC and send the tags read to Home Assistant</string>
+    <string name="nfc_summary_text">Odczytaj znacznik NFC i wyślij dane do Home Assistant'a</string>
 
-    <string name="mqtt_client">MQTT Client</string>
-    <string name="mqtt_client_summary">Choose the default MQTT client to be used</string>
+    <string name="mqtt_client">Klient MQTT</string>
+    <string name="mqtt_client_summary">Wybierz domyślnego klienta MQTT</string>
 
     <string-array name="array_setting_mqtt_client">
         <item>HomeAssistant</item>
-        <item>Build-In</item>
+        <item>Wbudowany</item>
     </string-array>
     <string-array name="array_setting_mqtt_client_values">
         <item>0</item>
@@ -455,8 +455,8 @@
     <string name="alarm_text">Alarm</string>
     <string name="alarm_summary">Send this device time when the next alarm will be triggered</string>
 
-    <string name="start_app_boot">Start at boot</string>
-    <string name="start_app_boot_summary">Automatic start Ariela when the device start-up.</string>
+    <string name="start_app_boot">Uruchom na starcie</string>
+    <string name="start_app_boot_summary">Automatycznie uruchamia Ariela po włączeniu urządzenia.</string>
 
     <string name="ariela_available_mqtt_sensor">Ariela Availability</string>
     <string name="ariela_available_mqtt_sensor_summary">Enable this to see time when Ariela last communicated with Home Assistant</string>
