@@ -486,4 +486,6 @@
 
     <string name="start_app_update">Uruchom po aktualizacji</string>
     <string name="start_app_update_summary">Automatycznie uruchamia Ariela po instalacji aktualizacji.</string>
+    <string name="logout_text_info">Are you sure you to logout? Current connection info will be cleared.</string>
+    <string name="exit_app_text_info">Are you sure you to exit Ariela?</string>
 </resources>
