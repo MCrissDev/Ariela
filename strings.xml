@@ -495,4 +495,6 @@
     <string name="start_app_update">Start after update</string>
     <string name="start_app_update_summary">Automatic start Ariela when application get\'s updated.</string>
 
+    <string name="logout_text_info">Are you sure you to logout? Current connection info will be cleared.</string>
+    <string name="exit_app_text_info">Are you sure you to exit Ariela?</string>
 </resources>
