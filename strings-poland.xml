@@ -400,11 +400,11 @@
     <string name="local_ip_address_msg">Proszę wprowadzić lokalny adres serwera Home Assistant. Jeśli jest on obecnie niedostepny, można podać adres publiczny jeśli jest skonfigurowany.</string>
     <string name="check_connection_text">Sprawdź połączenie</string>
     <string name="external_ip_address_msg">Proszę wprowadzić publiczny adres serwera Home Assistant. Jeśli serwer nie posiada skonfigurowanego adresu publicznego naciśnij Pomiń by przejść dalej.</string>
-    <string name="credentials_message">Proszę wprowadzić nazwę użytkowniak i hasło. Jesli używasz wersji 0.78 Home Assistant'a lub starszej, możesz nie podawać nazwy użytkownika by zalogować się poprzez API_PASSWORD. Jeśli masz problem z logowaniem lub używasz logowania dwuskładnikowego użyj logowania poprzez stronę WWW.</string>
+    <string name="credentials_message">Proszę wprowadzić nazwę użytkowniak i hasło. Jesli używasz wersji 0.78 Home Assistant\'a lub starszej, możesz nie podawać nazwy użytkownika by zalogować się poprzez API_PASSWORD. Jeśli masz problem z logowaniem lub używasz logowania dwuskładnikowego użyj logowania poprzez stronę WWW.</string>
     <string name="home_wifi_network_choose">Wybór sieci WiFi</string>
 
     <string name="nfc_text">NFC</string>
-    <string name="nfc_summary_text">Odczytaj znacznik NFC i wyślij dane do Home Assistant'a</string>
+    <string name="nfc_summary_text">Odczytaj znacznik NFC i wyślij dane do Home Assistant\'a</string>
 
     <string name="mqtt_client">Klient MQTT</string>
     <string name="mqtt_client_summary">Wybierz domyślnego klienta MQTT</string>
