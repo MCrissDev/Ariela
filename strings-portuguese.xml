@@ -380,7 +380,7 @@
     <string name="number_of_columns_cards">Colunas de Cartões</string>
     <string name="number_of_columns_cards_info">Escolha quantas colunas serão as cartas exibidas.</string>
 
-    <string name="debug_enabled_message">O modo de depuração foi ativado. Reinicie o aplicativo e reproduza o problema encontrado. Depois disso, para enviar logs, use a função de contato da Ariela e escolha seu aplicativo de e-mail. Os registros devem ser adicionados automaticamente. Se isso não acontecer, no seu telefone você encontrará um arquivo chamado \'ariela_logfile.log\'. Por favor, envie-me esse arquivo para o endereço de e-mail: \'micro.criss.dev@gmail.com''.
+    <string name="debug_enabled_message">O modo de depuração foi ativado. Reinicie o aplicativo e reproduza o problema encontrado. Depois disso, para enviar logs, use a função de contato da Ariela e escolha seu aplicativo de e-mail. Os registros devem ser adicionados automaticamente. Se isso não acontecer, no seu telefone você encontrará um arquivo chamado \'ariela_logfile.log\'. Por favor, envie-me esse arquivo para o endereço de e-mail: \'micro.criss.dev@gmail.com\'.
 
 Traduzido com www.DeepL.com/Translator</string>
     <string name="picture_text">Imagem</string>
