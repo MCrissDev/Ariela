@@ -14,7 +14,7 @@
     <string name="setup_complete_text">Настройка завершена</string>
     <string name="setup_complete_message_text">Настройка сервера Home Assistant успешно завершена. Вы можете использовать приложение для управления Home Assistant.</string>
     <string name="configure_text">Настроить</string>
-    <string name="connection_server_failed_splash">Ошибка соединения с сервером Home Assistant. Вы можете повторить повторить попытку либо настроить сервер заново. Что вы хотите?</string>
+    <string name="connection_server_failed_splash">Ошибка соединения с сервером Home Assistant. Вы можете повторить попытку либо настроить сервер заново. Что вы хотите?</string>
     <string name="server_not_configured_text">Сервер не сконфигурирован</string>
     <string name="server_not_configured_message_text">Сервер Home Assistant еще не сконфигурирован. Вы хотите сделать это?</string>
     <string name="title_activity_dashboard">Панель управления</string>
@@ -40,7 +40,7 @@
     <string name="no_text">Нет</string>
     <string name="skip_text">Пропустить</string>
     <string name="connect_text">Соединить</string>
-    <string name="server_connection_lost_message">Соединения с сервером Home Assistant было потеряно. Пожалуйста проверьте ваше соединения с сетью и повторите попытку снова.</string>
+    <string name="server_connection_lost_message">Соединение с сервером Home Assistant было потеряно. Пожалуйста проверьте ваше соединение с сетью и повторите попытку снова.</string>
     <string name="contact_text">Контакты</string>
     <string name="about_text">О программе</string>
     <string name="open_web_ui_text">Открыть Web-UI</string>
@@ -396,8 +396,8 @@
     <string name="call_service_text">Вызов сервиса</string>
 
     <string name="intro_text">Введение</string>
-    <string name="previous_text">Предыдущий</string>
-    <string name="next_text">Следующий</string>
+    <string name="previous_text">Назад</string>
+    <string name="next_text">Далее</string>
     <string name="enter_local_network_info_message">Пожалуйста введите информацию о вашей домашней сети Wi-Fi</string>
 
     <string name="enter_wifi_home_name">Пожалуйста введите название вашей домашней Wi-Fi сети. Когда Ariela будет подключена к этой сети, она будет использовать локальный IP-адрес Home Assistant, который вы зададите. Кроме того, это имя сети можно использовать позже, чтобы сообщить Home Assistant, что вы находитесь дома, когда Ariela будет подключена к этой сети.</string>
@@ -494,4 +494,13 @@
 
     <string name="start_app_update">Start after update</string>
     <string name="start_app_update_summary">Automatic start Ariela when application get\'s updated.</string>
+    <string name="logout_text_info">Are you sure you to logout? Current connection info will be cleared.</string>
+    <string name="exit_app_text_info">Are you sure you to exit Ariela?</string>
+
+    <string name="home_assistant_servers">Home Assistant servers</string>
+    <string name="home_assistant_servers_summary">Manager Home Assistan servers </string>
+    <string name="create_server_text">Create Server</string>
+    <string name="default_text">Default</string>
+    <string name="error_create_server_text">Please enter a valid server name in order to continue.</string>
+    <string name="active_server_cannot_delete">The active server cannot be deleted.</string>
 </resources>
