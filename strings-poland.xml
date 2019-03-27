@@ -4,7 +4,7 @@
     <string name="continue_text">Kontynuuj</string>
     <string name="connecting_please_wait">Łączę. Proszę czekać…</string>
     <string name="connection_server_failed">Błąd połączenia z serwerem</string>
-    <string name="connection_server_failed_message">Połączenie z serwerem Home Assistant nie powiodło się. Sprawdź podany adres URL / IP i spróbuj ponownie.</string>
+    <string name="connection_server_failed_message">Połączenie z serwerem Home Assistant nie powiodło się. Sprawdź podany adres i spróbuj ponownie.</string>
     <string name="ok_text">OK</string>
     <string name="connection_success_text">Połączenie udane</string>
     <string name="connection_success_text_message">Połączenie z serwerem Home Assistant zakończyło się pomyślnie. Naciśnij przycisk Kontynuuj, aby przejśc dalej.</string>
@@ -47,10 +47,10 @@
     <string name="logbook_text">Dziennik</string>
     <string name="configure_external_text">Dostęp zewnętrzny</string>
     <string name="rate_app_text">Oceń aplikację</string>
-    <string name="enter_external_ip">Wprowadź zewnętrzny adres IP / URL i port serwera Home Assistant</string>
-    <string name="ip_url_text">Adres IP / URL i port</string>
+    <string name="enter_external_ip">Wprowadź publiczny adres i port serwera Home Assistant</string>
+    <string name="ip_url_text">Adres i port</string>
     <string name="external_access_text">Dostęp zewnętrzny</string>
-    <string name="external_access_message">Aby skonfigurować zewnętrzny dostęp do serwera Home Assistant, połącz się z siecią inną niż Twoja domowa sieć WiFi (np.: 3G / 4G / inne sieci). Weź pod uwagę, że aby skonfigurowac dostęp zewnętrzny twój serwer Home Assistant musi być dostępny spoza Twojej sieci lokalnej, więc najpierw sprawdź konfigurację routera.</string>
+    <string name="external_access_message">Aby skonfigurować zewnętrzny dostęp do serwera Home Assistant, połącz się z siecią inną niż Twoja domowa sieć WiFi (np.: 3G / 4G / inne sieci). Weź pod uwagę, że aby skonfigurować dostęp zewnętrzny twój serwer Home Assistant musi być dostępny spoza Twojej sieci lokalnej, więc najpierw sprawdź konfigurację routera.</string>
     <string name="cancel_text">Anuluj</string>
     <string name="off_text">wył</string>
     <string name="idle_text">nieaktywny</string>
@@ -118,8 +118,8 @@
     <string name="common_string">Ogólne</string>
     <string name="ui_string">Interfejs użytkownika</string>
     <string name="others_string">Inne</string>
-    <string name="away_text">poza domem</string>
-    <string name="home_status_text">w domu</string>
+    <string name="away_text">POZA</string>
+    <string name="home_status_text">DOM</string>
 
     <string-array name="array_setting_tracker_position">
         <item>1 metr</item>
@@ -377,108 +377,115 @@
     <string name="debug_enabled_message">Tryb debugowania został włączony. Zrestartuj urządzenie i odtówrz problem. Później, aby wysłać logi, wybierz zakładkę Kontakt i wybierz klienta email. Logi powinny zostać dodane automatycznie. Jeśli tak się nie stanie, na swoim urządzeniu znajdziesz taki plik \'ariela_logfile.log\'. Wyślij mi ten plik na adres: \'micro.criss.dev@gmail.com\'.</string>
     <string name="picture_text">Zdjęcie</string>
 
-    <string name="create_notification">Create Notification</string>
-    <string name="message_text">Message</string>
-    <string name="create_text">Create</string>
+    <string name="create_notification">Stwórz powiadomienie</string>
+    <string name="message_text">Wiadomość</string>
+    <string name="create_text">Stwórz</string>
 
-    <string name="service_text">Service</string>
-    <string name="services_text">Services</string>
-    <string name="services_summary_text">The service dev tool allows you to call any available service in Home Assistant.</string>
-    <string name="service_data_text">Service Data (JSON, optional)</string>
-    <string name="call_service_text">Call Service</string>
+    <string name="service_text">Usługa</string>
+    <string name="services_text">Usługi</string>
+    <string name="services_summary_text">Narzędzie deweloperskie Usługi pozwala wywoływać dostepne w Home Assistant usługi.</string>
+    <string name="service_data_text">Dane usługi (JSON, opcjonalnie)</string>
+    <string name="call_service_text">Wywołaj usługę</string>
 
-    <string name="intro_text">Intro</string>
-    <string name="previous_text">Previous</string>
-    <string name="next_text">Next</string>
-    <string name="enter_local_network_info_message">Please enter your home WiFi information\'s</string>
+    <string name="intro_text">Wprowadzenie</string>
+    <string name="previous_text">Powrót</string>
+    <string name="next_text">Dalej</string>
+    <string name="enter_local_network_info_message">Proszę wprowadzić informacje o domowej sieci WiFi\'s</string>
 
-    <string name="enter_wifi_home_name">Please enter your home WiFi name. When Ariela will be connected to this network, it would use the local IP address of Home Assistant which you will set. Also, this network name can be used later to inform Home Assistant that your are Home when Ariela will be connected to this network.</string>
-    <string name="wifi_name_hint">WiFi name</string>
+    <string name="enter_wifi_home_name">Proszę wprowadzić nazwę domowej sieci WiFi. Kiedy Ariela wykryje połączenie z tą siecią będzie używać lokalnego adresu serwera Home Assistant. Połączenie z tą siecią może być używane jako informacja dla Home Assistant o obecności użytkownika w domu.</string>
+    <string name="wifi_name_hint">Nazwa sieci WiFi</string>
 
-    <string name="please_enter_wifi_name">Please enter a valid WiFi name.</string>
-    <string name="local_ip_address">Home Assistant IP address</string>
-    <string name="local_ip_address_msg">Please enter Home Assistant IP address. If that is currently not available and you can access your server outside your network, you can put that address too.</string>
-    <string name="check_connection_text">Check connection</string>
-    <string name="external_ip_address_msg">Please enter Home Assistant IP external address. If you are not exposing your server over the internet, use \"Skip\" button to proceed further</string>
-    <string name="credentials_message">Please enter your user name and password. If you are using Home Assistant 0.78 or older, you can leave username empty in order to login via API_PASSWORD. If you have any issues logging in or you use 2FA please use the web login instead.</string>
-    <string name="home_wifi_network_choose">WiFi network chooser</string>
+    <string name="please_enter_wifi_name">Proszę wprowadzić nazwę sieci WiFi.</string>
+    <string name="local_ip_address">Adres serwera Home Assistant</string>
+    <string name="local_ip_address_msg">Proszę wprowadzić lokalny adres serwera Home Assistant. Jeśli jest on obecnie niedostepny, można podać adres publiczny jeśli jest skonfigurowany.</string>
+    <string name="check_connection_text">Sprawdź połączenie</string>
+    <string name="external_ip_address_msg">Proszę wprowadzić publiczny adres serwera Home Assistant. Jeśli serwer nie posiada skonfigurowanego adresu publicznego naciśnij Pomiń by przejść dalej.</string>
+    <string name="credentials_message">Proszę wprowadzić nazwę użytkowniak i hasło. Jesli używasz wersji 0.78 Home Assistant\'a lub starszej, możesz nie podawać nazwy użytkownika by zalogować się poprzez API_PASSWORD. Jeśli masz problem z logowaniem lub używasz logowania dwuskładnikowego użyj logowania poprzez stronę WWW.</string>
+    <string name="home_wifi_network_choose">Wybór sieci WiFi</string>
 
     <string name="nfc_text">NFC</string>
-    <string name="nfc_summary_text">Read NFC and send the tags read to Home Assistant</string>
+    <string name="nfc_summary_text">Odczytaj znacznik NFC i wyślij dane do Home Assistant\'a</string>
 
-    <string name="mqtt_client">MQTT Client</string>
-    <string name="mqtt_client_summary">Choose the default MQTT client to be used</string>
+    <string name="mqtt_client">Klient MQTT</string>
+    <string name="mqtt_client_summary">Wybierz domyślnego klienta MQTT</string>
 
     <string-array name="array_setting_mqtt_client">
         <item>HomeAssistant</item>
-        <item>Build-In</item>
+        <item>Wbudowany</item>
     </string-array>
     <string-array name="array_setting_mqtt_client_values">
         <item>0</item>
         <item>1</item>
     </string-array>
 
-    <string name="configure_build_in_mqtt_title">Configure build-in MQTT client</string>
-    <string name="configure_build_in_mqtt_title_summary">Use this option to configure access of the build-in MQTT client to your broker</string>
-    <string name="mqtt_setup_title">MQTT Setup</string>
+    <string name="configure_build_in_mqtt_title">Skonfiguruj wbudowanego klienta MQTT</string>
+    <string name="configure_build_in_mqtt_title_summary">Użyj tych opcji by skonfigurować dostęp wbudowanego klienta MQTT do Twoejgo brokera</string>
+    <string name="mqtt_setup_title">Ustawienia MQTT</string>
 
-    <string name="local_mqtt_address">Local MQTT Address and Port</string>
-    <string name="external_mqtt_address">Extern MQTT Address and Port</string>
-    <string name="mqtt_connection_succeeded">MQTT connection succeeded</string>
-    <string name="mqtt_connection_failed">MQTT connection failed. Please check the data introduced and try again.</string>
-    <string name="mqtt_connection_external_failed">MQTT connection to external IP failed. Please check the data introduced and try again.</string>
+    <string name="local_mqtt_address">Lokalny adres i port brokera MQTT</string>
+    <string name="external_mqtt_address">Publiczny adres i port brokera MQTT</string>
+    <string name="mqtt_connection_succeeded">Połaczenie z brokerem MQTT udane</string>
+    <string name="mqtt_connection_failed">Połączenie z brokerem MQTT nieudane. Sprawdź wprowadzone dane i spróbuj ponownie.</string>
+    <string name="mqtt_connection_external_failed">Połączenie z publicznym adresem brokera MQTT nieudane. Sprawdź wprowadzone dane i spróbuj ponownie.</string>
 
-    <string name="mqtt_setup_address_message">   Please enter the IP address and port that will be used to connect to the MQTT broker.\n   If you do not have access to your local network instance you can also put the external IP to the local one.\n   If you do not want to connect to MQTT when you are not home, leave the external IP entry blank.\n   If you are using SSL connection, the IP address should start with \"ssl://\" instead of \"tcp://\".</string>
-    <string name="back_camera">Back Camera</string>
-    <string name="back_camera_summary">Send pictures from back camera</string>
+    <string name="mqtt_setup_address_message">   Wprowadź adres i port, który ma być używany do połączenia z brokerem MQTT.\n   Jeśli nie masz dostępu do sieci lokalnej możesz wprowadzić adres publiczny.\n   Jeśli nie chcesz łączyć się z brokerem MQTT gdy jesteś poza domem nie wprowadzaj adresu publicznego.\n   Jesli używasz połączenia SSL adres powinien zaczynać się od \"ssl://\", a nie od \"tcp://\".</string>
+    <string name="back_camera">Tylna kamera</string>
+    <string name="back_camera_summary">Wyślij zdjęcie z tylnej kamery</string>
 
-    <string name="front_camera">Front Camera</string>
-    <string name="front_camera_summary">Send pictures from front camera</string>
-    <string name="enable_camera_permission">Please enable camera permission to use this feature.</string>
+    <string name="front_camera">Przednia kamera</string>
+    <string name="front_camera_summary">Wyślij zdjęcie z przedniej kamery</string>
+    <string name="enable_camera_permission">Zezwól na uprawnienie dostępu do aparatu by używać tej funkcji.</string>
 
-    <string name="common_text">Common</string>
-    <string name="wear_credentials_force">Force Android Wear credentials</string>
-    <string name="wear_credentials_force_summary">Force Android Wear credentials to be send to the device</string>
-    <string name="wear_successfully_sync">Credentials had been synced.</string>
-    <string name="wear_failed_sync">Failed to sync wear credentials.</string>
+    <string name="common_text">Ogólne</string>
+    <string name="wear_credentials_force">Wymuś poświadczenia Android Wear</string>
+    <string name="wear_credentials_force_summary">Wymuś wysłanie na urządzenie poświadczeń Android Wear</string>
+    <string name="wear_successfully_sync">Poświadczenia zostały zsynchronizowane.</string>
+    <string name="wear_failed_sync">Nie udało się zsynchronizować poświadczeń.</string>
 
-    <string name="tts_text">Text to Speech</string>
-    <string name="tts_mqtt_summary">Enable this to have your phone convert text to speech</string>
+    <string name="tts_text">Zmiana tekstu na mowę</string>
+    <string name="tts_mqtt_summary">Włącz, aby telefon zmieniał tekst na mowę</string>
 
-    <string name="server_connection_text">Server connection</string>
-    <string name="server_setting_read_timeout_title">Read timeout</string>
-    <string name="server_setting_read_timeout_summary">Choose timeout value when reading data from the socket.</string>
+    <string name="server_connection_text">Połączenie z serwerem</string>
+    <string name="server_setting_read_timeout_title">Limit czasu odczytu</string>
+    <string name="server_setting_read_timeout_summary">Wybierz limitu czasu podczas odczytu danych.</string>
 
-    <string name="server_setting_connect_timeout_title">Connect timeout</string>
-    <string name="server_setting_connect_timeout_summary">Choose timeout value when trying to connect to socket.</string>
+    <string name="server_setting_connect_timeout_title">Limit czasu połączenia</string>
+    <string name="server_setting_connect_timeout_summary">Wybierz limitu czasu podczas próby połączenia.</string>
 
     <string name="alarm_text">Alarm</string>
-    <string name="alarm_summary">Send this device time when the next alarm will be triggered</string>
+    <string name="alarm_summary">Wyślij czas uruchomienia następnego alarmu</string>
 
-    <string name="start_app_boot">Start at boot</string>
-    <string name="start_app_boot_summary">Automatic start Ariela when the device start-up.</string>
+    <string name="start_app_boot">Uruchom po włączeniu urządzenia</string>
+    <string name="start_app_boot_summary">Automatycznie uruchamia Ariela po włączeniu urządzenia.</string>
 
-    <string name="ariela_available_mqtt_sensor">Ariela Availability</string>
-    <string name="ariela_available_mqtt_sensor_summary">Enable this to see time when Ariela last communicated with Home Assistant</string>
+    <string name="ariela_available_mqtt_sensor">Dostępność Ariela</string>
+    <string name="ariela_available_mqtt_sensor_summary">Włącz to, aby zobaczyć czas, kiedy Ariela ostatnio komunikowała się z Home Assistant</string>
 
-    <string name="notification_entities_empty">Add some entities in order to appear in notification.</string>
-    <string name="notification_entities_title">Notification Entities</string>
-    <string name="notification_entities_summary">Choose entities that should appear in notification</string>
-    <string name="notification_entities_max_reached">Maximum entities to display reached. Delete an existing entity and try again.</string>
-    <string name="choose_entity_text">Choose Entity</string>
+    <string name="notification_entities_empty">Dodaj niektóre encje do stałego powiadomienia.</string>
+    <string name="notification_entities_title">Encje powiadomienia</string>
+    <string name="notification_entities_summary">Wybierz encje, które mają być wyświetlane w stałym powiadomieniu</string>
+    <string name="notification_entities_max_reached">Osiągnięto maksymalną liczbę encji do wyświetlenia. Usuń istniejącą encję i spróbuj ponownie.</string>
+    <string name="choose_entity_text">Wybierz encję</string>
 
-    <string name="internal_ip">Internal IP</string>
-    <string name="internal_ip_summary">Use this option to modify the local IP where the HA instance can be found</string>
+    <string name="internal_ip">Lokalny lokalny</string>
+    <string name="internal_ip_summary">Użyj tej opcji, aby zmodyfikować lokalny adres, pod którym można znaleźć serwer HA</string>
 
-    <string name="external_ip">External IP</string>
-    <string name="external_ip_summary">Use this option to modify the external IP where the HA instance can be found</string>
+    <string name="external_ip">Adres publiczny</string>
+    <string name="external_ip_summary">Użyj tej opcji, aby zmodyfikować publiczny adres, pod którym można znaleźć serwer Home Assistant</string>
 
-    <string name="force_vertical_stack">Force vertical behaviour</string>
-    <string name="force_vertical_summary">When this option is enabled, Horizontal Stack cards will behave like vertical ones</string>
+    <string name="force_vertical_stack">Wymuś orientację pionową</string>
+    <string name="force_vertical_summary">Gdy ta opcja jest włączona, karty poziome będą zachowywać się jak karty pionowe</string>
 
-    <string name="bluetooth_headphone">Bluetooth Headphone</string>
-    <string name="bluetooth_headphone_summary">Send Bluetooth Headphone connected device information</string>
+    <string name="bluetooth_headphone">Słuchawki Bluetooth</string>
+    <string name="bluetooth_headphone_summary">Wyślij informacje o podłączonych słuchawkach Bluetooth</string>
 
     <string name="bluetooth_a2dp">Bluetooth Media</string>
-    <string name="bluetooth_a2dp_summary">Send Bluetooth Media (A2DP) connected device information</string>
+    <string name="bluetooth_a2dp_summary">Wyślij informacje o podłączonym urzadzeniu Bluetooth Media (A2DP)</string>
+
+    <string name="paused_text">wstrzymane</string>
+
+    <string name="start_app_update">Uruchom po aktualizacji</string>
+    <string name="start_app_update_summary">Automatycznie uruchamia Ariela po instalacji aktualizacji.</string>
+    <string name="logout_text_info">Czy chcesz się wylogować? Informacje o obecnym połączeniu zsotaną usunięte.</string>
+    <string name="exit_app_text_info">Czy chcesz wyjść z Ariela?</string>
 </resources>
