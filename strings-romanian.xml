@@ -540,4 +540,13 @@
 
     <string name="start_app_update">Start after update</string>
     <string name="start_app_update_summary">Automatic start Ariela when application get\'s updated.</string>
+    <string name="logout_text_info">Are you sure you to logout? Current connection info will be cleared.</string>
+    <string name="exit_app_text_info">Are you sure you to exit Ariela?</string>
+
+    <string name="home_assistant_servers">Home Assistant servers</string>
+    <string name="home_assistant_servers_summary">Manager Home Assistan servers </string>
+    <string name="create_server_text">Create Server</string>
+    <string name="default_text">Default</string>
+    <string name="error_create_server_text">Please enter a valid server name in order to continue.</string>
+    <string name="active_server_cannot_delete">The active server cannot be deleted.</string>
 </resources>
