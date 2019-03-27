@@ -3,24 +3,24 @@
     <string name="click_next_for_setup">Klik op Volgende om het installatieproces te starten</string>
     <string name="try_again_text">Probeer het opnieuw</string>
     <string name="continue_text">Doorgaan</string>
-    <string name="connecting_please_wait">Verbinden. Even geduld…</string>
-    <string name="connection_server_failed">Verbinding met server mislukt</string>
+    <string name="connecting_please_wait">Verbinden. Even geduld aub…</string>
+    <string name="connection_server_failed">Serververbinding mislukt</string>
     <string name="connection_server_failed_message">Verbinding met Home Assistant-server is mislukt. Controleer de URL / IP die is opgegeven en probeer het opnieuw.</string>
     <string name="ok_text">OK</string>
     <string name="connection_success_text">Verbinding gelukt</string>
-    <string name="connection_success_text_message">De verbinding met de Home Assistant-server is geslaagd. Druk op de knop "Doorgaan" om verder te gaan.</string>
-    <string name="enter_assistant_password">Voer het wachtwoord van de Home Assistant in</string>
-    <string name="password_text">Wachtwoord / Token</string>
-    <string name="incorrect_password_message_text">Mislukt om te verifiëren met het ingegeven wachtwoord / token. Controleer het wachtwoord / token en probeer het opnieuw. Controleer ook of u het onderdeel http (als u de wachtwoordmodus gebruikt) in configuration.yaml bestand inschakelt: \n\nhttp: \n   api_password: yourpassword</string>
-    <string name="setup_complete_text">Installatie voltooid</string>
-    <string name="setup_complete_message_text">De installatie van Home Assistant is geslaagd. U kunt nu deze app gebruiken om Home Assistant te bedienen.</string>
-    <string name="configure_text">Configureren</string>
-    <string name="connection_server_failed_splash">Kan geen verbinding maken met de Home Assistant-server. U kunt opnieuw proberen de server opnieuw aan te sluiten of te configureren. Wat zou u willen doen?</string>
+    <string name="connection_success_text_message">De verbinding met de Home Assistant-server is geslaagd. Druk op \"Doorgaan\" om verder te gaan.</string>
+    <string name="enter_assistant_password">Voer de referenties van Home Assistant in</string>
+    <string name="password_text">Wachtwoord</string>
+    <string name="incorrect_password_message_text">Kan niet verifiëren met behulp van de opgegeven inloggegevens. Controleer de inloggegevens en probeer het opnieuw.</string>
+    <string name="setup_complete_text">Setup voltooid</string>
+    <string name="setup_complete_message_text">Het setup-proces van Home Assistant is geslaagd. U kunt nu deze app gebruiken om Home Assistant te bedienen.</string>
+    <string name="configure_text">Configureer</string>
+    <string name="connection_server_failed_splash">Kan geen verbinding maken met de Home Assistant-server. U kunt het opnieuw proberen om de server opnieuw aan te sluiten of te configureren. Wat zou je willen doen?</string>
     <string name="server_not_configured_text">Server niet geconfigureerd</string>
     <string name="server_not_configured_message_text">Home Assistant is nog niet geconfigureerd. Wilt u het configureren?</string>
     <string name="title_activity_dashboard">Overzicht</string>
-    <string name="navigation_drawer_open">Open navigatie tab</string>
-    <string name="navigation_drawer_close">Sluit navigatie tab</string>
+    <string name="navigation_drawer_open">Open de navigatielade</string>
+    <string name="navigation_drawer_close">Sluit de navigatielade</string>
     <string name="action_settings">Instellingen</string>
     <string name="location_enable_text">Locatie inschakelen</string>
     <string name="wifi_enable_text">Wifi inschakelen</string>
@@ -28,410 +28,478 @@
     <string name="wifi_state_connecting">VERBINDEN</string>
     <string name="wifi_state_disconnected">VERBROKEN</string>
     <string name="wifi_state_disconnecting">VERBREKEN</string>
-    <string name="wifi_choose_message">Kies uw Wi-Fi netwerk waar de Home Assistant-server actief is. Dit zal later door deze applicatie worden gebruikt om te weten of het momenteel verbonden netwerk de thuisbasis is of niet. Veeg naar beneden om de lijst met Wi-Fi-netwerken te vernieuwen als u uw netwerk niet ziet.</string>
-    <string name="searching_wifi_networks">Wifi-netwerken zoeken</string>
+    <string name="wifi_choose_message">Kies uw Wi-Fi-thuisnetwerk waar de Home Assistant-server actief is. Dit zal later door deze applicatie worden gebruikt om te weten of het momenteel verbonden netwerk de thuisbasis is of niet. Veeg naar beneden om de lijst met Wi-Fi-netwerken te vernieuwen als u uw netwerk niet ziet.</string>
+    <string name="searching_wifi_networks">Zoeken in Wi-Fi-netwerken ...</string>
     <string name="home_text">HUIS</string>
-    <string name="button_scene_activate">activeren</string>
-    <string name="climate_current_temperature">Momenteel: %1$.1f %2$s</string>
-    <string name="media_player_stop_toast">Afspelen stoppen...</string>
+
+    <string name="button_scene_activate">Activeer</string>
+    <string name="climate_current_temperature">Momenteel:% 1 $ .1f% 2 $ s</string>
+    <string name="media_player_stop_toast">Het afspelen stoppen ...</string>
+
     <string name="location_permission_required">Om verder te gaan, is locatietoestemming vereist. Wilt u deze handmatig inschakelen?</string>
     <string name="yes_text">JA</string>
     <string name="no_text">NEE</string>
     <string name="skip_text">Overslaan</string>
-    <string name="connect_text">Verbind</string>
-    <string name="server_connection_lost_message">Verbinding met de Home Assistant-server is verloren gegaan. Controleer uw netwerkverbinding en druk op Verbind als u klaar bent.</string>
+    <string name="connect_text">Aansluiten</string>
+    <string name="server_connection_lost_message">Verbinding met de Home Assistant-server is verloren gegaan. Controleer uw netwerkverbinding en druk op de verbindingsknop wanneer u klaar bent.</string>
     <string name="contact_text">Contact</string>
     <string name="about_text">Over</string>
     <string name="open_web_ui_text">Open Web-UI</string>
     <string name="logbook_text">Logboek</string>
     <string name="configure_external_text">Configureer Extern</string>
-    <string name="rate_app_text">Beoordeel App</string>
-    <string name="enter_external_ip">Voer externe Home Assistant IP / URL en Poort in</string>
-    <string name="ip_url_text">IP / URL en Poort</string>
-    <string name="external_access_text">Externe Toegang</string>
-    <string name="external_access_message">Om de externe toegang naar de Home Assistant in te stellen, maakt u verbinding met een ander netwerk dan uw thuisnetwerk (bijv. 3G / 4G / andere netwerken). Let op: uw Home Assistant-server moet toegankelijk zijn extern, dus controleer uw router eerst hoe u dat doet.</string>
+    <string name="rate_app_text">Beoordeel de App</string>
+    <string name="enter_external_ip">Voer externe Home Assistant IP / URL en poort in</string>
+    <string name="ip_url_text">IP / URL en poort</string>
+    <string name="external_access_text">Externe toegang</string>
+    <string name="external_access_message">Om Externe toegang thuisassistent in te stellen, maakt u verbinding met een ander netwerk dan met uw WiFi-netwerk (bijv. 3G / 4G / andere netwerken). Let op: om te kunnen werken, moet uw Home Assistant-server toegankelijk zijn vanaf een externe locatie, dus controleer uw router hoe u dit als eerste moet doen.</string>
     <string name="cancel_text">Annuleer</string>
     <string name="off_text">Uit</string>
-    <string name="idle_text">Idle</string>
-    <string name="media_players_text">Media Players</string>
+    <string name="idle_text">Inactief</string>
+    <string name="media_players_text">Mediaspelers</string>
     <string name="server_not_running_text">Kan geen verbinding maken met de Home Assistant-server</string>
-    <string name="air_pressure_text">Luchtdruk:</string>
-    <string name="humidity_text">Vochtigheid:</string>
-    <string name="wind_speed_text">Windsnelheid:</string>
-    <string name="choose_sensor_text">Kies item</string>
-    <string name="no_sensors_messages">Kan de widget niet toevoegen, omdat we geen geconfigureerde sensoren kunnen vinden.</string>
-    <string name="remove_ads">Verwijder Advertenties</string>
-    <string name="no_zone_message">We konden geen zone-entiteit vinden in uw Home Assistant configuratie. Controleer uw configuratie.</string>
+    <string name="air_pressure_text">Luchtdruk: </string>
+    <string name="humidity_text">Vochtigheid: </string>
+    <string name="wind_speed_text">Windsnelheid: </string>
+    <string name="choose_sensor_text">Kies een item</string>
+    <string name="no_sensors_messages">Kan de sensorwidget niet toevoegen, omdat we geen geconfigureerde sensoren kunnen vinden.</string>
+    <string name="remove_ads">Verwijder advertenties</string>
+    <string name="no_zone_message">We konden geen zone-entiteit vinden in uw Home Assistant-configuratie. Controleer uw configuratie.</string>
     <string name="ads_disabled_message">Dank je! Advertenties zijn uitgeschakeld.</string>
     <string name="video_ad_failed_load">Laden van videoadvertenties mislukt. Probeer het later opnieuw.</string>
-    <string name="remove_ads_text_info">Voor het verwijderen van advertenties is het vereist dat u een video-advertentie bekijkt. Wil je doorgaan?</string>
-    <string name="exit_text">Exit</string>
+    <string name="remove_ads_text_info">Advertenties verwijderen is vereist voor het bekijken van een video die wordt gepromoot. Wil je doorgaan?</string>
+    <string name="exit_text">Uitgang</string>
     <string name="map_text">Kaart</string>
-    <string name="server_config_text">Server Configuratie</string>
+    <string name="server_config_text">Server configuratie</string>
     <string name="logout_text">Uitloggen</string>
-    <string name="locked_text">Vergrendeld</string>
+    <string name="locked_text">Op slot</string>
     <string name="unlocked_text">Ontgrendeld</string>
     <string name="target_temperature">Doeltemperatuur</string>
-    <string name="operation_text">Operation</string>
-    <string name="away_mode_string">Weg modus</string>
-    <string name="default_notification_channel_id">Ariela Melding Kanaal</string>
+    <string name="operation_text">Operatie</string>
+    <string name="away_mode_string">Afwezig-modus</string>
+    <string name="default_notification_channel_id">Doorlopende melding</string>
     <string name="firebase_notifications_enabled">Firebase-meldingen zijn ingeschakeld</string>
-    <string name="firebase_notifications_failed">Kan Firebase-meldingen voor dit apparaat niet inschakelen. Controleer of het HANotify-onderdeel op de Home Assistant-server is geïnstalleerd</string>
-    <string name="lovelaceui_failed_to_enable">Het is niet gelukt om Lovelace UI in te schakelen. Controleer of het Lovelace-onderdeel op de server is geïnstalleerd.</string>
+    <string name="firebase_notifications_failed">Kan Firebase-meldingen voor dit apparaat niet inschakelen. Controleer of het onderdeel HANotify op de Home Assistant-server is geïnstalleerd</string>
+    <string name="lovelaceui_failed_to_enable">Het is niet gelukt om de gebruikersinterface van Lovelace in te schakelen. Controleer of het Lovelace-onderdeel op de server is geïnstalleerd.</string>
+
     <string name="firebase_notifications_disabled">Firebase-meldingen zijn uitgeschakeld</string>
-    <string name="firebase_notifications_disabled_failed">Kan Firebase-meldingen voor dit apparaat niet uitschakelen. Controleer of het HANotify-onderdeel op de Home Assistant-server is geïnstalleerd</string>
-    <string name="show_all_text">Alles Tonen</string>
-    <string name="show_groups_text">Toon Groepen</string>
+    <string name="firebase_notifications_disabled_failed">Kan Firebase-meldingen voor dit apparaat niet uitschakelen. Controleer of het onderdeel HANotify op de Home Assistant-server is geïnstalleerd</string>
+    <string name="show_all_text">Toon alles</string>
+    <string name="show_groups_text">Groepen tonen</string>
     <string name="setting_firebase_summary">Sta Home Assistant-server toe om pushmeldingen naar uw telefoon te verzenden via Firebase. Raadpleeg https://github.com/MCrissDev/HANotify voor meer informatie</string>
-    <string name="setting_firebase_title">Firebase Meldingen</string>
-    <string name="setting_webui_summary">Wanneer deze optie is ingeschakeld, wordt Web UI gebruikt in plaats van de native Android weergave.</string>
+    <string name="setting_firebase_title">Firebase-meldingen</string>
+
+    <string name="setting_webui_summary">Wanneer deze optie is ingeschakeld, wordt Web UI gebruikt in plaats van native Android-weergave.</string>
     <string name="setting_webui_title">Web UI</string>
-    <string name="setting_autoreconnect_summary">Wanneer deze optie is ingeschakeld, probeert Ariela om de 10 seconden de verbinding opnieuw tot stand te brengen als deze eerder verloren is gegaan.</string>
-    <string name="setting_autoreconnect_title">Automatisch Herverbinden</string>
-    <string name="settings_permanent_notification_title">Permanente Melding</string>
-    <string name="settings_permanent_notification_summary">Laat een permanente melding zien wanneer Ariela is verbonden met de server</string>
+
+    <string name="setting_autoreconnect_summary">Wanneer deze optie is ingeschakeld, zal Ariela proberen de verbinding elke 10 seconden opnieuw tot stand te brengen als deze eerder verloren is gegaan.</string>
+    <string name="setting_autoreconnect_title">Automatisch herverbinden</string>
+
+    <string name="settings_permanent_notification_title">Permanente melding</string>
+    <string name="settings_permanent_notification_summary">Laat een permanente melding zien wanneer Ariela verbonden is met de server</string>
+
     <string name="settings_lovelaceui_title">Lovelace UI</string>
-    <string name="settings_lovelaceui_summary">Gebruik de Lovelace UI in plaats van de standaard UI</string>
-    <string name="settings_debugmode_title">Debug Modus</string>
-    <string name="settings_debugmode_summary">Schakel de Debug-modus In / Uit</string>
+    <string name="settings_lovelaceui_summary">Gebruik de gebruikersinterface van Lovelace in plaats van de standaard configuratie</string>
+    <string name="settings_debugmode_title">Debug-modus</string>
+    <string name="settings_debugmode_summary">Schakel de Debug-modus in / uit</string>
+
     <string name="settings_device_tracker_title">Apparaat Tracker</string>
-    <string name="settings_device_tracker_summary">Schakel tracking voor dit apparaat In /Uit</string>
+    <string name="settings_device_tracker_summary">Schakel tracking voor dit apparaat in of uit</string>
+
     <string name="settings_phone_name_summary">Door de Home Assistant-server gebruikte waarde om dit apparaat te identificeren.</string>
-    <string name="settings_phone_name_title">Apparaatsnaam</string>
+    <string name="settings_phone_name_title">Toestelnaam</string>
     <string name="get_pro_version_text">Neem de PRO versie</string>
     <string name="choose_text_size">Kies tekstgrootte</string>
-    <string name="choose_text">Kies</string>
+    <string name="choose_text">Kiezen</string>
     <string name="trigger_text">TRIGGER</string>
-    <string name="debug_mode_activated">Debug Modus geactiveerd</string>
-    <string name="debug_mode_deactivated">Debug Modus gedeactiveerd</string>
-    <string name="debug_mode_failed">Kan de Debug Modus niet activeren</string>
-    <string name="device_tracker_failed">Kan de Apparaat Tracker niet activeren</string>
+    <string name="debug_mode_activated">Debug-modus geactiveerd</string>
+    <string name="debug_mode_deactivated">Debug-modus gedeactiveerd</string>
+    <string name="debug_mode_failed">Kan de Debug-modus niet activeren</string>
+    <string name="device_tracker_failed">Kan Device Tracker niet activeren</string>
     <string name="notifications_string">Meldingen</string>
-    <string name="common_string">Algemeen</string>
+    <string name="common_string">Gemeenschappelijk</string>
     <string name="ui_string">UI</string>
-    <string name="others_string">Andere</string>
+    <string name="others_string">Anderen</string>
     <string name="away_text">Weg</string>
-    <string name="home_status_text">Thuis</string>
-    <string name="device_tracker_position_title">Positie updaten</string>
-    <string name="device_tracker_position_summary">Kies positiewijziging in meters waarop locatie updates moeten worden verzonden</string>
-    <string name="device_tracker_period_title">Update Periodes</string>
-    <string name="device_tracker_period_summary">Kies een tijdsinterval waarop locatie updates moeten worden verzonden</string>
+    <string name="home_status_text">Huis</string>
+
+    <string-array name="array_setting_theme">
+        <item>Standaard"</item>
+        <item>Donker"</item>
+        <item>Purper"</item>
+        <item>Donkergroen"</item>
+    </string-array>
+    <string-array name="array_setting_theme_values">
+        <item>0"</item>
+        <item>1"</item>
+        <item>2"</item>
+        <item>3"</item>
+    </string-array>
+
+    <string-array name="array_setting_tracker_position">
+        <item>1 meter"</item>
+        <item>10 meter"</item>
+        <item>50 meter"</item>
+        <item>100 meter"</item>
+        <item>300 meter"</item>
+        <item>500 meter"</item>
+    </string-array>
+
+    <string-array name="array_setting_tracker_position_values">
+        <item>0"</item>
+        <item>1"</item>
+        <item>2"</item>
+        <item>3"</item>
+        <item>4"</item>
+        <item>5"</item>
+    </string-array>
+
+    <string-array name="array_setting_tracker_time">
+        <item>30 seconden"</item>
+        <item>1 minuut"</item>
+        <item>5 minuten"</item>
+        <item>15 minuten"</item>
+        <item>30 minuten"</item>
+        <item>1 uur"</item>
+    </string-array>
+
+    <string-array name="array_setting_tracker_type">
+        <item>GPS"</item>
+        <item>WiFi"</item>
+    </string-array>
+    <string-array name="array_setting_tracker_type_values">
+        <item>0"</item>
+        <item>1"</item>
+    </string-array>
+    <string-array name="array_setting_tracker_time_values">
+        <item>0"</item>
+        <item>1"</item>
+        <item>2"</item>
+        <item>3"</item>
+        <item>4"</item>
+        <item>5"</item>
+    </string-array>
+
+    <string name="device_tracker_type_title">Volgmodus</string>
+    <string name="device_tracker_type_summary">Kies de volgmodus die wordt gebruikt om HA te informeren over de locatie van dit apparaat</string>
+
+    <string name="device_tracker_position_title">Update positie</string>
+    <string name="device_tracker_position_summary">Kies positiewijziging in meters waarop locatie-updates moeten worden verzonden</string>
+
+    <string name="device_tracker_period_title">Update Periode</string>
+    <string name="device_tracker_period_summary">Kies een tijdsinterval waarop locatie-updates moeten worden verzonden</string>
+
     <string name="web_login_text">Web Login</string>
-    <string name="please_wait_text">Even geduld...</string>
+    <string name="please_wait_text">Even geduld aub...</string>
     <string name="title_activity_map_viewer">Kaart</string>
-    <string name="hours_ago_text">%d uren geleden</string>
-    <string name="hour_ago_text">uur geleden</string>
+
+    <string name="hours_ago_text">%d uur geleden</string>
+    <string name="hour_ago_text">%d uur geleden</string>
+
     <string name="minutes_ago_text">%d minuten geleden</string>
     <string name="minute_ago_text">%d minuut geleden</string>
+
     <string name="seconds_ago_text">%d seconden geleden</string>
     <string name="config_validation_text">Configuratie validatie</string>
-    <string name="config_valid_message_text">Valideer uw configuratie als u recentelijk enkele wijzigingen in uw configuratie hebt aangebracht en wilt controleren of deze allemaal geldig zijn</string>
+    <string name="config_valid_message_text">Valideer uw configuratie als u onlangs enkele wijzigingen in uw configuratie hebt aangebracht en wilt controleren of deze allemaal geldig zijn</string>
     <string name="check_config_text">Controleer configuratie</string>
     <string name="config_valid_text">Configuratie geldig</string>
-    <string name="config_invalid_text">Configuratie geldig</string>
-    <string name="failed_to_check_config">Kon de configuratie niet controleren. Probeer het later opnieuw</string>
-    <string name="config_reload_text">Configuratie opnieuw laden</string>
-    <string name="config_reload_msg_text">Sommige delen van Home Assistant kunnen opnieuw worden geladen zonder dat een herstart vereist is. Als u herladen gebruikt, wordt de huidige configuratie leeggemaakt en wordt de nieuwe geladen.</string>
-    <string name="reload_core_text">Herlaad core</string>
-    <string name="reload_groups_text">Herlaad groepen</string>
+    <string name="config_invalid_text">Configuratie ongeldig</string>
+    <string name="failed_to_check_config">Kon configuratie niet controleren. Probeer het later opnieuw</string>
+    <string name="config_reload_text">Herladen van de configuratie</string>
+    <string name="config_reload_msg_text">Sommige delen van Home Assistant kunnen opnieuw worden geladen zonder dat een herstart vereist is. Als je reload laadt, wordt de huidige configuratie leeggemaakt en wordt de nieuwe geladen. </string>
+
+    <string name="reload_core_text">Herlaad kern</string>
+    <string name="reload_groups_text">Laad groepen opnieuw</string>
     <string name="reload_automations_text">Herlaad automatiseringen</string>
-    <string name="reload_scripts_text">Herlaad scripten</string>
+    <string name="reload_scripts_text">Herlaad scripts</string>
     <string name="service_has_been_called">Service is aangesproken</string>
+
     <string name="settings_wifi_home_summary">Wanneer uw telefoon is verbonden met een Wi-Fi-netwerk uit deze lijst, wordt Home Assistant automatisch verteld dat u thuis bent</string>
-    <string name="settings_wifi_home_title">Thuis Wifi netwerken</string>
+    <string name="settings_wifi_home_title">Thuis Wi-Fi-netwerken</string>
     <string name="server_management_text">Serverbeheer</string>
-    <string name="server_management_message_text">Beheer uw Home Assistant server…vanaf Ariela.</string>
-    <string name="restart_text">Herstart</string>
+    <string name="server_management_message_text">Bedien uw Home Assistant-server ... van Ariela.</string>
+    <string name="restart_text">Herstarten</string>
     <string name="stop_text">Stop</string>
     <string name="brightness_text">Helderheid</string>
-    <string name="rgb_color_text">RGB Kleur</string>
+    <string name="rgb_color_text">RGB-kleur</string>
     <string name="unknown_text">Onbekend</string>
     <string name="users_text">Gebruikers</string>
-    <string name="users_config_summary">Beheer gebruikers</string>
+    <string name="users_config_summary">Gebruikers beheren</string>
     <string name="general_text">Algemeen</string>
-    <string name="general_config_summary">Valideer uw configuratie bestand en beheer de server</string>
+    <string name="general_config_summary">Valideer uw configuratiebestand en beheer de server</string>
     <string name="delete_text">Verwijder</string>
     <string name="failed_to_retrieve_users">Kan gebruikers niet ophalen. Probeer het later opnieuw.</string>
     <string name="something_went_wrong">Er is iets fout gegaan</string>
     <string name="unable_to_delete_own_account">Kan je eigen account niet verwijderen</string>
     <string name="alarm_code_text">Code</string>
-    <string name="arm_home_text">ARM HOME</string>
-    <string name="arm_away_text">ARM AWAY</string>
+    <string name="arm_home_text">ARM THUIS</string>
+    <string name="arm_away_text">ARM WEG</string>
     <string name="disarm_text">ONTWAPENEN</string>
 
-    <string name="device_tracker_type_title">Tracking Mode</string>
-    <string name="device_tracker_type_summary">Choose the tracking mode that will be used to inform HA about this device location</string>
+    <string name="theme_text">Thema</string>
+    <string name="theme_summary">Kies Ariela-uiterlijk</string>
 
-    <string-array name="array_setting_theme">
-        <item>Default</item>
-        <item>Dark</item>
-        <item>Purple</item>
-        <item>Dark Green</item>
-    </string-array>
-    <string-array name="array_setting_theme_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-
-    <string name="theme_text">Theme</string>
-    <string name="theme_summary">Choose Ariela look and feel</string>
-
-    <string name="low_text">Low</string>
-    <string name="normal_text">Normal</string>
-    <string name="cold_text">Cold</string>
-    <string name="connected_text">Connected</string>
-    <string name="disconnected_text">Disconnected</string>
+    <string name="low_text">Laag</string>
+    <string name="normal_text">Normaal</string>
+    <string name="cold_text">Koud</string>
+    <string name="connected_text">Verbonden</string>
+    <string name="disconnected_text">Verbroken</string>
     <string name="open_text">Open</string>
-    <string name="closed_text">Closed</string>
-    <string name="gas_detected_text">Gas detected</string>
-    <string name="clear_text">Clear</string>
-    <string name="hot_text">Hot</string>
-    <string name="light_detected_text">Light detected</string>
-    <string name="no_light_text">No light</string>
-    <string name="wet_text">Wet</string>
-    <string name="dry_text">Dry</string>
-    <string name="motion_detected_text">Motion detected</string>
-    <string name="no_motion_text">No motion</string>
-    <string name="moving_text">Moving</string>
-    <string name="stopped_text">Stopped</string>
-    <string name="occupied_text">Occupied</string>
-    <string name="plugged_in_text">Plugged in</string>
-    <string name="unplugged_text">Unplugged</string>
-    <string name="power_text">Power</string>
-    <string name="no_power_text">No power</string>
-    <string name="problem_detected_text">Problem detected</string>
-    <string name="no_problem_detected_text">No Problem</string>
-    <string name="unsafe_text">Unsafe</string>
-    <string name="safe_text">Safe</string>
-    <string name="smoke_detected_text">Smoke detected</string>
-    <string name="sound_detected_text">Sound detected</string>
-    <string name="vibration_detected_text">Vibration detected</string>
+    <string name="closed_text">Gesloten</string>
+    <string name="gas_detected_text">Gas gedetecteerd</string>
+    <string name="clear_text">Zuiver</string>
+    <string name="hot_text">Heet</string>
+    <string name="light_detected_text">Licht gedetecteerd</string>
+    <string name="no_light_text">Geen licht</string>
+    <string name="wet_text">Nat</string>
+    <string name="dry_text">Droog</string>
+    <string name="motion_detected_text">Beweging gedetecteerd</string>
+    <string name="no_motion_text">Geen beweging</string>
+    <string name="moving_text">In beweging</string>
+    <string name="stopped_text">Gestopt</string>
+    <string name="occupied_text">Bezet</string>
+    <string name="plugged_in_text">Ingeplugd</string>
+    <string name="unplugged_text">Uitgetrokken</string>
+    <string name="power_text">Voeding</string>
+    <string name="no_power_text">Geen voeding</string>
+    <string name="problem_detected_text">Probleem gedetecteerd</string>
+    <string name="no_problem_detected_text">Geen probleem</string>
+    <string name="unsafe_text">Onveilig</string>
+    <string name="safe_text">Veilig</string>
+    <string name="smoke_detected_text">Rook gedetecteerd</string>
+    <string name="sound_detected_text">Geluid gedetecteerd</string>
+    <string name="vibration_detected_text">Vibratie gedetecteerd</string>
 
     <string name="mqtt_string">MQTT</string>
-    <string name="enable_mqtt_text">Enable MQTT Sensors</string>
-    <string name="enable_mqtt_summary">Send your device sensors information to Home Assistant</string>
-    <string name="mqtt_sensors_text">Sensors</string>
-    <string name="mqtt_sensors_summary">Choose the sensors you want to have their info send to the broker</string>
+    <string name="enable_mqtt_text">Schakel MQTT-sensoren in</string>
+    <string name="enable_mqtt_summary">Stuur uw apparaatsensorgegevens naar de Home Assistant</string>
+    <string name="mqtt_sensors_text">Sensoren</string>
+    <string name="mqtt_sensors_summary">Kies de sensoren waarvan u de informatie wilt laten verzenden naar de MQTT-broker.</string>
 
-    <string name="battery">Battery</string>
-    <string name="battery_message">Send this device battery information\'s</string>
+    <string name="battery">Batterij</string>
+    <string name="battery_message">Verzend informatie over de batterij-niveau van dit apparaat</string>
 
-    <string name="light">Light</string>
-    <string name="light_message">Send this device light sensor information\'s</string>
-    <string name="step_counter">Step Counter</string>
-    <string name="step_counter_message">Send this device step counter sensor information\'s</string>
+    <string name="light">Licht</string>
+    <string name="light_message">Verzend informatie van de lichtsensor van dit apparaat</string>
+    <string name="step_counter">Stappenteller</string>
+    <string name="step_counter_message">Verzend informatie van de stappenteller van dit apparaat</string>
+    <string name="instructions_text">Instructies</string>
 
-    <string name="instructions_text">Instructions</string>
-    <string name="wi_fi_message">Send this device Wi-Fi information\'s</string>
+    <string name="wi_fi_message">Verzend informatie van de Wi-Fi van dit apparaat</string>
 
-    <string name="clear_current_config">Clear current config</string>
-    <string name="current_external_config_cleared">Current external access configuration has been cleared</string>
-    <string name="call_state">Call State</string>
-    <string name="call_state_message">Send this device call state information\'s</string>
-    <string name="copy_to_clipboard">Copy to memory</string>
-    <string name="instructions_copied_to_memory">Instructions copied to clipboard</string>
+    <string name="clear_current_config">Huidige configuratie wissen</string>
+    <string name="current_external_config_cleared">De huidige configuratie voor externe toegang is gewist</string>
+    <string name="call_state">Status ophalen</string>
+    <string name="call_state_message">Verzend informatie van de status van dit apparaat</string>
 
-    <string name="setup_mqtt_first">Setup MQTT first to use this option</string>
+    <string name="copy_to_clipboard">Kopiëren naar geheugen</string>
+    <string name="instructions_copied_to_memory">Instructies gekopieerd naar klembord</string>
 
-    <string name="discovery_topic">Discovery topic</string>
-    <string name="discovery_topic_message">Value used for automatic MQTT discovery</string>
+    <string name="setup_mqtt_first">Stel eerst MQTT in om deze optie te gebruiken</string>
 
-    <string name="mqtt_topic">Topic</string>
-    <string name="mqtt_payload">Payload (template allowed)</string>
-    <string name="publish_text">Publish</string>
-    <string name="publish_a_packet_text">MQTT: Publish a packet</string>
+    <string name="discovery_topic">Ontdekkingsonderwerp</string>
+    <string name="discovery_topic_message">Waarde gebruikt voor automatische MQTT-ontdekking</string>
 
-    <string name="time_text">Change Time</string>
-    <string name="date_text">Change Date</string>
+    <string name="mqtt_topic">Onderwerp</string>
+    <string name="mqtt_payload">Payload (sjabloon toegestaan)</string>
+    <string name="publish_text">Publiceren</string>
+    <string name="publish_a_packet_text">MQTT: een pakket publiceren</string>
 
-    <string name="add_item_text">Add Item</string>
-    <string name="checked_items">Checked items</string>
+    <string name="time_text">Verander tijd</string>
+    <string name="date_text">Verander de datum</string>
+    <string name="add_item_text">Voeg item toe</string>
+    <string name="checked_items">Gecontroleerde items</string>
 
-    <string name="ambient_temperature">Ambient Temperature</string>
-    <string name="ambient_temperature_message">Send this device ambient temperature sensor information\'s</string>
+    <string name="ambient_temperature">Omgevingstemperatuur</string>
+    <string name="ambient_temperature_message">Verzend informatie van de omgevingstemperatuur van dit apparaat</string>
 
-    <string name="pressure_text">Pressure</string>
-    <string name="pressure_message">Send this device pressure sensor information\'s</string>
+    <string name="pressure_text">Druk</string>
+    <string name="pressure_message">Verzend informatie van de Druksensor van dit apparaat</string>
 
-    <string name="user_text">User</string>
-    <string name="setting_keepscreenon_summary">If this option is enabled, while the Ariela dashboard will be visible the screen will not going to close</string>
-    <string name="setting_keepscreenon_title">Keep screen ON</string>
-    <string name="shopping_list_text">Shopping List</string>
+    <string name="user_text">Gebruiker</string>
+    <string name="setting_keepscreenon_summary">Als deze optie is ingeschakeld, terwijl het Ariela-dashboard zichtbaar is zal het scherm niet sluiten</string>
+    <string name="setting_keepscreenon_title">Houd het scherm AAN</string>
 
-    <string name="text_to_speek">Text to speek</string>
-    <string name="send_text">Send</string>
-    <string name="input_source">Input Source</string>
-    <string name="sound_mode">Sound Mode</string>
+    <string name="shopping_list_text">Boodschappenlijst</string>
+    <string name="text_to_speek">Tekst naar Spraak</string>
+    <string name="send_text">Verstuur</string>
+    <string name="input_source">Invoerbron</string>
+    <string name="sound_mode">Geluidsmodus</string>
 
     <string name="bluetooth_text">Bluetooth</string>
-    <string name="bluetooth_mqtt_text">Send this device Bluetooth information\'s</string>
+    <string name="bluetooth_mqtt_text">Verzend de Bluetooth-informatie van dit apparaat</string>
 
-    <string name="relative_humidity">Relative Humidity</string>
-    <string name="relative_humidity_message">Send this device Relative Humidity sensor information\'s</string>
+    <string name="relative_humidity">Relatieve vochtigheid</string>
+    <string name="relative_humidity_message">Verzend dit apparaat Relatieve vochtigheidssensor-informatie</string>
 
-    <string name="screen_mqtt_sensor_text">Wake up / sleep this device from Home Assistant</string>
-    <string name="screen_text">Screen</string>
+    <string name="screen_mqtt_sensor_text">Word wakker / slaap op dit apparaat via de Home Assistant</string>
+    <string name="screen_text">Scherm</string>
 
-    <string name="apps_mqtt_text">Sensor containing installed apps on this device</string>
-    <string name="apps_text">Applications</string>
+    <string name="apps_mqtt_text">Sensor met geïnstalleerde apps op dit apparaat</string>
+    <string name="apps_text">Toepassingen</string>
 
-    <string name="setting_fullscreen_summary">If this option is enabled, Ariela will be shown in fullscreen mode</string>
-    <string name="setting_fullscreen_title">Full Screen Mode</string>
-    <string name="no_voice_recognition">No voice recognition installed</string>
+    <string name="setting_fullscreen_summary">Als deze optie is ingeschakeld, wordt Ariela weergegeven op volledig scherm</string>
+    <string name="setting_fullscreen_title">Volledig scherm</string>
+    <string name="no_voice_recognition">Geen stemherkenning geïnstalleerd</string>
 
-    <string name="states_text">States</string>
-    <string name="effects_text">Effects</string>
-    <string name="color_temp_text">Color Temperature</string>
-    <string name="title_text">Title</string>
-    <string name="icon_text">Icon</string>
-    <string name="url_path_text">URL Path</string>
-    <string name="view_configuration">View Configuration</string>
-    <string name="save_text">Save</string>
-    <string name="settings_text">Settings</string>
+    <string name="states_text">Staten</string>
+    <string name="effects_text">Effecten</string>
+    <string name="color_temp_text">Kleurtemperatuur</string>
+    <string name="title_text">Titel</string>
+    <string name="icon_text">Icoon</string>
+    <string name="url_path_text">URL-pad</string>
+    <string name="view_configuration">Configuratie bekijken</string>
+    <string name="save_text">Opslaan</string>
+    <string name="settings_text">Instellingen</string>
     <string name="badges_text">Badges</string>
-    <string name="activate_text">Activate</string>
-    <string name="execute_text">Execute</string>
-    <string name="setting_scrolllongtext_title">Scroll Long Text</string>
-    <string name="setting_scrolllongtext_summary">If this option is enabled, text that is too long to fit it will be animated (scrolled), else truncated</string>
+    <string name="activate_text">Activeren</string>
+    <string name="execute_text">Uitvoeren</string>
+    <string name="setting_scrolllongtext_title">Scroll lange tekst</string>
+    <string name="setting_scrolllongtext_summary">Als deze optie is ingeschakeld, wordt tekst die te lang is te passen: geanimeerd (gescrolld) of anders ingekort</string>
 
-    <string name="vacuum_cleaner_commands">Vacuum cleaner commands:</string>
-    <string name="notifications_empty">No notifications</string>
-    <string name="dismiss_text">Dismiss</string>
-    <string name="failed_to_retrieve_shopping_list">Failed to retrieve shopping list. Please check if the component is enabled on the server.</string>
-    <string name="entity_editor_text">Entity Editor</string>
-    <string name="message_toast_failed_to_save_entity_info">Failed to save entity info</string>
+    <string name="vacuum_cleaner_commands">Stofzuigeropdrachten:</string>
+    <string name="notifications_empty">Geen notificaties</string>
+    <string name="dismiss_text">Wegzenden</string>
+    <string name="failed_to_retrieve_shopping_list">Kan boodschappenlijst niet ophalen. Controleer of het onderdeel is ingeschakeld op de server.</string>
+    <string name="entity_editor_text">Entiteit Editor</string>
+    <string name="message_toast_failed_to_save_entity_info">Het opslaan van entiteitsgegevens is mislukt</string>
 
     <string-array name="array_setting_cards_column">
-        <item>Auto</item>
-        <item>1 column</item>
-        <item>2 columns</item>
-        <item>3 columns</item>
-        <item>4 columns</item>
+        <item>Auto"</item>
+        <item>1 kolom"</item>
+        <item>2 kolommen"</item>
+        <item>3 kolommen"</item>
+        <item>4 kolommen"</item>
     </string-array>
 
     <string-array name="array_setting_cards_column_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
+        <item>0"</item>
+        <item>1"</item>
+        <item>2"</item>
+        <item>3"</item>
+        <item>4"</item>
     </string-array>
 
-    <string name="number_of_columns_cards">Cards Columns</string>
-    <string name="number_of_columns_cards_info">Choose on how many columns will be the cards displayed.</string>
+    <string name="number_of_columns_cards">Kaarten Kolommen</string>
+    <string name="number_of_columns_cards_info">Kies op hoeveel kolommen de kaarten worden weergegeven.</string>
 
-    <string name="debug_enabled_message">The debug mode has been enabled. Please restart the application and reproduce the issue you found. After that, in order to send logs, use the contact function from Ariela and choose your email app. The logs should be added automatically. If this do not happen, on your phone you will find a file called \'ariela_logfile.log\'. Please send me that file to the email address: \'micro.criss.dev@gmail.com\'.</string>
-    <string name="picture_text">Picture</string>
+    <string name="debug_enabled_message">De debug-modus is ingeschakeld. Start de applicatie opnieuw en reproduceer het probleem dat je hebt gevonden. Gebruik daarna de contactfunctie van Ariela en kies vervolgens uw e-mailapp om logboeken te verzenden. De logboeken moeten automatisch worden toegevoegd. Als dit niet gebeurt, vindt u op uw telefoon het bestand \'ariela_logfile.log\'. Stuur mij dat bestand alstublieft naar het e-mailadres: \'micro.criss.dev@gmail.com\'.</string>
+    <string name="picture_text">Afbeelding</string>
 
-    <string name="create_notification">Create Notification</string>
-    <string name="message_text">Message</string>
-    <string name="create_text">Create</string>
+    <string name="create_notification">Maak een melding</string>
+    <string name="message_text">Bericht</string>
+    <string name="create_text">Creëren</string>
 
     <string name="service_text">Service</string>
     <string name="services_text">Services</string>
-    <string name="services_summary_text">The service dev tool allows you to call any available service in Home Assistant.</string>
-    <string name="service_data_text">Service Data (JSON, optional)</string>
-    <string name="call_service_text">Call Service</string>
+    <string name="services_summary_text">Met de service dev-tool kunt u elke beschikbare service in Home Assistant aanroepen.</string>
+    <string name="service_data_text">Servicegegevens (JSON, optioneel)</string>
+    <string name="call_service_text">Service ophalen</string>
 
     <string name="intro_text">Intro</string>
-    <string name="previous_text">Previous</string>
-    <string name="next_text">Next</string>
-    <string name="enter_local_network_info_message">Please enter your home WiFi information\'s</string>
+    <string name="previous_text">Voorgaand</string>
+    <string name="next_text">Volgende</string>
+    <string name="enter_local_network_info_message">Voer uw thuis WiFi-informatie in</string>
 
-    <string name="enter_wifi_home_name">Please enter your home WiFi name. When Ariela will be connected to this network, it would use the local IP address of Home Assistant which you will set. Also, this network name can be used later to inform Home Assistant that your are Home when Ariela will be connected to this network.</string>
-    <string name="wifi_name_hint">WiFi name</string>
+    <string name="enter_wifi_home_name">Voer de Wi-Fi-naam van je huis in. Wanneer Ariela met dit netwerk wordt verbonden, zou het lokale IP-adres van de Home Assistant gebruiken dat u zult instellen. Ook kan deze netwerknaam later worden gebruikt om Home Assistant te laten weten dat u thuis bent wanneer Ariela met dit netwerk wordt verbonden.</string>
+    <string name="wifi_name_hint">Wi-Fi-naam</string>
 
-    <string name="please_enter_wifi_name">Please enter a valid WiFi name.</string>
-    <string name="local_ip_address">Home Assistant IP address</string>
-    <string name="local_ip_address_msg">Please enter Home Assistant IP address. If that is currently not available and you can access your server outside your network, you can put that address too.</string>
-    <string name="check_connection_text">Check connection</string>
-    <string name="external_ip_address_msg">Please enter Home Assistant IP external address. If you are not exposing your server over the internet, use \"Skip\" button to proceed further</string>
-    <string name="credentials_message">Please enter your user name and password. If you are using Home Assistant 0.78 or older, you can leave username empty in order to login via API_PASSWORD. If you have any issues logging in or you use 2FA please use the web login instead.</string>
-    <string name="home_wifi_network_choose">WiFi network chooser</string>
+    <string name="please_enter_wifi_name">Voer een geldige Wi-fi-naam in.</string>
+    <string name="local_ip_address">Home Assistant IP-adres</string>
+    <string name="local_ip_address_msg">Voer het IP-adres van de Home Assistant in. Als die momenteel niet beschikbaar is en u buiten uw netwerk toegang hebt tot uw server, kunt u dit adres ook plaatsen.</string>
+    <string name="check_connection_text">Controleer de verbinding</string>
+    <string name="external_ip_address_msg">Voer het externe adres van de Home Assistant IP in. Als u uw server niet via internet blootstelt, gebruikt u de knop \"Overslaan\" om verder te gaan</string>
+    <string name="credentials_message">Voer uw gebruikersnaam en wachtwoord in. Als u Home Assistant 0.78 of ouder gebruikt, kunt u de gebruikersnaam leeg laten om in te loggen via API_PASSWORD. Als u problemen ondervindt bij het inloggen of als u 2FA gebruikt, gebruik dan de weblogin.</string>
+    <string name="home_wifi_network_choose">Wi-Fi-netwerkkiezer</string>
 
     <string name="nfc_text">NFC</string>
-    <string name="nfc_summary_text">Read NFC and send the tags read to Home Assistant</string>
+    <string name="nfc_summary_text">Lees NFC en stuur de gelezen tags naar Home Assistant</string>
 
     <string name="mqtt_client">MQTT Client</string>
-    <string name="mqtt_client_summary">Choose the default MQTT client to be used</string>
+    <string name="mqtt_client_summary">Kies de standaard MQTT-client die moet worden gebruikt</string>
 
     <string-array name="array_setting_mqtt_client">
-        <item>HomeAssistant</item>
-        <item>Build-In</item>
+        <item>HomeAssistant"</item>
+        <item>Build-In"</item>
     </string-array>
     <string-array name="array_setting_mqtt_client_values">
-        <item>0</item>
-        <item>1</item>
+        <item>0"</item>
+        <item>1"</item>
     </string-array>
 
-    <string name="configure_build_in_mqtt_title">Configure build-in MQTT client</string>
-    <string name="configure_build_in_mqtt_title_summary">Use this option to configure access of the build-in MQTT client to your broker</string>
-    <string name="mqtt_setup_title">MQTT Setup</string>
+    <string name="configure_build_in_mqtt_title">Configureer de ingebouwde MQTT-client</string>
+    <string name="configure_build_in_mqtt_title_summary">Gebruik deze optie om de toegang van de ingebouwde MQTT-client tot uw broker te configureren</string>
+    <string name="mqtt_setup_title">MQTT-installatie</string>
 
-    <string name="local_mqtt_address">Local MQTT Address and Port</string>
-    <string name="external_mqtt_address">Extern MQTT Address and Port</string>
-    <string name="mqtt_connection_succeeded">MQTT connection succeeded</string>
-    <string name="mqtt_connection_failed">MQTT connection failed. Please check the data introduced and try again.</string>
-    <string name="mqtt_connection_external_failed">MQTT connection to external IP failed. Please check the data introduced and try again.</string>
+    <string name="local_mqtt_address">Lokaal MQTT-adres en -poort</string>
+    <string name="external_mqtt_address">Extern MQTT-adres en -poort</string>
+    <string name="mqtt_connection_succeeded">MQTT-verbinding is gelukt</string>
+    <string name="mqtt_connection_failed">MQTT-verbinding mislukt. Controleer de ingevoerde gegevens en probeer het opnieuw.</string>
+    <string name="mqtt_connection_external_failed">MQTT-verbinding met extern IP-adres is mislukt. Controleer de ingevoerde gegevens en probeer het opnieuw.</string>
 
-    <string name="mqtt_setup_address_message">   Please enter the IP address and port that will be used to connect to the MQTT broker.\n   If you do not have access to your local network instance you can also put the external IP to the local one.\n   If you do not want to connect to MQTT when you are not home, leave the external IP entry blank.\n   If you are using SSL connection, the IP address should start with \"ssl://\" instead of \"tcp://\".</string>
+    <string name="mqtt_setup_address_message">   Voer het IP-adres en de poort in die worden gebruikt om verbinding te maken met de MQTT-makelaar. \ N Als u geen toegang hebt tot uw lokale netwerkexemplaar, kunt u ook het externe IP-adres naar het lokale IP-adres plaatsen. \ N Als u niet wilt om verbinding te maken met MQTT wanneer u niet thuis bent, laat u het externe IP-adres leeg. \ n Als u een SSL-verbinding gebruikt, moet het IP-adres beginnen met \"ssl: //\" in plaats van \"tcp: //\".</string>
     <string name="back_camera">Back Camera</string>
-    <string name="back_camera_summary">Send pictures from back camera</string>
+    <string name="back_camera_summary">Stuur foto\'s vanaf de Back camera</string>
 
     <string name="front_camera">Front Camera</string>
-    <string name="front_camera_summary">Send pictures from front camera</string>
-    <string name="enable_camera_permission">Please enable camera permission to use this feature.</string>
+    <string name="front_camera_summary">Stuur foto\'s vanaf de Front Camera</string>
+    <string name="enable_camera_permission">Schakel cameramachtiging in om deze functie te gebruiken.</string>
 
-    <string name="common_text">Common</string>
-    <string name="wear_credentials_force">Force Android Wear credentials</string>
-    <string name="wear_credentials_force_summary">Force Android Wear credentials to be send to the device</string>
-    <string name="wear_successfully_sync">Credentials had been synced.</string>
-    <string name="wear_failed_sync">Failed to sync wear credentials.</string>
+    <string name="common_text">Gemeenschappelijk</string>
+    <string name="wear_credentials_force">Android Wear referenties afdwingen</string>
+    <string name="wear_credentials_force_summary">Forceer Android Wear-referenties naar het apparaat</string>
+    <string name="wear_successfully_sync">Inloggegevens zijn gesynchroniseerd.</string>
+    <string name="wear_failed_sync">Synchronisatie van draagreferenties mislukt.</string>
 
-    <string name="tts_text">Text to Speech</string>
-    <string name="tts_mqtt_summary">Enable this to have your phone convert text to speech</string>
+    <string name="tts_text">Tekst naar Spraak</string>
+    <string name="tts_mqtt_summary">Schakel dit in om uw telefoon tekst naar spraak te laten converteren</string>
 
-    <string name="server_connection_text">Server connection</string>
-    <string name="server_setting_read_timeout_title">Read timeout</string>
-    <string name="server_setting_read_timeout_summary">Choose timeout value when reading data from the socket.</string>
+    <string name="server_connection_text">Server verbinding</string>
+    <string name="server_setting_read_timeout_title">Lees de time-out</string>
+    <string name="server_setting_read_timeout_summary">Kies een time-outwaarde bij het lezen van gegevens uit de socket.</string>
 
-    <string name="server_setting_connect_timeout_title">Connect timeout</string>
-    <string name="server_setting_connect_timeout_summary">Choose timeout value when trying to connect to socket.</string>
+    <string name="server_setting_connect_timeout_title">Verbind time-out</string>
+    <string name="server_setting_connect_timeout_summary">Kies de time-outwaarde wanneer u probeert verbinding te maken met de socket.</string>
 
     <string name="alarm_text">Alarm</string>
-    <string name="alarm_summary">Send this device time when the next alarm will be triggered</string>
+    <string name="alarm_summary">Stuur dit apparaat de tijd wanneer het volgende alarm wordt geactiveerd</string>
 
-    <string name="start_app_boot">Start at boot</string>
-    <string name="start_app_boot_summary">Automatic start Ariela when the device start-up.</string>
+    <string name="start_app_boot">Begin bij het opstarten</string>
+    <string name="start_app_boot_summary">Start Ariela automatisch wanneer het apparaat opstart.</string>
 
-    <string name="ariela_available_mqtt_sensor">Ariela Availability</string>
-    <string name="ariela_available_mqtt_sensor_summary">Enable this to see time when Ariela last communicated with Home Assistant</string>
+    <string name="ariela_available_mqtt_sensor">Beschikbaarheid Ariela</string>
+    <string name="ariela_available_mqtt_sensor_summary">Schakel dit in om de tijd te zien wanneer Ariela voor het laatst met Home Assistant heeft gecommuniceerd</string>
 
-    <string name="notification_entities_empty">Add some entities in order to appear in notification.</string>
-    <string name="notification_entities_title">Notification Entities</string>
-    <string name="notification_entities_summary">Choose entities that should appear in notification</string>
-    <string name="notification_entities_max_reached">Maximum entities to display reached. Delete an existing entity and try again.</string>
-    <string name="choose_entity_text">Choose Entity</string>
+    <string name="notification_entities_empty">Voeg enkele entiteiten toe om in de melding te verschijnen.</string>
+    <string name="notification_entities_title">Meldingsentiteiten</string>
+    <string name="notification_entities_summary">Kies entiteiten die in de melding moeten verschijnen</string>
+    <string name="notification_entities_max_reached">Maximale entiteiten om weergegeven weer te geven. Wis een bestaande entiteit en probeer het opnieuw.</string>
+    <string name="choose_entity_text">Kies Entiteit</string>
 
-    <string name="internal_ip">Internal IP</string>
-    <string name="internal_ip_summary">Use this option to modify the local IP where the HA instance can be found</string>
+    <string name="internal_ip">Interne IP</string>
+    <string name="internal_ip_summary">Gebruik deze optie om het lokale IP-adres te wijzigen waar het HA-exemplaar kan worden gevonden</string>
 
-    <string name="external_ip">External IP</string>
-    <string name="external_ip_summary">Use this option to modify the external IP where the HA instance can be found</string>
+    <string name="external_ip">Externe IP</string>
+    <string name="external_ip_summary">Gebruik deze optie om het externe IP-adres te wijzigen waar de Home Assistant kan worden gevonden</string>
 
-    <string name="force_vertical_stack">Force vertical behaviour</string>
-    <string name="force_vertical_summary">When this option is enabled, Horizontal Stack cards will behave like vertical ones</string>
+    <string name="force_vertical_stack">Forceer verticaal gedrag</string>
+    <string name="force_vertical_summary">Wanneer deze optie is ingeschakeld, gedragen horizontale stapelkaarten zich als verticale kaarten</string>
 
-    <string name="bluetooth_headphone">Bluetooth Headphone</string>
-    <string name="bluetooth_headphone_summary">Send Bluetooth Headphone connected device information</string>
+    <string name="bluetooth_headphone">Bluetooth-hoofdtelefoon</string>
+    <string name="bluetooth_headphone_summary">Stuur Bluetooth-koptelefoon verbonden apparaatinformatie</string>
 
     <string name="bluetooth_a2dp">Bluetooth Media</string>
-    <string name="bluetooth_a2dp_summary">Send Bluetooth Media (A2DP) connected device information</string>
+    <string name="bluetooth_a2dp_summary">Verzend Bluetooth Media (A2DP) aangesloten apparaatinformatie</string>
 
     <string name="paused_text">paused</string>
 
     <string name="start_app_update">Start after update</string>
     <string name="start_app_update_summary">Automatic start Ariela when application get\'s updated.</string>
+
+    <string name="home_assistant_servers">Home Assistant servers</string>
+    <string name="home_assistant_servers_summary">Manager Home Assistan servers </string>
+    <string name="create_server_text">Create Server</string>
+    <string name="default_text">Default</string>
+    <string name="error_create_server_text">Please enter a valid server name in order to continue.</string>
+    <string name="active_server_cannot_delete">The active server cannot be deleted.</string>
 </resources>
