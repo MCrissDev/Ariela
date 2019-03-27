@@ -490,17 +490,17 @@
     <string name="bluetooth_a2dp">Bluetooth Медиа</string>
     <string name="bluetooth_a2dp_summary">Отправить информацию о подключенном устройстве Bluetooth (A2DP)</string>
 
-    <string name="paused_text">paused</string>
+    <string name="paused_text">Пауза</string>
 
-    <string name="start_app_update">Start after update</string>
-    <string name="start_app_update_summary">Automatic start Ariela when application get\'s updated.</string>
-    <string name="logout_text_info">Are you sure you to logout? Current connection info will be cleared.</string>
-    <string name="exit_app_text_info">Are you sure you to exit Ariela?</string>
+    <string name="start_app_update">Запустить после обновления</string>
+    <string name="start_app_update_summary">Автоматически запускать Ariela когда доступно обновление.</string>
+    <string name="logout_text_info">Вы действительно хотите выйти? Информация о текущее соединение будет удалена.</string>
+    <string name="exit_app_text_info">Вы действительно хотите выйти из Ariela?</string>
 
-    <string name="home_assistant_servers">Home Assistant servers</string>
-    <string name="home_assistant_servers_summary">Manager Home Assistan servers </string>
-    <string name="create_server_text">Create Server</string>
-    <string name="default_text">Default</string>
-    <string name="error_create_server_text">Please enter a valid server name in order to continue.</string>
-    <string name="active_server_cannot_delete">The active server cannot be deleted.</string>
+    <string name="home_assistant_servers">Сервера Home Assistant</string>
+    <string name="home_assistant_servers_summary">Управление серверами Home Assistan</string>
+    <string name="create_server_text">Создать сервер</string>
+    <string name="default_text">По умолчанию</string>
+    <string name="error_create_server_text">Для продолжения, пожалуйста введите корректное имя сервера</string>
+    <string name="active_server_cannot_delete">Активный сервер не может быть удален.</string>
 </resources>
