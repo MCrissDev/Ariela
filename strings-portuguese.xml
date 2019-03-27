@@ -497,4 +497,11 @@ Traduzido com www.DeepL.com/Translator</string>
 
     <string name="logout_text_info">Tens a certeza que vais sair? As informações da conexão atual serão apagadas.</string>
     <string name="exit_app_text_info">Tens a certeza que vais sair da Ariela?</string>
+
+    <string name="home_assistant_servers">Home Assistant servers</string>
+    <string name="home_assistant_servers_summary">Manager Home Assistan servers </string>
+    <string name="create_server_text">Create Server</string>
+    <string name="default_text">Default</string>
+    <string name="error_create_server_text">Please enter a valid server name in order to continue.</string>
+    <string name="active_server_cannot_delete">The active server cannot be deleted.</string>
 </resources>
