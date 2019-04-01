@@ -503,4 +503,43 @@
     <string name="default_text">Default</string>
     <string name="error_create_server_text">Please enter a valid server name in order to continue.</string>
     <string name="active_server_cannot_delete">The active server cannot be deleted.</string>
+
+    <string name="certificate_message_info">If you server connection requires custom certificates like PCKS12 you may enter here the path of the certificate to be used. This is useful when having your Home Assistant server running over NGINX for example.</string>
+    <string name="please_enter_certificate_path">Use search button to enter the certificate path:</string>
+    <string name="search_text">Search</string>
+    <string name="choose_certificate">Choose Certificate</string>
+    <string name="enter_certificate_password">If required, enter the certificate password:</string>
+
+    <string name="use_internal_ip_home_ap">Use internal IP when connected to a Home AP</string>
+    <string name="use_internal_ip_home_ap_summary">If this option is enabled, when Ariela detects you are connected to a home AP, internal IP will be used for connection.</string>
+
+
+    <string-array name="array_setting_boot_entries">
+        <item>Background Service</item>
+        <item>Application</item>
+    </string-array>
+
+    <string-array name="array_setting_boot_entries_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string name="boot_startup_mode">Startup boot mode </string>
+    <string name="boot_startup_mode_summary">Choose the way Ariela will start at boot</string>
+    <string name="sending_nfc_tag">Sending NFC TAG: %s</string>
+
+    <string-array name="array_setting_mqtt_camera_resolution">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+
+    <string-array name="array_setting_mqtt_camera_resolution_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="mqtt_camera_resolution">MQTT Camera Resolution</string>
+    <string name="mqtt_camera_resolution_summary">Choose the MQTT Camera Resolution</string>
 </resources>
