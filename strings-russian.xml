@@ -205,7 +205,7 @@
     <string name="config_invalid_text">Не верная конфигурация</string>
     <string name="failed_to_check_config">Ошибка проверка конфигурации. Пожалуйста попробуйте еще раз.</string>
     <string name="config_reload_text">Перезагрузить конфигурацию</string>
-    <string name="config_reload_msg_text">Некоторые части Home Assistant могут быть перезагружены без необходимости перезагрузки. Hitting reload will unload their current configuration and load the new one. </string>
+    <string name="config_reload_msg_text">Некоторые компоненты Home Assistant можно перезагрузить без необходимости перезапуска всей системы. Перезагрузка выгружает текущую конфигурацию и загружает новую. </string>
 
     <string name="reload_core_text">Перезагрузить ядро</string>
     <string name="reload_groups_text">Перезагрузить группы</string>
@@ -504,19 +504,19 @@
     <string name="error_create_server_text">Для продолжения, пожалуйста введите корректное имя сервера</string>
     <string name="active_server_cannot_delete">Активный сервер не может быть удален.</string>
 
-    <string name="certificate_message_info">If you server connection requires custom certificates like PCKS12 you may enter here the path of the certificate to be used. This is useful when having your Home Assistant server running over NGINX for example.</string>
-    <string name="please_enter_certificate_path">Use search button to enter the certificate path:</string>
-    <string name="search_text">Search</string>
-    <string name="choose_certificate">Choose Certificate</string>
-    <string name="enter_certificate_password">If required, enter the certificate password:</string>
+    <string name="certificate_message_info">Если ваш сервер требует для подключения индивидуальные сертификаты PCKS12 вы можете ввести путь для их использования. Это необходимо, когда ваш сервер работает через NGINX, как пример.</string>
+    <string name="please_enter_certificate_path">Используйте кнопку поиска, что бы ввести путь к сертификату:</string>
+    <string name="search_text">Поиск</string>
+    <string name="choose_certificate">Выбрать сертификат</string>
+    <string name="enter_certificate_password">При необходимости, введите пароль от сертификата:</string>
 
-    <string name="use_internal_ip_home_ap">Use internal IP when connected to a Home AP</string>
-    <string name="use_internal_ip_home_ap_summary">If this option is enabled, when Ariela detects you are connected to a home AP, internal IP will be used for connection.</string>
+    <string name="use_internal_ip_home_ap">Использовать внутренний IP когда подключено к домашней точке доступа.</string>
+    <string name="use_internal_ip_home_ap_summary">Когда эта опция включена, Ariela определит ваше подключение к домашней сети, будет использоваться внутренний IP адрес.</string>
 
 
     <string-array name="array_setting_boot_entries">
-        <item>Background Service</item>
-        <item>Application</item>
+        <item>Сервис в фоновом режиме</item>
+        <item>Приложение</item>
     </string-array>
 
     <string-array name="array_setting_boot_entries_values">
@@ -524,14 +524,14 @@
         <item>1</item>
     </string-array>
 
-    <string name="boot_startup_mode">Startup boot mode </string>
-    <string name="boot_startup_mode_summary">Choose the way Ariela will start at boot</string>
-    <string name="sending_nfc_tag">Sending NFC TAG: %s</string>
+    <string name="boot_startup_mode">Режим загрузки </string>
+    <string name="boot_startup_mode_summary">Способ запуска Ariela при загрузке</string>
+    <string name="sending_nfc_tag">Отправка NFC метки: %s</string>
 
     <string-array name="array_setting_mqtt_camera_resolution">
-        <item>Low</item>
-        <item>Medium</item>
-        <item>High</item>
+        <item>Низкое</item>
+        <item>Среднее</item>
+        <item>Высокое</item>
     </string-array>
 
     <string-array name="array_setting_mqtt_camera_resolution_values">
@@ -540,6 +540,6 @@
         <item>2</item>
     </string-array>
 
-    <string name="mqtt_camera_resolution">MQTT Camera Resolution</string>
-    <string name="mqtt_camera_resolution_summary">Choose the MQTT Camera Resolution</string>
+    <string name="mqtt_camera_resolution">Разрешение MQTT камеры</string>
+    <string name="mqtt_camera_resolution_summary">Выбрать разрешение MQTT камеры</string>
 </resources>
