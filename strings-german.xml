@@ -526,4 +526,19 @@
     <string name="boot_startup_mode">Startup boot mode </string>
     <string name="boot_startup_mode_summary">Choose the way Ariela will start at boot</string>
     <string name="sending_nfc_tag">Sending NFC TAG: %s</string>
+
+    <string-array name="array_setting_mqtt_camera_resolution">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+
+    <string-array name="array_setting_mqtt_camera_resolution_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="mqtt_camera_resolution">MQTT Camera Resolution</string>
+    <string name="mqtt_camera_resolution_summary">Choose the MQTT Camera Resolution</string>
 </resources>
