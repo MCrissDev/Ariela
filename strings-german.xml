@@ -415,7 +415,7 @@
     <string name="nfc_summary_text">Lese NFC und sende erkannte Tags an Home Assistant</string>
 
     <string name="mqtt_client">MQTT-Client</string>
-    <string name="mqtt_client_summary">Wähle den standard MQTT client</string>
+    <string name="mqtt_client_summary">Wähle den Standard-MQTT-Client</string>
 
     <string-array name="array_setting_mqtt_client">
         <item>Home Assistant</item>
@@ -496,10 +496,10 @@
     <string name="logout_text_info">Möchtest du dich wirklich ausloggen? Die aktuellen Verbindungseinstellungen werden gelöscht.</string>
     <string name="exit_app_text_info">Möchtest du Ariela wirklich beenden??</string>
 
-    <string name="home_assistant_servers">Home Assistant servers</string>
-    <string name="home_assistant_servers_summary">Manager Home Assistan servers </string>
-    <string name="create_server_text">Create Server</string>
-    <string name="default_text">Default</string>
-    <string name="error_create_server_text">Please enter a valid server name in order to continue.</string>
-    <string name="active_server_cannot_delete">The active server cannot be deleted.</string>
+    <string name="home_assistant_servers">Home Assistant-Server</string>
+    <string name="home_assistant_servers_summary">Verwalte Home Assistant-Server </string>
+    <string name="create_server_text">Erstelle Server</string>
+    <string name="default_text">Standard</string>
+    <string name="error_create_server_text">Um fortzufahren, gib bitte einen gültigen Servernamen an.</string>
+    <string name="active_server_cannot_delete">Der aktive Server kann nicht gelöscht werden..</string>
 </resources>
