@@ -469,7 +469,7 @@
     <string name="ariela_available_mqtt_sensor">Доступность Ariela</string>
     <string name="ariela_available_mqtt_sensor_summary">Включите эту функцию, если вы хотите видеть, когда Ariela последний раз обращалась к Home Assistant</string>
 
-    <string name="notification_entities_empty">Добавьте объекты, что бы они появились в панели уведомлений.</string>
+    <string name="notification_entities_empty">Go to Settings -> Notifications in order to add some entities here.</string>
     <string name="notification_entities_title">Объекты уведомлений</string>
     <string name="notification_entities_summary">Выберите объекты, которые должны появиться в панели уведомлений</string>
     <string name="notification_entities_max_reached">Достигнуто максимальное количество объектов для уведомления. Удалите лишние объекты и попробуйте снова.</string>
@@ -542,4 +542,10 @@
 
     <string name="mqtt_camera_resolution">Разрешение MQTT камеры</string>
     <string name="mqtt_camera_resolution_summary">Выбрать разрешение MQTT камеры</string>
+
+    <string name="states_dev_summary">Set the representation of a device within Home Assistant. This will not communicate with the actual device. </string>
+    <string name="set_state_text">Set State</string>
+    <string name="entity_text">Entity</string>
+    <string name="state_text">State</string>
+    <string name="state_attributes">State Attributes (JSON, optional)</string>
 </resources>
