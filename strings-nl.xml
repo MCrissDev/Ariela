@@ -470,7 +470,7 @@
     <string name="ariela_available_mqtt_sensor">Beschikbaarheid Ariela</string>
     <string name="ariela_available_mqtt_sensor_summary">Schakel dit in om de tijd te zien wanneer Ariela voor het laatst met Home Assistant heeft gecommuniceerd</string>
 
-    <string name="notification_entities_empty">Voeg enkele entiteiten toe om in de melding te verschijnen.</string>
+    <string name="notification_entities_empty">Go to Settings -> Notifications in order to add some entities here.</string>
     <string name="notification_entities_title">Meldingsentiteiten</string>
     <string name="notification_entities_summary">Kies entiteiten die in de melding moeten verschijnen</string>
     <string name="notification_entities_max_reached">Maximale entiteiten om weergegeven weer te geven. Wis een bestaande entiteit en probeer het opnieuw.</string>
@@ -544,4 +544,10 @@
 
     <string name="mqtt_camera_resolution">MQTT Camera Resolution</string>
     <string name="mqtt_camera_resolution_summary">Choose the MQTT Camera Resolution</string>
+
+    <string name="states_dev_summary">Set the representation of a device within Home Assistant. This will not communicate with the actual device. </string>
+    <string name="set_state_text">Set State</string>
+    <string name="entity_text">Entity</string>
+    <string name="state_text">State</string>
+    <string name="state_attributes">State Attributes (JSON, optional)</string>
 </resources>
