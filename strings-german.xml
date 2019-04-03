@@ -541,4 +541,10 @@
 
     <string name="mqtt_camera_resolution">MQTT Camera Resolution</string>
     <string name="mqtt_camera_resolution_summary">Choose the MQTT Camera Resolution</string>
+
+    <string name="states_dev_summary">Set the representation of a device within Home Assistant. This will not communicate with the actual device. </string>
+    <string name="set_state_text">Set State</string>
+    <string name="entity_text">Entity</string>
+    <string name="state_text">State</string>
+    <string name="state_attributes">State Attributes (JSON, optional)</string>
 </resources>
