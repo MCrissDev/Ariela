@@ -516,8 +516,8 @@ Traduzido com www.DeepL.com/Translator</string>
 
 
     <string-array name="array_setting_boot_entries">
-        <item>Background Service</item>
-        <item>Application</item>
+        <item>Serviço em background</item>
+        <item>Aplicação</item>
     </string-array>
 
     <string-array name="array_setting_boot_entries_values">
@@ -530,9 +530,9 @@ Traduzido com www.DeepL.com/Translator</string>
     <string name="sending_nfc_tag">Sending NFC TAG: %s</string>
 
     <string-array name="array_setting_mqtt_camera_resolution">
-        <item>Low</item>
-        <item>Medium</item>
-        <item>High</item>
+        <item>Baixa</item>
+        <item>Média</item>
+        <item>Alta</item>
     </string-array>
 
     <string-array name="array_setting_mqtt_camera_resolution_values">
@@ -541,12 +541,12 @@ Traduzido com www.DeepL.com/Translator</string>
         <item>2</item>
     </string-array>
 
-    <string name="mqtt_camera_resolution">MQTT Camera Resolution</string>
-    <string name="mqtt_camera_resolution_summary">Choose the MQTT Camera Resolution</string>
+    <string name="mqtt_camera_resolution">Resolução da Câmera MQTT</string>
+    <string name="mqtt_camera_resolution_summary">Escolher resolução da Câmera MQTT</string>
 
     <string name="states_dev_summary">Set the representation of a device within Home Assistant. This will not communicate with the actual device. </string>
-    <string name="set_state_text">Set State</string>
-    <string name="entity_text">Entity</string>
-    <string name="state_text">State</string>
+    <string name="set_state_text">Definir estado</string>
+    <string name="entity_text">Entidade</string>
+    <string name="state_text">Estado</string>
     <string name="state_attributes">State Attributes (JSON, optional)</string>
 </resources>
