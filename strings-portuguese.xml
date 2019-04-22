@@ -1,8 +1,8 @@
 <resources>
-    <string name="click_next_for_setup">Clique no botão Proximo para iniciar o processo de configuração</string>
+    <string name="click_next_for_setup">Clique no botão Próximo para iniciar o processo de configuração</string>
     <string name="try_again_text">Tente novamente</string>
     <string name="continue_text">Continuar</string>
-    <string name="connecting_please_wait">A ligar. Por favor, agurade...</string>
+    <string name="connecting_please_wait">A ligar. Por favor, agurade…</string>
     <string name="connection_server_failed">Falha na ligação ao servidor</string>
     <string name="connection_server_failed_message">Falha na ligação ao servidor Home Assistant. Por favor, verifique o URL / IP fornecido e tente novamente.</string>
     <string name="ok_text">OK</string>
@@ -28,11 +28,11 @@
     <string name="wifi_state_disconnected">Desligado</string>
     <string name="wifi_state_disconnecting">Desligar</string>
     <string name="wifi_choose_message">Escolha a sua rede Wi-Fi doméstica onde o servidor Home Assistant está a ser executado. Este será utilizado posteriormente por esta aplicação para saber se a rede atualmente ligada é a rede doméstica ou não. Deslize para baixo para atualizar a lista de redes Wi-Fi se não vir a sua rede.</string>
-    <string name="searching_wifi_networks">Procurar redes Wi-Fi...</string>
+    <string name="searching_wifi_networks">Procurar redes Wi-Fi…</string>
     <string name="home_text">CASA</string>
     <string name="button_scene_activate">ativar</string>
     <string name="climate_current_temperature">Atualmente: %1$.1f %2$s</string>
-    <string name="media_player_stop_toast">Parar a reprodução...</string>
+    <string name="media_player_stop_toast">Parar a reprodução…</string>
     <string name="location_permission_required">Para prosseguir, é necessária uma nova permissão de Localização. Gostaria de habilitá-lo manualmente?</string>
     <string name="yes_text">SIM</string>
     <string name="no_text">NÃO</string>
@@ -72,7 +72,7 @@
     <string name="unlocked_text">Desbloquear</string>
     <string name="target_temperature">Temperatura alvo</string>
     <string name="operation_text">Operação</string>
-    <string name="away_mode_string">Modo de ausencia</string>
+    <string name="away_mode_string">Modo de ausência</string>
     <string name="default_notification_channel_id">Notificação contínua</string>
     <string name="firebase_notifications_enabled">Notificações da Firebase foram ativadas</string>
     <string name="firebase_notifications_failed">Falha ao ativar notificações Firebase para este dispositivo. Verifique se o componente HANotify está instalado no servidor Home Assistant</string>
@@ -186,7 +186,7 @@
     <string name="device_tracker_period_summary">Escolha o intervalo de tempo em que as atualizações de local devem ser enviadas</string>
 
     <string name="web_login_text">Web Login</string>
-    <string name="please_wait_text">Por favor agurade...</string>
+    <string name="please_wait_text">Por favor agurade…</string>
     <string name="title_activity_map_viewer">Mapa</string>
 
     <string name="hours_ago_text">%d horas atrás</string>
@@ -214,7 +214,7 @@
     <string name="settings_wifi_home_summary">Quando o seu telefone está ligado a uma rede Wi-Fi a partir desta lista, ele irá automaticamente dizer ao Home Assistant que está em casa</string>
     <string name="settings_wifi_home_title">Casa Wi-Fi Redes</string>
     <string name="server_management_text">Gestão de Servidores</string>
-    <string name="server_management_message_text">Controle o seu servidor Home Assistant... da Ariela.</string>
+    <string name="server_management_message_text">Controle o seu servidor Home Assistant… da Ariela.</string>
     <string name="restart_text">Reiniciar</string>
     <string name="stop_text">Parar</string>
     <string name="brightness_text">brilho</string>
@@ -243,7 +243,7 @@
     <string name="disconnected_text">Desligado</string>
     <string name="open_text">Abrir</string>
     <string name="closed_text">Fechado</string>
-    <string name="gas_detected_text">Gas detetado</string>
+    <string name="gas_detected_text">Gás detetado</string>
     <string name="clear_text">Apagar</string>
     <string name="hot_text">Quente</string>
     <string name="light_detected_text">Luz detetada</string>
@@ -287,7 +287,7 @@
     <string name="clear_current_config">Apagar configuração atual</string>
     <string name="current_external_config_cleared">A configuração de acesso externo atual foi apagada</string>
     <string name="call_state">Estado da chamada</string>
-    <string name="call_state_message">Mandar este dispositivo chamar o estado da informação...</string>
+    <string name="call_state_message">Mandar este dispositivo chamar o estado da informação…</string>
 
     <string name="copy_to_clipboard">Copiar para a memória</string>
     <string name="instructions_copied_to_memory">Instruções copiadas para a área de transferência</string>
@@ -308,7 +308,7 @@
     <string name="checked_items">Itens verificados</string>
 
     <string name="ambient_temperature">Temperatura Ambiente</string>
-    <string name="ambient_temperature_message">Envie a informação do sensor de temperatura ambiente deste dispositivo...</string>
+    <string name="ambient_temperature_message">Envie a informação do sensor de temperatura ambiente deste dispositivo…</string>
 
     <string name="pressure_text">Pressão</string>
     <string name="pressure_message">Envie a informação do sensor de pressão deste dispositivo</string>
@@ -525,7 +525,7 @@ Traduzido com www.DeepL.com/Translator</string>
         <item>1</item>
     </string-array>
 
-    <string name="boot_startup_mode">Modo de inicio no boot </string>
+    <string name="boot_startup_mode">Modo de início no boot </string>
     <string name="boot_startup_mode_summary">Escolha como o Areiela vai iniciar no boot</string>
     <string name="sending_nfc_tag">A enviar TAG NFC: %s</string>
 
