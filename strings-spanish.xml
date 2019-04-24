@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="click_next_for_setup">Pulse el botón Siguiente para comenzar la configuración</string>
     <string name="try_again_text">Probar de nuevo</string>
@@ -15,9 +15,9 @@
     <string name="setup_complete_text">Configuración Completada</string>
     <string name="setup_complete_message_text">La configuración de Home Assistant finalizó correctamente. Ahora puede controlar Home Assistant desde esta app.</string>
     <string name="configure_text">Configurar</string>
-    <string name="connection_server_failed_splash">Error al conectarse al servidor de Home Assistant.  Puede volver a intentar conectarse o configurar el servidor nuevamente. ¿Que te gustaría hacer?</string>
+    <string name="connection_server_failed_splash">Error al conectarse al servidor de Home Assistant.  Puede volver a intentar conectar o configurar el servidor nuevamente. ¿Que le gustaría hacer?</string>
     <string name="server_not_configured_text">Servidor no configurado</string>
-    <string name="server_not_configured_message_text">Home Assistant no está configurado todavía.  ¿Te gustaría configurarlo?</string>
+    <string name="server_not_configured_message_text">Home Assistant no está configurado todavía.  ¿Le gustaría configurarlo?</string>
     <string name="title_activity_dashboard">Tablero</string>
     <string name="navigation_drawer_open">Abrir el cajon de navegacion</string>
     <string name="navigation_drawer_close">Cerrar el cajón de navegación</string>
@@ -28,7 +28,7 @@
     <string name="wifi_state_connecting">CONECTANDO</string>
     <string name="wifi_state_disconnected">DESCONECTADO</string>
     <string name="wifi_state_disconnecting">DESCONECTANDO</string>
-    <string name="wifi_choose_message">Elija la red Wi-Fi de su casa donde se ejecuta el servidor de Home Assistant.  Esta aplicación la utilizará más adelante para saber si la red actualmente conectada es la de origen o no.  Deslice hacia abajo para actualizar la lista de redes Wi-Fi si no ve su red.</string>
+    <string name="wifi_choose_message">Elija la red Wi-Fi de su hogar a la que está conectado el servidor de Home Assistant.  Esta aplicación la utilizará más adelante para saber si la red actualmente conectada es la de origen o no.  Deslice hacia abajo para actualizar la lista de redes Wi-Fi si no ve su red.</string>
     <string name="searching_wifi_networks">Buscando redes wifi…</string>
     <string name="home_text">CASA</string>
     <string name="button_scene_activate">activar</string>
@@ -87,9 +87,9 @@
     <string name="setting_webui_summary">Cuando esta opción esté habilitada, se usará la interfaz de usuario web en lugar de las vistas nativas de Android.</string>
     <string name="setting_webui_title">Interfaz de usuario web</string>
     <string name="setting_autoreconnect_summary">Cuando esta opción está habilitada, Ariela intentará restablecer la conexión cada 10 segundos si se pierde previamente.</string>
-    <string name="setting_autoreconnect_title">Auto-reconectarse</string>
+    <string name="setting_autoreconnect_title">Auto-reconectar</string>
     <string name="settings_permanent_notification_title">Notificación Permanente</string>
-    <string name="settings_permanent_notification_summary">Mostrar una notificación permanente cuando Ariela está conectada al servidor.</string>
+    <string name="settings_permanent_notification_summary">Mostrar una notificación permanente cuando Ariela está conectado al servidor.</string>
     <string name="settings_lovelaceui_title">Lovelace UI</string>
     <string name="settings_lovelaceui_summary">Utilice la configuración de la interfaz de usuario de Lovelace en lugar de la predeterminada.</string>
     <string name="settings_debugmode_title">Modo de depuración</string>
@@ -167,9 +167,9 @@
     <string name="device_tracker_type_title">Modo de seguimiento</string>
     <string name="device_tracker_type_summary">Elija el modo de seguimiento que se utilizará para informar a HA sobre la ubicación de este dispositivo</string>
     <string name="device_tracker_position_title">Actualizaciones de posición</string>
-    <string name="device_tracker_position_summary">Elija la distancia en metros a los que se deben enviar las actualizaciones de ubicación.</string>
+    <string name="device_tracker_position_summary">Elija cada cuantos metros de desplazamiento del dispositivo se deben enviar las actualizaciones de ubicación.</string>
     <string name="device_tracker_period_title">Período de actualizaciones</string>
-    <string name="device_tracker_period_summary">Elija el intervalo de tiempo en el que se deben enviar las actualizaciones de ubicación</string>
+    <string name="device_tracker_period_summary">Elija cada cuanto tiempo se deben enviar las actualizaciones de ubicación</string>
     <string name="web_login_text">Inicio de sesión web</string>
     <string name="please_wait_text">Por favor espera…</string>
     <string name="title_activity_map_viewer">Mapa</string>
@@ -179,7 +179,7 @@
     <string name="minute_ago_text">hace %d minuto</string>
     <string name="seconds_ago_text">hace %d segundos</string>
     <string name="config_validation_text">Validación de la configuración</string>
-    <string name="config_valid_message_text">Valide su configuración si recientemente realizó algunos cambios en ella y quiere asegurarse de que todo sea válido</string>
+    <string name="config_valid_message_text">Valide su configuración si recientemente realizó cambios en ella y quiere asegurarse de que todo esté correcto</string>
     <string name="check_config_text">Comprobar config</string>
     <string name="config_valid_text">Configuración válida</string>
     <string name="config_invalid_text">Configuración inválida</string>
@@ -207,10 +207,10 @@
     <string name="delete_text">Borrar</string>
     <string name="failed_to_retrieve_users">Error al recuperar los usuarios.  Por favor, inténtelo de nuevo más tarde.</string>
     <string name="something_went_wrong">Algo salió mal</string>
-    <string name="unable_to_delete_own_account">No se puede eliminar tu propia cuenta</string>
+    <string name="unable_to_delete_own_account">No se puede eliminar su propia cuenta</string>
     <string name="alarm_code_text">Código</string>
-    <string name="arm_home_text">ARMAR EN CASA</string>
-    <string name="arm_away_text">ARMAR FUERA DE CASA</string>
+    <string name="arm_home_text">ARMAR - EN CASA</string>
+    <string name="arm_away_text">ARMAR - FUERA DE CASA</string>
     <string name="disarm_text">DESARMAR</string>
     <string name="theme_text">Tema</string>
     <string name="theme_summary">Elige la apariencia de Ariela.</string>
@@ -252,11 +252,11 @@
     <string name="battery">Batería</string>
     <string name="battery_message">Enviar información de la batería de este dispositivo</string>
     <string name="light">Luz</string>
-    <string name="light_message">Enviar la información del sensor de luz de este dispositivo</string>
+    <string name="light_message">Enviar información del sensor de luz de este dispositivo</string>
     <string name="step_counter">Contador de pasos</string>
-    <string name="step_counter_message">Enviar esta información del contador de pasos del dispositivo</string>
+    <string name="step_counter_message">Enviar información del contador de pasos del dispositivo</string>
     <string name="instructions_text">Instrucciones</string>
-    <string name="wi_fi_message">Enviar la información del Wi-Fi de este dispositivo</string>
+    <string name="wi_fi_message">Enviar información del Wi-Fi de este dispositivo</string>
     <string name="clear_current_config">Borrar la configuración actual</string>
     <string name="current_external_config_cleared">La configuración de acceso externo actual ha sido borrada</string>
     <string name="call_state">Estado de llamada</string>
@@ -279,7 +279,7 @@
     <string name="pressure_text">Presión</string>
     <string name="pressure_message">Enviar información del sensor de presión de este dispositivo</string>
     <string name="user_text">Usuario</string>
-    <string name="setting_keepscreenon_summary">Si esta opción está habilitada, mientras el panel de Ariela estará visible, la pantalla no se apagará</string>
+    <string name="setting_keepscreenon_summary">Si esta opción está habilitada, mientras el panel de Ariela esté visible, la pantalla no se apagará</string>
     <string name="setting_keepscreenon_title">Mantener la pantalla encendida</string>
     <string name="shopping_list_text">Lista de la compra</string>
     <string name="text_to_speek">Texto a voz</string>
@@ -290,7 +290,7 @@
     <string name="bluetooth_mqtt_text">Enviar esta información de Bluetooth del dispositivo</string>
     <string name="relative_humidity">Humedad relativa</string>
     <string name="relative_humidity_message">Enviar la información del sensor de humedad relativa de este dispositivo</string>
-    <string name="screen_mqtt_sensor_text">Despierta / apagar este dispositivo de Home Assistant</string>
+    <string name="screen_mqtt_sensor_text">Despertar / apagar este dispositivo de Home Assistant</string>
     <string name="screen_text">Pantalla</string>
     <string name="apps_mqtt_text">Sensor que contiene aplicaciones instaladas en este dispositivo</string>
     <string name="apps_text">Aplicaciones</string>
@@ -314,7 +314,7 @@
     <string name="vacuum_cleaner_commands">Comandos de aspiradora:</string>
     <string name="notifications_empty">Sin Notificaciones</string>
     <string name="dismiss_text">Finalizar</string>
-    <string name="failed_to_retrieve_shopping_list">Error al recuperar la lista de compras.  Compruebe si el componente está habilitado en el servidor.</string>
+    <string name="failed_to_retrieve_shopping_list">Error al recuperar la lista de la compra.  Compruebe si el componente está habilitado en el servidor.</string>
     <string name="entity_editor_text">Editor de entidades</string>
     <string name="message_toast_failed_to_save_entity_info">Error al guardar la información de la entidad</string>
     <string-array name="array_setting_cards_column">
@@ -373,10 +373,10 @@
     <string name="mqtt_setup_title">Configuración MQTT</string>
     <string name="local_mqtt_address">Dirección y puerto local de MQTT</string>
     <string name="external_mqtt_address">Dirección externa MQTT y Puerto</string>
-    <string name="mqtt_connection_succeeded">Conexión MQTT exitosa</string>
+    <string name="mqtt_connection_succeeded">Conexión MQTT correcta</string>
     <string name="mqtt_connection_failed">Falló la conexión MQTT.  Por favor, compruebe los datos introducidos y vuelva a intentarlo.</string>
     <string name="mqtt_connection_external_failed">Falló la conexión MQTT a la IP externa.  Por favor, compruebe los datos introducidos y vuelva a intentarlo.</string>
-    <string name="mqtt_setup_address_message">Introduzca la dirección IP y el puerto que se utilizará para conectarse al agente MQTT.  N Si no tiene acceso a su instancia de red local, también puede transferir la IP externa a la local.  N Si no desea  para conectarse a MQTT cuando no está en casa, deje la entrada de IP externa en blanco.  n Si está usando una conexión SSL, la dirección IP debe comenzar con  "ssl: // " en lugar de  "tcp: // "  .</string>
+    <string name="mqtt_setup_address_message">Introduzca la dirección IP y el puerto que se utilizará para conectarse al agente MQTT.\n   Si no tiene acceso a su instancia de red local, también puede transferir la IP externa a la local.\n   Si no desea  para conectarse a MQTT cuando no está en casa, deje la entrada de IP externa en blanco.\n   Si está usando una conexión SSL, la dirección IP debe comenzar con  "ssl: // " en lugar de  "tcp: // "  .</string>
     <string name="back_camera">Cámara trasera</string>
     <string name="back_camera_summary">Enviar fotos desde la cámara trasera</string>
     <string name="front_camera">Cámara frontal</string>
@@ -389,11 +389,11 @@
     <string name="wear_failed_sync">Error al sincronizar las credenciales de Android Wear.</string>
     <string name="tts_text">Texto a voz</string>
     <string name="tts_mqtt_summary">Habilite esto para que tu teléfono convierta texto a voz</string>
-    <string name="server_connection_text">Conexión de servidor</string>
+    <string name="server_connection_text">Conexión del servidor</string>
     <string name="server_setting_read_timeout_title">Tiempo de espera de lectura agotado</string>
     <string name="server_setting_read_timeout_summary">Elija el valor de tiempo de espera al leer los datos del socket.</string>
     <string name="server_setting_connect_timeout_title">Tiempo de espera de conexión</string>
-    <string name="server_setting_connect_timeout_summary">Elija el valor de tiempo de espera al intentar conectarse a socket.</string>
+    <string name="server_setting_connect_timeout_summary">Elija el valor de tiempo de espera al intentar conectarse al socket.</string>
     <string name="alarm_text">Alarma</string>
     <string name="alarm_summary">Envía la hora de este dispositivo cuando se active la siguiente alarma.</string>
     <string name="start_app_boot">Iniciar al arrancar</string>
@@ -427,12 +427,12 @@
     <string name="error_create_server_text">Por favor introduzca un nombre de servidor válido para continuar.</string>
     <string name="active_server_cannot_delete">El servidor activo no puede ser eliminado.</string>
     <string name="certificate_message_info">Si la conexión de su servidor requiere certificados personalizados como PCKS12, puede introducir aquí la ruta del certificado que se usará.  Esto es útil cuando, por ejemplo, su servidor Home Assistant se ejecuta en NGINX.</string>
-    <string name="please_enter_certificate_path">Use el botón de búsqueda para ingresar la ruta del certificado:</string>
+    <string name="please_enter_certificate_path">Use el botón de búsqueda para indicar la ruta del certificado:</string>
     <string name="search_text">Buscar</string>
     <string name="choose_certificate">Elegir certificado</string>
-    <string name="enter_certificate_password">Si es necesario, ingrese la contraseña del certificado:</string>
+    <string name="enter_certificate_password">Si es necesario, introduzca la contraseña del certificado:</string>
     <string name="use_internal_ip_home_ap">Use la IP interna cuando esté conectado a un AP doméstico</string>
-    <string name="use_internal_ip_home_ap_summary">Si esta opción está habilitada, cuando Ariela detecta que está conectado a un AP doméstico, se usará una IP interna para la conexión.</string>
+    <string name="use_internal_ip_home_ap_summary">Si esta opción está habilitada, cuando Ariela detecte que está conectado a un AP doméstico, se usará una IP interna para la conexión.</string>
     <string-array name="array_setting_boot_entries">
         <item>Servicio en segundo plano</item>
         <item>Aplicación</item>
@@ -441,7 +441,7 @@
         <item>0</item>
         <item>1</item>
     </string-array>
-    <string name="boot_startup_mode">Modo de arranque de inicio</string>
+    <string name="boot_startup_mode">Modo de inicio al arrancar</string>
     <string name="boot_startup_mode_summary">Elija la forma en que Ariela comenzará en el arranque.</string>
     <string name="sending_nfc_tag">Enviando etiqueta NFC:% s</string>
     <string-array name="array_setting_mqtt_camera_resolution">
