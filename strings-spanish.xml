@@ -18,8 +18,8 @@
     <string name="connection_server_failed_splash">Error al conectarse al servidor de Home Assistant.  Puede volver a intentar conectar o configurar el servidor nuevamente. ¿Que le gustaría hacer?</string>
     <string name="server_not_configured_text">Servidor no configurado</string>
     <string name="server_not_configured_message_text">Home Assistant no está configurado todavía.  ¿Le gustaría configurarlo?</string>
-    <string name="title_activity_dashboard">Tablero</string>
-    <string name="navigation_drawer_open">Abrir el cajon de navegacion</string>
+    <string name="title_activity_dashboard">Panel</string>
+    <string name="navigation_drawer_open">Abrir el cajon de navegación</string>
     <string name="navigation_drawer_close">Cerrar el cajón de navegación</string>
     <string name="action_settings">Ajustes</string>
     <string name="location_enable_text">Habilitar ubicación</string>
@@ -45,7 +45,7 @@
     <string name="open_web_ui_text">Abrir Interfaz Web</string>
     <string name="logbook_text">Cuaderno</string>
     <string name="configure_external_text">Configurar Externo</string>
-    <string name="rate_app_text">Calificar aplicacion</string>
+    <string name="rate_app_text">Calificar aplicación</string>
     <string name="enter_external_ip">Introduzca la IP / URL externa de Home Assistant y el puerto</string>
     <string name="ip_url_text">IP / URL y Puerto</string>
     <string name="external_access_text">Acceso externo</string>
@@ -250,13 +250,13 @@
     <string name="mqtt_sensors_text">Sensores</string>
     <string name="mqtt_sensors_summary">Elija los sensores que desea que envíen su información al broker MQTT.</string>
     <string name="battery">Batería</string>
-    <string name="battery_message">Enviar información de la batería de este dispositivo</string>
+    <string name="battery_message">Enviar la información de la batería de este dispositivo</string>
     <string name="light">Luz</string>
-    <string name="light_message">Enviar información del sensor de luz de este dispositivo</string>
+    <string name="light_message">Enviar la información del sensor de luz de este dispositivo</string>
     <string name="step_counter">Contador de pasos</string>
     <string name="step_counter_message">Enviar información del contador de pasos del dispositivo</string>
     <string name="instructions_text">Instrucciones</string>
-    <string name="wi_fi_message">Enviar información del Wi-Fi de este dispositivo</string>
+    <string name="wi_fi_message">Enviar la información del Wi-Fi de este dispositivo</string>
     <string name="clear_current_config">Borrar la configuración actual</string>
     <string name="current_external_config_cleared">La configuración de acceso externo actual ha sido borrada</string>
     <string name="call_state">Estado de llamada</string>
@@ -269,15 +269,15 @@
     <string name="mqtt_topic">Topic</string>
     <string name="mqtt_payload">Mensaje (plantilla permitida)</string>
     <string name="publish_text">Publicar</string>
-    <string name="publish_a_packet_text">MQTT: Publicar un paquete</string>
+    <string name="publish_a_packet_text">MQTT: Publicar un mensaje</string>
     <string name="time_text">Cambiar la hora</string>
     <string name="date_text">Cambiar la fecha</string>
     <string name="add_item_text">Añadir elemento</string>
     <string name="checked_items">Elementos comprobados</string>
     <string name="ambient_temperature">Temperatura ambiente</string>
-    <string name="ambient_temperature_message">Enviar información del sensor de temperatura ambiente de este dispositivo</string>
+    <string name="ambient_temperature_message">Enviar la información del sensor de temperatura ambiente de este dispositivo</string>
     <string name="pressure_text">Presión</string>
-    <string name="pressure_message">Enviar información del sensor de presión de este dispositivo</string>
+    <string name="pressure_message">Enviar la información del sensor de presión de este dispositivo</string>
     <string name="user_text">Usuario</string>
     <string name="setting_keepscreenon_summary">Si esta opción está habilitada, mientras el panel de Ariela esté visible, la pantalla no se apagará</string>
     <string name="setting_keepscreenon_title">Mantener la pantalla encendida</string>
@@ -287,12 +287,12 @@
     <string name="input_source">Fuente de entrada</string>
     <string name="sound_mode">Modo de sonido</string>
     <string name="bluetooth_text">Bluetooth</string>
-    <string name="bluetooth_mqtt_text">Enviar esta información de Bluetooth del dispositivo</string>
+    <string name="bluetooth_mqtt_text">Enviar la información de Bluetooth de este dispositivo</string>
     <string name="relative_humidity">Humedad relativa</string>
     <string name="relative_humidity_message">Enviar la información del sensor de humedad relativa de este dispositivo</string>
     <string name="screen_mqtt_sensor_text">Despertar / apagar este dispositivo de Home Assistant</string>
     <string name="screen_text">Pantalla</string>
-    <string name="apps_mqtt_text">Sensor que contiene aplicaciones instaladas en este dispositivo</string>
+    <string name="apps_mqtt_text">Sensor que contiene el número de aplicaciones instaladas en este dispositivo</string>
     <string name="apps_text">Aplicaciones</string>
     <string name="setting_fullscreen_summary">Si esta opción está habilitada, Ariela se mostrará en modo de pantalla completa</string>
     <string name="setting_fullscreen_title">Modo de pantalla completa</string>
@@ -460,5 +460,5 @@
     <string name="set_state_text">Establecer estado</string>
     <string name="entity_text">Entidad</string>
     <string name="state_text">Estado</string>
-    <string name="state_attributes">Atributos del estado (JSON, opcional)</string>
+    <string name="state_attributes">Atributos de estado (JSON, opcional)</string>
 </resources>
