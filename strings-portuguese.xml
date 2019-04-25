@@ -549,4 +549,7 @@ Traduzido com www.DeepL.com/Translator</string>
     <string name="entity_text">Entidade</string>
     <string name="state_text">Estado</string>
     <string name="state_attributes">State Attributes (JSON, optional)</string>
+
+    <string name="notification_entity_show_value_text">Notification entity state</string>
+    <string name="notification_entity_show_value_summary">If this option is enabled, entities that are shown in notification will display its current value instead of its name</string>
 </resources>
