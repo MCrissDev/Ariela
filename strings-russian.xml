@@ -543,9 +543,12 @@
     <string name="mqtt_camera_resolution">Разрешение MQTT камеры</string>
     <string name="mqtt_camera_resolution_summary">Выбрать разрешение MQTT камеры</string>
 
-    <string name="states_dev_summary">Set the representation of a device within Home Assistant. This will not communicate with the actual device. </string>
-    <string name="set_state_text">Set State</string>
-    <string name="entity_text">Entity</string>
-    <string name="state_text">State</string>
-    <string name="state_attributes">State Attributes (JSON, optional)</string>
+    <string name="states_dev_summary">Настройка представления устройств в Home Assistant. Не связано с фактическим устройством. </string>
+    <string name="set_state_text">Настройка состояний</string>
+    <string name="entity_text">Сущность</string>
+    <string name="state_text">Состояние</string>
+    <string name="state_attributes">Состояние атрибутов (JSON, Опционально)</string>
+
+    <string name="notification_entity_show_value_text">Notification entity state</string>
+    <string name="notification_entity_show_value_summary">If this option is enabled, entities that are shown in notification will display its current value instead of its name</string>
 </resources>
