@@ -32,7 +32,7 @@
     <string name="home_text">ДОМ</string>
 
     <string name="button_scene_activate">Активировать</string>
-    <string name="climate_current_temperature">Текущая: %1$.1f %2$s</string>
+    <string name="climate_current_temperature" formatted="true">Текущая: %1$.1f %2$s</string>
     <string name="media_player_stop_toast">Остановка воспроизведения…</string>
 
     <string name="location_permission_required">Для определения местоположения необходимы дополнительные разрешения. Вы ходите включить их?</string>
@@ -551,4 +551,20 @@
 
     <string name="notification_entity_show_value_text">Notification entity state</string>
     <string name="notification_entity_show_value_summary">If this option is enabled, entities that are shown in notification will display its current value instead of its name</string>
+
+    <string name="active_server_cannot_be_deleted">The active server can\'t be deleted. Switch to another server in order to do this action.</string>
+    <string name="default_server_cannot_be_deleted">The default server can\'t be deleted..</string>
+
+    <string name="web_ui_swipe_tabs">WebUI tabs swap</string>
+    <string name="web_ui_swipe_tabs_summary">Enable this option in order to change tabs in Web UI mode by swap left / right</string>
+
+    <string name="delete_server_title">Delete Server</string>
+    <string name="delete_server_confirmation">Are you sure you want to delete \"%s\"?</string>
+
+    <string name="switch_server_title">Switch Server</string>
+    <string name="switch_server_confirmation">Are you sure you want to switch HA connection to \"%s\"?</string>
+    <string name="switch_server_already_active">This server is already active</string>
+
+    <string name="mobile_api_notification">Mobile API Notification</string>
+    <string name="mobile_api_notification_summary">Click here to see notification example</string>
 </resources>
