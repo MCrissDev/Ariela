@@ -32,7 +32,7 @@
     <string name="home_text">CASA</string>
 
     <string name="button_scene_activate">Attiva</string>
-    <string name="climate_current_temperature">Corrente: %1$.1f %2$s</string>
+    <string name="climate_current_temperature" formatted="true">Corrente: %1$.1f %2$s</string>
     <string name="media_player_stop_toast">Interruzione riproduzione…</string>
 
     <string name="location_permission_required">Per poter proseguire è necessario abilitare i permessi di Localizzazione. Vuoi abilitarli manualmente?</string>
@@ -196,7 +196,7 @@
     <string name="minutes_ago_text">%d minuti fa</string>
     <string name="minute_ago_text">%d minuto fa</string>
 
-    <string name="seconds_ago_text">secondi fa</string>
+    <string name="seconds_ago_text">%d secondi fa</string>
     <string name="config_validation_text">Validazione Configurazione</string>
     <string name="config_valid_message_text">Valida la tua configurazione se hai effettuato modifiche recenti e vuoi essere sicuro che non siano presenti errori.</string>
     <string name="check_config_text">Verifica configurazione</string>
@@ -551,4 +551,20 @@
 
     <string name="notification_entity_show_value_text">Notification entity state</string>
     <string name="notification_entity_show_value_summary">If this option is enabled, entities that are shown in notification will display its current value instead of its name</string>
+
+    <string name="active_server_cannot_be_deleted">The active server can\'t be deleted. Switch to another server in order to do this action.</string>
+    <string name="default_server_cannot_be_deleted">The default server can\'t be deleted..</string>
+
+    <string name="web_ui_swipe_tabs">WebUI tabs swap</string>
+    <string name="web_ui_swipe_tabs_summary">Enable this option in order to change tabs in Web UI mode by swap left / right</string>
+
+    <string name="delete_server_title">Delete Server</string>
+    <string name="delete_server_confirmation">Are you sure you want to delete \"%s\"?</string>
+
+    <string name="switch_server_title">Switch Server</string>
+    <string name="switch_server_confirmation">Are you sure you want to switch HA connection to \"%s\"?</string>
+    <string name="switch_server_already_active">This server is already active</string>
+
+    <string name="mobile_api_notification">Mobile API Notification</string>
+    <string name="mobile_api_notification_summary">Click here to see notification example</string>
 </resources>
