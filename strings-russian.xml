@@ -549,22 +549,22 @@
     <string name="state_text">Состояние</string>
     <string name="state_attributes">Состояние атрибутов (JSON, Опционально)</string>
 
-    <string name="notification_entity_show_value_text">Notification entity state</string>
-    <string name="notification_entity_show_value_summary">If this option is enabled, entities that are shown in notification will display its current value instead of its name</string>
+    <string name="notification_entity_show_value_text">Состояние объектов уведомлений</string>
+    <string name="notification_entity_show_value_summary">Когда эта опция включена, сущности, которые показаны в уведомлениях, будут отображать их значения вместо имён</string>
 
-    <string name="active_server_cannot_be_deleted">The active server can\'t be deleted. Switch to another server in order to do this action.</string>
-    <string name="default_server_cannot_be_deleted">The default server can\'t be deleted..</string>
+    <string name="active_server_cannot_be_deleted">Активный сервер не может быть удалён. Переключитесь на другой сервер для выполнения данного действия.</string>
+    <string name="default_server_cannot_be_deleted">Активный сервер не может быть удалён.</string>
 
-    <string name="web_ui_swipe_tabs">WebUI tabs swap</string>
-    <string name="web_ui_swipe_tabs_summary">Enable this option in order to change tabs in Web UI mode by swap left / right</string>
+    <string name="web_ui_swipe_tabs">Вкладки WebUI</string>
+    <string name="web_ui_swipe_tabs_summary">Включите эту опцию для изменения вкладок в режиме WebUI, через свап, меняя местами влево\вправо </string>
 
-    <string name="delete_server_title">Delete Server</string>
-    <string name="delete_server_confirmation">Are you sure you want to delete \"%s\"?</string>
+    <string name="delete_server_title">Удалить сервер</string>
+    <string name="delete_server_confirmation">Вы действительно хотите удалить \"%s\"?</string>
 
-    <string name="switch_server_title">Switch Server</string>
-    <string name="switch_server_confirmation">Are you sure you want to switch HA connection to \"%s\"?</string>
-    <string name="switch_server_already_active">This server is already active</string>
+    <string name="switch_server_title">Переключение сервера</string>
+    <string name="switch_server_confirmation">Вы действительно хотите переключить HA на \"%s\"?</string>
+    <string name="switch_server_already_active">Этот сервер уже активный</string>
 
-    <string name="mobile_api_notification">Mobile API Notification</string>
-    <string name="mobile_api_notification_summary">Click here to see notification example</string>
+    <string name="mobile_api_notification">Уведомления для мобильных устройств через API</string>
+    <string name="mobile_api_notification_summary">Нажмите для просмотра примеров уведомлений</string>
 </resources>
