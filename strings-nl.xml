@@ -567,6 +567,18 @@
     <string name="switch_server_confirmation">Are you sure you want to switch HA connection to \"%s\"?</string>
     <string name="switch_server_already_active">This server is already active</string>
 
-    <string name="mobile_api_notification">Mobile API Notification</string>
-    <string name="mobile_api_notification_summary">Click here to see notification example</string>
+    <string name="mobile_app_notification">Mobile API Notification</string>
+    <string name="mobile_app_notification_summary">Click here to see notification example</string>
+
+    <string name="web_ui_scroll_refresh_title">WebUI Scroll Down Refresh</string>
+    <string name="web_ui_scroll_refresh_summary">Enable this option in order to allow scroll down to refresh option</string>
+
+    <string name="horizontal_card_items">Horizontal-Stack items count</string>
+    <string name="horizontal_card_items_summary">Select the number of items horizontal-stack card should show.</string>
+    <string name="auto_text">Auto</string>
+
+    <string name="mqtt_sensor_notification_grabber">Notifications Grabber</string>
+    <string name="mqtt_sensor_notification_grabber_message">Send notifications content from other applications to Home Assistant.</string>
+    <string name="permission_text">Permission Required</string>
+    <string name="notification_grabber_permission_required">In order this function to work you need to give Ariela permission to access other applications notification. Do you wish to continue?</string>
 </resources>
