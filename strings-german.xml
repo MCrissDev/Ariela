@@ -581,7 +581,7 @@
     <string name="credentials_text">Zugangsdaten</string>
     <string name="add_user">Benutzer hinzufügen</string>
     <string name="name_text">Name</string>
-    <string name="no_home_wifi_text">Kein Heim-WLANs</string>
+    <string name="no_home_wifi_text">Keine Heim-WLANs</string>
 
     <string name="failed_to_load_ads_message">Failed to load advertisement. If you like this app consider purchasing PRO version in order to help further development of the app. Thank you!</string>
     <string name="failed_to_load_ads_message">Konnte keine Werbung laden. Wenn dir diese App gefällt, denke darüber nach, die PRO-Version zu kaufen, um die weitere Entwicklung zu unterstützen. Danke! :)</string>
