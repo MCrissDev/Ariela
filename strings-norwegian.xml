@@ -45,7 +45,6 @@
     <string name="about_text">Om appen</string>
     <string name="open_web_ui_text">Åpne Web-Grensesnitt</string>
     <string name="logbook_text">Logbook</string>
-    <string name="configure_external_text">Konfigurer ekstern tilkobling</string>
     <string name="rate_app_text">Vurder app</string>
     <string name="enter_external_ip">Skriv inn din eksterne Home Assistant IP / URL og Port</string>
     <string name="ip_url_text">IP / URL og Port</string>
@@ -273,7 +272,7 @@
     <string name="enable_mqtt_text">Aktiver MQTT Sensorer</string>
     <string name="enable_mqtt_summary">Send dine telefon sensor informasjon til Home Assistant</string>
     <string name="mqtt_sensors_text">Sensorer</string>
-    <string name="mqtt_sensors_summary">Velg hvilke sensor info du vil sende til MQTT Broker</string>
+    <string name="mqtt_sensors_summary">Velg hvilke sensor info du vil sende til Home Assistant</string>
 
     <string name="battery">Batteri</string>
     <string name="battery_message">Send batteri status fra denne enheten</string>
@@ -495,7 +494,6 @@
     <string name="start_app_update">Start after update</string>
     <string name="start_app_update_summary">Automatic start Ariela when application get\'s updated.</string>
     <string name="logout_text_info">Are you sure you to logout? Current connection info will be cleared.</string>
-    <string name="exit_app_text_info">Are you sure you to exit Ariela?</string>
 
     <string name="home_assistant_servers">Home Assistant servers</string>
     <string name="home_assistant_servers_summary">Manager Home Assistan servers </string>
@@ -552,7 +550,6 @@
     <string name="notification_entity_show_value_text">Notification entity state</string>
     <string name="notification_entity_show_value_summary">If this option is enabled, entities that are shown in notification will display its current value instead of its name</string>
     <string name="active_server_cannot_be_deleted">The active server can\'t be deleted. Switch to another server in order to do this action.</string>
-    <string name="default_server_cannot_be_deleted">The default server can\'t be deleted..</string>
 
     <string name="web_ui_swipe_tabs">WebUI tabs swap</string>
     <string name="web_ui_swipe_tabs_summary">Enable this option in order to change tabs in Web UI mode by swap left / right</string>
@@ -564,7 +561,7 @@
     <string name="switch_server_confirmation">Are you sure you want to switch HA connection to \"%s\"?</string>
     <string name="switch_server_already_active">This server is already active</string>
 
-    <string name="mobile_app_notification">Mobile API Notification</string>
+    <string name="mobile_app_notification">Mobile APP Notification</string>
     <string name="mobile_app_notification_summary">Click here to see notification example</string>
 
     <string name="web_ui_scroll_refresh_title">WebUI Scroll Down Refresh</string>
@@ -578,4 +575,24 @@
     <string name="mqtt_sensor_notification_grabber_message">Send notifications content from other applications to Home Assistant.</string>
     <string name="permission_text">Permission Required</string>
     <string name="notification_grabber_permission_required">In order this function to work you need to give Ariela permission to access other applications notification. Do you wish to continue?</string>
+
+    <string name="info_text">Info</string>
+    <string name="wifi_network">WiFi Network</string>
+    <string name="certificate_text">Certificate</string>
+    <string name="credentials_text">Credentials</string>
+    <string name="add_user">Add User</string>
+    <string name="name_text">Name</string>
+    <string name="no_home_wifi_text">No Home Wi-Fi networks</string>
+
+    <string name="failed_to_load_ads_message">Failed to load advertisement. If you like this app consider purchasing PRO version in order to help further development of the app. Thank you!</string>
+
+    <string name="mqtt_retain_message">MQTT Retain</string>
+    <string name="mqtt_retain_summary">Inform MQTT broker to keep last messages</string>
+
+    <string name="mobile_app_credentials_force">Force Mobile App credentials</string>
+    <string name="mobile_app_credentials_force_summary">Force Ariela to redo Mobile App connection.</string>
+    <string name="disable_notification_message">Please go to Settings -> Apps -> Ariela in order to disable notifications.</string>
+    <string name="mobile_app_force_failed">Failed to force Mobile App integration</string>
+    <string name="mobile_app_force_succeeded">Mobile App force integration is successful</string>
+    <string name="mobile_app_text">Mobile APP</string>
 </resources>
