@@ -45,7 +45,6 @@
     <string name="about_text">О программе</string>
     <string name="open_web_ui_text">Открыть Web-UI</string>
     <string name="logbook_text">Журнал событий</string>
-    <string name="configure_external_text">Настроить внешний</string>
     <string name="rate_app_text">Оценить приложение</string>
     <string name="enter_external_ip">Введите внешний IP / URL адрес для Home Assistant и порт</string>
     <string name="ip_url_text">IP / URL и порт</string>
@@ -495,7 +494,6 @@
     <string name="start_app_update">Запустить после обновления</string>
     <string name="start_app_update_summary">Автоматически запускать Ariela когда доступно обновление.</string>
     <string name="logout_text_info">Вы действительно хотите выйти? Информация о текущее соединение будет удалена.</string>
-    <string name="exit_app_text_info">Вы действительно хотите выйти из Ariela?</string>
 
     <string name="home_assistant_servers">Сервера Home Assistant</string>
     <string name="home_assistant_servers_summary">Управление серверами Home Assistan</string>
@@ -553,7 +551,6 @@
     <string name="notification_entity_show_value_summary">Когда эта опция включена, сущности, которые показаны в уведомлениях, будут отображать их значения вместо имён</string>
 
     <string name="active_server_cannot_be_deleted">Активный сервер не может быть удалён. Переключитесь на другой сервер для выполнения данного действия.</string>
-    <string name="default_server_cannot_be_deleted">Активный сервер не может быть удалён.</string>
 
     <string name="web_ui_swipe_tabs">Вкладки WebUI</string>
     <string name="web_ui_swipe_tabs_summary">Включите эту опцию для изменения вкладок в режиме WebUI, через свап, меняя местами влево\вправо </string>
@@ -568,15 +565,35 @@
     <string name="mobile_app_notification">Уведомления для мобильных устройств через API</string>
     <string name="mobile_app_notification_summary">Нажмите для просмотра примеров уведомлений</string>
 
-    <string name="web_ui_scroll_refresh_title">WebUI Scroll Down Refresh</string>
-    <string name="web_ui_scroll_refresh_summary">Enable this option in order to allow scroll down to refresh option</string>
+    <string name="web_ui_scroll_refresh_title">WebUI Обновление. Прокрутка вниз</string>
+    <string name="web_ui_scroll_refresh_summary">Включите данную опцию для разрешения обновления с помощью прокрутки вниз</string>
 
-    <string name="horizontal_card_items">Horizontal-Stack items count</string>
-    <string name="horizontal_card_items_summary">Select the number of items horizontal-stack card should show.</string>
-    <string name="auto_text">Auto</string>
+    <string name="horizontal_card_items">Horizontal-Stack количество элементов</string>
+    <string name="horizontal_card_items_summary">Выберите количество элементов которые должна показывать карточка horizontal-stack.</string>
+    <string name="auto_text">Авто</string>
 
-    <string name="mqtt_sensor_notification_grabber">Notifications Grabber</string>
-    <string name="mqtt_sensor_notification_grabber_message">Send notifications content from other applications to Home Assistant.</string>
-    <string name="permission_text">Permission Required</string>
-    <string name="notification_grabber_permission_required">In order this function to work you need to give Ariela permission to access other applications notification. Do you wish to continue?</string>
+    <string name="mqtt_sensor_notification_grabber">Сборщик уведомлений</string>
+    <string name="mqtt_sensor_notification_grabber_message">Отправка уведомлений из других приложений в Home Assistant.</string>
+    <string name="permission_text">Требуются разрешения</string>
+    <string name="notification_grabber_permission_required">Для работы данной функции, вам необходимо предоставить разрешения Ariela на доступ к уведомлениям в других приложениях. Продолжить?</string>
+
+    <string name="info_text">Info</string>
+    <string name="wifi_network">WiFi Network</string>
+    <string name="certificate_text">Certificate</string>
+    <string name="credentials_text">Credentials</string>
+    <string name="add_user">Add User</string>
+    <string name="name_text">Name</string>
+    <string name="no_home_wifi_text">No Home Wi-Fi networks</string>
+
+    <string name="failed_to_load_ads_message">Failed to load advertisement. If you like this app consider purchasing PRO version in order to help further development of the app. Thank you!</string>
+
+    <string name="mqtt_retain_message">MQTT Retain</string>
+    <string name="mqtt_retain_summary">Inform MQTT broker to keep last messages</string>
+
+    <string name="mobile_app_credentials_force">Force Mobile App credentials</string>
+    <string name="mobile_app_credentials_force_summary">Force Ariela to redo Mobile App connection.</string>
+    <string name="disable_notification_message">Please go to Settings -> Apps -> Ariela in order to disable notifications.</string>
+    <string name="mobile_app_force_failed">Failed to force Mobile App integration</string>
+    <string name="mobile_app_force_succeeded">Mobile App force integration is successful</string>
+    <string name="mobile_app_text">Mobile APP</string>
 </resources>
