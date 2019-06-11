@@ -583,7 +583,6 @@
     <string name="name_text">Name</string>
     <string name="no_home_wifi_text">Keine Heim-WLANs</string>
 
-    <string name="failed_to_load_ads_message">Failed to load advertisement. If you like this app consider purchasing PRO version in order to help further development of the app. Thank you!</string>
     <string name="failed_to_load_ads_message">Konnte keine Werbung laden. Wenn dir diese App gefällt, denke darüber nach, die PRO-Version zu kaufen, um die weitere Entwicklung zu unterstützen. Danke! :)</string>
 
     <string name="mqtt_retain_message">MQTT Aufbewahrungsdauer</string>
@@ -595,4 +594,9 @@
     <string name="mobile_app_force_failed">Erzwingen der Mobile App-Integration fehlgeschlagen</string>
     <string name="mobile_app_force_succeeded">Erzwingen der Mobile App-Integration war erfolgreich</string>
     <string name="mobile_app_text">Mobile APP</string>
+
+    <string name="sensors_disabled_text">All sensors had been disabled. Please re-enable the sensors in order to have Ariela sensors updated.</string>
+    <string name="mobile_app_credential_force_warning">In order to not have duplicates, you should go to Home Assistant -> Integrations and delete this device. Do you wish to continue deleting this device?</string>
+    <string name="vibrate_ui_controls_title">Vibrate UI controls</string>
+    <string name="vibrate_ui_controls_summary">Create vibration feedback whenever you toggle a switch, button etc</string>
 </resources>
