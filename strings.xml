@@ -615,4 +615,8 @@
     <string name="mobile_app_force_failed">Failed to force Mobile App integration</string>
     <string name="mobile_app_force_succeeded">Mobile App force integration is successful</string>
     <string name="mobile_app_text">Mobile APP</string>
+    <string name="sensors_disabled_text">All sensors had been disabled. Please re-enable the sensors in order to have Ariela sensors updated.</string>
+    <string name="mobile_app_credential_force_warning">In order to not have duplicates, you should go to Home Assistant -> Integrations and delete this device. Do you wish to continue deleting this device?</string>
+    <string name="vibrate_ui_controls_title">Vibrate UI controls</string>
+    <string name="vibrate_ui_controls_summary">Create vibration feedback whenever you toggle a switch, button etc</string>
 </resources>
