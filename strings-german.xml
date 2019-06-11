@@ -546,52 +546,53 @@
     <string name="state_text">Zustand</string>
     <string name="state_attributes">Zustands-Attribute (JSON, optional)</string>
 
-    <string name="notification_entity_show_value_text">Notification entity state</string>
-    <string name="notification_entity_show_value_summary">If this option is enabled, entities that are shown in notification will display its current value instead of its name</string>
+    <string name="notification_entity_show_value_text">Anzeigemodus der Entitäten in Benachrichtungen</string>
+    <string name="notification_entity_show_value_summary">Wenn diese Option aktiviert ist, werden in Benachrichtigungen die Werte anstatt der Entitätsname angezeigt </string>
 
-    <string name="active_server_cannot_be_deleted">The active server can\'t be deleted. Switch to another server in order to do this action.</string>
+    <string name="active_server_cannot_be_deleted">Der aktive Server kann nicht gelöscht werden. Wechsel zunächst auf einen anderen Server und versuche es dann erneut.</string>
 
-    <string name="web_ui_swipe_tabs">WebUI tabs swap</string>
-    <string name="web_ui_swipe_tabs_summary">Enable this option in order to change tabs in Web UI mode by swap left / right</string>
+    <string name="web_ui_swipe_tabs">WebUI Reiter-Wechsel</string>
+    <string name="web_ui_swipe_tabs_summary">Aktiviere diese Option, um die Reiter im Web-UI-Modus durch Wischen nach rechts/links auszuwählen</string>
 
-    <string name="delete_server_title">Delete Server</string>
-    <string name="delete_server_confirmation">Are you sure you want to delete \"%s\"?</string>
+    <string name="delete_server_title">Lösche Server</string>
+    <string name="delete_server_confirmation">Möchtest du wirklich den Server \"%s\" löschen?</string>
 
-    <string name="switch_server_title">Switch Server</string>
-    <string name="switch_server_confirmation">Are you sure you want to switch HA connection to \"%s\"?</string>
-    <string name="switch_server_already_active">This server is already active</string>
+    <string name="switch_server_title">Wechsel Server</string>
+    <string name="switch_server_confirmation">Möchtest du wirklich auf die HA-Verbindung zu \"%s\" wechseln?</string>
+    <string name="switch_server_already_active">Dieser Server ist bereits ausgewählt</string>
 
-    <string name="mobile_app_notification">Mobile APP Notification</string>
-    <string name="mobile_app_notification_summary">Click here to see notification example</string>
+    <string name="mobile_app_notification">Mobile APP-Benachrichtigungen</string>
+    <string name="mobile_app_notification_summary">Drücke hier und eine Beispiel-Benachrichtigung zu sehen</string>
 
-    <string name="web_ui_scroll_refresh_title">WebUI Scroll Down Refresh</string>
-    <string name="web_ui_scroll_refresh_summary">Enable this option in order to allow scroll down to refresh option</string>
+    <string name="web_ui_scroll_refresh_title">WebUI Scroll Down-Aktualisierung</string>
+    <string name="web_ui_scroll_refresh_summary">Aktiviere diese Option, um eine Aktualisierung durch Scrollen nach unten auszulösen</string>
 
-    <string name="horizontal_card_items">Horizontal-Stack items count</string>
-    <string name="horizontal_card_items_summary">Select the number of items horizontal-stack card should show.</string>
+    <string name="horizontal_card_items">Anzahl der Horizontal-Stack-Elemente</string>
+    <string name="horizontal_card_items_summary">Wähle die Anzahl der Elemente, die eine horizontal-stack card anzeigen soll..</string>
     <string name="auto_text">Auto</string>
 
-    <string name="mqtt_sensor_notification_grabber">Notifications Grabber</string>
-    <string name="mqtt_sensor_notification_grabber_message">Send notifications content from other applications to Home Assistant.</string>
-    <string name="permission_text">Permission Required</string>
-    <string name="notification_grabber_permission_required">In order this function to work you need to give Ariela permission to access other applications notification. Do you wish to continue?</string>
+    <string name="mqtt_sensor_notification_grabber">Benachrichtigungs-Sammler</string>
+    <string name="mqtt_sensor_notification_grabber_message">Sende Benachrichtungen von Apps an Home Assistant.</string>
+    <string name="permission_text">Berechtigung erforderlich</string>
+    <string name="notification_grabber_permission_required">Um diese Funktion nutzen zu können, benötigt Ariela die Berechtigung, Benachrichtigungen andere Applikationen lesen zu können. Möchtest du fortsetzen?</string>
     <string name="info_text">Info</string>
-    <string name="wifi_network">WiFi Network</string>
-    <string name="certificate_text">Certificate</string>
-    <string name="credentials_text">Credentials</string>
-    <string name="add_user">Add User</string>
+    <string name="wifi_network">WLAN</string>
+    <string name="certificate_text">Zertifkat</string>
+    <string name="credentials_text">Zugangsdaten</string>
+    <string name="add_user">Benutzer hinzufügen</string>
     <string name="name_text">Name</string>
-    <string name="no_home_wifi_text">No Home Wi-Fi networks</string>
+    <string name="no_home_wifi_text">Keine Heim-WLANs</string>
 
     <string name="failed_to_load_ads_message">Failed to load advertisement. If you like this app consider purchasing PRO version in order to help further development of the app. Thank you!</string>
+    <string name="failed_to_load_ads_message">Konnte keine Werbung laden. Wenn dir diese App gefällt, denke darüber nach, die PRO-Version zu kaufen, um die weitere Entwicklung zu unterstützen. Danke! :)</string>
 
-    <string name="mqtt_retain_message">MQTT Retain</string>
-    <string name="mqtt_retain_summary">Inform MQTT broker to keep last messages</string>
+    <string name="mqtt_retain_message">MQTT Aufbewahrungsdauer</string>
+    <string name="mqtt_retain_summary">Informiere den MQTT-Broker, die letzten Meldungen aufzubewahren</string>
 
-    <string name="mobile_app_credentials_force">Force Mobile App credentials</string>
-    <string name="mobile_app_credentials_force_summary">Force Ariela to redo Mobile App connection.</string>
-    <string name="disable_notification_message">Please go to Settings -> Apps -> Ariela in order to disable notifications.</string>
-    <string name="mobile_app_force_failed">Failed to force Mobile App integration</string>
-    <string name="mobile_app_force_succeeded">Mobile App force integration is successful</string>
+    <string name="mobile_app_credentials_force">Erzwinge Mobile-App-Zugangsdaten</string>
+    <string name="mobile_app_credentials_force_summary">Erzwinge Ariela, die Mobile-App-Verbindung erneut aufzubauen.</string>
+    <string name="disable_notification_message">Bitte verwende Einstellungen -> Apps -> Ariela um Benachrichtigungen zu deaktivieren.</string>
+    <string name="mobile_app_force_failed">Erzwingen der Mobile App-Integration fehlgeschlagen</string>
+    <string name="mobile_app_force_succeeded">Erzwingen der Mobile App-Integration war erfolgreich</string>
     <string name="mobile_app_text">Mobile APP</string>
 </resources>
