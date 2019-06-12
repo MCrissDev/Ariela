@@ -577,28 +577,28 @@
     <string name="permission_text">Требуются разрешения</string>
     <string name="notification_grabber_permission_required">Для работы данной функции, вам необходимо предоставить разрешения Ariela на доступ к уведомлениям в других приложениях. Продолжить?</string>
 
-    <string name="info_text">Info</string>
-    <string name="wifi_network">WiFi Network</string>
-    <string name="certificate_text">Certificate</string>
-    <string name="credentials_text">Credentials</string>
-    <string name="add_user">Add User</string>
-    <string name="name_text">Name</string>
-    <string name="no_home_wifi_text">No Home Wi-Fi networks</string>
+    <string name="info_text">Информация</string>
+    <string name="wifi_network">WiFi Сеть</string>
+    <string name="certificate_text">Сертификаты</string>
+    <string name="credentials_text">Разрешения</string>
+    <string name="add_user">Добавить пользователя</string>
+    <string name="name_text">Имя</string>
+    <string name="no_home_wifi_text">Нет домашних сетей Wi-Fi</string>
 
-    <string name="failed_to_load_ads_message">Failed to load advertisement. If you like this app consider purchasing PRO version in order to help further development of the app. Thank you!</string>
+    <string name="failed_to_load_ads_message">Не удалось загрузить рекламу. Если вам нравится это приложение, подумайте о покупке PRO версии, чтобы помочь дальнейшему развитию. Спасибо!</string>
 
-    <string name="mqtt_retain_message">MQTT Retain</string>
-    <string name="mqtt_retain_summary">Inform MQTT broker to keep last messages</string>
+    <string name="mqtt_retain_message">MQTT хранеие сообщений</string>
+    <string name="mqtt_retain_summary">Уведомлять MQTT брокер о последних сообщениях</string>
 
-    <string name="mobile_app_credentials_force">Force Mobile App credentials</string>
-    <string name="mobile_app_credentials_force_summary">Force Ariela to redo Mobile App connection.</string>
-    <string name="disable_notification_message">Please go to Settings -> Apps -> Ariela in order to disable notifications.</string>
-    <string name="mobile_app_force_failed">Failed to force Mobile App integration</string>
-    <string name="mobile_app_force_succeeded">Mobile App force integration is successful</string>
-    <string name="mobile_app_text">Mobile APP</string>
+    <string name="mobile_app_credentials_force">Предоставить приложению полномочия</string>
+    <string name="mobile_app_credentials_force_summary">Принудительно восстнавливать соединение Ariela с приложениями.</string>
+    <string name="disable_notification_message">Пожалуйста перейдите в Настройки -> Приложения -> Ariela для отключения уведомлений.</string>
+    <string name="mobile_app_force_failed">Ошибка предоставления полномочий для интеграции</string>
+    <string name="mobile_app_force_succeeded">Полмочия для интеграции предоставлены</string>
+    <string name="mobile_app_text">Приложения</string>
 
-    <string name="sensors_disabled_text">All sensors had been disabled. Please re-enable the sensors in order to have Ariela sensors updated.</string>
-    <string name="mobile_app_credential_force_warning">In order to not have duplicates, you should go to Home Assistant -> Integrations and delete this device. Do you wish to continue deleting this device?</string>
-    <string name="vibrate_ui_controls_title">Vibrate UI controls</string>
-    <string name="vibrate_ui_controls_summary">Create vibration feedback whenever you toggle a switch, button etc</string>
+    <string name="sensors_disabled_text">Все датчики были отключены. Пожалуйста, включите датчики, чтобы обновить данные в Ariela.</string>
+    <string name="mobile_app_credential_force_warning">Чтобы не было дубликатов, вам нужно перейти в Home Assistant -> Интеграции и удалить это устройство. Вы хотите продолжить удаление этого устройства?</string>
+    <string name="vibrate_ui_controls_title">Элементы управляния виброоткликом</string>
+    <string name="vibrate_ui_controls_summary">Создать отклик через вибрацию при переключнии, нажатии и т.д.</string>
 </resources>
