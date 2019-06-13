@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
 <resources>
     <string name="click_next_for_setup">Klik op Volgende om het installatieproces te starten</string>
-    <string name="try_again_text">Probeer het opnieuw</string>
+    <string name="try_again_text">Opnieuw proberen</string>
     <string name="continue_text">Doorgaan</string>
     <string name="connecting_please_wait">Verbinden. Even geduld aub…</string>
     <string name="connection_server_failed">Serververbinding mislukt</string>
-    <string name="connection_server_failed_message">Verbinding met Home Assistant-server is mislukt. Controleer de URL / IP die is opgegeven en probeer het opnieuw.</string>
+    <string name="connection_server_failed_message">Verbinding met Home Assistant-server is mislukt. Controleer URL / IP die is opgegeven en probeer het opnieuw.</string>
     <string name="ok_text">OK</string>
     <string name="connection_success_text">Verbinding gelukt</string>
     <string name="connection_success_text_message">De verbinding met de Home Assistant-server is geslaagd. Druk op \"Doorgaan\" om verder te gaan.</string>
-    <string name="enter_assistant_password">Voer de referenties van Home Assistant in</string>
+    <string name="enter_assistant_password">Voer Home Assistant accountgegevens in</string>
     <string name="password_text">Wachtwoord</string>
-    <string name="incorrect_password_message_text">Kan niet verifiëren met behulp van de opgegeven inloggegevens. Controleer de inloggegevens en probeer het opnieuw.</string>
+    <string name="incorrect_password_message_text">Kan niet verifiëren met behulp van de opgegeven accountgegevens. Controleer de gegevens en probeer het opnieuw.</string>
     <string name="setup_complete_text">Setup voltooid</string>
     <string name="setup_complete_message_text">Het setup-proces van Home Assistant is geslaagd. U kunt nu deze app gebruiken om Home Assistant te bedienen.</string>
     <string name="configure_text">Configureer</string>
@@ -30,11 +30,11 @@
     <string name="wifi_state_disconnecting">VERBREKEN</string>
     <string name="wifi_choose_message">Kies uw Wi-Fi-thuisnetwerk waar de Home Assistant-server actief is. Dit zal later door deze applicatie worden gebruikt om te weten of het momenteel verbonden netwerk de thuisbasis is of niet. Veeg naar beneden om de lijst met Wi-Fi-netwerken te vernieuwen als u uw netwerk niet ziet.</string>
     <string name="searching_wifi_networks">Zoeken in Wi-Fi-netwerken ...</string>
-    <string name="home_text">HUIS</string>
+    <string name="home_text">THUIS</string>
 
     <string name="button_scene_activate">Activeer</string>
     <string name="climate_current_temperature" formatted="true">Momenteel: %1$.1f %2$s</string>
-    <string name="media_player_stop_toast">Het afspelen stoppen ...</string>
+    <string name="media_player_stop_toast">Afspelen stoppen ...</string>
 
     <string name="location_permission_required">Om verder te gaan, is locatietoestemming vereist. Wilt u deze handmatig inschakelen?</string>
     <string name="yes_text">JA</string>
@@ -50,7 +50,7 @@
     <string name="enter_external_ip">Voer externe Home Assistant IP / URL en poort in</string>
     <string name="ip_url_text">IP / URL en poort</string>
     <string name="external_access_text">Externe toegang</string>
-    <string name="external_access_message">Om Externe toegang thuisassistent in te stellen, maakt u verbinding met een ander netwerk dan met uw WiFi-netwerk (bijv. 3G / 4G / andere netwerken). Let op: om te kunnen werken, moet uw Home Assistant-server toegankelijk zijn vanaf een externe locatie, dus controleer uw router hoe u dit als eerste moet doen.</string>
+    <string name="external_access_message">Om Externe toegang in te stellen, maakt u verbinding met een ander netwerk dan met uw WiFi-netwerk (bijv. 3G / 4G / andere netwerken). Let op: om te kunnen werken, moet uw Home Assistant-server toegankelijk zijn vanaf een externe locatie, dus controleer uw router hoe u dit als eerste moet doen.</string>
     <string name="cancel_text">Annuleer</string>
     <string name="off_text">Uit</string>
     <string name="idle_text">Inactief</string>
@@ -66,7 +66,7 @@
     <string name="ads_disabled_message">Dank je! Advertenties zijn uitgeschakeld.</string>
     <string name="video_ad_failed_load">Laden van videoadvertenties mislukt. Probeer het later opnieuw.</string>
     <string name="remove_ads_text_info">Advertenties verwijderen is vereist voor het bekijken van een video die wordt gepromoot. Wil je doorgaan?</string>
-    <string name="exit_text">Uitgang</string>
+    <string name="exit_text">Sluiten</string>
     <string name="map_text">Kaart</string>
     <string name="server_config_text">Server configuratie</string>
     <string name="logout_text">Uitloggen</string>
@@ -205,10 +205,10 @@
     <string name="config_invalid_text">Configuratie ongeldig</string>
     <string name="failed_to_check_config">Kon configuratie niet controleren. Probeer het later opnieuw</string>
     <string name="config_reload_text">Herladen van de configuratie</string>
-    <string name="config_reload_msg_text">Sommige delen van Home Assistant kunnen opnieuw worden geladen zonder dat een herstart vereist is. Als je reload laadt, wordt de huidige configuratie leeggemaakt en wordt de nieuwe geladen. </string>
+    <string name="config_reload_msg_text">Sommige delen van Home Assistant kunnen opnieuw worden geladen zonder dat een herstart vereist is. Als je herlaadt, wordt de huidige configuratie leeggemaakt en wordt de nieuwe geladen. </string>
 
     <string name="reload_core_text">Herlaad kern</string>
-    <string name="reload_groups_text">Laad groepen opnieuw</string>
+    <string name="reload_groups_text">Herlaad groepen</string>
     <string name="reload_automations_text">Herlaad automatiseringen</string>
     <string name="reload_scripts_text">Herlaad scripts</string>
     <string name="service_has_been_called">Service is aangesproken</string>
@@ -231,8 +231,8 @@
     <string name="something_went_wrong">Er is iets fout gegaan</string>
     <string name="unable_to_delete_own_account">Kan je eigen account niet verwijderen</string>
     <string name="alarm_code_text">Code</string>
-    <string name="arm_home_text">ARM THUIS</string>
-    <string name="arm_away_text">ARM WEG</string>
+    <string name="arm_home_text">BEVEILIG THUIS</string>
+    <string name="arm_away_text">BEVEILIG WEG</string>
     <string name="disarm_text">ONTWAPENEN</string>
 
     <string name="theme_text">Thema</string>
@@ -418,8 +418,8 @@
     <string name="mqtt_client_summary">Kies de standaard MQTT-client die moet worden gebruikt</string>
 
     <string-array name="array_setting_mqtt_client">
-        <item>HomeAssistant"</item>
-        <item>Build-In"</item>
+        <item>Home Assistant"</item>
+        <item>Ingebouwd"</item>
     </string-array>
     <string-array name="array_setting_mqtt_client_values">
         <item>0"</item>
@@ -469,16 +469,16 @@
     <string name="ariela_available_mqtt_sensor">Beschikbaarheid Ariela</string>
     <string name="ariela_available_mqtt_sensor_summary">Schakel dit in om de tijd te zien wanneer Ariela voor het laatst met Home Assistant heeft gecommuniceerd</string>
 
-    <string name="notification_entities_empty">Go to Settings -> Notifications in order to add some entities here.</string>
+    <string name="notification_entities_empty">Ga naar Opties -> notificaties om hier entiteiten toe te voegen.</string>
     <string name="notification_entities_title">Meldingsentiteiten</string>
     <string name="notification_entities_summary">Kies entiteiten die in de melding moeten verschijnen</string>
     <string name="notification_entities_max_reached">Maximale entiteiten om weergegeven weer te geven. Wis een bestaande entiteit en probeer het opnieuw.</string>
     <string name="choose_entity_text">Kies Entiteit</string>
 
-    <string name="internal_ip">Interne IP</string>
+    <string name="internal_ip">Intern IP</string>
     <string name="internal_ip_summary">Gebruik deze optie om het lokale IP-adres te wijzigen waar het HA-exemplaar kan worden gevonden</string>
 
-    <string name="external_ip">Externe IP</string>
+    <string name="external_ip">Extern IP</string>
     <string name="external_ip_summary">Gebruik deze optie om het externe IP-adres te wijzigen waar de Home Assistant kan worden gevonden</string>
 
     <string name="force_vertical_stack">Forceer verticaal gedrag</string>
@@ -490,33 +490,33 @@
     <string name="bluetooth_a2dp">Bluetooth Media</string>
     <string name="bluetooth_a2dp_summary">Verzend Bluetooth Media (A2DP) aangesloten apparaatinformatie</string>
 
-    <string name="paused_text">paused</string>
+    <string name="paused_text">Gepauzeerd</string>
 
-    <string name="start_app_update">Start after update</string>
-    <string name="start_app_update_summary">Automatic start Ariela when application get\'s updated.</string>
+    <string name="start_app_update">Start na een update</string>
+    <string name="start_app_update_summary">Start Ariela automatisch na een app update.</string>
 
-    <string name="logout_text_info">Are you sure you to logout? Current connection info will be cleared.</string>
+    <string name="logout_text_info">Ben je zeker dat je wil afmelden? Huidige connectie info zal worden verwijdert.</string>
 
     <string name="home_assistant_servers">Home Assistant servers</string>
-    <string name="home_assistant_servers_summary">Manager Home Assistan servers </string>
-    <string name="create_server_text">Create Server</string>
-    <string name="default_text">Default</string>
-    <string name="error_create_server_text">Please enter a valid server name in order to continue.</string>
-    <string name="active_server_cannot_delete">The active server cannot be deleted.</string>
+    <string name="home_assistant_servers_summary">Beheer Home Assistan servers </string>
+    <string name="create_server_text">Server aanmaken</string>
+    <string name="default_text">Standaard</string>
+    <string name="error_create_server_text">Vul een geldige server naam in om verder te gaan.</string>
+    <string name="active_server_cannot_delete">De actieve server kan niet worden verwijdert.</string>
 
-    <string name="certificate_message_info">If you server connection requires custom certificates like PCKS12 you may enter here the path of the certificate to be used. This is useful when having your Home Assistant server running over NGINX for example.</string>
-    <string name="please_enter_certificate_path">Use search button to enter the certificate path:</string>
-    <string name="search_text">Search</string>
-    <string name="choose_certificate">Choose Certificate</string>
-    <string name="enter_certificate_password">If required, enter the certificate password:</string>
+    <string name="certificate_message_info">Als je serverconnectie een aangepast certificaat zoals PCKS12 nodig heeft kan je het pad daarvan hier invoeren. Dit is bijvoorbeeld handig wanneer je HA server via NGINX werkt.</string>
+    <string name="please_enter_certificate_path">Gebruik de Zoek knop om het certificaat pad in te stellen:</string>
+    <string name="search_text">Zoek</string>
+    <string name="choose_certificate">Kies certificaat</string>
+    <string name="enter_certificate_password">Indien van toepassing, voer het certificaat wachtwoord in:</string>
 
-    <string name="use_internal_ip_home_ap">Use internal IP when connected to a Home AP</string>
-    <string name="use_internal_ip_home_ap_summary">If this option is enabled, when Ariela detects you are connected to a home AP, internal IP will be used for connection.</string>
+    <string name="use_internal_ip_home_ap">Gebruik het intern IP bij verbinding met het thuis wifi</string>
+    <string name="use_internal_ip_home_ap_summary">Als deze optie aan staat zal, wanneer Ariela detecteerd dat er verbinding is met het thuis wifi, het interne IP gebruikt worden voor connectie.</string>
 
 
     <string-array name="array_setting_boot_entries">
-        <item>Background Service</item>
-        <item>Application</item>
+        <item>Achtergrond Service</item>
+        <item>Applicatie</item>
     </string-array>
 
     <string-array name="array_setting_boot_entries_values">
@@ -524,14 +524,14 @@
         <item>1</item>
     </string-array>
 
-    <string name="boot_startup_mode">Startup boot mode </string>
-    <string name="boot_startup_mode_summary">Choose the way Ariela will start at boot</string>
-    <string name="sending_nfc_tag">Sending NFC TAG: %s</string>
+    <string name="boot_startup_mode">Opstart mode </string>
+    <string name="boot_startup_mode_summary">Kies op welke manier Ariela zal opstarten</string>
+    <string name="sending_nfc_tag">Versuten van NFC TAG: %s</string>
 
     <string-array name="array_setting_mqtt_camera_resolution">
-        <item>Low</item>
-        <item>Medium</item>
-        <item>High</item>
+        <item>Laag</item>
+        <item>Gemiddeld</item>
+        <item>Hoog</item>
     </string-array>
 
     <string-array name="array_setting_mqtt_camera_resolution_values">
@@ -540,67 +540,67 @@
         <item>2</item>
     </string-array>
 
-    <string name="mqtt_camera_resolution">MQTT Camera Resolution</string>
-    <string name="mqtt_camera_resolution_summary">Choose the MQTT Camera Resolution</string>
+    <string name="mqtt_camera_resolution">MQTT Camera Resolutie</string>
+    <string name="mqtt_camera_resolution_summary">Kies de MQTT camera resolutie</string>
 
-    <string name="states_dev_summary">Set the representation of a device within Home Assistant. This will not communicate with the actual device. </string>
-    <string name="set_state_text">Set State</string>
-    <string name="entity_text">Entity</string>
-    <string name="state_text">State</string>
-    <string name="state_attributes">State Attributes (JSON, optional)</string>
+    <string name="states_dev_summary">Zet een apparaat representatie van Home Assistant. Dit zal niet communiceren met het eigenlijke apparaat. </string>
+    <string name="set_state_text">Zet staat</string>
+    <string name="entity_text">Entiteit</string>
+    <string name="state_text">Staat</string>
+    <string name="state_attributes">Staat Attributen (JSON, optioneel)</string>
 
-    <string name="notification_entity_show_value_text">Notification entity state</string>
-    <string name="notification_entity_show_value_summary">If this option is enabled, entities that are shown in notification will display its current value instead of its name</string>
+    <string name="notification_entity_show_value_text">Notificatie entiteit staat</string>
+    <string name="notification_entity_show_value_summary">Als deze optie aan staat zal de waarde van  entiteiten in de notificatie getoond worden in plaats van de naam</string>
 
-    <string name="active_server_cannot_be_deleted">The active server can\'t be deleted. Switch to another server in order to do this action.</string>
+    <string name="active_server_cannot_be_deleted">De actieve server kan niet worden verwijdert. Wissel naar een andere server om deze actie te kunnen uitvoeren.</string>
 
-    <string name="web_ui_swipe_tabs">WebUI tabs swap</string>
-    <string name="web_ui_swipe_tabs_summary">Enable this option in order to change tabs in Web UI mode by swap left / right</string>
+    <string name="web_ui_swipe_tabs">WebUI tabbladen wissel</string>
+    <string name="web_ui_swipe_tabs_summary">Zet deze optie aan om van tabbladen in de Web UI te wisselen door links / rechts te swipen</string>
 
-    <string name="delete_server_title">Delete Server</string>
-    <string name="delete_server_confirmation">Are you sure you want to delete \"%s\"?</string>
+    <string name="delete_server_title">Verwijder Server</string>
+    <string name="delete_server_confirmation">Ben je zeker dat je \"%s\" wil verwijderen?</string>
 
-    <string name="switch_server_title">Switch Server</string>
-    <string name="switch_server_confirmation">Are you sure you want to switch HA connection to \"%s\"?</string>
-    <string name="switch_server_already_active">This server is already active</string>
+    <string name="switch_server_title">Wissel Server</string>
+    <string name="switch_server_confirmation">Ben je zeker dat je wil wisselen naar Home Assistant server \"%s\"?</string>
+    <string name="switch_server_already_active">Deze server is al actief</string>
 
-    <string name="mobile_app_notification">Mobile APP Notification</string>
-    <string name="mobile_app_notification_summary">Click here to see notification example</string>
+    <string name="mobile_app_notification">Mobile APP Notificaties</string>
+    <string name="mobile_app_notification_summary">Klik hier voor een notificatie voorbeeld</string>
 
-    <string name="web_ui_scroll_refresh_title">WebUI Scroll Down Refresh</string>
-    <string name="web_ui_scroll_refresh_summary">Enable this option in order to allow scroll down to refresh option</string>
+    <string name="web_ui_scroll_refresh_title">WebUI Scroll neerwaards verversen</string>
+    <string name="web_ui_scroll_refresh_summary">Zet dit aan te verversen via een neerwaardse beweging</string>
 
-    <string name="horizontal_card_items">Horizontal-Stack items count</string>
-    <string name="horizontal_card_items_summary">Select the number of items horizontal-stack card should show.</string>
+    <string name="horizontal_card_items">Horizontal-Stack object telling</string>
+    <string name="horizontal_card_items_summary">Selecteer het aantal objecten dat een horizontal-stack kaart moet tonen.</string>
     <string name="auto_text">Auto</string>
 
-    <string name="mqtt_sensor_notification_grabber">Notifications Grabber</string>
-    <string name="mqtt_sensor_notification_grabber_message">Send notifications content from other applications to Home Assistant.</string>
-    <string name="permission_text">Permission Required</string>
-    <string name="notification_grabber_permission_required">In order this function to work you need to give Ariela permission to access other applications notification. Do you wish to continue?</string>
+    <string name="mqtt_sensor_notification_grabber">Notificatie Grijper</string>
+    <string name="mqtt_sensor_notification_grabber_message">Stuur notificatie inhouden van andere applicaties naar Home Assistant.</string>
+    <string name="permission_text">Permissie nodig</string>
+    <string name="notification_grabber_permission_required">Voor deze functie moet je Ariela permissie geven om andere app notificaties te kunnen lezen. Wil je verder gaan?</string>
 
     <string name="info_text">Info</string>
-    <string name="wifi_network">WiFi Network</string>
-    <string name="certificate_text">Certificate</string>
-    <string name="credentials_text">Credentials</string>
-    <string name="add_user">Add User</string>
-    <string name="name_text">Name</string>
-    <string name="no_home_wifi_text">No Home Wi-Fi networks</string>
+    <string name="wifi_network">WiFi Netwerk</string>
+    <string name="certificate_text">Certificaat</string>
+    <string name="credentials_text">Accountgegevens</string>
+    <string name="add_user">Gebruiker toevoegen</string>
+    <string name="name_text">Naam</string>
+    <string name="no_home_wifi_text">Geen Thuis wifi netwerken</string>
 
-    <string name="failed_to_load_ads_message">Failed to load advertisement. If you like this app consider purchasing PRO version in order to help further development of the app. Thank you!</string>
+    <string name="failed_to_load_ads_message">Reclame laden mislukt. Als je deze app leuk vindt denk er dan over om de PRO versie te kopen om verdere ontwikkeling te steunen, Bedankt!</string>
 
-    <string name="mqtt_retain_message">MQTT Retain</string>
-    <string name="mqtt_retain_summary">Inform MQTT broker to keep last messages</string>
+    <string name="mqtt_retain_message">MQTT Onthouden</string>
+    <string name="mqtt_retain_summary">Informeer MQTT broker de laatste berichten bij te houden</string>
 
-    <string name="mobile_app_credentials_force">Force Mobile App credentials</string>
-    <string name="mobile_app_credentials_force_summary">Force Ariela to redo Mobile App connection.</string>
-    <string name="disable_notification_message">Please go to Settings -> Apps -> Ariela in order to disable notifications.</string>
-    <string name="mobile_app_force_failed">Failed to force Mobile App integration</string>
-    <string name="mobile_app_force_succeeded">Mobile App force integration is successful</string>
+    <string name="mobile_app_credentials_force">Forceer Mobile App accountgegevens</string>
+    <string name="mobile_app_credentials_force_summary">Forceer Ariela de Mobile App connectie opnieuw te doen.</string>
+    <string name="disable_notification_message">Ga naar Opties -> Apps -> Ariela om notificaties uit te schakelen.</string>
+    <string name="mobile_app_force_failed">Mobile App integratie mislukt</string>
+    <string name="mobile_app_force_succeeded">Geforceerde Mobile App integratie is gelukt</string>
     <string name="mobile_app_text">Mobile APP</string>
 
-    <string name="sensors_disabled_text">All sensors had been disabled. Please re-enable the sensors in order to have Ariela sensors updated.</string>
-    <string name="mobile_app_credential_force_warning">In order to not have duplicates, you should go to Home Assistant -> Integrations and delete this device. Do you wish to continue deleting this device?</string>
-    <string name="vibrate_ui_controls_title">Vibrate UI controls</string>
-    <string name="vibrate_ui_controls_summary">Create vibration feedback whenever you toggle a switch, button etc</string>
+    <string name="sensors_disabled_text">Alle sensoren zijn uitgeschakeld. Schakel ze opnieuw in om updates in Ariela te krijgen.</string>
+    <string name="mobile_app_credential_force_warning">Om geen duplicaten te krijgen moet dit apparaat verwijderen in Home Assistant -> Integrations. Wil je verder gaan om dit apparaat te verwijderen?</string>
+    <string name="vibrate_ui_controls_title">Tril UI instellingen</string>
+    <string name="vibrate_ui_controls_summary">Tril wanneer je een schakelaar, knop, ...  bedient</string>
 </resources>
