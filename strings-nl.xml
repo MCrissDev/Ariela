@@ -29,12 +29,12 @@
     <string name="wifi_state_disconnected">VERBROKEN</string>
     <string name="wifi_state_disconnecting">VERBREKEN</string>
     <string name="wifi_choose_message">Kies uw Wi-Fi-thuisnetwerk waar de Home Assistant-server actief is. Dit zal later door deze applicatie worden gebruikt om te weten of het momenteel verbonden netwerk de thuisbasis is of niet. Veeg naar beneden om de lijst met Wi-Fi-netwerken te vernieuwen als u uw netwerk niet ziet.</string>
-    <string name="searching_wifi_networks">Zoeken in Wi-Fi-netwerken ...</string>
+    <string name="searching_wifi_networks">Zoeken in Wi-Fi-netwerken …</string>
     <string name="home_text">THUIS</string>
 
     <string name="button_scene_activate">Activeer</string>
     <string name="climate_current_temperature" formatted="true">Momenteel: %1$.1f %2$s</string>
-    <string name="media_player_stop_toast">Afspelen stoppen ...</string>
+    <string name="media_player_stop_toast">Afspelen stoppen …</string>
 
     <string name="location_permission_required">Om verder te gaan, is locatietoestemming vereist. Wilt u deze handmatig inschakelen?</string>
     <string name="yes_text">JA</string>
@@ -188,7 +188,7 @@
     <string name="device_tracker_period_summary">Kies een tijdsinterval waarop locatie-updates moeten worden verzonden</string>
 
     <string name="web_login_text">Web Login</string>
-    <string name="please_wait_text">Even geduld aub...</string>
+    <string name="please_wait_text">Even geduld aub…</string>
     <string name="title_activity_map_viewer">Kaart</string>
 
     <string name="hours_ago_text">%d uur geleden</string>
@@ -216,7 +216,7 @@
     <string name="settings_wifi_home_summary">Wanneer uw telefoon is verbonden met een Wi-Fi-netwerk uit deze lijst, wordt Home Assistant automatisch verteld dat u thuis bent</string>
     <string name="settings_wifi_home_title">Thuis Wi-Fi-netwerken</string>
     <string name="server_management_text">Serverbeheer</string>
-    <string name="server_management_message_text">Bedien uw Home Assistant-server ... van Ariela.</string>
+    <string name="server_management_message_text">Bedien uw Home Assistant-server … van Ariela.</string>
     <string name="restart_text">Herstarten</string>
     <string name="stop_text">Stop</string>
     <string name="brightness_text">Helderheid</string>
@@ -602,5 +602,10 @@
     <string name="sensors_disabled_text">Alle sensoren zijn uitgeschakeld. Schakel ze opnieuw in om updates in Ariela te krijgen.</string>
     <string name="mobile_app_credential_force_warning">Om geen duplicaten te krijgen moet dit apparaat verwijderen in Home Assistant -> Integrations. Wil je verder gaan om dit apparaat te verwijderen?</string>
     <string name="vibrate_ui_controls_title">Tril UI instellingen</string>
-    <string name="vibrate_ui_controls_summary">Tril wanneer je een schakelaar, knop, ...  bedient</string>
+    <string name="vibrate_ui_controls_summary">Tril wanneer je een schakelaar, knop, …  bedient</string>
+
+    <string name="setting_device_tracker_mobile_app">Device Tracker - Mobile App</string>
+    <string name="setting_device_tracker_mobile_app_summary">Enable updating device tracker created by Mobile APP</string>
+    <string name="setting_device_tracker_see">Device Tracker - See</string>
+    <string name="setting_device_tracker_see_summary">Enable updating device tracker using See service</string>
 </resources>
