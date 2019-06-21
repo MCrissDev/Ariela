@@ -187,7 +187,7 @@
     <string name="device_tracker_period_summary">Выберите интервал времени через который будут отправляться обновленные данные о местоположении.</string>
 
     <string name="web_login_text">Web-Логин</string>
-    <string name="please_wait_text">Пожалуйста подождите...</string>
+    <string name="please_wait_text">Пожалуйста подождите…</string>
     <string name="title_activity_map_viewer">Карта</string>
 
     <string name="hours_ago_text">%d часов назад</string>
@@ -444,8 +444,6 @@
     <string name="enable_camera_permission">Пожалуйста включите разрешения для камеры, чтобы использовать эту функцию.</string>
 
     <string name="common_text">Общие</string>
-    <string name="wear_credentials_force">Использоваться учетные данные Android</string>
-    <string name="wear_credentials_force_summary">Использовать учетные данные Android для отправки на устройство</string>
     <string name="wear_successfully_sync">Учетные данные были синхронизированы.</string>
     <string name="wear_failed_sync">Ошибка синхронизации учетных данных.</string>
 
@@ -601,4 +599,12 @@
     <string name="mobile_app_credential_force_warning">Чтобы не было дубликатов, вам нужно перейти в Home Assistant -> Интеграции и удалить это устройство. Вы хотите продолжить удаление этого устройства?</string>
     <string name="vibrate_ui_controls_title">Элементы управляния виброоткликом</string>
     <string name="vibrate_ui_controls_summary">Создать отклик через вибрацию при переключнии, нажатии и т.д.</string>
+
+    <string name="setting_device_tracker_mobile_app">Device Tracker - Mobile App</string>
+    <string name="setting_device_tracker_mobile_app_summary">Enable updating device tracker created by Mobile APP</string>
+    <string name="setting_device_tracker_see">Device Tracker - See</string>
+    <string name="setting_device_tracker_see_summary">Enable updating device tracker using See service</string>
+
+    <string name="wear_battery_sensor">Wear Battery</string>
+    <string name="wear_battery_sensor_message">Send Android Wear battery level</string>
 </resources>
