@@ -187,7 +187,7 @@
     <string name="device_tracker_period_summary">Wähle in welchem Zeitintervall die Position aktualisiert werden soll</string>
 
     <string name="web_login_text">Web Login</string>
-    <string name="please_wait_text">Bitte warten...</string>
+    <string name="please_wait_text">Bitte warten…</string>
     <string name="title_activity_map_viewer">Karte</string>
 
     <string name="hours_ago_text">vor %d Stunden</string>
@@ -444,8 +444,6 @@
     <string name="enable_camera_permission">Bitte aktiviere die Zugriffsberechtigung auf die Kamera, um diese Funktion nutzen zu können.</string>
 
     <string name="common_text">Allgemein</string>
-    <string name="wear_credentials_force">Android Wear-Anmeldedaten erzwingen</string>
-    <string name="wear_credentials_force_summary">Erzwinge die Nutzung Android Wear-Anmeldedaten mit dem Gerät</string>
     <string name="wear_successfully_sync">Anmeldedaten wurden synchronsiert.</string>
     <string name="wear_failed_sync">Android Wear-Anmeldendaten konnten nicht synchronisiert werden.</string>
 
@@ -599,4 +597,12 @@
     <string name="mobile_app_credential_force_warning">In order to not have duplicates, you should go to Home Assistant -> Integrations and delete this device. Do you wish to continue deleting this device?</string>
     <string name="vibrate_ui_controls_title">Vibrate UI controls</string>
     <string name="vibrate_ui_controls_summary">Create vibration feedback whenever you toggle a switch, button etc</string>
+
+    <string name="setting_device_tracker_mobile_app">Device Tracker - Mobile App</string>
+    <string name="setting_device_tracker_mobile_app_summary">Enable updating device tracker created by Mobile APP</string>
+    <string name="setting_device_tracker_see">Device Tracker - See</string>
+    <string name="setting_device_tracker_see_summary">Enable updating device tracker using See service</string>
+
+    <string name="wear_battery_sensor">Wear Battery</string>
+    <string name="wear_battery_sensor_message">Send Android Wear battery level</string>
 </resources>
