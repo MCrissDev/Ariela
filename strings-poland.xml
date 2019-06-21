@@ -28,12 +28,12 @@
     <string name="wifi_state_disconnected">ROZŁĄCZONO</string>
     <string name="wifi_state_disconnecting">ROZŁĄCZANIE</string>
     <string name="wifi_choose_message">Wybierz swoją domową sieć WiFi, w której działa serwer Home Assistant. Na tej podstawie aplikacja będzie wiedziała czy urządzenie jest w sieci domowej czy nie. Przesuń palcem w dół, aby odświeżyć listę sieci WiFi, jeśli nie widzisz swojej sieci.</string>
-    <string name="searching_wifi_networks">Wyszukiwanie sieci WiFi ...</string>
+    <string name="searching_wifi_networks">Wyszukiwanie sieci WiFi …</string>
     <string name="home_text">DOM</string>
 
     <string name="button_scene_activate">wykonaj</string>
     <string name="climate_current_temperature" formatted="true">Obecnie: %1$.1f %2$s</string>
-    <string name="media_player_stop_toast">Zatrzymuję odtwarzanie ...</string>
+    <string name="media_player_stop_toast">Zatrzymuję odtwarzanie …</string>
 
     <string name="location_permission_required">Aby kontynuować, wymagane jest włączenie dla aplikacji uprawnień do korzystnia z lokalizacji. Czy chcesz je ręcznie włączyć?</string>
     <string name="yes_text">TAK</string>
@@ -163,7 +163,7 @@
     <string name="device_tracker_period_summary">Wybierz jak często mają być wysyłane aktualizacje lokalizacji</string>
 
     <string name="web_login_text">Logowanie przez stronę WWW</string>
-    <string name="please_wait_text">Proszę czekać...</string>
+    <string name="please_wait_text">Proszę czekać…</string>
     <string name="title_activity_map_viewer">Mapa</string>
 
     <string name="hours_ago_text">%d godzin(y) temu</string>
@@ -436,8 +436,6 @@
     <string name="enable_camera_permission">Zezwól na uprawnienie dostępu do aparatu by używać tej funkcji.</string>
 
     <string name="common_text">Ogólne</string>
-    <string name="wear_credentials_force">Wymuś poświadczenia Android Wear</string>
-    <string name="wear_credentials_force_summary">Wymuś wysłanie na urządzenie poświadczeń Android Wear</string>
     <string name="wear_successfully_sync">Poświadczenia zostały zsynchronizowane.</string>
     <string name="wear_failed_sync">Nie udało się zsynchronizować poświadczeń.</string>
 
@@ -593,4 +591,12 @@
     <string name="mobile_app_credential_force_warning">In order to not have duplicates, you should go to Home Assistant -> Integrations and delete this device. Do you wish to continue deleting this device?</string>
     <string name="vibrate_ui_controls_title">Vibrate UI controls</string>
     <string name="vibrate_ui_controls_summary">Create vibration feedback whenever you toggle a switch, button etc</string>
+
+    <string name="setting_device_tracker_mobile_app">Device Tracker - Mobile App</string>
+    <string name="setting_device_tracker_mobile_app_summary">Enable updating device tracker created by Mobile APP</string>
+    <string name="setting_device_tracker_see">Device Tracker - See</string>
+    <string name="setting_device_tracker_see_summary">Enable updating device tracker using See service</string>
+
+    <string name="wear_battery_sensor">Wear Battery</string>
+    <string name="wear_battery_sensor_message">Send Android Wear battery level</string>
 </resources>
