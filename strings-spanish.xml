@@ -382,8 +382,6 @@
     <string name="front_camera_summary">Enviar fotos desde la cámara frontal</string>
     <string name="enable_camera_permission">Habilite el permiso de la cámara para usar esta función.</string>
     <string name="common_text">Común</string>
-    <string name="wear_credentials_force">Forzar las credenciales de Android Wear</string>
-    <string name="wear_credentials_force_summary">Forzar el envío de las credenciales de Android Wear al dispositivo</string>
     <string name="wear_successfully_sync">Las credenciales se han sincronizado.</string>
     <string name="wear_failed_sync">Error al sincronizar las credenciales de Android Wear.</string>
     <string name="tts_text">Texto a voz</string>
@@ -514,4 +512,12 @@
     <string name="mobile_app_credential_force_warning">In order to not have duplicates, you should go to Home Assistant -> Integrations and delete this device. Do you wish to continue deleting this device?</string>
     <string name="vibrate_ui_controls_title">Vibrate UI controls</string>
     <string name="vibrate_ui_controls_summary">Create vibration feedback whenever you toggle a switch, button etc</string>
+
+    <string name="setting_device_tracker_mobile_app">Device Tracker - Mobile App</string>
+    <string name="setting_device_tracker_mobile_app_summary">Enable updating device tracker created by Mobile APP</string>
+    <string name="setting_device_tracker_see">Device Tracker - See</string>
+    <string name="setting_device_tracker_see_summary">Enable updating device tracker using See service</string>
+
+    <string name="wear_battery_sensor">Wear Battery</string>
+    <string name="wear_battery_sensor_message">Send Android Wear battery level</string>
 </resources>
