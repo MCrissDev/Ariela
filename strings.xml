@@ -14,7 +14,7 @@
     <string name="setup_complete_text">Setup Complete</string>
     <string name="setup_complete_message_text">Home Assistant setup process is successful. Now you can use this app to control Home Assistant.</string>
     <string name="configure_text">Configure</string>
-    <string name="connection_server_failed_splash">Failed to connect to Home Assistant server. You can can try again to connect or configure the server again. What would you like to do?</string>
+    <string name="connection_server_failed_splash">Failed to connect to Home Assistant server. You can try again to connect or configure the server again. What would you like to do?</string>
     <string name="server_not_configured_text">Server not configured</string>
     <string name="server_not_configured_message_text">Home Assistant is not configured yet. Would you like to configure it?</string>
     <string name="title_activity_dashboard">Dashboard</string>
@@ -205,7 +205,7 @@
     <string name="device_tracker_period_summary">Choose time interval at which location updates should be send</string>
 
     <string name="web_login_text">Web Login</string>
-    <string name="please_wait_text">Please wait...</string>
+    <string name="please_wait_text">Please wait…</string>
     <string name="title_activity_map_viewer">Map</string>
 
     <string name="hours_ago_text">%d hours ago</string>
@@ -462,8 +462,6 @@
     <string name="enable_camera_permission">Please enable camera permission to use this feature.</string>
 
     <string name="common_text">Common</string>
-    <string name="wear_credentials_force">Force Android Wear credentials</string>
-    <string name="wear_credentials_force_summary">Force Android Wear credentials to be send to the device</string>
     <string name="wear_successfully_sync">Credentials had been synced.</string>
     <string name="wear_failed_sync">Failed to sync wear credentials.</string>
 
@@ -619,4 +617,12 @@
     <string name="mobile_app_credential_force_warning">In order to not have duplicates, you should go to Home Assistant -> Integrations and delete this device. Do you wish to continue deleting this device?</string>
     <string name="vibrate_ui_controls_title">Vibrate UI controls</string>
     <string name="vibrate_ui_controls_summary">Create vibration feedback whenever you toggle a switch, button etc</string>
+
+    <string name="setting_device_tracker_mobile_app">Device Tracker - Mobile App</string>
+    <string name="setting_device_tracker_mobile_app_summary">Enable updating device tracker created by Mobile APP</string>
+    <string name="setting_device_tracker_see">Device Tracker - See</string>
+    <string name="setting_device_tracker_see_summary">Enable updating device tracker using See service</string>
+
+    <string name="wear_battery_sensor">Wear Battery</string>
+    <string name="wear_battery_sensor_message">Send Android Wear battery level</string>
 </resources>
