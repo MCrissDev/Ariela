@@ -186,7 +186,7 @@
     <string name="device_tracker_period_summary">Scegli l\'intervallo temporale con cui gli aggiornamenti di posizione devono essere inviati</string>
 
     <string name="web_login_text">Accesso Web</string>
-    <string name="please_wait_text">Attendere Prego...</string>
+    <string name="please_wait_text">Attendere Prego…</string>
     <string name="title_activity_map_viewer">Mappa</string>
 
     <string name="hours_ago_text">%d ore fa</string>
@@ -444,8 +444,6 @@
     <string name="enable_camera_permission">Please enable camera permission to use this feature.</string>
 
     <string name="common_text">Common</string>
-    <string name="wear_credentials_force">Force Android Wear credentials</string>
-    <string name="wear_credentials_force_summary">Force Android Wear credentials to be send to the device</string>
     <string name="wear_successfully_sync">Credentials had been synced.</string>
     <string name="wear_failed_sync">Failed to sync wear credentials.</string>
 
@@ -601,4 +599,12 @@
     <string name="mobile_app_credential_force_warning">In order to not have duplicates, you should go to Home Assistant -> Integrations and delete this device. Do you wish to continue deleting this device?</string>
     <string name="vibrate_ui_controls_title">Vibrate UI controls</string>
     <string name="vibrate_ui_controls_summary">Create vibration feedback whenever you toggle a switch, button etc</string>
+
+    <string name="setting_device_tracker_mobile_app">Device Tracker - Mobile App</string>
+    <string name="setting_device_tracker_mobile_app_summary">Enable updating device tracker created by Mobile APP</string>
+    <string name="setting_device_tracker_see">Device Tracker - See</string>
+    <string name="setting_device_tracker_see_summary">Enable updating device tracker using See service</string>
+
+    <string name="wear_battery_sensor">Wear Battery</string>
+    <string name="wear_battery_sensor_message">Send Android Wear battery level</string>
 </resources>
