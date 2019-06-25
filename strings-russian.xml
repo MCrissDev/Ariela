@@ -600,11 +600,11 @@
     <string name="vibrate_ui_controls_title">Элементы управляния виброоткликом</string>
     <string name="vibrate_ui_controls_summary">Создать отклик через вибрацию при переключнии, нажатии и т.д.</string>
 
-    <string name="setting_device_tracker_mobile_app">Device Tracker - Mobile App</string>
-    <string name="setting_device_tracker_mobile_app_summary">Enable updating device tracker created by Mobile APP</string>
-    <string name="setting_device_tracker_see">Device Tracker - See</string>
-    <string name="setting_device_tracker_see_summary">Enable updating device tracker using See service</string>
+    <string name="setting_device_tracker_mobile_app">Отслеживание устройств - Мобильное приложение</string>
+    <string name="setting_device_tracker_mobile_app_summary">Включить обновление отслеживания, созданного мобильным приложением</string>
+    <string name="setting_device_tracker_see">Отслеживание устройств - служба просмотра</string>
+    <string name="setting_device_tracker_see_summary">Включить обновление отслеживания с помощью службы просмотра</string>
 
-    <string name="wear_battery_sensor">Wear Battery</string>
-    <string name="wear_battery_sensor_message">Send Android Wear battery level</string>
+    <string name="wear_battery_sensor">Носимые смарт устройства</string>
+    <string name="wear_battery_sensor_message">Отправлять уровень заряда батареи Android Wear</string>
 </resources>
