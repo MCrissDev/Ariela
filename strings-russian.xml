@@ -607,4 +607,25 @@
 
     <string name="wear_battery_sensor">Носимые смарт устройства</string>
     <string name="wear_battery_sensor_message">Отправлять уровень заряда батареи Android Wear</string>
+
+    <string name="device_tracker_accuracy_title">Accuracy</string>
+    <string name="device_tracker_accuracy_message">Do not send GPS location if accuracy (in meters) is higher then this value. Put 0 (zero) to send GPS location for any accuracy.</string>
+
+    <string name="allow_background_running">Allow background running</string>
+    <string name="allow_background_running_summary">If this option is enabled, Ariela will be allowed to run in background. This is useful if you want to receive entities updates in realtime but its possible to consume more battery.</string>
+
+    <string name="entity_registry_text">Entity Registry</string>
+    <string name="entity_registry_summary">Overview of all known entities.</string>
+    <string name="failed_to_retrieve_entities_message">Failed to retrieve entities list. Please try again later.</string>
+
+    <string name="heart_rate_text">Heart Rate</string>
+    <string name="heart_rate_summary">Send Heart Rate information sensor to Home Assistant</string>
+    <string name="enable_body_sensors_permission">Please enable Body Sensors permission in order to use this function.</string>
+
+    <string name="wear_heart_rate_sensor">Wear Heart Rate</string>
+    <string name="wear_heart_rate_message">Send Android Wear heart rate sensor info.</string>
+
+    <string name="vpn_connection_text">VPN Connection</string>
+    <string name="vpn_connection_summary">If this option is enabled, the internal IP address will be used for communicating with Home Assistant.</string>
+    <string name="device_tracker_update_mode">Update Mode</string>
 </resources>
