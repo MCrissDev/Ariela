@@ -336,15 +336,15 @@
     <string name="call_state">Starea apelului</string>
     <string name="call_state_message">Trimite informatii despre starea apelurilor acestui dispozitiv</string>
     <string name="copy_to_clipboard">Copie in memorie</string>
-    <string name="instructions_copied_to_memory">Instructions copied to clipboard</string>
+    <string name="instructions_copied_to_memory">Instructiunile au fost copiate in memoria telefonului.</string>
 
-    <string name="setup_mqtt_first">Setup MQTT first to use this option</string>
+    <string name="setup_mqtt_first">Configurati MQTT pentru a folosi aceasta functie</string>
 
-    <string name="discovery_topic">Discovery topic</string>
-    <string name="discovery_topic_message">Value used for automatic MQTT discovery</string>
+    <string name="discovery_topic">Topic detectie</string>
+    <string name="discovery_topic_message">Valoarea utilizata pentru detecti automata a senzorilor MQTT</string>
 
     <string name="mqtt_topic">Topic</string>
-    <string name="mqtt_payload">Payload (template allowed)</string>
+    <string name="mqtt_payload">Incarcatura (sablon permis)</string>
     <string name="publish_text">Publica</string>
     <string name="publish_a_packet_text">MQTT: publica un pachet</string>
 
@@ -361,29 +361,29 @@
     <string name="pressure_message">Trimite informatiile senzorului de presiune ale acestui dispozitiv</string>
 
     <string name="user_text">Utilizator</string>
-    <string name="setting_keepscreenon_summary">If this option is enabled, while the Ariela dashboard will be visible the screen will not going to close</string>
+    <string name="setting_keepscreenon_summary">Daca aceasta optiune este activata, cat timp Ariela este in foreground, ecranul telefonului va ramane deschis</string>
     <string name="setting_keepscreenon_title">Pastreaza ecranul deschis</string>
     <string name="shopping_list_text">Lista cumparaturi</string>
 
-    <string name="text_to_speek">Text to speek</string>
+    <string name="text_to_speek">Text în discurs</string>
     <string name="send_text">Trimite</string>
     <string name="input_source">Sursa audio</string>
     <string name="sound_mode">Mod sunet</string>
 
     <string name="bluetooth_text">Bluetooth</string>
-    <string name="bluetooth_mqtt_text">Send this device Bluetooth information\'s</string>
+    <string name="bluetooth_mqtt_text">Trimite informatiile bluetooth ale acestui dispozitiv</string>
 
-    <string name="relative_humidity">Relative Humidity</string>
-    <string name="relative_humidity_message">Send this device Relative Humidity sensor information\'s</string>
+    <string name="relative_humidity">Umiditate Relativa</string>
+    <string name="relative_humidity_message">Trimite informatiile senzorului de umiditate relativa a acestui device</string>
 
-    <string name="screen_mqtt_sensor_text">Wake up / sleep this device from Home Assistant</string>
+    <string name="screen_mqtt_sensor_text">Trezeste / inchide acest dispozitiv din Home Assistant</string>
     <string name="screen_text">Ecran</string>
 
-    <string name="apps_mqtt_text">Sensor containing installed apps on this device</string>
+    <string name="apps_mqtt_text">Sensor ce informeaza informatiile aplicatiilor instalate pe acest dispozitiv</string>
     <string name="apps_text">Aplicatii</string>
 
-    <string name="setting_fullscreen_summary">If this option is enabled, Ariela will be shown in fullscreen mode</string>
-    <string name="setting_fullscreen_title">Full Screen Mode</string>
+    <string name="setting_fullscreen_summary">Dacă această opțiune este activată, Ariela va fi afișată în modul ecran complet</string>
+    <string name="setting_fullscreen_title">Modul ecran întreg</string>
     <string name="no_voice_recognition">Nu s-a detectat un sistem de recunoastere vocala instalat</string>
 
     <string name="states_text">Stari</string>
@@ -395,16 +395,16 @@
     <string name="view_configuration">Configuratie view</string>
     <string name="save_text">Salveaza</string>
     <string name="settings_text">Setari</string>
-    <string name="badges_text">Badges</string>
+    <string name="badges_text">Insigne</string>
     <string name="activate_text">Activeaza</string>
     <string name="execute_text">Executa</string>
-    <string name="setting_scrolllongtext_title">Scroll Long Text</string>
-    <string name="setting_scrolllongtext_summary">If this option is enabled, text that is too long to fit it will be animated (scrolled), else truncated</string>
+    <string name="setting_scrolllongtext_title">Derulați textul lung</string>
+    <string name="setting_scrolllongtext_summary">Dacă această opțiune este activată, textul care este prea lung pentru a se potrivi va fi animat (derulat), altfel trunchiat</string>
 
     <string name="vacuum_cleaner_commands">Comenzi:</string>
     <string name="notifications_empty">Nu aveti nici o notificare</string>
     <string name="dismiss_text">Inlatura</string>
-    <string name="failed_to_retrieve_shopping_list">Failed to retrieve shopping list. Please check if the component is enabled on the server.</string>
+    <string name="failed_to_retrieve_shopping_list">Eroare la preluarea listei de cumpărături. Verificați dacă componenta este activată pe server.</string>
     <string name="entity_editor_text">Editor entitate</string>
     <string name="message_toast_failed_to_save_entity_info">Nu s-au putut salva informatiile entitatii</string>
 
@@ -434,22 +434,22 @@
     <string name="message_text">Mesaj</string>
     <string name="create_text">Creează</string>
 
-    <string name="service_text">Service</string>
-    <string name="services_text">Services</string>
-    <string name="services_summary_text">The service dev tool allows you to call any available service in Home Assistant.</string>
-    <string name="service_data_text">Service Data (JSON, optional)</string>
-    <string name="call_service_text">Call Service</string>
+    <string name="service_text">Serviciu</string>
+    <string name="services_text">Servicii</string>
+    <string name="services_summary_text">Instrumentul de service dev vă permite să apelați orice serviciu disponibil în Home Assistant.</string>
+    <string name="service_data_text">Datele de serviciu (JSON, opțional)</string>
+    <string name="call_service_text">Apeleaza Serviciu</string>
 
     <string name="intro_text">Intro</string>
-    <string name="previous_text">Previous</string>
-    <string name="next_text">Next</string>
-    <string name="enter_local_network_info_message">Please enter your home WiFi information\'s</string>
+    <string name="previous_text">Anterior</string>
+    <string name="next_text">Urmator</string>
+    <string name="enter_local_network_info_message">Introduceți informațiile despre retelele WiFi din domiciliul</string>
 
-    <string name="enter_wifi_home_name">Please enter your home WiFi name. When Ariela will be connected to this network, it would use the local IP address of Home Assistant which you will set. Also, this network name can be used later to inform Home Assistant that your are Home when Ariela will be connected to this network.</string>
-    <string name="wifi_name_hint">WiFi name</string>
+    <string name="enter_wifi_home_name">Introduceți numele WiFi al casei dvs. Când Ariela va fi conectat la această rețea, va folosi adresa IP locală a Home Assistant pe care o veți seta. De asemenea, acest nume de rețea poate fi folosit mai târziu pentru a informa Home Assistant că sunteți acasă când Ariela va fi conectat la această rețea.</string>
+    <string name="wifi_name_hint">Nume WiFi</string>
 
-    <string name="please_enter_wifi_name">Please enter a valid WiFi name.</string>
-    <string name="local_ip_address">Home Assistant IP address</string>
+    <string name="please_enter_wifi_name">Introduceți un nume WiFi valid.</string>
+    <string name="local_ip_address">Adresa IP Home Assistant</string>
     <string name="local_ip_address_msg">Please enter Home Assistant IP address. If that is currently not available and you can access your server outside your network, you can put that address too.</string>
     <string name="check_connection_text">Check connection</string>
     <string name="external_ip_address_msg">Please enter Home Assistant IP external address. If you are not exposing your server over the internet, use \"Skip\" button to proceed further</string>
@@ -653,4 +653,25 @@
 
     <string name="wear_battery_sensor">Wear Battery</string>
     <string name="wear_battery_sensor_message">Send Android Wear battery level</string>
+
+    <string name="device_tracker_accuracy_title">Accuracy</string>
+    <string name="device_tracker_accuracy_message">Do not send GPS location if accuracy (in meters) is higher then this value. Put 0 (zero) to send GPS location for any accuracy.</string>
+
+    <string name="allow_background_running">Allow background running</string>
+    <string name="allow_background_running_summary">If this option is enabled, Ariela will be allowed to run in background. This is useful if you want to receive entities updates in realtime but its possible to consume more battery.</string>
+
+    <string name="entity_registry_text">Entity Registry</string>
+    <string name="entity_registry_summary">Overview of all known entities.</string>
+    <string name="failed_to_retrieve_entities_message">Failed to retrieve entities list. Please try again later.</string>
+
+    <string name="heart_rate_text">Heart Rate</string>
+    <string name="heart_rate_summary">Send Heart Rate information sensor to Home Assistant</string>
+    <string name="enable_body_sensors_permission">Please enable Body Sensors permission in order to use this function.</string>
+
+    <string name="wear_heart_rate_sensor">Wear Heart Rate</string>
+    <string name="wear_heart_rate_message">Send Android Wear heart rate sensor info.</string>
+
+    <string name="vpn_connection_text">VPN Connection</string>
+    <string name="vpn_connection_summary">If this option is enabled, the internal IP address will be used for communicating with Home Assistant.</string>
+    <string name="device_tracker_update_mode">Update Mode</string>
 </resources>
