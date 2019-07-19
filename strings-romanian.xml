@@ -145,10 +145,10 @@
 
     <string name="settings_lovelaceui_title">Interfață Lovelace</string>
     <string name="settings_lovelaceui_summary">Utilizează interfață Lovelace configuration în loc de cea implicită</string>
-    <string name="settings_debugmode_title">Mod Debug</string>
+    <string name="settings_debugmode_title">Mod depanare</string>
     <string name="settings_debugmode_summary">Activează / Dezactivează modul Debug</string>
 
-    <string name="settings_device_tracker_title">Device Tracker</string>
+    <string name="settings_device_tracker_title">Localizare dispozitiv</string>
     <string name="settings_device_tracker_summary">Activează / dezactivează urmărirea acestui dispozitiv</string>
 
     <string name="settings_phone_name_summary">Valoare atribuită pentru a identifica acest dispozitiv</string>
@@ -160,11 +160,11 @@
     <string name="debug_mode_activated">Modul Debug activat</string>
     <string name="debug_mode_deactivated">Modul Debug dezactivat</string>
     <string name="debug_mode_failed">Nu s-a putut activă modul Debug</string>
-    <string name="device_tracker_failed">Nu s-a putut activă componenta Device Tracker</string>
+    <string name="device_tracker_failed">Nu s-a putut activă componenta \"Localizare Dispozitiv\"</string>
     <string name="notifications_string">Notificări</string>
     <string name="common_string">Comun</string>
     <string name="ui_string">UI</string>
-    <string name="others_string">Alții</string>
+    <string name="others_string">Altele</string>
     <string name="away_text">Departe</string>
     <string name="home_status_text">Acasă</string>
 
@@ -242,8 +242,6 @@
     <string name="reload_scripts_text">Reîncarcă script-uri</string>
     <string name="service_has_been_called">Service-ul a fost apelat</string>
 
-    <string name="settings_wifi_home_summary">Când telefonul dvs va fi conectat la una din rețelele Wi-Fi din această list, Ariela va informa serverul Home Assistant că sunteți acasă.</string>
-    <string name="settings_wifi_home_title">Rețele Wi-Fi</string>
     <string name="server_management_text">Management Server</string>
     <string name="server_management_message_text">Controlați server-ul Home Assistant…din Ariela.</string>
     <string name="restart_text">Restart</string>
@@ -376,9 +374,6 @@
     <string name="relative_humidity">Umiditate Relativa</string>
     <string name="relative_humidity_message">Trimite informatiile senzorului de umiditate relativa a acestui device</string>
 
-    <string name="screen_mqtt_sensor_text">Trezeste / inchide acest dispozitiv din Home Assistant</string>
-    <string name="screen_text">Ecran</string>
-
     <string name="apps_mqtt_text">Sensor ce informeaza informatiile aplicatiilor instalate pe acest dispozitiv</string>
     <string name="apps_text">Aplicatii</string>
 
@@ -489,7 +484,7 @@
     <string name="front_camera_summary">Send pictures from front camera</string>
     <string name="enable_camera_permission">Please enable camera permission to use this feature.</string>
 
-    <string name="common_text">Common</string>
+    <string name="common_text">Comun</string>
     <string name="wear_successfully_sync">Credentials had been synced.</string>
     <string name="wear_failed_sync">Failed to sync wear credentials.</string>
 
@@ -674,4 +669,40 @@
     <string name="vpn_connection_text">VPN Connection</string>
     <string name="vpn_connection_summary">If this option is enabled, the internal IP address will be used for communicating with Home Assistant.</string>
     <string name="device_tracker_update_mode">Update Mode</string>
+
+    <string name="notification_vibrate_title">Vibrate</string>
+    <string name="notification_vibrate_summary">Vibrate whenever a push notification is shown.</string>
+    <string name="notification_notification_lights">Lights</string>
+    <string name="notification_notification_summary">Enable light whenever a push notification is shown.</string>
+    <string name="push_notifications_text">Push Notifications</string>
+
+    <string name="language_text">Limba</string>
+    <string name="language_setting_summary">Alegeti limba aplicatiei.</string>
+
+    <string-array name="array_setting_language_column">
+        <item>English</item>
+        <item>German</item>
+        <item>Spanish</item>
+        <item>Italian</item>
+        <item>Norwegian</item>
+        <item>Dutch</item>
+        <item>Polish</item>
+        <item>Portuguese</item>
+        <item>Romanian</item>
+        <item>Russian</item>
+        <item>Swedish</item>
+    </string-array>
+
+    <string name="language_changed_dialog_message">Please restart the application in order to have the changes applied.</string>
+
+    <string name="attention_text">Attention</string>
+    <string name="web_ui_enable_mode_message">In order to return to native Ariela or access the Ariela settings, please swipe right from the left display margin.</string>
+    <string name="push_notifications_text_aa">Android Auto Push Notifications</string>
+    <string name="add_wifi_text">Add WiFi</string>
+    <string name="zone_text">Zone</string>
+    <string name="wifi_name_cannot_be_empty">WiFi name cannot be empty</string>
+    <string name="settings_wifi_home_title">WiFi &amp; Zones</string>
+    <string name="settings_wifi_home_summary">When you will be connected to one of the listed networks, Ariela will inform Home Assistant that your device is at the assigned zone location.</string>
+    <string name="screen_state_summary">Send information if screen is off or on</string>
+    <string name="screen_state_text">Screen State</string>
 </resources>
