@@ -212,8 +212,6 @@
     <string name="reload_scripts_text">Scripte neu laden</string>
     <string name="service_has_been_called">Service wurde aufgerufen</string>
 
-    <string name="settings_wifi_home_summary">Wenn dein Telefon mit einem WLAN aus der Liste verbunden ist, signalisiert es Home Assistant automatisch, dass du zu Hause bist.</string>
-    <string name="settings_wifi_home_title">Heim-WLAN-Netzwerke</string>
     <string name="server_management_text">Server-Verwaltung</string>
     <string name="server_management_message_text">Kontrolliere deinen Server…from Ariela.</string>
     <string name="restart_text">Neustarten</string>
@@ -329,9 +327,6 @@
 
     <string name="relative_humidity">Relative Luftfeuchtigkeit</string>
     <string name="relative_humidity_message">Sende Luftfeuchtigkeitssensor-Informationen dieses Gerätes</string>
-
-    <string name="screen_mqtt_sensor_text">Dieses Gerät über Home Assistant aufwecken oder in Standby versetzen</string>
-    <string name="screen_text">Bildschirm</string>
 
     <string name="apps_mqtt_text">Sensor enthält die installierten Apps auf diesem Gerät</string>
     <string name="apps_text">Anwendungen</string>
@@ -626,4 +621,40 @@
     <string name="vpn_connection_text">VPN Connection</string>
     <string name="vpn_connection_summary">If this option is enabled, the internal IP address will be used for communicating with Home Assistant.</string>
     <string name="device_tracker_update_mode">Update Mode</string>
+
+    <string name="notification_vibrate_title">Vibrate</string>
+    <string name="notification_vibrate_summary">Vibrate whenever a push notification is shown.</string>
+    <string name="notification_notification_lights">Lights</string>
+    <string name="notification_notification_summary">Enable light whenever a push notification is shown.</string>
+    <string name="push_notifications_text">Push Notifications</string>
+
+    <string name="language_text">Language</string>
+    <string name="language_setting_summary">Choose application language.</string>
+
+    <string-array name="array_setting_language_column">
+        <item>English</item>
+        <item>German</item>
+        <item>Spanish</item>
+        <item>Italian</item>
+        <item>Norwegian</item>
+        <item>Dutch</item>
+        <item>Polish</item>
+        <item>Portuguese</item>
+        <item>Romanian</item>
+        <item>Russian</item>
+        <item>Swedish</item>
+    </string-array>
+
+    <string name="language_changed_dialog_message">Please restart the application in order to have the changes applied.</string>
+
+    <string name="attention_text">Attention</string>
+    <string name="web_ui_enable_mode_message">In order to return to native Ariela or access the Ariela settings, please swipe right from the left display margin.</string>
+    <string name="push_notifications_text_aa">Android Auto Push Notifications</string>
+    <string name="add_wifi_text">Add WiFi</string>
+    <string name="zone_text">Zone</string>
+    <string name="wifi_name_cannot_be_empty">WiFi name cannot be empty</string>
+    <string name="settings_wifi_home_title">WiFi &amp; Zones</string>
+    <string name="settings_wifi_home_summary">When you will be connected to one of the listed networks, Ariela will inform Home Assistant that your device is at the assigned zone location.</string>
+    <string name="screen_state_summary">Send information if screen is off or on</string>
+    <string name="screen_state_text">Screen State</string>
 </resources>
