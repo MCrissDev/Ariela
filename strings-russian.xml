@@ -603,60 +603,94 @@
     <string name="wear_battery_sensor">Носимые смарт устройства</string>
     <string name="wear_battery_sensor_message">Отправлять уровень заряда батареи Android Wear</string>
 
-    <string name="device_tracker_accuracy_title">Accuracy</string>
-    <string name="device_tracker_accuracy_message">Do not send GPS location if accuracy (in meters) is higher then this value. Put 0 (zero) to send GPS location for any accuracy.</string>
+    <string name="device_tracker_accuracy_title">Точность</string>
+    <string name="device_tracker_accuracy_message">Не отправлять данные GPS если точность (в метрах) больше чем установленное значение. Установите 0 (ноль) для отправки значений в любых случаях.</string>
 
-    <string name="allow_background_running">Allow background running</string>
-    <string name="allow_background_running_summary">If this option is enabled, Ariela will be allowed to run in background. This is useful if you want to receive entities updates in realtime but its possible to consume more battery.</string>
+    <string name="allow_background_running">Разрешение работы в фоновом режиме</string>
+    <string name="allow_background_running_summary">Если эта опция включена, Ariela будет работать в фоновом режиме. Это полезно, если вы хотите получать обновления сущностей в режиме реального времени, но это может потреблять больше энергии.</string>
 
-    <string name="entity_registry_text">Entity Registry</string>
-    <string name="entity_registry_summary">Overview of all known entities.</string>
-    <string name="failed_to_retrieve_entities_message">Failed to retrieve entities list. Please try again later.</string>
+    <string name="entity_registry_text">Реестр объектов</string>
+    <string name="entity_registry_summary">Обзор всех известных объектов.</string>
+    <string name="failed_to_retrieve_entities_message">Не удалось получить список объектов. Пожалуйста, попробуйте позже.</string>
 
-    <string name="heart_rate_text">Heart Rate</string>
-    <string name="heart_rate_summary">Send Heart Rate information sensor to Home Assistant</string>
-    <string name="enable_body_sensors_permission">Please enable Body Sensors permission in order to use this function.</string>
+    <string name="heart_rate_text">Сердцебиение</string>
+    <string name="heart_rate_summary">Отправить информацию о датчике сердечного ритма в Home Assistant</string>
+    <string name="enable_body_sensors_permission">Пожалуйста, включите разрешение для носимых устройств что бы использовать эту функцию.</string>
 
-    <string name="wear_heart_rate_sensor">Wear Heart Rate</string>
-    <string name="wear_heart_rate_message">Send Android Wear heart rate sensor info.</string>
+    <string name="wear_heart_rate_sensor">Пульс Android Wear</string>
+    <string name="wear_heart_rate_message">Отправлять Android Wear информацию сердечного ритма.</string>
 
-    <string name="vpn_connection_text">VPN Connection</string>
-    <string name="vpn_connection_summary">If this option is enabled, the internal IP address will be used for communicating with Home Assistant.</string>
-    <string name="device_tracker_update_mode">Update Mode</string>
+    <string name="vpn_connection_text">VPN Соединения</string>
+    <string name="vpn_connection_summary">Если эта опция включена, внутренний IP-адрес будет использоваться для связи с Home Assistant.</string>
+    <string name="device_tracker_update_mode">Режим обновления</string>
 
-    <string name="notification_vibrate_title">Vibrate</string>
-    <string name="notification_vibrate_summary">Vibrate whenever a push notification is shown.</string>
-    <string name="notification_notification_lights">Lights</string>
-    <string name="notification_notification_summary">Enable light whenever a push notification is shown.</string>
-    <string name="push_notifications_text">Push Notifications</string>
+    <string name="notification_vibrate_title">Выбрация</string>
+    <string name="notification_vibrate_summary">Вибрация всегда, при поступлении Push уведомления.</string>
+    <string name="notification_notification_lights">Фонарик</string>
+    <string name="notification_notification_summary">Включить фонарик, при поступлении Push уведомления.</string>
+    <string name="push_notifications_text">Push уведомления</string>
 
-    <string name="language_text">Language</string>
-    <string name="language_setting_summary">Choose application language.</string>
+    <string name="language_text">Язык</string>
+    <string name="language_setting_summary">Выбор языка.</string>
 
     <string-array name="array_setting_language_column">
-        <item>English</item>
-        <item>German</item>
-        <item>Spanish</item>
-        <item>Italian</item>
-        <item>Norwegian</item>
-        <item>Dutch</item>
-        <item>Polish</item>
-        <item>Portuguese</item>
-        <item>Romanian</item>
-        <item>Russian</item>
-        <item>Swedish</item>
+        <item>Английский</item>
+        <item>Немецкий</item>
+        <item>Испанский</item>
+        <item>Итальянский</item>
+        <item>Норвежский</item>
+        <item>Датский</item>
+        <item>Польский</item>
+        <item>Португальский</item>
+        <item>Румынский</item>
+        <item>Русский</item>
+        <item>Шведский</item>
+        <item>French</item>
     </string-array>
 
-    <string name="language_changed_dialog_message">Please restart the application in order to have the changes applied.</string>
+    <string name="language_changed_dialog_message">Пожалуйста перезапустите приложения для применения изменений.</string>
 
-    <string name="attention_text">Attention</string>
-    <string name="web_ui_enable_mode_message">In order to return to native Ariela or access the Ariela settings, please swipe right from the left display margin.</string>
-    <string name="push_notifications_text_aa">Android Auto Push Notifications</string>
-    <string name="add_wifi_text">Add WiFi</string>
-    <string name="zone_text">Zone</string>
-    <string name="wifi_name_cannot_be_empty">WiFi name cannot be empty</string>
-    <string name="settings_wifi_home_title">WiFi &amp; Zones</string>
-    <string name="settings_wifi_home_summary">When you will be connected to one of the listed networks, Ariela will inform Home Assistant that your device is at the assigned zone location.</string>
-    <string name="screen_state_summary">Send information if screen is off or on</string>
-    <string name="screen_state_text">Screen State</string>
+    <string name="attention_text">Внимание</string>
+    <string name="web_ui_enable_mode_message">Чтобы вернуться к Ariela или получить доступ к настройкам Ariela, проведите пальцем вправо от левого поля дисплея.</string>
+    <string name="push_notifications_text_aa">Android Auto Push Уведомления</string>
+    <string name="add_wifi_text">Добавить WiFi</string>
+    <string name="zone_text">Зона</string>
+    <string name="wifi_name_cannot_be_empty">Имя WiFi сети не может быть пустым</string>
+    <string name="settings_wifi_home_title">WiFi &amp; Зоны</string>
+    <string name="settings_wifi_home_summary">Когда вы подключитесь к одной из перечисленных сетей, Ariela сообщит Home Assistant, что ваше устройство находится в одной из назначенных зон.</string>
+    <string name="screen_state_summary">Отправлять информацию если экран включен\выключен</string>
+    <string name="screen_state_text">Состояние экрана</string>
+    <string name="preset_text">Preset</string>
+    <string name="notification_settings_text">Push Notification Settings</string>
+    <string name="notification_settings_summary">Change notification sound, vibration mode etc.</string>
+    <string name="fan_mode">Fan Mode</string>
+    <string name="swing_mode">Swing Mode</string>
+    <string name="accelerometer_text">Accelerometer</string>
+    <string name="accelerometer_sensor_summary">Send accelerometer sensor informations to Home Assistant</string>
+
+    <string name="device_tracker_distance_title">Distance between locations</string>
+    <string name="device_tracker_distance_message">Do not send GPS location if the distance (in meters) between previous location send to Home Assistant and the new location received from GPS is less then the set value. Put 0 (zero) to send GPS location for any distance.</string>
+    <string name="proximity_sensor">Proximity Sensor</string>
+    <string name="proximity_sensor_summary">Send proximity sensor information to Home Assistant</string>
+
+    <string name="rtsp_camera_text">MJPEG Camera Streaming</string>
+    <string name="rtsp_camera_enable_text">Enable MJPEG Camera streaming</string>
+    <string name="rtsp_camera_enable_summary">Enable MJPEG Camera streaming. Note that having this function enabled will make MQTT camera not to work.</string>
+    <string name="configuration_text">Configuration</string>
+    <string name="streaming_source_text">Stream Source</string>
+    <string name="streaming_source_summary">Choose camera streaming source</string>
+
+    <string-array name="array_setting_rtsp_stream_source">
+        <item>Back Camera</item>
+        <item>Front Camera</item>
+    </string-array>
+
+    <string name="streaming_setup_instructions_title">Setup Instructions</string>
+    <string name="streaming_setup_instructions_summary">Click here to view how to integrate streaming with Home Assistant</string>
+    <string name="stream_port_text">Stream Port</string>
+    <string name="stream_port_summary">Choose a unique port where the Ariela will create and stream the mjpeg data</string>
+    <string name="jpeg_compression_quality">Compression Quality</string>
+    <string name="jpeg_compression_quality_summary">Choose a value from 10 – 100 that will represent the JPEG compression quality.</string>
+    <string name="mjpeg_stream_resolution">Stream Resolution</string>
+    <string name="mjpeg_stream_resolution_summary">Choose the video resolution of the stream.</string>
 </resources>
