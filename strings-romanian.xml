@@ -691,6 +691,7 @@
         <item>Romanian</item>
         <item>Russian</item>
         <item>Swedish</item>
+        <item>French</item>
     </string-array>
 
     <string name="language_changed_dialog_message">Please restart the application in order to have the changes applied.</string>
@@ -705,4 +706,37 @@
     <string name="settings_wifi_home_summary">When you will be connected to one of the listed networks, Ariela will inform Home Assistant that your device is at the assigned zone location.</string>
     <string name="screen_state_summary">Send information if screen is off or on</string>
     <string name="screen_state_text">Screen State</string>
+    <string name="preset_text">Preset</string>
+    <string name="notification_settings_text">Push Notification Settings</string>
+    <string name="notification_settings_summary">Change notification sound, vibration mode etc.</string>
+    <string name="fan_mode">Fan Mode</string>
+    <string name="swing_mode">Swing Mode</string>
+    <string name="accelerometer_text">Accelerometer</string>
+    <string name="accelerometer_sensor_summary">Send accelerometer sensor informations to Home Assistant</string>
+
+    <string name="device_tracker_distance_title">Distance between locations</string>
+    <string name="device_tracker_distance_message">Do not send GPS location if the distance (in meters) between previous location send to Home Assistant and the new location received from GPS is less then the set value. Put 0 (zero) to send GPS location for any distance.</string>
+    <string name="proximity_sensor">Proximity Sensor</string>
+    <string name="proximity_sensor_summary">Send proximity sensor information to Home Assistant</string>
+
+    <string name="rtsp_camera_text">MJPEG Camera Streaming</string>
+    <string name="rtsp_camera_enable_text">Enable MJPEG Camera streaming</string>
+    <string name="rtsp_camera_enable_summary">Enable MJPEG Camera streaming. Note that having this function enabled will make MQTT camera not to work.</string>
+    <string name="configuration_text">Configuration</string>
+    <string name="streaming_source_text">Stream Source</string>
+    <string name="streaming_source_summary">Choose camera streaming source</string>
+
+    <string-array name="array_setting_rtsp_stream_source">
+        <item>Back Camera</item>
+        <item>Front Camera</item>
+    </string-array>
+
+    <string name="streaming_setup_instructions_title">Setup Instructions</string>
+    <string name="streaming_setup_instructions_summary">Click here to view how to integrate streaming with Home Assistant</string>
+    <string name="stream_port_text">Stream Port</string>
+    <string name="stream_port_summary">Choose a unique port where the Ariela will create and stream the mjpeg data</string>
+    <string name="jpeg_compression_quality">Compression Quality</string>
+    <string name="jpeg_compression_quality_summary">Choose a value from 10 – 100 that will represent the JPEG compression quality.</string>
+    <string name="mjpeg_stream_resolution">Stream Resolution</string>
+    <string name="mjpeg_stream_resolution_summary">Choose the video resolution of the stream.</string>
 </resources>
