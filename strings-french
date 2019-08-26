@@ -1,29 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <string-array name="array_horizontal_card_items">
-        <item>@string/auto_text</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-    </string-array>
-    <string-array name="array_horizontal_card_items_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-    </string-array>
     <string-array name="array_setting_boot_entries">
         <item>Service d\'arrière-plan</item>
         <item>Application</item>
     </string-array>
-    <string-array name="array_setting_boot_entries_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
+
     <string-array name="array_setting_cards_column">
         <item>Auto</item>
         <item>1 colonne</item>
@@ -31,13 +12,7 @@
         <item>3 colonnes</item>
         <item>4 colonnes</item>
     </string-array>
-    <string-array name="array_setting_cards_column_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-    </string-array>
+
     <string-array name="array_setting_language_column">
         <item>Anglais</item>
         <item>Allemand</item>
@@ -51,6 +26,7 @@
         <item>Russe</item>
         <item>Suédois</item>
         <item>French</item>
+        <item>Chinese</item>
     </string-array>
 
     <string-array name="array_setting_mqtt_camera_resolution">
@@ -58,31 +34,19 @@
         <item>Moyen</item>
         <item>Haute</item>
     </string-array>
-    <string-array name="array_setting_mqtt_camera_resolution_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
+
     <string-array name="array_setting_mqtt_client">
         <item>HomeAssistant</item>
         <item>Intégré dans l\'appareil</item>
     </string-array>
-    <string-array name="array_setting_mqtt_client_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
+
     <string-array name="array_setting_theme">
         <item>Défaut</item>
         <item>Sombre</item>
         <item>Violet</item>
         <item>Sombre Vert</item>
     </string-array>
-    <string-array name="array_setting_theme_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
+
     <string-array name="array_setting_tracker_position">
         <item>1 mètre</item>
         <item>10 mètres</item>
@@ -91,14 +55,7 @@
         <item>300 mètres</item>
         <item>500 mètres</item>
     </string-array>
-    <string-array name="array_setting_tracker_position_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-    </string-array>
+
     <string-array name="array_setting_tracker_time">
         <item>30 secondes</item>
         <item>1 minute</item>
@@ -107,22 +64,12 @@
         <item>30 minutes</item>
         <item>1 heure</item>
     </string-array>
-    <string-array name="array_setting_tracker_time_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-    </string-array>
+
     <string-array name="array_setting_tracker_type">
         <item>GPS</item>
         <item>Wi-Fi</item>
     </string-array>
-    <string-array name="array_setting_tracker_type_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
+
     <string name="click_next_for_setup">Cliquez sur le bouton Suivant pour démarrer le processus de configuration</string>
     <string name="try_again_text">Réessayer</string>
     <string name="continue_text">Continuer</string>
@@ -601,4 +548,26 @@
     <string name="jpeg_compression_quality_summary">Choose a value from 10 – 100 that will represent the JPEG compression quality.</string>
     <string name="mjpeg_stream_resolution">Stream Resolution</string>
     <string name="mjpeg_stream_resolution_summary">Choose the video resolution of the stream.</string>
+    <string name="webui_startup_page">WebUI Startup Page</string>
+    <string name="webui_startup__page_summary">Put the page number (or name) on which Web UI mode will start. Default is 0 (zero) which represent home or first tab.</string>
+
+    <string name="error_log">Error Log</string>
+    <string name="error_log_summary">Check Home Assistant errors log.</string>
+    <string name="error_log_retrieve_toast">Failed to retrieve error history. Please try again later.</string>
+    <string name="error_log_no_issues">There are no new issues!</string>
+
+    <string name="speech_recognizer">Speech Recognizer</string>
+    <string name="speech_recognizer_summary">Use your phone to send voice controlled instructions to Home Assistant</string>
+
+    <string name="quick_settings_web_ui">Quick Settings</string>
+    <string name="quick_settings_web_ui_summary">Enable Quick Settings button when using Web UI.</string>
+
+    <string-array name="array_setting_tracker_priority">
+        <item>Wifi &amp; Cell</item>
+        <item>GPS</item>
+        <item>No Power</item>
+    </string-array>
+
+    <string name="device_tracker_priority_title">Priority</string>
+    <string name="device_tracker_priority_summary">Choose the method how Ariela will going to retrieve the location.</string>
 </resources>
