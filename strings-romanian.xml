@@ -9,10 +9,9 @@
     </string>
     <string name="ok_text">OK</string>
     <string name="connection_success_text">Conexiune realizată</string>
-    <string name="connection_success_text_message">Conectarea la serverul Home Assistant are succes.
-        Apăsăți butonul "Continuare" pentru a continuă.
+    <string name="connection_success_text_message">Conectarea la serverul Home Assistant a fost cu succes. Apăsăți butonul "Continuare" pentru a continuă.
     </string>
-    <string name="enter_assistant_password">Introduceți parolă Home Assistant</string>
+    <string name="enter_assistant_password">Introduceți parola Home Assistant</string>
     <string name="password_text">Parolă / Token</string>
     <string name="incorrect_password_message_text">Nu a reușit autentificarea utilizând parolă /
         jetonul furnizat. Verificați parolă / jetonul și încercați din nou. De asemenea, verificăți
@@ -177,15 +176,6 @@
         <item>500 metri</item>
     </string-array>
 
-    <string-array name="array_setting_tracker_position_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-    </string-array>
-
     <string-array name="array_setting_tracker_time">
         <item>30 secunde</item>
         <item>1 minut</item>
@@ -193,15 +183,6 @@
         <item>15 minute</item>
         <item>30 minute</item>
         <item>1 ora</item>
-    </string-array>
-
-    <string-array name="array_setting_tracker_time_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
     </string-array>
 
     <string name="device_tracker_position_title">Poziția update-urilor</string>
@@ -271,12 +252,6 @@
         <item>Purple</item>
         <item>Dark Green</item>
     </string-array>
-    <string-array name="array_setting_theme_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
 
     <string name="theme_text">Tema</string>
     <string name="theme_summary">Alegeți tema aplicației</string>
@@ -334,9 +309,9 @@
     <string name="call_state">Starea apelului</string>
     <string name="call_state_message">Trimite informatii despre starea apelurilor acestui dispozitiv</string>
     <string name="copy_to_clipboard">Copie in memorie</string>
-    <string name="instructions_copied_to_memory">Instructiunile au fost copiate in memoria telefonului.</string>
+    <string name="instructions_copied_to_memory">Instrucțiunile au fost copiate in memoria telefonului.</string>
 
-    <string name="setup_mqtt_first">Configurati MQTT pentru a folosi aceasta functie</string>
+    <string name="setup_mqtt_first">Configurați MQTT pentru a folosi aceasta functie</string>
 
     <string name="discovery_topic">Topic detectie</string>
     <string name="discovery_topic_message">Valoarea utilizata pentru detecti automata a senzorilor MQTT</string>
@@ -346,13 +321,13 @@
     <string name="publish_text">Publica</string>
     <string name="publish_a_packet_text">MQTT: publica un pachet</string>
 
-    <string name="time_text">Schimba Timp</string>
-    <string name="date_text">Schimba Data</string>
+    <string name="time_text">Schimbă Timp</string>
+    <string name="date_text">Schimbă Data</string>
 
     <string name="add_item_text">Adauga Item</string>
     <string name="checked_items">Itemi bifati</string>
 
-    <string name="ambient_temperature">Temperatura ambient</string>
+    <string name="ambient_temperature">Temperatură ambient</string>
     <string name="ambient_temperature_message">Trimite informatiile senzorului de temperatura ambientala ale acestui dispozitiv</string>
 
     <string name="pressure_text">Presiune</string>
@@ -387,7 +362,7 @@
     <string name="title_text">Titlu</string>
     <string name="icon_text">Icon</string>
     <string name="url_path_text">Cale URL</string>
-    <string name="view_configuration">Configuratie view</string>
+    <string name="view_configuration">Configurație view</string>
     <string name="save_text">Salveaza</string>
     <string name="settings_text">Setari</string>
     <string name="badges_text">Insigne</string>
@@ -409,14 +384,6 @@
         <item>2 rand-uri</item>
         <item>3 rand-uri</item>
         <item>4 rand-uri</item>
-    </string-array>
-
-    <string-array name="array_setting_cards_column_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
     </string-array>
 
     <string name="number_of_columns_cards">Rand card-uri</string>
@@ -460,10 +427,6 @@
     <string-array name="array_setting_mqtt_client">
         <item>HomeAssistant</item>
         <item>Build-In</item>
-    </string-array>
-    <string-array name="array_setting_mqtt_client_values">
-        <item>0</item>
-        <item>1</item>
     </string-array>
 
     <string name="configure_build_in_mqtt_title">Configure build-in MQTT client</string>
@@ -550,41 +513,29 @@
     <string name="use_internal_ip_home_ap">Use internal IP when connected to a Home AP</string>
     <string name="use_internal_ip_home_ap_summary">If this option is enabled, when Ariela detects you are connected to a home AP, internal IP will be used for connection.</string>
 
-
     <string-array name="array_setting_boot_entries">
         <item>Background Service</item>
         <item>Application</item>
     </string-array>
 
-    <string-array name="array_setting_boot_entries_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-
-    <string name="boot_startup_mode">Startup boot mode </string>
+    <string name="boot_startup_mode">Startup boot mode</string>
     <string name="boot_startup_mode_summary">Choose the way Ariela will start at boot</string>
     <string name="sending_nfc_tag">Sending NFC TAG: %s</string>
 
     <string-array name="array_setting_mqtt_camera_resolution">
-        <item>Low</item>
-        <item>Medium</item>
-        <item>High</item>
+        <item>Joasa</item>
+        <item>Medie</item>
+        <item>Inalta</item>
     </string-array>
 
-    <string-array name="array_setting_mqtt_camera_resolution_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
-    <string name="mqtt_camera_resolution">MQTT Camera Resolution</string>
-    <string name="mqtt_camera_resolution_summary">Choose the MQTT Camera Resolution</string>
+    <string name="mqtt_camera_resolution">Rezolutie Camera MQTT</string>
+    <string name="mqtt_camera_resolution_summary">Alegeti rezolutia camerei MQTT</string>
 
     <string name="states_dev_summary">Set the representation of a device within Home Assistant. This will not communicate with the actual device. </string>
-    <string name="set_state_text">Set State</string>
-    <string name="entity_text">Entity</string>
-    <string name="state_text">State</string>
-    <string name="state_attributes">State Attributes (JSON, optional)</string>
+    <string name="set_state_text">Seteaza starea</string>
+    <string name="entity_text">Entitate</string>
+    <string name="state_text">Stare</string>
+    <string name="state_attributes">Atribute ale starii (JSON, optionale)</string>
 
     <string name="notification_entity_show_value_text">Notification entity state</string>
     <string name="notification_entity_show_value_summary">If this option is enabled, entities that are shown in notification will display its current value instead of its name</string>
@@ -666,7 +617,7 @@
     <string name="wear_heart_rate_sensor">Wear Heart Rate</string>
     <string name="wear_heart_rate_message">Send Android Wear heart rate sensor info.</string>
 
-    <string name="vpn_connection_text">VPN Connection</string>
+    <string name="vpn_connection_text">Conexiune VPN</string>
     <string name="vpn_connection_summary">If this option is enabled, the internal IP address will be used for communicating with Home Assistant.</string>
     <string name="device_tracker_update_mode">Update Mode</string>
 
@@ -692,6 +643,7 @@
         <item>Russian</item>
         <item>Swedish</item>
         <item>French</item>
+        <item>Chinese</item>
     </string-array>
 
     <string name="language_changed_dialog_message">Please restart the application in order to have the changes applied.</string>
@@ -722,8 +674,8 @@
     <string name="rtsp_camera_text">MJPEG Camera Streaming</string>
     <string name="rtsp_camera_enable_text">Enable MJPEG Camera streaming</string>
     <string name="rtsp_camera_enable_summary">Enable MJPEG Camera streaming. Note that having this function enabled will make MQTT camera not to work.</string>
-    <string name="configuration_text">Configuration</string>
-    <string name="streaming_source_text">Stream Source</string>
+    <string name="configuration_text">Configuratie</string>
+    <string name="streaming_source_text">Sursa Streaming</string>
     <string name="streaming_source_summary">Choose camera streaming source</string>
 
     <string-array name="array_setting_rtsp_stream_source">
@@ -739,4 +691,26 @@
     <string name="jpeg_compression_quality_summary">Choose a value from 10 – 100 that will represent the JPEG compression quality.</string>
     <string name="mjpeg_stream_resolution">Stream Resolution</string>
     <string name="mjpeg_stream_resolution_summary">Choose the video resolution of the stream.</string>
+    <string name="webui_startup_page">WebUI Startup Page</string>
+    <string name="webui_startup__page_summary">Put the page number (or name) on which Web UI mode will start. Default is 0 (zero) which represent home or first tab.</string>
+
+    <string name="error_log">Error Log</string>
+    <string name="error_log_summary">Check Home Assistant errors log.</string>
+    <string name="error_log_retrieve_toast">Failed to retrieve error history. Please try again later.</string>
+    <string name="error_log_no_issues">There are no new issues!</string>
+
+    <string name="speech_recognizer">Speech Recognizer</string>
+    <string name="speech_recognizer_summary">Use your phone to send voice controlled instructions to Home Assistant</string>
+
+    <string name="quick_settings_web_ui">Quick Settings</string>
+    <string name="quick_settings_web_ui_summary">Enable Quick Settings button when using Web UI.</string>
+
+    <string-array name="array_setting_tracker_priority">
+        <item>Wifi &amp; Cell</item>
+        <item>GPS</item>
+        <item>No Power</item>
+    </string-array>
+
+    <string name="device_tracker_priority_title">Priority</string>
+    <string name="device_tracker_priority_summary">Choose the method how Ariela will going to retrieve the location.</string>
 </resources>
