@@ -1,0 +1,638 @@
+<resources>
+    <string name="click_next_for_setup">单击“下一步”按钮以启动设置过程</string>
+    <string name="try_again_text">重试</string>
+    <string name="continue_text">下一步</string>
+    <string name="connecting_please_wait">正在连接，请等待…</string>
+    <string name="connection_server_failed">服务器连接失败</string>
+    <string name="connection_server_failed_message">与Home Assistant服务器的连接失败。 请检查提供的URL / IP，然后重试。</string>
+    <string name="ok_text">好</string>
+    <string name="connection_success_text">连接成功</string>
+    <string name="connection_success_text_message">与Home Assistant服务器的连接成功。 按下一步按钮继续。	Continue	 button to proceed further.</string>
+    <string name="enter_assistant_password">输入Home Assistant凭据</string>
+    <string name="password_text">密码</string>
+    <string name="incorrect_password_message_text">无法使用提供的凭据进行身份验证。 请检查凭据，然后重试。</string>
+    <string name="setup_complete_text">设置完成</string>
+    <string name="setup_complete_message_text">Home Assistant设置过程成功。 现在您可以使用此应用程序来控制Home Assistant。</string>
+    <string name="configure_text">配置</string>
+    <string name="connection_server_failed_splash">无法连接到Home Assistant服务器。 您可以再次尝试重新连接或配置服务器。 你想怎么办？</string>
+    <string name="server_not_configured_text">服务器未配置</string>
+    <string name="server_not_configured_message_text">Home Assistant尚未配置。 你想配置它吗？</string>
+    <string name="title_activity_dashboard">仪表板</string>
+    <string name="navigation_drawer_open">打开导航抽屉</string>
+    <string name="navigation_drawer_close">关闭导航抽屉</string>
+    <string name="action_settings">设置</string>
+    <string name="location_enable_text">启用定位</string>
+    <string name="wifi_enable_text">启用Wifi</string>
+    <string name="wifi_state_connected">已连接</string>
+    <string name="wifi_state_connecting">连接中</string>
+    <string name="wifi_state_disconnected">已断开</string>
+    <string name="wifi_state_disconnecting">断开中</string>
+    <string name="wifi_choose_message">选择运行Home Assistant服务器的家庭Wi-Fi网络。 本应用稍后会用到该设置，以便知道当前连接的网络是否是家庭网络。 如果您没有看到您的WIFI网络，请向下滑动以刷新Wi-Fi网络列表。</string>
+    <string name="searching_wifi_networks">搜索Wi-Fi网络......</string>
+    <string name="home_text">HOME</string>
+
+    <string name="button_scene_activate">激活</string>
+    <string name="climate_current_temperature" formatted="true">当前: %1$.1f %2$s</string>
+    <string name="media_player_stop_toast">停止播放...</string>
+
+    <string name="location_permission_required">为了进一步处理，定位权限是必需的。 你想手动启用它吗？</string>
+    <string name="yes_text">是</string>
+    <string name="no_text">NO</string>
+    <string name="skip_text">跳过</string>
+    <string name="connect_text">连接</string>
+    <string name="server_connection_lost_message">与Home Assistant服务器的连接已丢失。 请检查您的网络连接，并在准备好后按连接按钮。</string>
+    <string name="contact_text">连接</string>
+    <string name="about_text">关于</string>
+    <string name="open_web_ui_text">打开Web-UI</string>
+    <string name="logbook_text">日志</string>
+    <string name="rate_app_text">评价</string>
+    <string name="enter_external_ip">输入外部Home Assistant IP/URL和端口</string>
+    <string name="ip_url_text">IP / URL和端口</string>
+    <string name="external_access_text">外部访问</string>
+    <string name="external_access_message">要设置Home Assistant外部访问，请连接到与您的家庭Wi-Fi不同的网络（例如：3G / 4G /其他网络）。 请注意，您的Home Assistant服务器必须可以从外部访问，因此请先确认您的路由器如何进行设置。</string>
+    <string name="cancel_text">取消</string>
+    <string name="off_text">关闭</string>
+    <string name="idle_text">Idle</string>
+    <string name="media_players_text">媒体播放器</string>
+    <string name="server_not_running_text">无法连接到Home Assistant服务器</string>
+    <string name="air_pressure_text">气压：</string>
+    <string name="humidity_text">湿度:</string>
+    <string name="wind_speed_text">风速:</string>
+    <string name="choose_sensor_text">选择项目</string>
+    <string name="no_sensors_messages">无法添加传感器小部件，因为我们找不到任何已配置的传感器。</string>
+    <string name="remove_ads">移除广告</string>
+    <string name="no_zone_message">我们在您的Home Assistant配置中找不到区域实体。 请检查您的配置。</string>
+    <string name="ads_disabled_message">谢谢！ 广告已被停用。</string>
+    <string name="video_ad_failed_load">无法加载视频广告。 请稍后再试。</string>
+    <string name="remove_ads_text_info">要删除广告需要观看一个广告视频。 你想继续吗？</string>
+    <string name="exit_text">退出</string>
+    <string name="map_text">地图</string>
+    <string name="server_config_text">服务器配置</string>
+    <string name="logout_text">注销</string>
+    <string name="locked_text">锁定</string>
+    <string name="unlocked_text">已解锁</string>
+    <string name="target_temperature">目标温度</string>
+    <string name="operation_text">操作</string>
+    <string name="away_mode_string">Away Mode</string>
+    <string name="default_notification_channel_id">正在进行的通知</string>
+    <string name="firebase_notifications_enabled">Firebase通知已启用</string>
+    <string name="firebase_notifications_failed">无法为此设备启用Firebase通知。 请检查Home Assistant服务器上是否安装了HANotify组件</string>
+    <string name="lovelaceui_failed_to_enable">无法启用Lovelace UI。 请检查服务器上是否安装了Lovelace组件。</string>
+
+    <string name="firebase_notifications_disabled">Firebase通知已被禁用</string>
+    <string name="firebase_notifications_disabled_failed">无法停用此设备的Firebase通知。 请检查Home Assistant服务器上是否安装了HANotify组件</string>
+    <string name="show_all_text">显示所有</string>
+    <string name="show_groups_text">显示组</string>
+    <string name="setting_firebase_summary">允许Home Assistant服务器通过Firebase向您的手机发送推送通知。 有关详细信息，请查看https://github.com/MCrissDev/HANotify</string>
+    <string name="setting_firebase_title">Firebase通知</string>
+
+    <string name="setting_webui_summary">启用此选项后，将使用Web UI而不是本机Android视图。</string>
+    <string name="setting_webui_title">Web UI</string>
+
+    <string name="setting_autoreconnect_summary">启用此选项后，Ariela将在连接丢失后每10秒尝试重新建立一次连接。</string>
+    <string name="setting_autoreconnect_title">自动重连</string>
+
+    <string name="settings_permanent_notification_title">永久通知</string>
+    <string name="settings_permanent_notification_summary">当Ariela连接到服务器时显示永久通知</string>
+
+    <string name="settings_lovelaceui_title">Lovelace UI</string>
+    <string name="settings_lovelaceui_summary">使用Lovelace UI配置而不是默认配置</string>
+    <string name="settings_debugmode_title">调试模式</string>
+    <string name="settings_debugmode_summary">启用/禁用调试模式</string>
+
+    <string name="settings_device_tracker_title">Device Tracker</string>
+    <string name="settings_device_tracker_summary">启用/禁用此设备的跟踪</string>
+
+    <string name="settings_phone_name_summary">Home Assistant服务器用于标识此设备的值。</string>
+    <string name="settings_phone_name_title">设备名称</string>
+    <string name="get_pro_version_text">获取PRO版</string>
+    <string name="choose_text_size">选择文字大小</string>
+    <string name="choose_text">选择</string>
+    <string name="trigger_text">TRIGGER</string>
+    <string name="debug_mode_activated">调试模式已激活</string>
+    <string name="debug_mode_deactivated">调试模式已停用</string>
+    <string name="debug_mode_failed">无法激活调试模式</string>
+    <string name="device_tracker_failed">无法激活Device Tracker</string>
+    <string name="notifications_string">通知</string>
+    <string name="common_string">通用</string>
+    <string name="ui_string">界面</string>
+    <string name="others_string">其他</string>
+    <string name="away_text">外出</string>
+    <string name="home_status_text">在家</string>
+
+
+    <string name="device_tracker_type_title">跟踪模式</string>
+    <string name="device_tracker_type_summary">选择将用于通知HA有关此设备位置的跟踪模式</string>
+
+    <string name="device_tracker_position_title">更新位置</string>
+    <string name="device_tracker_position_summary">选择位置更新所需要的位置变化范围（以米为单位）</string>
+
+    <string name="device_tracker_period_title">更新期间</string>
+    <string name="device_tracker_period_summary">选择应发送位置更新的时间间隔</string>
+
+    <string name="web_login_text">网页登录</string>
+    <string name="please_wait_text">请耐心等待…</string>
+    <string name="title_activity_map_viewer">地图</string>
+
+    <string name="hours_ago_text">%d小时之前</string>
+    <string name="hour_ago_text">%d小时之前</string>
+
+    <string name="minutes_ago_text">%d分钟前</string>
+    <string name="minute_ago_text">%d分钟前</string>
+
+    <string name="seconds_ago_text">%d秒前</string>
+    <string name="config_validation_text">配置验证</string>
+    <string name="config_valid_message_text">如果您最近对配置进行了一些更改并希望确保它完全有效，请验证您的配置</string>
+    <string name="check_config_text">检查配置</string>
+    <string name="config_valid_text">配置有效</string>
+    <string name="config_invalid_text">配置无效</string>
+    <string name="failed_to_check_config">无法检查配置。 请稍后再试</string>
+    <string name="config_reload_text">配置重新加载中</string>
+    <string name="config_reload_msg_text">Home Assistant的某些部分可以重新加载而无需重新启动。 点击重新加载将卸载当前配置并加载新配置。</string>
+
+    <string name="reload_core_text">重新加载核心</string>
+    <string name="reload_groups_text">重新加载组</string>
+    <string name="reload_automations_text">重新加载自动化</string>
+    <string name="reload_scripts_text">重新加载脚本</string>
+    <string name="service_has_been_called">服务已被调用</string>
+
+    <string name="server_management_text">服务器管理</string>
+    <string name="server_management_message_text">从Ariela控制您的Home Assistant服务器....</string>
+    <string name="restart_text">重启</string>
+    <string name="stop_text">停止</string>
+    <string name="brightness_text">亮度</string>
+    <string name="rgb_color_text">RGB颜色</string>
+    <string name="unknown_text">未知</string>
+    <string name="users_text">用户</string>
+    <string name="users_config_summary">管理用户</string>
+    <string name="general_text">通用</string>
+    <string name="general_config_summary">验证配置文件并控制服务器</string>
+    <string name="delete_text">删除</string>
+    <string name="failed_to_retrieve_users">无法检索用户。 请稍后再试。</string>
+    <string name="something_went_wrong">出了点问题</string>
+    <string name="unable_to_delete_own_account">无法删除您自己的帐户</string>
+    <string name="alarm_code_text">代码</string>
+    <string name="arm_home_text">ARM HOME</string>
+    <string name="arm_away_text">ARM AWAY</string>
+    <string name="disarm_text">DISARM</string>
+
+    <string name="theme_text">主题</string>
+    <string name="theme_summary">选择Ariela的外观和感觉</string>
+
+    <string name="low_text">Low</string>
+    <string name="normal_text">正常</string>
+    <string name="cold_text">冷</string>
+    <string name="connected_text">已连接</string>
+    <string name="disconnected_text">已断开</string>
+    <string name="open_text">打开</string>
+    <string name="closed_text">关闭</string>
+    <string name="gas_detected_text">检测到气体</string>
+    <string name="clear_text">清除</string>
+    <string name="hot_text">热</string>
+    <string name="light_detected_text">检测到光照</string>
+    <string name="no_light_text">无光照</string>
+    <string name="wet_text">潮湿</string>
+    <string name="dry_text">干燥</string>
+    <string name="motion_detected_text">检测到运动</string>
+    <string name="no_motion_text">未检测到运动</string>
+    <string name="moving_text">运动</string>
+    <string name="stopped_text">已停止</string>
+    <string name="occupied_text">使用中</string>
+    <string name="plugged_in_text">已插电</string>
+    <string name="unplugged_text">未插电</string>
+    <string name="power_text">电源</string>
+    <string name="no_power_text">No power</string>
+    <string name="problem_detected_text">检测到问题</string>
+    <string name="no_problem_detected_text">No Problem</string>
+    <string name="unsafe_text">不安全</string>
+    <string name="safe_text">安全</string>
+    <string name="smoke_detected_text">检测到烟雾</string>
+    <string name="sound_detected_text">检测到声音</string>
+    <string name="vibration_detected_text">检测到振动</string>
+
+    <string name="mqtt_string">MQTT</string>
+    <string name="enable_mqtt_text">启用MQTT传感器</string>
+    <string name="enable_mqtt_summary">将设备传感器信息发送给Home Assistant</string>
+    <string name="mqtt_sensors_text">传感器</string>
+    <string name="mqtt_sensors_summary">选择要将其信息发送到Home Assistant的传感器</string>
+
+    <string name="battery">电量</string>
+    <string name="battery_message">发送此设备电量信息</string>
+
+    <string name="light">光照</string>
+    <string name="light_message">发送此设备光照传感器信息</string>
+    <string name="step_counter">计步器</string>
+    <string name="step_counter_message">发送此设备计步器信息</string>
+    <string name="instructions_text">说明</string>
+
+    <string name="wi_fi_message">发送此设备的Wi-Fi信息</string>
+
+    <string name="clear_current_config">清除当前配置</string>
+    <string name="current_external_config_cleared">当前的外部访问配置已被清除</string>
+    <string name="call_state">通话状态</string>
+    <string name="call_state_message">发送该设备的通话状态信息</string>
+
+    <string name="copy_to_clipboard">复制到剪切板</string>
+    <string name="instructions_copied_to_memory">指令已复制到剪贴板</string>
+
+    <string name="setup_mqtt_first">首先设置MQTT以使用此选项</string>
+
+    <string name="discovery_topic">发现主题</string>
+    <string name="discovery_topic_message">该值用于MQTT自动发现</string>
+
+    <string name="mqtt_topic">主题</string>
+    <string name="mqtt_payload">Payload (template allowed)</string>
+    <string name="publish_text">发布</string>
+    <string name="publish_a_packet_text">MQTT：发布数据包</string>
+
+    <string name="time_text">改变时间</string>
+    <string name="date_text">修改日期</string>
+    <string name="add_item_text">添加项目</string>
+    <string name="checked_items">检查项目</string>
+
+    <string name="ambient_temperature">环境温度</string>
+    <string name="ambient_temperature_message">发送此设备环境温度传感器信息</string>
+
+    <string name="pressure_text">压力</string>
+    <string name="pressure_message">发送此设备压力传感器信息</string>
+
+    <string name="user_text">用户</string>
+    <string name="setting_keepscreenon_summary">如果启用此选项，则当Ariela仪表板可见时，屏幕将不会关闭</string>
+    <string name="setting_keepscreenon_title">屏幕常亮</string>
+
+    <string name="shopping_list_text">购物清单</string>
+    <string name="text_to_speek">文字转语音</string>
+    <string name="send_text">发送</string>
+    <string name="input_source">输入源</string>
+    <string name="sound_mode">声音模式</string>
+
+    <string name="bluetooth_text">蓝牙</string>
+    <string name="bluetooth_mqtt_text">发送此设备蓝牙信息</string>
+
+    <string name="relative_humidity">相对湿度</string>
+    <string name="relative_humidity_message">发送此设备相对湿度传感器信息</string>
+
+    <string name="apps_mqtt_text">包含此设备上已安装应用的传感器</string>
+    <string name="apps_text">应用</string>
+
+    <string name="setting_fullscreen_summary">如果启用此选项，Ariela将以全屏模式显示</string>
+    <string name="setting_fullscreen_title">全屏模式</string>
+    <string name="no_voice_recognition">未安装语音识别</string>
+
+    <string name="states_text">状态</string>
+    <string name="effects_text">Effects</string>
+    <string name="color_temp_text">色温</string>
+    <string name="title_text">标题</string>
+    <string name="icon_text">图标</string>
+    <string name="url_path_text">URL地址</string>
+    <string name="view_configuration">查看配置</string>
+    <string name="save_text">保存</string>
+    <string name="settings_text">设置</string>
+    <string name="badges_text">徽章</string>
+    <string name="activate_text">激活</string>
+    <string name="execute_text">执行</string>
+    <string name="setting_scrolllongtext_title">滚动长文本</string>
+    <string name="setting_scrolllongtext_summary">如果启用此选项，则太长的文本将被动画展示（滚动），否则将被截断</string>
+
+    <string name="vacuum_cleaner_commands">Vacuum cleaner commands:</string>
+    <string name="notifications_empty">没有通知</string>
+    <string name="dismiss_text">解除</string>
+    <string name="failed_to_retrieve_shopping_list">无法检索购物清单。 请检查服务器上是否已启用该组件。</string>
+    <string name="entity_editor_text">实体编辑器</string>
+    <string name="message_toast_failed_to_save_entity_info">无法保存实体信息</string>
+
+    <string-array name="array_setting_cards_column">
+        <item>自动</item>
+        <item>1 列</item>
+        <item>2 列</item>
+        <item>3 列</item>
+        <item>4 列</item>
+    </string-array>
+
+    <string name="number_of_columns_cards">卡片列</string>
+    <string name="number_of_columns_cards_info">选择显示的卡数量。</string>
+
+    <string name="debug_enabled_message">调试模式已启用。 请重启应用并重现您发现的问题。 然后，请使用Ariela的联系功能并选择您的电子邮件应用用以发送日志。 日志会自动添加。 如果日志没有自动添加，您可以在手机上找到名为\'ariela_logfile.log \'的文件。 请将该文件发送到电子邮件地址：\'microcro.criss.dev@gmail.com \'。</string>
+    <string name="picture_text">图片</string>
+
+    <string name="create_notification">创建通知</string>
+    <string name="message_text">信息</string>
+    <string name="create_text">创建</string>
+
+    <string name="service_text">服务</string>
+    <string name="services_text">服务</string>
+    <string name="services_summary_text">服务开发工具允许您调用Home Assistant中任何可用的服务。</string>
+    <string name="service_data_text">服务数据（JSON，可选）</string>
+    <string name="call_service_text">调用服务</string>
+
+    <string name="intro_text">介绍</string>
+    <string name="previous_text">上一步</string>
+    <string name="next_text">下一步</string>
+    <string name="enter_local_network_info_message">请输入您的家庭WiFi信息</string>
+
+    <string name="enter_wifi_home_name">请输入您的家庭WiFi名称。 当Ariela连接到此网络时，它会使用您即将设置的Home Assistant的本地IP地址。 此外，当Ariela将连接到此网络时，会通知Home Assistant您即将回家。</string>
+    <string name="wifi_name_hint">WiFi名称</string>
+
+    <string name="please_enter_wifi_name">请输入有效的WiFi名称。</string>
+    <string name="local_ip_address">Home AssistantIP地址</string>
+    <string name="local_ip_address_msg">请输入Home Assistant IP地址。 如果当前不可用，并且您可以从外网访问您的服务器，则也可以放置外网访问地址。</string>
+    <string name="check_connection_text">检查连接</string>
+    <string name="external_ip_address_msg">请输入Home Assistant IP外部地址。 如果您没有通过互联网公开服务器，请使用“跳过”按钮继续操作	Skip\	 button to proceed further</string>
+    <string name="credentials_message">请输入您的用户名和密码。 如果您使用的是Home Assistant 0.78或更早版本，则可以将用户名留空以便通过API_PASSWORD登录。 如果您在登录时遇到任何问题或使用了2FA，请使用网页登录。</string>
+    <string name="home_wifi_network_choose">WiFi网络选择器</string>
+
+    <string name="nfc_text">NFC</string>
+    <string name="nfc_summary_text">读取NFC并将读取的标签发送给Home Assistant</string>
+
+    <string name="mqtt_client">MQTT客户端</string>
+    <string name="mqtt_client_summary">选择要使用的默认MQTT客户端</string>
+
+    <string-array name="array_setting_mqtt_client">
+        <item>HomeAssistant</item>
+        <item>内置客户端</item>
+    </string-array>
+
+    <string name="configure_build_in_mqtt_title">配置内置MQTT客户端</string>
+    <string name="configure_build_in_mqtt_title_summary">使用此选项可以将内置MQTT客户端的访问权限配置到你的broker</string>
+    <string name="mqtt_setup_title">MQTT设置</string>
+
+    <string name="local_mqtt_address">本地MQTT地址和端口</string>
+    <string name="external_mqtt_address">外部MQTT地址和端口</string>
+    <string name="mqtt_connection_succeeded">MQTT连接成功</string>
+    <string name="mqtt_connection_failed">MQTT连接失败。 请检查介绍的数据，然后重试。</string>
+    <string name="mqtt_connection_external_failed">MQTT与外部IP的连接失败。 请检查介绍的数据，然后重试。</string>
+
+    <string name="mqtt_setup_address_message">0	ssl://\	 instead of \	tcp://\	.</string>
+    <string name="back_camera">后置摄像头</string>
+    <string name="back_camera_summary">从后置摄像头发送图片</string>
+
+    <string name="front_camera">前置摄像头</string>
+    <string name="front_camera_summary">从前置摄像头发送图片</string>
+    <string name="enable_camera_permission">请启用相机权限以使用此功能。</string>
+
+    <string name="common_text">通用</string>
+    <string name="wear_successfully_sync">证书已同步。</string>
+    <string name="wear_failed_sync">无法同步wear凭证。</string>
+
+    <string name="tts_text">文字转语音</string>
+    <string name="tts_mqtt_summary">启用此选项可让您的手机将文本转换为语音</string>
+
+    <string name="server_connection_text">服务器连接</string>
+    <string name="server_setting_read_timeout_title">读取超时</string>
+    <string name="server_setting_read_timeout_summary">选择从套接字读取数据时的超时值。</string>
+
+    <string name="server_setting_connect_timeout_title">连接超时</string>
+    <string name="server_setting_connect_timeout_summary">尝试连接到套接字时选择超时值。</string>
+
+    <string name="alarm_text">警报</string>
+    <string name="alarm_summary">在触发下一个警报时发送此设备时间</string>
+
+    <string name="start_app_boot">开机启动</string>
+    <string name="start_app_boot_summary">设备开机时自动启动Ariela。</string>
+
+    <string name="ariela_available_mqtt_sensor">Ariela Availability</string>
+    <string name="ariela_available_mqtt_sensor_summary">启用此功能可以查看Ariela上次与Home Assistant通信的时间</string>
+
+    <string name="notification_entities_empty">转到设置 ->通知，以便在此处添加一些实体。</string>
+    <string name="notification_entities_title">通知实体</string>
+    <string name="notification_entities_summary">选择应出现在通知中的实体</string>
+    <string name="notification_entities_max_reached">达到的最大实体数量。 删除现有实体，然后重试。</string>
+    <string name="choose_entity_text">选择实体</string>
+
+    <string name="internal_ip">内部IP</string>
+    <string name="internal_ip_summary">使用此选项可以修改可以找到HA实例的本地IP</string>
+
+    <string name="external_ip">外部IP</string>
+    <string name="external_ip_summary">使用此选项可以修改可以找到HA实例的外部IP</string>
+
+    <string name="force_vertical_stack">强制竖屏外观</string>
+    <string name="force_vertical_summary">启用此选项后，水平堆叠卡片的外观将类似于垂直堆叠卡片</string>
+
+    <string name="bluetooth_headphone">蓝牙耳机</string>
+    <string name="bluetooth_headphone_summary">发送蓝牙耳机连接的设备信息</string>
+
+    <string name="bluetooth_a2dp">蓝牙媒体</string>
+    <string name="bluetooth_a2dp_summary">发送蓝牙媒体（A2DP）连接的设备信息</string>
+
+    <string name="paused_text">暂停</string>
+
+    <string name="start_app_update">更新后启动</string>
+    <string name="start_app_update_summary">应用更新后自动启动Ariela。</string>
+
+    <string name="logout_text_info">你确定要注销？ 当前连接信息将被清除。</string>
+
+    <string name="home_assistant_servers">Home Assistant服务器</string>
+    <string name="home_assistant_servers_summary">管理Home Assistant服务器</string>
+    <string name="create_server_text">创建服务器</string>
+    <string name="default_text">默认</string>
+    <string name="error_create_server_text">请输入有效的服务器名称以继续。</string>
+    <string name="active_server_cannot_delete">活动的服务器无法被删除。</string>
+
+    <string name="certificate_message_info">如果服务器连接需要自定义证书（如PCKS12），则可以在此处输入要使用的证书的路径。 例如，当您的Home Assistant服务器在NGINX上运行时，这非常有用。</string>
+    <string name="please_enter_certificate_path">使用搜索按钮输入证书路径：</string>
+    <string name="search_text">搜索</string>
+    <string name="choose_certificate">选择证书</string>
+    <string name="enter_certificate_password">如果需要，请输入证书密码：</string>
+
+    <string name="use_internal_ip_home_ap">连接到家庭AP时使用内部IP</string>
+    <string name="use_internal_ip_home_ap_summary">如果启用此选项，当Ariela检测到您连接到家庭AP时，将使用内部IP进行连接。</string>
+
+
+    <string-array name="array_setting_boot_entries">
+        <item>后台服务</item>
+        <item>应用</item>
+    </string-array>
+
+    <string name="boot_startup_mode">启动模式</string>
+    <string name="boot_startup_mode_summary">选择Ariela在开机时启动的方式</string>
+    <string name="sending_nfc_tag">发送NFC标签：%s</string>
+
+    <string-array name="array_setting_mqtt_camera_resolution">
+        <item>低</item>
+        <item>中</item>
+        <item>高</item>
+    </string-array>
+
+    <string name="mqtt_camera_resolution">MQTT摄像头分辨率</string>
+    <string name="mqtt_camera_resolution_summary">选择MQTT摄像头分辨率</string>
+
+    <string name="states_dev_summary">设置设备在Home Assistant中的标识。 这不会与实际设备通信。</string>
+    <string name="set_state_text">设置状态</string>
+    <string name="entity_text">实体</string>
+    <string name="state_text">状态</string>
+    <string name="state_attributes">状态属性（JSON，可选）</string>
+
+    <string name="notification_entity_show_value_text">通知实体状态</string>
+    <string name="notification_entity_show_value_summary">如果启用此选项，则通知中显示的实体将显示其当前值而不是其名称</string>
+
+    <string name="active_server_cannot_be_deleted">无法删除活动的服务器。 请先切换到另一台服务器后再执行此操作。</string>
+
+    <string name="web_ui_swipe_tabs">WebUI标签滑动</string>
+    <string name="web_ui_swipe_tabs_summary">启用此选项后，可以通过左/右滑动更改Web UI的标签</string>
+
+    <string name="delete_server_title">删除服务器</string>
+    <string name="delete_server_confirmation">你确定要删除\"%s\"?</string>
+
+    <string name="switch_server_title">切换服务器</string>
+    <string name="switch_server_confirmation">您确定要将HA连接切换到\"%s\"?</string>
+    <string name="switch_server_already_active">此服务器已处于活动状态</string>
+
+    <string name="mobile_app_notification">移动APP通知</string>
+    <string name="mobile_app_notification_summary">单击此处查看通知示例</string>
+
+    <string name="web_ui_scroll_refresh_title">WebUI向下滚动刷新</string>
+    <string name="web_ui_scroll_refresh_summary">启用此选项以允许向下滚动以刷新选项</string>
+
+    <string name="horizontal_card_items">水平堆栈项目计数</string>
+    <string name="horizontal_card_items_summary">选择水平堆叠卡应显示的项目数。</string>
+    <string name="auto_text">自动</string>
+
+    <string name="mqtt_sensor_notification_grabber">通知拦截器</string>
+    <string name="mqtt_sensor_notification_grabber_message">将其他应用程序的通知内容发送给Home Assistant。</string>
+    <string name="permission_text">申请权限</string>
+    <string name="notification_grabber_permission_required">为了使此功能起作用，您需要授予Ariela访问其他应用程序通知的权限。 你想继续吗？</string>
+
+    <string name="info_text">信息</string>
+    <string name="wifi_network">WiFi网络</string>
+    <string name="certificate_text">证书</string>
+    <string name="credentials_text">证书</string>
+    <string name="add_user">添加用户</string>
+    <string name="name_text">名称</string>
+    <string name="no_home_wifi_text">没有家庭Wi-Fi网络</string>
+
+    <string name="failed_to_load_ads_message">无法加载广告。 如果你喜欢这个应用请考虑购买PRO版本，以帮助进一步的开发。 谢谢！</string>
+
+    <string name="mqtt_retain_message">MQTT Retain</string>
+    <string name="mqtt_retain_summary">通知MQTT代理保留最近的消息</string>
+
+    <string name="mobile_app_credentials_force">强制移动应用凭据</string>
+    <string name="mobile_app_credentials_force_summary">强制Ariela重新进行移动应用连接。</string>
+    <string name="disable_notification_message">请转到设置 -> 应用程序 -> Ariela以禁用通知。</string>
+    <string name="mobile_app_force_failed">Failed to force Mobile App integration</string>
+    <string name="mobile_app_force_succeeded">Mobile App force integration is successful</string>
+    <string name="mobile_app_text">移动应用</string>
+    <string name="sensors_disabled_text">所有传感器都已禁用。 请重新启用传感器以更新Ariela传感器。</string>
+    <string name="mobile_app_credential_force_warning"> 为了避免，您应该先转到Home Assistant -> Integrations并删除此设备。 您是否要继续删除此设备？</string>
+    <string name="vibrate_ui_controls_title">UI操作振动</string>
+    <string name="vibrate_ui_controls_summary">每当您触发开关、按钮等时，都会创建振动反馈</string>
+
+    <string name="setting_device_tracker_mobile_app">Device Tracker - 移动应用</string>
+    <string name="setting_device_tracker_mobile_app_summary">启用由移动应用创建的Device Tracker更新</string>
+    <string name="setting_device_tracker_see">Device Tracker - See</string>
+    <string name="setting_device_tracker_see_summary">启用See服务创建的Device Tracker更新</string>
+
+    <string name="wear_battery_sensor">Wear电量</string>
+    <string name="wear_battery_sensor_message">发送Android Wear电量</string>
+
+    <string name="device_tracker_accuracy_title">精度</string>
+    <string name="device_tracker_accuracy_message">如果精度（以米为单位）高于此值，则不要发送GPS位置。 设置为0则任何精度情况下都发送GPS位置。</string>
+
+    <string name="allow_background_running">允许后台运行</string>
+    <string name="allow_background_running_summary">如果启用此选项，则允许Ariela在后台运行。 如果您希望实时接收实体更新则此功能非常有用，但可能消耗更多电量。</string>
+
+    <string name="entity_registry_text">Entity Registry</string>
+    <string name="entity_registry_summary">所有已知实体的概述。</string>
+    <string name="failed_to_retrieve_entities_message">无法检索实体列表。 请稍后再试。</string>
+
+    <string name="heart_rate_text">心率</string>
+    <string name="heart_rate_summary">将心率信息传感器发送到Home Assistant</string>
+    <string name="enable_body_sensors_permission">请启用人体传感器权限以使用此功能。</string>
+
+    <string name="wear_heart_rate_sensor">Ware心率</string>
+    <string name="wear_heart_rate_message">发送Android Wear心率传感器信息。</string>
+
+    <string name="vpn_connection_text">VPN连接</string>
+    <string name="vpn_connection_summary">如果启用此选项，则内部IP地址将用于与Home Assistant通信。</string>
+    <string name="device_tracker_update_mode">更新模式</string>
+
+    <string name="notification_vibrate_title">振动</string>
+    <string name="notification_vibrate_summary">当显示推送通知时振动。</string>
+    <string name="notification_notification_lights">通知灯</string>
+    <string name="notification_notification_summary">当显示推送通知时启用灯光。</string>
+    <string name="push_notifications_text">推送通知</string>
+
+    <string name="language_text">语言</string>
+    <string name="language_setting_summary">选择应用语言。</string>
+
+    <string-array name="array_setting_language_column">
+        <item>英语</item>
+        <item>德语</item>
+        <item>西班牙语</item>
+        <item>意大利语</item>
+        <item>挪威语</item>
+        <item>荷兰语</item>
+        <item>波兰语</item>
+        <item>葡萄牙语</item>
+        <item>罗马尼亚语</item>
+        <item>德语</item>
+        <item>瑞典语</item>
+        <item>法语</item>
+        <item>中文</item>
+    </string-array>
+
+    <string name="language_changed_dialog_message">请重新启动程序以应用更改。</string>
+    <string name="attention_text">注意</string>
+    <string name="web_ui_enable_mode_message">要返回原生Ariela或访问Ariela设置，请从显示边缘左侧向右滑动。</string>
+    <string name="push_notifications_text_aa">Android自动推送通知</string>
+    <string name="add_wifi_text">添加WiFi</string>
+    <string name="zone_text">区域</string>
+    <string name="wifi_name_cannot_be_empty">WiFi名称不能为空</string>
+    <string name="settings_wifi_home_title">WiFi &amp; 区域</string>
+    <string name="settings_wifi_home_summary">当您连接到所列举的网络中的其中一个时，Ariela会通知Home Assistant您的设备位于指定的区域位置。</string>
+    <string name="screen_state_summary">屏幕开关时发送信息</string>
+    <string name="screen_state_text">屏幕状态</string>
+    <string name="preset_text">预置</string>
+    <string name="notification_settings_text">推送通知设置</string>
+    <string name="notification_settings_summary">更改通知声音，振动模式等</string>
+    <string name="fan_mode">风扇模式</string>
+    <string name="swing_mode">摆动模式</string>
+    <string name="accelerometer_text">加速度传感器</string>
+    <string name="accelerometer_sensor_summary">将加速度传感器信息发送到Home Assistant</string>
+
+    <string name="device_tracker_distance_title">位置之间的距离</string>
+    <string name="device_tracker_distance_message">如果先前发送至Home Assistant的位置与从GPS接收的新位置之间的距离（以米为单位）小于设定值，则不发送GPS位置。 设定为0则任何距离均发送GPS位置。</string>
+    <string name="proximity_sensor">接近传感器</string>
+    <string name="proximity_sensor_summary">将接近传感器信息发送给Home Assistant</string>
+
+    <string name="rtsp_camera_text">MJPEG相机流媒体</string>
+    <string name="rtsp_camera_enable_text">启用MJPEG相机流媒体</string>
+    <string name="rtsp_camera_enable_summary">启用MJPEG相机流媒体。 请注意，启用此功能将使MQTT相机无法工作。</string>
+    <string name="configuration_text">配置</string>
+    <string name="streaming_source_text">流源</string>
+    <string name="streaming_source_summary">选择相机流媒体源</string>
+
+    <string-array name="array_setting_rtsp_stream_source">
+        <item>后置摄像头</item>
+        <item>前置摄像头</item>
+    </string-array>
+
+    <string name="streaming_setup_instructions_title">设置说明</string>
+    <string name="streaming_setup_instructions_summary">单击此处查看如何用Home Assistant整合streaming</string>
+    <string name="stream_port_text">Stream端口</string>
+    <string name="stream_port_summary">选择Ariela创建并传输mjpeg数据的唯一端口</string>
+    <string name="jpeg_compression_quality">压缩质量</string>
+    <string name="jpeg_compression_quality_summary">选择10 – 100之间的值，表示JPEG压缩质量。</string>
+    <string name="mjpeg_stream_resolution">流分辨率</string>
+    <string name="mjpeg_stream_resolution_summary">选择流的视频分辨率。</string>
+    <string name="webui_startup_page">WebUI Startup Page</string>
+    <string name="webui_startup__page_summary">Put the page number (or name) on which Web UI mode will start. Default is 0 (zero) which represent home or first tab.</string>
+    <string name="error_log">Error Log</string>
+    <string name="error_log_summary">Check Home Assistant errors log.</string>
+    <string name="error_log_retrieve_toast">Failed to retrieve error history. Please try again later.</string>
+    <string name="error_log_no_issues">There are no new issues!</string>
+
+    <string name="speech_recognizer">Speech Recognizer</string>
+    <string name="speech_recognizer_summary">Use your phone to send voice controlled instructions to Home Assistant</string>
+
+    <string name="quick_settings_web_ui">Quick Settings</string>
+    <string name="quick_settings_web_ui_summary">Enable Quick Settings button when using Web UI.</string>
+
+    <string-array name="array_setting_tracker_priority">
+        <item>Wifi &amp; Cell</item>
+        <item>GPS</item>
+        <item>No Power</item>
+    </string-array>
+
+    <string name="device_tracker_priority_title">Priority</string>
+    <string name="device_tracker_priority_summary">Choose the method how Ariela will going to retrieve the location.</string>
+</resources>
