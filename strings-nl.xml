@@ -127,12 +127,6 @@
         <item>Purper"</item>
         <item>Donkergroen"</item>
     </string-array>
-    <string-array name="array_setting_theme_values">
-        <item>0"</item>
-        <item>1"</item>
-        <item>2"</item>
-        <item>3"</item>
-    </string-array>
 
     <string-array name="array_setting_tracker_position">
         <item>1 meter"</item>
@@ -141,15 +135,6 @@
         <item>100 meter"</item>
         <item>300 meter"</item>
         <item>500 meter"</item>
-    </string-array>
-
-    <string-array name="array_setting_tracker_position_values">
-        <item>0"</item>
-        <item>1"</item>
-        <item>2"</item>
-        <item>3"</item>
-        <item>4"</item>
-        <item>5"</item>
     </string-array>
 
     <string-array name="array_setting_tracker_time">
@@ -164,18 +149,6 @@
     <string-array name="array_setting_tracker_type">
         <item>GPS"</item>
         <item>WiFi"</item>
-    </string-array>
-    <string-array name="array_setting_tracker_type_values">
-        <item>0"</item>
-        <item>1"</item>
-    </string-array>
-    <string-array name="array_setting_tracker_time_values">
-        <item>0"</item>
-        <item>1"</item>
-        <item>2"</item>
-        <item>3"</item>
-        <item>4"</item>
-        <item>5"</item>
     </string-array>
 
     <string name="device_tracker_type_title">Volgmodus</string>
@@ -366,14 +339,6 @@
         <item>4 kolommen"</item>
     </string-array>
 
-    <string-array name="array_setting_cards_column_values">
-        <item>0"</item>
-        <item>1"</item>
-        <item>2"</item>
-        <item>3"</item>
-        <item>4"</item>
-    </string-array>
-
     <string name="number_of_columns_cards">Kaarten Kolommen</string>
     <string name="number_of_columns_cards_info">Kies op hoeveel kolommen de kaarten worden weergegeven.</string>
 
@@ -415,10 +380,6 @@
     <string-array name="array_setting_mqtt_client">
         <item>Home Assistant"</item>
         <item>Ingebouwd"</item>
-    </string-array>
-    <string-array name="array_setting_mqtt_client_values">
-        <item>0"</item>
-        <item>1"</item>
     </string-array>
 
     <string name="configure_build_in_mqtt_title">Configureer de ingebouwde MQTT-client</string>
@@ -512,11 +473,6 @@
         <item>Applicatie</item>
     </string-array>
 
-    <string-array name="array_setting_boot_entries_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-
     <string name="boot_startup_mode">Opstart mode </string>
     <string name="boot_startup_mode_summary">Kies op welke manier Ariela zal opstarten</string>
     <string name="sending_nfc_tag">Versuten van NFC TAG: %s</string>
@@ -525,12 +481,6 @@
         <item>Laag</item>
         <item>Gemiddeld</item>
         <item>Hoog</item>
-    </string-array>
-
-    <string-array name="array_setting_mqtt_camera_resolution_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
 
     <string name="mqtt_camera_resolution">MQTT Camera Resolutie</string>
@@ -648,6 +598,7 @@
         <item>Russian</item>
         <item>Swedish</item>
         <item>French</item>
+        <item>Chinese</item>
     </string-array>
 
     <string name="language_changed_dialog_message">Please restart the application in order to have the changes applied.</string>
@@ -695,4 +646,26 @@
     <string name="jpeg_compression_quality_summary">Choose a value from 10 – 100 that will represent the JPEG compression quality.</string>
     <string name="mjpeg_stream_resolution">Stream Resolution</string>
     <string name="mjpeg_stream_resolution_summary">Choose the video resolution of the stream.</string>
+    <string name="webui_startup_page">WebUI Startup Page</string>
+    <string name="webui_startup__page_summary">Put the page number (or name) on which Web UI mode will start. Default is 0 (zero) which represent home or first tab.</string>
+
+    <string name="error_log">Error Log</string>
+    <string name="error_log_summary">Check Home Assistant errors log.</string>
+    <string name="error_log_retrieve_toast">Failed to retrieve error history. Please try again later.</string>
+    <string name="error_log_no_issues">There are no new issues!</string>
+
+    <string name="speech_recognizer">Speech Recognizer</string>
+    <string name="speech_recognizer_summary">Use your phone to send voice controlled instructions to Home Assistant</string>
+
+    <string name="quick_settings_web_ui">Quick Settings</string>
+    <string name="quick_settings_web_ui_summary">Enable Quick Settings button when using Web UI.</string>
+
+    <string-array name="array_setting_tracker_priority">
+        <item>Wifi &amp; Cell</item>
+        <item>GPS</item>
+        <item>No Power</item>
+    </string-array>
+
+    <string name="device_tracker_priority_title">Priority</string>
+    <string name="device_tracker_priority_summary">Choose the method how Ariela will going to retrieve the location.</string>
 </resources>
