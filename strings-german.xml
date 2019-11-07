@@ -84,7 +84,7 @@
     <string name="show_all_text">Alles anzeigen</string>
     <string name="show_groups_text">Gruppen anzeigen</string>
     <string name="setting_firebase_summary">Erlaube dem Home Assistant-Server Push-Benachrichtigungen via Firebase an dieses Gerät zu senden. Weitere Informationen findest du unter https://github.com/MCrissDev/HANotify (englisch)</string>
-    <string name="setting_firebase_title">Firebase-Benachrichtigungen</string>
+    <string name="setting_firebase_title">HANotify Firebase-Benachrichtigungen</string>
 
     <string name="setting_webui_summary">Verwende das Web-Interface anstatt der nativen Android-Steuerelementen.</string>
     <string name="setting_webui_title">Webinterface</string>
@@ -125,6 +125,7 @@
         <item>Dunkel</item>
         <item>Violett</item>
         <item>Dunkelgrün</item>
+        <item>Dark Gray</item>
     </string-array>
 
     <string-array name="array_setting_tracker_position">
@@ -664,4 +665,45 @@
 
     <string name="device_tracker_priority_title">Priority</string>
     <string name="device_tracker_priority_summary">Choose the method how Ariela will going to retrieve the location.</string>
+
+    <string name="flash_text">Flash</string>
+    <string name="flash_summary">Enable Flash when streaming back camera.</string>
+
+    <string name="sensor_motion_detector">Motion Detection</string>
+    <string name="sensor_motion_detector_summary">Enable Motion Detection when streaming MJPEG camera</string>
+
+    <string name="mobile_app_notification_setting_title">Push Notifications - Mobile App</string>
+    <string name="mobile_app_notification_setting_summary">Enable / disable push notifications of mobile_app component</string>
+
+    <string name="device_tracker_ignore_wifi_setting">Ignore WiFi &amp; Zones</string>
+    <string name="device_tracker_ignore_wifi_setting_summary">When using GPS tracking, ignore WiFi &amp; Zones detection. Use this function to rely only on GPS data.</string>
+
+    <string name="unsupported_lovelace_card">Unsupported Card</string>
+    <string name="unsupported_lovelace_card_message">\"%s\" lovelace card is not supported yet. Please request adding it via email. Thank you!</string>
+
+    <string name="disable_unsupported_cards">Render Unsupported Card</string>
+    <string name="disable_unsupported_cards_summary">If this option is enabled, a card will appear when a Lovelace card is not supported.</string>
+
+    <string name="enable_microphone_permission">Please enable Record permission in order to use this function.</string>
+    <string name="sensor_microphone">Microphone Sensor</string>
+    <string name="ssensor_microphone_summary">Enable Microphone Sensor for silence detection and more.</string>
+
+    <string name="app_support_development">Support App Development</string>
+    <string name="error_products_none">There are no products found! Error code is %s</string>
+    <string name="subscriber_text">Subscribe \n %s / month</string>
+    <string name="subscribing_success_text">Thank you very much for the subscription. As a gift the ads will be disabled for each month subscription is running.</string>
+
+    <string name="useful_resources">Useful Resources</string>
+    <string name="changelog_text">Changelog</string>
+    <string name="documentation_text">Online Documentation</string>
+
+    <string name="settings_password">Settings Password</string>
+    <string name="settings_password_summary">Put settings password in order to not allow unauthorized access.</string>
+    <string name="password_required">Password Required</string>
+    <string name="enter_password_text">Please enter password to access settings</string>
+    <string name="invalid_password_text">Invalid password! Please try again later.</string>
+
+    <string name="arm_night_text">ARM NIGHT</string>
+    <string name="arm_custom_bypass_text">CUSTOM BYPASS</string>
+    <string name="unnamed_view_text">unnamed view</string>
 </resources>
