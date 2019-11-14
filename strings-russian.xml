@@ -603,7 +603,7 @@
     <string name="language_changed_dialog_message">Пожалуйста перезапустите приложения для применения изменений.</string>
 
     <string name="attention_text">Внимание</string>
-    <string name="web_ui_enable_mode_message">Чтобы вернуться к Ariela или получить доступ к настройкам Ariela, проведите пальцем вправо от левого поля дисплея.</string>
+    <string name="web_ui_enable_mode_message">Чтобы вернуться к Ariela или получить доступ к настройкам Ariela, проведите пальцем вправо от левого края дисплея.</string>
     <string name="push_notifications_text_aa">Android Auto Push Уведомления</string>
     <string name="add_wifi_text">Добавить WiFi</string>
     <string name="zone_text">Зона</string>
@@ -613,97 +613,97 @@
     <string name="screen_state_summary">Отправлять информацию если экран включен\выключен</string>
     <string name="screen_state_text">Состояние экрана</string>
     <string name="preset_text">Preset</string>
-    <string name="notification_settings_text">Push Notification Settings</string>
-    <string name="notification_settings_summary">Change notification sound, vibration mode etc.</string>
+    <string name="notification_settings_text">Настройка Push-уведомлений</string>
+    <string name="notification_settings_summary">Изменение звука уведомлений, типа вибрации и т.д.</string>
     <string name="fan_mode">Fan Mode</string>
     <string name="swing_mode">Swing Mode</string>
-    <string name="accelerometer_text">Accelerometer</string>
-    <string name="accelerometer_sensor_summary">Send accelerometer sensor informations to Home Assistant</string>
+    <string name="accelerometer_text">Акселерометр</string>
+    <string name="accelerometer_sensor_summary">Отправлять информацию с датчика акселерометра в Home Assistant</string>
 
-    <string name="device_tracker_distance_title">Distance between locations</string>
-    <string name="device_tracker_distance_message">Do not send GPS location if the distance (in meters) between previous location send to Home Assistant and the new location received from GPS is less then the set value. Put 0 (zero) to send GPS location for any distance.</string>
-    <string name="proximity_sensor">Proximity Sensor</string>
-    <string name="proximity_sensor_summary">Send proximity sensor information to Home Assistant</string>
+    <string name="device_tracker_distance_title">Дистанция между местоположением</string>
+    <string name="device_tracker_distance_message">Не отправлять данные GPS, если расстояние (в метрах) между предыдущим и новым местоположением отправленным в Home Assistant, меньше установленного значения. Поставьте 0 (ноль), чтобы отправить данные GPS для любого расстояния.</string>
+    <string name="proximity_sensor">Датчик приближения</string>
+    <string name="proximity_sensor_summary">Отправить информацию с датчика приближения в Home Assistant</string>
 
-    <string name="rtsp_camera_text">MJPEG Camera Streaming</string>
-    <string name="rtsp_camera_enable_text">Enable MJPEG Camera streaming</string>
-    <string name="rtsp_camera_enable_summary">Enable MJPEG Camera streaming. Note that having this function enabled will make MQTT camera not to work.</string>
-    <string name="configuration_text">Configuration</string>
-    <string name="streaming_source_text">Stream Source</string>
-    <string name="streaming_source_summary">Choose camera streaming source</string>
+    <string name="rtsp_camera_text">Потоковая камера MJPEG</string>
+    <string name="rtsp_camera_enable_text">Включить потоковую передачу с камеры MJPEG</string>
+    <string name="rtsp_camera_enable_summary">Включить потоковую камеру MJPEG. Обратите внимание, что при включении этой функции камера MQTT не будет работать.</string>
+    <string name="configuration_text">Настройка</string>
+    <string name="streaming_source_text">Источник потока</string>
+    <string name="streaming_source_summary">Выберите источник для потоковой передачи с камеры</string>
 
     <string-array name="array_setting_rtsp_stream_source">
-        <item>Back Camera</item>
-        <item>Front Camera</item>
+        <item>Задняя камера</item>
+        <item>Фронтальная камера</item>
     </string-array>
 
-    <string name="streaming_setup_instructions_title">Setup Instructions</string>
-    <string name="streaming_setup_instructions_summary">Click here to view how to integrate streaming with Home Assistant</string>
-    <string name="stream_port_text">Stream Port</string>
-    <string name="stream_port_summary">Choose a unique port where the Ariela will create and stream the mjpeg data</string>
-    <string name="jpeg_compression_quality">Compression Quality</string>
-    <string name="jpeg_compression_quality_summary">Choose a value from 10 – 100 that will represent the JPEG compression quality.</string>
-    <string name="mjpeg_stream_resolution">Stream Resolution</string>
-    <string name="mjpeg_stream_resolution_summary">Choose the video resolution of the stream.</string>
-    <string name="webui_startup_page">WebUI Startup Page</string>
-    <string name="webui_startup__page_summary">Put the page number (or name) on which Web UI mode will start. Default is 0 (zero) which represent home or first tab.</string>
+    <string name="streaming_setup_instructions_title">Инструкции по настройке</string>
+    <string name="streaming_setup_instructions_summary">Нажмите здесь, чтобы посмотреть как интегрировать потоковую передачу в Home Assistant</string>
+    <string name="stream_port_text">Порт для потоковой передачи</string>
+    <string name="stream_port_summary">Выберите уникальный порт, где Ariela будет создавать и передавать данные MJPEG</string>
+    <string name="jpeg_compression_quality">Качество сжатия</string>
+    <string name="jpeg_compression_quality_summary">Выберите значение от 10 до 100 чтобы определить качество сжатия для JPEG.</string>
+    <string name="mjpeg_stream_resolution">Разрешение для видео потока</string>
+    <string name="mjpeg_stream_resolution_summary">Выберите разрешение для видео потока.</string>
+    <string name="webui_startup_page">WebUI Стартовая страница</string>
+    <string name="webui_startup__page_summary">Укажите номер страницы (или имя), которая будет открыта по умолчанию в WebUI. По умолчанию 0 (ноль), открывает домашнюю или первую вкладку.</string>
 
-    <string name="error_log">Error Log</string>
-    <string name="error_log_summary">Check Home Assistant errors log.</string>
-    <string name="error_log_retrieve_toast">Failed to retrieve error history. Please try again later.</string>
-    <string name="error_log_no_issues">There are no new issues!</string>
+    <string name="error_log">Журнал ошибок</string>
+    <string name="error_log_summary">Проверить журнал ошибок Home Assistant.</string>
+    <string name="error_log_retrieve_toast">Ошибка в получении журнала ошибок. Пожалуйста, повторите попытку позже.</string>
+    <string name="error_log_no_issues">Новых проблем нет!</string>
 
-    <string name="speech_recognizer">Speech Recognizer</string>
-    <string name="speech_recognizer_summary">Use your phone to send voice controlled instructions to Home Assistant</string>
+    <string name="speech_recognizer">Распознавание речи</string>
+    <string name="speech_recognizer_summary">Используйте свой телефон для отправки голосовых команд в Home Assistant</string>
 
-    <string name="quick_settings_web_ui">Quick Settings</string>
-    <string name="quick_settings_web_ui_summary">Enable Quick Settings button when using Web UI.</string>
+    <string name="quick_settings_web_ui">Быстрые настройки</string>
+    <string name="quick_settings_web_ui_summary">Кнопка «Быстрые настройки» при использовании Web UI.</string>
 
     <string-array name="array_setting_tracker_priority">
-        <item>Wifi &amp; Cell</item>
+        <item>Wifi &amp; ячейки</item>
         <item>GPS</item>
-        <item>No Power</item>
+        <item>Нет сигнала</item>
     </string-array>
 
-    <string name="device_tracker_priority_title">Priority</string>
-    <string name="device_tracker_priority_summary">Choose the method how Ariela will going to retrieve the location.</string>
+    <string name="device_tracker_priority_title">Приоритет</string>
+    <string name="device_tracker_priority_summary">Выберите метод, как Ariela будет получать данные о местоположении.</string>
 
-    <string name="flash_text">Flash</string>
-    <string name="flash_summary">Enable Flash when streaming back camera.</string>
+    <string name="flash_text">Фонарик</string>
+    <string name="flash_summary">Включить фонарик во время трансляции с задней камеры.</string>
 
-    <string name="sensor_motion_detector">Motion Detection</string>
-    <string name="sensor_motion_detector_summary">Enable Motion Detection when streaming MJPEG camera</string>
+    <string name="sensor_motion_detector">Обнаружение движения</string>
+    <string name="sensor_motion_detector_summary">Включить обнаружение движения при потоковой передаче с камеры MJPEG</string>
 
-    <string name="mobile_app_notification_setting_title">Push Notifications - Mobile App</string>
-    <string name="mobile_app_notification_setting_summary">Enable / disable push notifications of mobile_app component</string>
+    <string name="mobile_app_notification_setting_title">Push Уведомления - Мобильное приложение</string>
+    <string name="mobile_app_notification_setting_summary">Включить/отключить push-уведомления компонента mobile_app</string>
 
-    <string name="device_tracker_ignore_wifi_setting">Ignore WiFi &amp; Zones</string>
-    <string name="device_tracker_ignore_wifi_setting_summary">When using GPS tracking, ignore WiFi &amp; Zones detection. Use this function to rely only on GPS data.</string>
+    <string name="device_tracker_ignore_wifi_setting">Игнорировать WiFi &amp; Зоны</string>
+    <string name="device_tracker_ignore_wifi_setting_summary">При использовании GPS-отслеживания игнорируйте обнаружение WiFi &amp; зон. Используйте эту функцию, чтобы полагаться только на данные GPS.</string>
 
-    <string name="unsupported_lovelace_card">Unsupported Card</string>
-    <string name="unsupported_lovelace_card_message">\"%s\" lovelace card is not supported yet. Please request adding it via email. Thank you!</string>
+    <string name="unsupported_lovelace_card">Не поддерживаемый тип карточки</string>
+    <string name="unsupported_lovelace_card_message">\"%s\" карточка еще не поддерживается. Пожалуйста, отправьте запрос на добавление с помощью электронной почты. Спасибо!</string>
 
-    <string name="disable_unsupported_cards">Render Unsupported Card</string>
-    <string name="disable_unsupported_cards_summary">If this option is enabled, a card will appear when a Lovelace card is not supported.</string>
+    <string name="disable_unsupported_cards">Визуализация не поддерживаемой карточки</string>
+    <string name="disable_unsupported_cards_summary">Если эта опция включена, карточка Lovelace появится когда она не поддерживается.</string>
 
-    <string name="enable_microphone_permission">Please enable Record permission in order to use this function.</string>
-    <string name="sensor_microphone">Microphone Sensor</string>
-    <string name="ssensor_microphone_summary">Enable Microphone Sensor for silence detection and more.</string>
+    <string name="enable_microphone_permission">Пожалуйста, включите разрешение на запись, чтобы использовать эту функцию.</string>
+    <string name="sensor_microphone">Датчик микрофона</string>
+    <string name="ssensor_microphone_summary">Включить датчик микрофона для обнаружения тишины.</string>
 
-    <string name="app_support_development">Support App Development</string>
-    <string name="error_products_none">There are no products found! Error code is %s</string>
-    <string name="subscriber_text">Subscribe \n %s / month</string>
-    <string name="subscribing_success_text">Thank you very much for the subscription. As a gift the ads will be disabled for each month subscription is running.</string>
+    <string name="app_support_development">Поддержать разработку приложения</string>
+    <string name="error_products_none">Не найдено ни одного продукта! Код ошибки %s</string>
+    <string name="subscriber_text">Подписаться на \n %s / месяц</string>
+    <string name="subscribing_success_text">Большое спасибо за подписку. В качестве подарка, реклама будет отключена для каждого месяца подписки.</string>
 
-    <string name="useful_resources">Useful Resources</string>
-    <string name="changelog_text">Changelog</string>
-    <string name="documentation_text">Online Documentation</string>
+    <string name="useful_resources">Полезные ресурсы</string>
+    <string name="changelog_text">Журнал изменений</string>
+    <string name="documentation_text">Онлайн Руководство</string>
 
-    <string name="settings_password">Settings Password</string>
-    <string name="settings_password_summary">Put settings password in order to not allow unauthorized access.</string>
-    <string name="password_required">Password Required</string>
-    <string name="enter_password_text">Please enter password to access settings</string>
-    <string name="invalid_password_text">Invalid password! Please try again later.</string>
+    <string name="settings_password">Настройки пароля</string>
+    <string name="settings_password_summary">Установите пароль для доступа к настройка чтобы предотвратить неавторизованный доступ.</string>
+    <string name="password_required">Требуется пароль</string>
+    <string name="enter_password_text">Пожалуйста введите пароль для доступа к настройкам</string>
+    <string name="invalid_password_text">Не правильный пароль! Попробуйте еще раз.</string>
 
     <string name="arm_night_text">ARM NIGHT</string>
     <string name="arm_custom_bypass_text">CUSTOM BYPASS</string>
