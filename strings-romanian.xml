@@ -288,7 +288,7 @@
     <string name="vibration_detected_text">Vibratie detectată</string>
 
     <string name="mqtt_string">MQTT</string>
-    <string name="enable_mqtt_text">Permite senzori MQTT</string>
+    <string name="enable_mqtt_text">Permite MQTT</string>
     <string name="enable_mqtt_summary">Trimite informațiile senzorilor acestui device la Home Assistant</string>
     <string name="mqtt_sensors_text">Senzori</string>
     <string name="mqtt_sensors_summary">Alegeți senzorii ce doriți ca informațiile acestora să fie trimise</string>
@@ -754,4 +754,25 @@
     <string name="arm_night_text">ARM NIGHT</string>
     <string name="arm_custom_bypass_text">CUSTOM BYPASS</string>
     <string name="unnamed_view_text">unnamed view</string>
+
+    <string name="social_text">Social Links</string>
+    <string name="facebook_text">Facebook</string>
+    <string name="twitter_text">Twitter</string>
+    <string name="patreon_text">Patreon</string>
+    <string name="help_translate_app">Help App Translation</string>
+
+    <string name="show_tabs_bottom_setting">Show Tabs on Bottom</string>
+    <string name="show_tabs_bottom_setting_summary">Enable this option if you want tabs to be shown on bottom of the screen instead of top (useful for big screens)</string>
+
+    <string name="background_image_text">Imagine de fundal</string>
+    <string name="copy_certificate_text">Please copy your certificate to \"%s\". Due to Android 10 security policies, this cannot be automated unfortunately.</string>
+    <string name="view_visible_in_ariela">Disable this view in Ariela</string>
+    <string name="clear_hidden_lovelace_views">Clear Hidden Lovelace views</string>
+    <string name="clear_hidden_lovelace_views_summary">Use this option in order to show again any hidden views in Ariela when using Lovelace mode.</string>
+
+    <string name="independent_mqtt_session">Independent MQTT Session</string>
+    <string name="independent_mqtt_session_summary">When this option is enabled and build-in MQTT client its used, the MQTT session will remain active even if connection to the HA server is broken.</string>
+    <string name="ip_name_hint">IP</string>
+    <string name="settings_wifi_ip_home_title">WiFi IP\'s &amp; Zones</string>
+    <string name="settings_wifi_ip_home_summary">When you will be connected to one of the listed IP\'s, Ariela will inform Home Assistant that your device is at the assigned zone location.</string>
 </resources>
