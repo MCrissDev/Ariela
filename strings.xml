@@ -7,7 +7,7 @@
     <string name="connection_server_failed_message">Connection to Home Assistant server failed. Please check the URL / IP provided and try again.</string>
     <string name="ok_text">OK</string>
     <string name="connection_success_text">Connection successful</string>
-    <string name="connection_success_text_message">Connection to Home Assistant server is successful. Press "Continue" button to proceed further.</string>
+    <string name="connection_success_text_message">Connection to Home Assistant server is successful. Press "Continue" button to proceed.</string>
     <string name="enter_assistant_password">Enter Home Assistant credentials</string>
     <string name="password_text">Password</string>
     <string name="incorrect_password_message_text">Failed to authenticate using the credentials provided. Please check the credentials and try again.</string>
@@ -27,7 +27,7 @@
     <string name="wifi_state_connecting">CONNECTING</string>
     <string name="wifi_state_disconnected">DISCONNECTED</string>
     <string name="wifi_state_disconnecting">DISCONNECTING</string>
-    <string name="wifi_choose_message">Choose your home Wi-Fi network where the Home Assistant server is running. This will be used later by this application in order to know if the currently connected network is the home one or not. Swipe down to refresh Wi-Fi networks list if you do not see your network.</string>
+    <string name="wifi_choose_message">Choose the Wi-Fi network where Home Assistant server is running. This will be used later to determine if the currently connected network is your home network. Swipe down to refresh Wi-Fi networks list if you do not see your network.</string>
     <string name="searching_wifi_networks">Searching Wi-Fi networks…</string>
     <string name="home_text">HOME</string>
 
@@ -35,7 +35,7 @@
     <string name="climate_current_temperature" formatted="true">Currently: %1$.1f %2$s</string>
     <string name="media_player_stop_toast">Stopping playback…</string>
 
-    <string name="location_permission_required">In order to proceed further Location permission is required. Would you like to manual enable it?</string>
+    <string name="location_permission_required">In order to proceed further, Location permission is required. Would you like to enable it?</string>
     <string name="yes_text">YES</string>
     <string name="no_text">NO</string>
     <string name="skip_text">Skip</string>
@@ -62,9 +62,9 @@
     <string name="no_sensors_messages">Can\'t add the sensor widget because we couldn\'t find any configured sensors.</string>
     <string name="remove_ads">Remove Ads</string>
     <string name="no_zone_message">We couldn\'t find a zone entity in your Home Assistant configuration. Please check your config.</string>
-    <string name="ads_disabled_message">Thank you! Ads has been disabled.</string>
+    <string name="ads_disabled_message">Thank you! Ads have been disabled.</string>
     <string name="video_ad_failed_load">Failed to load video ads. Please try again later.</string>
-    <string name="remove_ads_text_info">To remove ads its required to watch an advertise video. Do you wish to continue?</string>
+    <string name="remove_ads_text_info">To remove ads, watch an advertising video. Do you wish to continue?</string>
     <string name="exit_text">Exit</string>
     <string name="map_text">Map</string>
     <string name="server_config_text">Server Configuration</string>
@@ -75,7 +75,7 @@
     <string name="operation_text">Operation</string>
     <string name="away_mode_string">Away Mode</string>
     <string name="default_notification_channel_id">On-going notification</string>
-    <string name="firebase_notifications_enabled">Firebase notifications has been enabled</string>
+    <string name="firebase_notifications_enabled">Firebase notifications have been enabled</string>
     <string name="firebase_notifications_failed">Failed to enable Firebase notifications for this device. Please check that HANotify component is installed on Home Assistant server</string>
     <string name="lovelaceui_failed_to_enable">Failed to enable Lovelace UI. Please check if Lovelace component is installed on the server.</string>
 
@@ -86,14 +86,14 @@
     <string name="setting_firebase_summary">Allow Home Assistant server to send push notifications to your phone via Firebase. For more details please check https://github.com/MCrissDev/HANotify</string>
     <string name="setting_firebase_title">HANotify Firebase Notifications</string>
 
-    <string name="setting_webui_summary">When this option is enabled, Web UI will going to be used instead of native Android views.</string>
+    <string name="setting_webui_summary">When this option is enabled, Web UI will be used instead of native Android views.</string>
     <string name="setting_webui_title">Web UI</string>
 
-    <string name="setting_autoreconnect_summary">When this option is enabled, Ariela will try reestablishing the connection every 10 seconds if previously lost.</string>
+    <string name="setting_autoreconnect_summary">When this option is enabled, Ariela will retry the connection every 10 seconds if the connection is lost.</string>
     <string name="setting_autoreconnect_title">Auto-reconnect</string>
 
     <string name="settings_permanent_notification_title">Permanent Notification</string>
-    <string name="settings_permanent_notification_summary">Show a permanent notification when Ariela is connected to server</string>
+    <string name="settings_permanent_notification_summary">Show a persistent notification when Ariela is connected to server</string>
 
     <string name="settings_lovelaceui_title">Lovelace UI</string>
     <string name="settings_lovelaceui_summary">Use Lovelace UI configuration instead of default one</string>
@@ -222,10 +222,10 @@
     <string name="device_tracker_type_summary">Choose the tracking mode that will be used to inform HA about this device location</string>
 
     <string name="device_tracker_position_title">Updates Position</string>
-    <string name="device_tracker_position_summary">Choose position change in meters at which location updates should be send</string>
+    <string name="device_tracker_position_summary">Minimum position change to trigger an update</string>
 
     <string name="device_tracker_period_title">Updates Period</string>
-    <string name="device_tracker_period_summary">Choose time interval at which location updates should be send</string>
+    <string name="device_tracker_period_summary">Choose time interval to send location updates</string>
 
     <string name="web_login_text">Web Login</string>
     <string name="please_wait_text">Please wait…</string>
@@ -254,7 +254,7 @@
     <string name="service_has_been_called">Service has been called</string>
 
     <string name="server_management_text">Server Management</string>
-    <string name="server_management_message_text">Control your Home Assistant server…from Ariela.</string>
+    <string name="server_management_message_text">Control your Home Assistant server… from Ariela.</string>
     <string name="restart_text">Restart</string>
     <string name="stop_text">Stop</string>
     <string name="brightness_text">Brightness</string>
@@ -314,22 +314,22 @@
     <string name="mqtt_sensors_summary">Choose the sensors you want to have their info send to Home Assistant</string>
 
     <string name="battery">Battery</string>
-    <string name="battery_message">Send this device battery information\'s</string>
+    <string name="battery_message">Send battery status from this device</string>
 
     <string name="light">Light</string>
-    <string name="light_message">Send this device light sensor information\'s</string>
+    <string name="light_message">Send light sensor information from this device</string>
     <string name="step_counter">Step Counter</string>
-    <string name="step_counter_message">Send this device step counter sensor information\'s</string>
+    <string name="step_counter_message">Send step counter information from this device</string>
     <string name="instructions_text">Instructions</string>
 
-    <string name="wi_fi_message">Send this device Wi-Fi information\'s</string>
+    <string name="wi_fi_message">Send wi-fi connection informaion from this device</string>
 
     <string name="clear_current_config">Clear current config</string>
     <string name="current_external_config_cleared">Current external access configuration has been cleared</string>
     <string name="call_state">Call State</string>
-    <string name="call_state_message">Send this device call state information\'s</string>
+    <string name="call_state_message">Send call state information from this device</string>
 
-    <string name="copy_to_clipboard">Copy to memory</string>
+    <string name="copy_to_clipboard">Copy to clipboard</string>
     <string name="instructions_copied_to_memory">Instructions copied to clipboard</string>
 
     <string name="setup_mqtt_first">Setup MQTT first to use this option</string>
@@ -348,28 +348,28 @@
     <string name="checked_items">Checked items</string>
 
     <string name="ambient_temperature">Ambient Temperature</string>
-    <string name="ambient_temperature_message">Send this device ambient temperature sensor information\'s</string>
+    <string name="ambient_temperature_message">Send ambient temperature sensor information from this device</string>
 
     <string name="pressure_text">Pressure</string>
-    <string name="pressure_message">Send this device pressure sensor information\'s</string>
+    <string name="pressure_message">Send pressure sensor information from this device</string>
 
     <string name="user_text">User</string>
-    <string name="setting_keepscreenon_summary">If this option is enabled, while the Ariela dashboard will be visible the screen will not going to close</string>
+    <string name="setting_keepscreenon_summary">If this option is enabled, Ariela will keep the screen on if it is in the foreground</string>
     <string name="setting_keepscreenon_title">Keep screen ON</string>
 
     <string name="shopping_list_text">Shopping List</string>
-    <string name="text_to_speek">Text to speek</string>
+    <string name="text_to_speek">Text to speech</string>
     <string name="send_text">Send</string>
     <string name="input_source">Input Source</string>
     <string name="sound_mode">Sound Mode</string>
 
     <string name="bluetooth_text">Bluetooth</string>
-    <string name="bluetooth_mqtt_text">Send this device Bluetooth information\'s</string>
+    <string name="bluetooth_mqtt_text">Send Bluetooth information from this device</string>
 
     <string name="relative_humidity">Relative Humidity</string>
-    <string name="relative_humidity_message">Send this device Relative Humidity sensor information\'s</string>
+    <string name="relative_humidity_message">Send Relative Humidity sensor information from this device</string>
 
-    <string name="apps_mqtt_text">Sensor containing installed apps on this device</string>
+    <string name="apps_mqtt_text">Send installed apps data from this device</string>
     <string name="apps_text">Applications</string>
 
     <string name="setting_fullscreen_summary">If this option is enabled, Ariela will be shown in fullscreen mode</string>
@@ -389,7 +389,7 @@
     <string name="activate_text">Activate</string>
     <string name="execute_text">Execute</string>
     <string name="setting_scrolllongtext_title">Scroll Long Text</string>
-    <string name="setting_scrolllongtext_summary">If this option is enabled, text that is too long to fit it will be animated (scrolled), else truncated</string>
+    <string name="setting_scrolllongtext_summary">If this option is enabled, text that is too long to fit will be animated (scrolled), else truncated</string>
 
     <string name="vacuum_cleaner_commands">Vacuum cleaner commands:</string>
     <string name="notifications_empty">No notifications</string>
@@ -431,7 +431,7 @@
     </string-array>
 
     <string name="number_of_columns_cards">Cards Columns</string>
-    <string name="number_of_columns_cards_info">Choose on how many columns will be the cards displayed.</string>
+    <string name="number_of_columns_cards_info">Choose how many columns will be used for the card list.</string>
 
     <string name="debug_enabled_message">The debug mode has been enabled. Please restart the application and reproduce the issue you found. After that, in order to send logs, use the contact function from Ariela and choose your email app. The logs should be added automatically. If this do not happen, on your phone you will find a file called \'ariela_logfile.log\'. Please send me that file to the email address: \'micro.criss.dev@gmail.com\'.</string>
     <string name="picture_text">Picture</string>
@@ -449,14 +449,14 @@
     <string name="intro_text">Intro</string>
     <string name="previous_text">Previous</string>
     <string name="next_text">Next</string>
-    <string name="enter_local_network_info_message">Please enter your home WiFi information\'s</string>
+    <string name="enter_local_network_info_message">Please enter your home WiFi information</string>
 
-    <string name="enter_wifi_home_name">Please enter your home WiFi name. When Ariela will be connected to this network, it would use the local IP address of Home Assistant which you will set. Also, this network name can be used later to inform Home Assistant that your are Home when Ariela will be connected to this network.</string>
+    <string name="enter_wifi_home_name">Please enter your home WiFi name. When Ariela is connected to this network, it will use the local IP address of Home Assistant. Also, this network name can be used later to inform Home Assistant that you are home when Ariela is connected to this network.</string>
     <string name="wifi_name_hint">WiFi name</string>
 
     <string name="please_enter_wifi_name">Please enter a valid WiFi name.</string>
     <string name="local_ip_address">Home Assistant IP address</string>
-    <string name="local_ip_address_msg">Please enter Home Assistant IP address. If that is currently not available and you can access your server outside your network, you can put that address too.</string>
+    <string name="local_ip_address_msg">Please enter Home Assistant IP address. If that is currently not available and you can access your server outside your network, you can put that address instead.</string>
     <string name="check_connection_text">Check connection</string>
     <string name="external_ip_address_msg">Please enter Home Assistant IP external address. If you are not exposing your server over the internet, use \"Skip\" button to proceed further</string>
     <string name="credentials_message">Please enter your user name and password. If you are using Home Assistant 0.78 or older, you can leave username empty in order to login via API_PASSWORD. If you have any issues logging in or you use 2FA please use the web login instead.</string>
@@ -470,22 +470,22 @@
 
     <string-array name="array_setting_mqtt_client">
         <item>HomeAssistant</item>
-        <item>Build-In</item>
+        <item>Built-In</item>
     </string-array>
     <string-array name="array_setting_mqtt_client_values">
         <item>0</item>
         <item>1</item>
     </string-array>
 
-    <string name="configure_build_in_mqtt_title">Configure build-in MQTT client</string>
-    <string name="configure_build_in_mqtt_title_summary">Use this option to configure access of the build-in MQTT client to your broker</string>
+    <string name="configure_build_in_mqtt_title">Configure built-in MQTT client</string>
+    <string name="configure_build_in_mqtt_title_summary">Use this option to configure the connection of the built-in MQTT client to your broker</string>
     <string name="mqtt_setup_title">MQTT Setup</string>
 
     <string name="local_mqtt_address">Local MQTT Address and Port</string>
-    <string name="external_mqtt_address">Extern MQTT Address and Port</string>
+    <string name="external_mqtt_address">External MQTT Address and Port</string>
     <string name="mqtt_connection_succeeded">MQTT connection succeeded</string>
-    <string name="mqtt_connection_failed">MQTT connection failed. Please check the data introduced and try again.</string>
-    <string name="mqtt_connection_external_failed">MQTT connection to external IP failed. Please check the data introduced and try again.</string>
+    <string name="mqtt_connection_failed">MQTT connection failed. Please check your settings and try again.</string>
+    <string name="mqtt_connection_external_failed">MQTT connection to external IP failed. Please check your settings_debugmode_summary and try again.</string>
 
     <string name="mqtt_setup_address_message">   Please enter the IP address and port that will be used to connect to the MQTT broker.\n   If you do not have access to your local network instance you can also put the external IP to the local one.\n   If you do not want to connect to MQTT when you are not home, leave the external IP entry blank.\n   If you are using SSL connection, the IP address should start with \"ssl://\" instead of \"tcp://\".</string>
     <string name="back_camera">Back Camera</string>
@@ -507,20 +507,20 @@
     <string name="server_setting_read_timeout_summary">Choose timeout value when reading data from the socket.</string>
 
     <string name="server_setting_connect_timeout_title">Connect timeout</string>
-    <string name="server_setting_connect_timeout_summary">Choose timeout value when trying to connect to socket.</string>
+    <string name="server_setting_connect_timeout_summary">Choose timeout value when trying to connect to the socket.</string>
 
     <string name="alarm_text">Alarm</string>
     <string name="alarm_summary">Send this device time when the next alarm will be triggered</string>
 
     <string name="start_app_boot">Start at boot</string>
-    <string name="start_app_boot_summary">Automatic start Ariela when the device start-up.</string>
+    <string name="start_app_boot_summary">Automatically start Ariela when the device starts.</string>
 
     <string name="ariela_available_mqtt_sensor">Ariela Availability</string>
-    <string name="ariela_available_mqtt_sensor_summary">Enable this to see time when Ariela last communicated with Home Assistant</string>
+    <string name="ariela_available_mqtt_sensor_summary">Enable this to report time when Ariela last communicated with Home Assistant</string>
 
     <string name="notification_entities_empty">Go to Settings -> Notifications in order to add some entities here.</string>
     <string name="notification_entities_title">Notification Entities</string>
-    <string name="notification_entities_summary">Choose entities that should appear in notification</string>
+    <string name="notification_entities_summary">Choose entities that should appear in the persistent notification</string>
     <string name="notification_entities_max_reached">Maximum entities to display reached. Delete an existing entity and try again.</string>
     <string name="choose_entity_text">Choose Entity</string>
 
@@ -542,7 +542,7 @@
     <string name="paused_text">paused</string>
 
     <string name="start_app_update">Start after update</string>
-    <string name="start_app_update_summary">Automatic start Ariela when application get\'s updated.</string>
+    <string name="start_app_update_summary">Automatically start Ariela when application gets updated.</string>
 
     <string name="logout_text_info">Are you sure you to logout? Current connection info will be cleared.</string>
 
@@ -553,14 +553,14 @@
     <string name="error_create_server_text">Please enter a valid server name in order to continue.</string>
     <string name="active_server_cannot_delete">The active server cannot be deleted.</string>
 
-    <string name="certificate_message_info">If you server connection requires custom certificates like PCKS12 you may enter here the path of the certificate to be used. This is useful when having your Home Assistant server running over NGINX for example.</string>
+    <string name="certificate_message_info">Optionally, f you server connection requires custom certificates like PCKS12 you may enter the path of the certificate to be used. This is useful when having your Home Assistant server running over NGINX for example. Otherwise, skip this option.</string>
     <string name="please_enter_certificate_path">Use search button to enter the certificate path:</string>
     <string name="search_text">Search</string>
     <string name="choose_certificate">Choose Certificate</string>
     <string name="enter_certificate_password">If required, enter the certificate password:</string>
 
     <string name="use_internal_ip_home_ap">Use internal IP when connected to a Home AP</string>
-    <string name="use_internal_ip_home_ap_summary">If this option is enabled, when Ariela detects you are connected to a home AP, internal IP will be used for connection.</string>
+    <string name="use_internal_ip_home_ap_summary">If this option is enabled, your internal IP will be used for connection when Ariela detects you are connected to a home AP.</string>
 
 
     <string-array name="array_setting_boot_entries">
@@ -603,8 +603,8 @@
 
     <string name="active_server_cannot_be_deleted">The active server can\'t be deleted. Switch to another server in order to do this action.</string>
 
-    <string name="web_ui_swipe_tabs">WebUI tabs swap</string>
-    <string name="web_ui_swipe_tabs_summary">Enable this option in order to change tabs in Web UI mode by swap left / right</string>
+    <string name="web_ui_swipe_tabs">WebUI tabs swipe</string>
+    <string name="web_ui_swipe_tabs_summary">Enable this option to change tabs in Web UI mode by swipe left / right</string>
 
     <string name="delete_server_title">Delete Server</string>
     <string name="delete_server_confirmation">Are you sure you want to delete \"%s\"?</string>
@@ -617,7 +617,7 @@
     <string name="mobile_app_notification_summary">Click here to see notification example</string>
 
     <string name="web_ui_scroll_refresh_title">WebUI Scroll Down Refresh</string>
-    <string name="web_ui_scroll_refresh_summary">Enable this option in order to allow scroll down to refresh option</string>
+    <string name="web_ui_scroll_refresh_summary">Enable this option to allow pull down to refresh</string>
 
     <string name="horizontal_card_items">Horizontal-Stack items count</string>
     <string name="horizontal_card_items_summary">Select the number of items horizontal-stack card should show.</string>
@@ -650,7 +650,7 @@
     <string name="sensors_disabled_text">All sensors had been disabled. Please re-enable the sensors in order to have Ariela sensors updated.</string>
     <string name="mobile_app_credential_force_warning">In order to not have duplicates, you should go to Home Assistant -> Integrations and delete this device. Do you wish to continue deleting this device?</string>
     <string name="vibrate_ui_controls_title">Vibrate UI controls</string>
-    <string name="vibrate_ui_controls_summary">Create vibration feedback whenever you toggle a switch, button etc</string>
+    <string name="vibrate_ui_controls_summary">Trigger vibration feedback whenever you toggle a switch, button etc</string>
 
     <string name="setting_device_tracker_mobile_app">Device Tracker - Mobile App</string>
     <string name="setting_device_tracker_mobile_app_summary">Enable updating device tracker created by Mobile APP</string>
@@ -664,7 +664,7 @@
     <string name="device_tracker_accuracy_message">Do not send GPS location if accuracy (in meters) is higher then this value. Put 0 (zero) to send GPS location for any accuracy.</string>
 
     <string name="allow_background_running">Allow background running</string>
-    <string name="allow_background_running_summary">If this option is enabled, Ariela will be allowed to run in background. This is useful if you want to receive entities updates in realtime but its possible to consume more battery.</string>
+    <string name="allow_background_running_summary">If this option is enabled, Ariela will be allowed to run in background. This is useful if you want to receive updates in realtime but it may consume more battery.</string>
 
     <string name="entity_registry_text">Entity Registry</string>
     <string name="entity_registry_summary">Overview of all known entities.</string>
@@ -721,7 +721,7 @@
     <string name="zone_text">Zone</string>
     <string name="wifi_name_cannot_be_empty">WiFi name cannot be empty</string>
     <string name="settings_wifi_home_title">WiFi &amp; Zones</string>
-    <string name="settings_wifi_home_summary">When you will be connected to one of the listed networks, Ariela will inform Home Assistant that your device is at the assigned zone location.</string>
+    <string name="settings_wifi_home_summary">When you are connected to one of the listed networks, Ariela will inform Home Assistant that your device is at the assigned zone location.</string>
     <string name="screen_state_summary">Send information if screen is off or on</string>
     <string name="screen_state_text">Screen State</string>
     <string name="preset_text">Preset</string>
@@ -733,7 +733,7 @@
     <string name="accelerometer_sensor_summary">Send accelerometer sensor informations to Home Assistant</string>
 
     <string name="device_tracker_distance_title">Distance between locations</string>
-    <string name="device_tracker_distance_message">Do not send GPS location if the distance (in meters) between previous location send to Home Assistant and the new location received from GPS is less then the set value. Put 0 (zero) to send GPS location for any distance.</string>
+    <string name="device_tracker_distance_message">Do not send GPS location if the distance (in meters) between previous location sent to Home Assistant and the new location is less than this value. Put 0 (zero) to send GPS location for any distance.</string>
     <string name="proximity_sensor">Proximity Sensor</string>
     <string name="proximity_sensor_summary">Send proximity sensor information to Home Assistant</string>
 
@@ -765,19 +765,19 @@
     <string name="error_log_no_issues">There are no new issues!</string>
 
     <string name="speech_recognizer">Speech Recognizer</string>
-    <string name="speech_recognizer_summary">Use your phone to send voice controlled instructions to Home Assistant</string>
+    <string name="speech_recognizer_summary">Use your phone to send voice control instructions to Home Assistant</string>
 
     <string name="quick_settings_web_ui">Quick Settings</string>
     <string name="quick_settings_web_ui_summary">Enable Quick Settings button when using Web UI.</string>
 
     <string-array name="array_setting_tracker_priority">
-        <item>Wifi &amp; Cell</item>
         <item>GPS</item>
+        <item>Wifi &amp; Cell</item>
         <item>No Power</item>
     </string-array>
 
     <string name="device_tracker_priority_title">Priority</string>
-    <string name="device_tracker_priority_summary">Choose the method how Ariela will going to retrieve the location.</string>
+    <string name="device_tracker_priority_summary">Choose the method that Ariela will use to retrieve the location.</string>
 
     <string name="flash_text">Flash</string>
     <string name="flash_summary">Enable Flash when streaming back camera.</string>
@@ -811,7 +811,7 @@
     <string name="documentation_text">Online Documentation</string>
 
     <string name="settings_password">Settings Password</string>
-    <string name="settings_password_summary">Put settings password in order to not allow unauthorized access.</string>
+    <string name="settings_password_summary">Enter a settings password to prevent unauthorized access.</string>
     <string name="password_required">Password Required</string>
     <string name="enter_password_text">Please enter password to access settings</string>
     <string name="invalid_password_text">Invalid password! Please try again later.</string>
@@ -833,12 +833,12 @@
     <string name="copy_certificate_text">Please copy your certificate to \"%s\". Due to Android 10 security policies, this cannot be automated unfortunately.</string>
     <string name="view_visible_in_ariela">Disable this view in Ariela</string>
     <string name="clear_hidden_lovelace_views">Clear Hidden Lovelace views</string>
-    <string name="clear_hidden_lovelace_views_summary">Use this option in order to show again any hidden views in Ariela when using Lovelace mode.</string>
+    <string name="clear_hidden_lovelace_views_summary">Use this option in order to un-hide any hidden views in Ariela when using Lovelace mode.</string>
 
     <string name="independent_mqtt_session">Independent MQTT Session</string>
-    <string name="independent_mqtt_session_summary">When this option is enabled and build-in MQTT client its used, the MQTT session will remain active even if connection to the HA server is broken.</string>
+    <string name="independent_mqtt_session_summary">When this option is enabled and built-in MQTT client its used, the MQTT session will remain active even if connection to the HA server is broken.</string>
 
     <string name="ip_name_hint">IP</string>
     <string name="settings_wifi_ip_home_title">WiFi IP\'s &amp; Zones</string>
-    <string name="settings_wifi_ip_home_summary">When you will be connected to one of the listed IP\'s, Ariela will inform Home Assistant that your device is at the assigned zone location.</string>
+    <string name="settings_wifi_ip_home_summary">When you are connected to one of the listed IP\'s, Ariela will inform Home Assistant that your device is at the assigned zone location.</string>
 </resources>
