@@ -7,7 +7,6 @@
     <string name="connection_server_failed_message">Falha na ligação ao servidor Home Assistant. Por favor, verifique o URL / IP fornecido e tente novamente.</string>
     <string name="ok_text">OK</string>
     <string name="connection_success_text">Ligação bem sucedida</string>
-    <string name="connection_success_text_message">A ligação ao servidor Home Assistant é bem sucedida. Prima o botão "Continuar" para prosseguir.</string>
     <string name="enter_assistant_password">Digite as credenciais do Home Assistant</string>
     <string name="password_text">Password</string>
     <string name="incorrect_password_message_text">Falha ao autenticar usando as credenciais fornecidas. Verifique as credenciais e tente novamente.</string>
@@ -467,14 +466,6 @@ Traduzido com www.DeepL.com/Translator</string>
     <string name="use_internal_ip_home_ap">Usar IP interno quando ligado ao AP de casa </string>
     <string name="use_internal_ip_home_ap_summary">Se esta opção for activada, quando o Ariela está ligado ao AP de casa, vai usar o IP interno para a ligação.</string>
 
-
-    <string-array name="array_setting_boot_entries">
-        <item>Serviço em background</item>
-        <item>Aplicação</item>
-    </string-array>
-
-    <string name="boot_startup_mode">Modo de início no boot </string>
-    <string name="boot_startup_mode_summary">Escolha como o Areiela vai iniciar no boot</string>
     <string name="sending_nfc_tag">A enviar TAG NFC: %s</string>
 
     <string-array name="array_setting_mqtt_camera_resolution">
@@ -731,4 +722,32 @@ Traduzido com www.DeepL.com/Translator</string>
     <string name="ip_name_hint">IP</string>
     <string name="settings_wifi_ip_home_title">WiFi IP\'s &amp; Zones</string>
     <string name="settings_wifi_ip_home_summary">When you will be connected to one of the listed IP\'s, Ariela will inform Home Assistant that your device is at the assigned zone location.</string>
+
+    <string name="invalid_date_text">Invalid Date</string>
+    <string name="help_text">Help</string>
+    <string name="certificate_choose_text">Does your server connection requires custom certificates like PCKS12? If yes, press \"Continue\" else please press the \"Skip\" button. </string>
+    <string name="location_permission_text">This function requires location access permission in order to continue. Please allow that permission to Ariela in order to retrieve device location in the background and send regular updates to Home Assistant server. Do you wish to continue?</string>
+    <string name="connection_local_ip_success_text_message">Connection to Home Assistant server is successful. Do you want to setup external IP also? Note that you can do setup the external IP at a later point from the app settings. What would you like to do?.</string>
+    <string name="setup_external_ip_text">Setup External IP</string>
+    <string name="use_web_login_option_text">or use WEB login</string>
+    <string name="setup_location_text_2">In order to use location tracking features or different connection urls based on WiFi SSID, we need access to your location. If you want consistent background updates your will also need to allow background processing.</string>
+    <string name="setup_location_text">This app collects location data in order to enable "Device Tracker" feature even when the app is closed or not in use. Please note that the location information is only sent to your hosted Home Assistant server and its not stored, logged or shared with another 3rd party. This data is also used to provide ads. Would you like to grant the Location permission to the app?</string>
+    <string name="grant_permission_text">Grant Permission</string>
+    <string name="background_location_not_active_text">Background location access was not granted. You can enable later this permission by going to phone settings. The application will be able to send location updates only while the app is in use.</string>
+    <string name="permission_location_not_active_text">Location permission is not granted and device tracker capabilities were disabled. You can enable device tracker later using the app settings.</string>
+    <string name="add_widget_text">Add Widget</string>
+    <string name="powered_by_text">Powered by: </string>
+    <string name="app_quick_launch">Ariela: Quick Launch</string>
+    <string name="dashboards_text">Dashboards</string>
+    <string name="device_name_text">Device Name</string>
+    <string name="device_name_info">Please enter device name:</string>
+    <string name="build_in_mqtt_options_text">Build-in MQTT Client options</string>
+    <string name="overview_text">Overview</string>
+    <string name="switch_dashboard_text">Switch Dashboard</string>
+    <string name="switch_dashboard_info_text">Choose to switch dashboard only in this current app session or the dashboard should be also set as default.</string>
+    <string name="switch_only_text">Switch Only</string>
+    <string name="switch_setdefault_text">Switch &amp; set default</string>
+    <string name="forecast_text">Forecast</string>
+    <string name="edit_current_view_text">Edit Current View</string>
+    <string name="native_rendering_text">Native Rendering UI</string>
 </resources>
