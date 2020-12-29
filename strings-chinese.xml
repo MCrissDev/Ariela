@@ -7,7 +7,6 @@
     <string name="connection_server_failed_message">与Home Assistant服务器的连接失败。 请检查提供的URL / IP，然后重试。</string>
     <string name="ok_text">好</string>
     <string name="connection_success_text">连接成功</string>
-    <string name="connection_success_text_message">与Home Assistant服务器的连接成功。 按下一步按钮继续。	Continue	 button to proceed further.</string>
     <string name="enter_assistant_password">输入Home Assistant凭据</string>
     <string name="password_text">密码</string>
     <string name="incorrect_password_message_text">无法使用提供的凭据进行身份验证。 请检查凭据，然后重试。</string>
@@ -437,14 +436,6 @@
     <string name="use_internal_ip_home_ap">连接到家庭AP时使用内部IP</string>
     <string name="use_internal_ip_home_ap_summary">如果启用此选项，当Ariela检测到您连接到家庭AP时，将使用内部IP进行连接。</string>
 
-
-    <string-array name="array_setting_boot_entries">
-        <item>后台服务</item>
-        <item>应用</item>
-    </string-array>
-
-    <string name="boot_startup_mode">启动模式</string>
-    <string name="boot_startup_mode_summary">选择Ariela在开机时启动的方式</string>
     <string name="sending_nfc_tag">发送NFC标签：%s</string>
 
     <string-array name="array_setting_mqtt_camera_resolution">
@@ -707,4 +698,32 @@
     <string name="ip_name_hint">IP</string>
     <string name="settings_wifi_ip_home_title">WiFi IP\'s &amp; Zones</string>
     <string name="settings_wifi_ip_home_summary">When you will be connected to one of the listed IP\'s, Ariela will inform Home Assistant that your device is at the assigned zone location.</string>
+
+    <string name="invalid_date_text">Invalid Date</string>
+    <string name="help_text">Help</string>
+    <string name="certificate_choose_text">Does your server connection requires custom certificates like PCKS12? If yes, press \"Continue\" else please press the \"Skip\" button. </string>
+    <string name="location_permission_text">This function requires location access permission in order to continue. Please allow that permission to Ariela in order to retrieve device location in the background and send regular updates to Home Assistant server. Do you wish to continue?</string>
+    <string name="connection_local_ip_success_text_message">Connection to Home Assistant server is successful. Do you want to setup external IP also? Note that you can do setup the external IP at a later point from the app settings. What would you like to do?.</string>
+    <string name="setup_external_ip_text">Setup External IP</string>
+    <string name="use_web_login_option_text">or use WEB login</string>
+    <string name="setup_location_text_2">In order to use location tracking features or different connection urls based on WiFi SSID, we need access to your location. If you want consistent background updates your will also need to allow background processing.</string>
+    <string name="setup_location_text">This app collects location data in order to enable "Device Tracker" feature even when the app is closed or not in use. Please note that the location information is only sent to your hosted Home Assistant server and its not stored, logged or shared with another 3rd party. This data is also used to provide ads. Would you like to grant the Location permission to the app?</string>
+    <string name="grant_permission_text">Grant Permission</string>
+    <string name="background_location_not_active_text">Background location access was not granted. You can enable later this permission by going to phone settings. The application will be able to send location updates only while the app is in use.</string>
+    <string name="permission_location_not_active_text">Location permission is not granted and device tracker capabilities were disabled. You can enable device tracker later using the app settings.</string>
+    <string name="add_widget_text">Add Widget</string>
+    <string name="powered_by_text">Powered by: </string>
+    <string name="app_quick_launch">Ariela: Quick Launch</string>
+    <string name="dashboards_text">Dashboards</string>
+    <string name="device_name_text">Device Name</string>
+    <string name="device_name_info">Please enter device name:</string>
+    <string name="build_in_mqtt_options_text">Build-in MQTT Client options</string>
+    <string name="overview_text">Overview</string>
+    <string name="switch_dashboard_text">Switch Dashboard</string>
+    <string name="switch_dashboard_info_text">Choose to switch dashboard only in this current app session or the dashboard should be also set as default.</string>
+    <string name="switch_only_text">Switch Only</string>
+    <string name="switch_setdefault_text">Switch &amp; set default</string>
+    <string name="forecast_text">Forecast</string>
+    <string name="edit_current_view_text">Edit Current View</string>
+    <string name="native_rendering_text">Native Rendering UI</string>
 </resources>
