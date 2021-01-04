@@ -1,5 +1,5 @@
-﻿<resources>
-    <string name="click_next_for_setup">Vajuta Jätka. et alustada seadistamist</string>
+﻿<!-- asuta<resources> -->
+    <string name="click_next_for_setup">Vajuta Jätka et alustada seadistamist</string>
     <string name="try_again_text">Proovi uuesti</string>
     <string name="continue_text">Jätka</string>
     <string name="connecting_please_wait">Ühendun, palun oota</string>
@@ -11,7 +11,6 @@
     <string name="password_text">Salasõna</string>
     <string name="incorrect_password_message_text">Sisestatud andmetega sisselogimine nurjus. Kontrolli andmeid ja proovi uuesti.</string>
     <string name="setup_complete_text">Seadistatud</string>
-    <string name="setup_complete_message_text">Home Assistanti seadistamine on lõpetatud. Saad rakendust kasutatada Home Assistanti juhtimiseks.</string>
     <string name="configure_text">Seadista</string>
     <string name="connection_server_failed_splash">Ühendus Home Assistanti serveriga nurjus. Proovi uuesti või seadista ühendus uuesti. Mida Sa soovid teha?</string>
     <string name="server_not_configured_text">Server pole õigesti seadistatud</string>
@@ -75,7 +74,7 @@
     <string name="away_mode_string">Eemal</string>
     <string name="default_notification_channel_id">Vaikimist teavituste kanal</string>
     <string name="firebase_notifications_enabled">Firebase teavitused on lubatud</string>
-    <string name="firebase_notifications_failed">Firebase tevituste lubamine selles seadmes nurjus. Vaata kas HANotify sidumine on Home Assistanti serveris lubatud</string>
+    <string name="firebase_notifications_failed">Firebase teavituste lubamine selles seadmes nurjus. Vaata kas HANotify sidumine on Home Assistanti serveris lubatud</string>
     <string name="lovelaceui_failed_to_enable">Lovelace kasutajaliides pole saadaval. Vaata kas Lovelace liides on serveris lubatud.</string>
 
     <string name="firebase_notifications_disabled">Firebase teavitused on keelatud</string>
@@ -520,7 +519,7 @@
 
     <string name="notification_entities_empty">Mine Sätted -> Teavitused, et lisada siia mõned olemid.</string>
     <string name="notification_entities_title">Teavituste olemid</string>
-    <string name="notification_entities_summary">Vali olemid mida kasutada püsitevitustes</string>
+    <string name="notification_entities_summary">Vali olemid mida kasutada püsiteavitustes</string>
     <string name="notification_entities_max_reached">Kuvatavate olemite maksimumarv on ületatud. Kustuta mõni olem ja proovi uuesti.</string>
     <string name="choose_entity_text">Vali olem</string>
 
@@ -579,7 +578,7 @@
     <string name="mqtt_camera_resolution">MQTT kaamera kvaliteet</string>
     <string name="mqtt_camera_resolution_summary">Vali MQTT kaamera eraldusvõime</string>
 
-    <string name="states_dev_summary">Seadme oleku seadmine Home Assistantis. See ei suhle füüsilise seadmega. </string>
+    <string name="states_dev_summary">Seadme oleku seadmine Home Assistantis. See ei suhtle füüsilise seadmega. </string>
     <string name="set_state_text">Seadme olek</string>
     <string name="entity_text">Olem</string>
     <string name="state_text">Olek</string>
@@ -635,7 +634,7 @@
     <string name="mobile_app_force_succeeded">Mobiilirakenduse sidumine on valmis</string>
     <string name="mobile_app_text">Mobiilirakendus</string>
     <string name="sensors_disabled_text">Kõik andurid on keelatud. Ariela andurite oleku uuendamiseks luba need.</string>
-    <string name="mobile_app_credential_force_warning">Mitme sidumise vältimisels mine Home Assistant -> Sidumised ja eemalda see seade. Kas eemaldan selle seadme?</string>
+    <string name="mobile_app_credential_force_warning">Mitme sidumise vältimiseks mine Home Assistant -> Sidumised ja eemalda see seade. Kas eemaldan selle seadme?</string>
     <string name="vibrate_ui_controls_title">Värinaga tagasiside</string>
     <string name="vibrate_ui_controls_summary">Anna värinaga märku nupu, lüliti vms. vajutamisest</string>
 
@@ -678,19 +677,19 @@
     <string name="language_setting_summary">Vali rakenduse kuvakeel.</string>
 
     <string-array name="array_setting_language_column">
-        <item>English</item>
-        <item>German</item>
-        <item>Spanish</item>
-        <item>Italian</item>
-        <item>Norwegian</item>
-        <item>Dutch</item>
-        <item>Polish</item>
-        <item>Portuguese</item>
-        <item>Romanian</item>
-        <item>Russian</item>
-        <item>Swedish</item>
-        <item>French</item>
-        <item>Chinese</item>
+        <item>Inglise</item>
+        <item>Saksa</item>
+        <item>Hispaania</item>
+        <item>Itaalia</item>
+        <item>Norra</item>
+        <item>Hollandi</item>
+        <item>Poola</item>
+        <item>Portugali</item>
+        <item>Rumeenia</item>
+        <item>Vene</item>
+        <item>Rootsi</item>
+        <item>Prantsuse</item>
+        <item>Hiina</item>
         <item>Eesti</item>
    </string-array>
 
@@ -704,7 +703,7 @@
     <string name="language_changed_dialog_message">Kuvakeele muutmiseks taaskäivita rakendus.</string>
     <string name="attention_text">Tähelepanu</string>
     <string name="web_ui_enable_mode_message">Rakendusse naasmiseks või sätete muutmiseks libista ekraani vasakust servast paremale.</string>
-    <string name="push_notifications_text_aa">Android Auto tevitused</string>
+    <string name="push_notifications_text_aa">Android Auto teavitused</string>
     <string name="add_wifi_text">Lisa WiFi pääsupunkt</string>
     <string name="zone_text">Tsoon</string>
     <string name="wifi_name_cannot_be_empty">WiFi nimi on kohustuslik</string>
@@ -721,7 +720,7 @@
     <string name="accelerometer_sensor_summary">Edasta Home Assistantile seadme kiirendusanduri teave</string>
 
     <string name="device_tracker_distance_title">Asukohtade vaheline kaugus</string>
-    <string name="device_tracker_distance_message">Ära edasta GPS asukohta kui kauguse erinevus eelmisest edatatust on väiksem kui valtud(meetrites). Sisesta 0 (null), et saata igal juhul.</string>
+    <string name="device_tracker_distance_message">Ära edasta GPS asukohta kui kauguse erinevus eelmisest edastatust on väiksem kui valitud (meetrites). Sisesta 0 (null), et saata igal juhul.</string>
     <string name="proximity_sensor">Lähedusandur</string>
     <string name="proximity_sensor_summary">Edasta Home Assistantile lähedusanduri olek</string>
 
