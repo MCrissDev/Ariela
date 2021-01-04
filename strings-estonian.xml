@@ -1,17 +1,17 @@
-﻿<resources>
-    <string name="click_next_for_setup">Vajuta Jätka. et alustada seadistamist</string>
+﻿<!-- asuta<resources> -->
+    <string name="click_next_for_setup">Vajuta Jätka et alustada seadistamist</string>
     <string name="try_again_text">Proovi uuesti</string>
     <string name="continue_text">Jätka</string>
     <string name="connecting_please_wait">Ühendun, palun oota</string>
     <string name="connection_server_failed">Ühendus serveriga nurjus</string>
-    <string name="connection_server_failed_message">Ühendus Home Assistanti serveriga nurjus. Kontrolli aadressija/või IP-d ja proovi uuesti.</string>
+    <string name="connection_server_failed_message">Ühendus Home Assistanti serveriga nurjus. Kontrolli aadressi ja/või IP-d ja proovi uuesti.</string>
     <string name="ok_text">OK</string>
     <string name="connection_success_text">Ühendus on loodud</string>
     <string name="enter_assistant_password">Sisesta Home Assistanti teave</string>
     <string name="password_text">Salasõna</string>
     <string name="incorrect_password_message_text">Sisestatud andmetega sisselogimine nurjus. Kontrolli andmeid ja proovi uuesti.</string>
     <string name="setup_complete_text">Seadistatud</string>
-    <string name="setup_complete_message_text">Home Assistanti seadistamine on lõpetatud. Saad kasuatada äppi Home Assistanti juhtimiseks.</string>
+    <string name="setup_complete_message_text">Home Assistanti seadistamine on lõpetatud. Saad rakendust kasutada Home Assistanti juhtimiseks.</string>
     <string name="configure_text">Seadista</string>
     <string name="connection_server_failed_splash">Ühendus Home Assistanti serveriga nurjus. Proovi uuesti või seadista ühendus uuesti. Mida Sa soovid teha?</string>
     <string name="server_not_configured_text">Server pole õigesti seadistatud</string>
@@ -32,7 +32,7 @@
 
     <string name="button_scene_activate">luba</string>
     <string name="climate_current_temperature" formatted="true">Hetkel: %1$.1f %2$s</string>
-    <string name="media_player_stop_toast">Ülekande peatamine…</string>
+    <string name="media_player_stop_toast">Voogedastuse peatamine…</string>
 
     <string name="location_permission_required">Jätkamiseks on vajalik asukohateenuste lubamine. Kas lubada?</string>
     <string name="yes_text">JAH</string>
@@ -42,13 +42,13 @@
     <string name="server_connection_lost_message">Puudub ühendus Home Assistanti serveriga. Kontrolli võrguühendust ja vajuta ÜHENDA kui kõik on OK.</string>
     <string name="contact_text">Kontakteeru arendajaga</string>
     <string name="about_text">Teave</string>
-    <string name="open_web_ui_text">Open Web-UI</string>
+    <string name="open_web_ui_text">Ava veebivaade</string>
     <string name="logbook_text">Logid</string>
     <string name="rate_app_text">Hinda rakendust</string>
-    <string name="enter_external_ip">Sisesta Home Assistanti välise ligipääsu IP / URL ja port</string>
+    <string name="enter_external_ip">Sisesta Home Assistanti välise juurdepääsu IP / URL ja port</string>
     <string name="ip_url_text">IP / URL and Port</string>
-    <string name="external_access_text">Koduvõrgu väline ligipääs</string>
-    <string name="external_access_message">Home Assistantile ligipääsuks väljaspool koduvõrku ühendu välisvõrguga (näiteks: 3G / 4G / muu). Väliseks ligipääsuks peab Home Assistanti server olema kättesaadav üle maailma.</string>
+    <string name="external_access_text">Väline juurdepääs koduvõrgule</string>
+    <string name="external_access_message">Home Assistantile juurdepääsuks väljaspool koduvõrku ühendu välisvõrguga (näiteks: 3G / 4G / muu). Väliseks juurdepääsuks peab Home Assistanti server olema kättesaadav üle maailma.</string>
     <string name="cancel_text">Loobu</string>
     <string name="off_text">Väljas</string>
     <string name="idle_text">Ootel</string>
@@ -58,10 +58,10 @@
     <string name="humidity_text">Niiskus: </string>
     <string name="wind_speed_text">Tuule kiirus: </string>
     <string name="choose_sensor_text">Vali seade</string>
-    <string name="no_sensors_messages">Seadme vidina lisamine pole võimalik kuna ntud seade puudub või pole häälestatud.</string>
+    <string name="no_sensors_messages">Seadme vidina lisamine pole võimalik kuna antud seade puudub või pole häälestatud.</string>
     <string name="remove_ads">Ära kuva reklaame</string>
     <string name="no_zone_message">Home Assistantis ei leitud tsoone. Kontrolli seadeid.</string>
-    <string name="ads_disabled_message">Tänud, relaamid on eemaldatud.</string>
+    <string name="ads_disabled_message">Tänud, reklaamid on eemaldatud.</string>
     <string name="video_ad_failed_load">Videoreklaamide laadimine nurjus. Proovi hiljem uuesti.</string>
     <string name="remove_ads_text_info">Reklaamide eemaldamiseks vaata videot. Kas jätkan?</string>
     <string name="exit_text">Välju</string>
@@ -75,21 +75,21 @@
     <string name="away_mode_string">Eemal</string>
     <string name="default_notification_channel_id">Vaikimist teavituste kanal</string>
     <string name="firebase_notifications_enabled">Firebase teavitused on lubatud</string>
-    <string name="firebase_notifications_failed">Firebase tevituste lubamine selles seadmes nurjus. Vaata kas HANotify sidumine on Home Assistanti serveris lubatud</string>
+    <string name="firebase_notifications_failed">Firebase teavituste lubamine selles seadmes nurjus. Vaata kas HANotify sidumine on Home Assistanti serveris lubatud</string>
     <string name="lovelaceui_failed_to_enable">Lovelace kasutajaliides pole saadaval. Vaata kas Lovelace liides on serveris lubatud.</string>
 
     <string name="firebase_notifications_disabled">Firebase teavitused on keelatud</string>
     <string name="firebase_notifications_disabled_failed">Firebase teavituste keelamine nurjus. Vaata kas HANotify sidumine on Home Assistanti serveris lubatud</string>
-    <string name="show_all_text">Näia kõiki</string>
-    <string name="show_groups_text">Näia gruppe</string>
-    <string name="setting_firebase_summary">Luba Home Assistant serveril saata tõuketeavitusioma seadmele Firebase kaudu. Lisainfo on siin: https://github.com/MCrissDev/HANotify</string>
+    <string name="show_all_text">Näita kõiki</string>
+    <string name="show_groups_text">Näita gruppe</string>
+    <string name="setting_firebase_summary">Luba Home Assistant serveril saata tõuketeavitusi oma seadmele Firebase kaudu. Lisainfo on siin: https://github.com/MCrissDev/HANotify</string>
     <string name="setting_firebase_title">HANotify Firebase teavitused</string>
 
     <string name="setting_webui_summary">Kui see valik on keelatud kasutatakse Androidi vaate asemel veebivaadet.</string>
     <string name="setting_webui_title">Veebivaade</string>
 
     <string name="setting_autoreconnect_summary">Selle sätte lubamisel üritab Ariela ühenduse katkemisel taasühenduda iga 10 sekundi järel.</string>
-    <string name="setting_autoreconnect_title">Taasühenda</string>
+    <string name="setting_autoreconnect_title">Taasühendamine</string>
 
     <string name="settings_permanent_notification_title">Jäävad teavitused</string>
     <string name="settings_permanent_notification_summary">Näita pidevat teavitust kui Ariela on serveriga ühenduses</string>
@@ -110,7 +110,7 @@
     <string name="trigger_text">KÄIVITA</string>
     <string name="debug_mode_activated">Silumine on sees</string>
     <string name="debug_mode_deactivated">Silumine on väljas</string>
-    <string name="debug_mode_failed">Silumise rakendamine nurjus</string>
+    <string name="debug_mode_failed">Silumise käivitamine nurjus</string>
     <string name="device_tracker_failed">Asukoha määramine nurjus</string>
     <string name="notifications_string">Teavitused</string>
     <string name="common_string">Üldine</string>
@@ -150,7 +150,7 @@
         <item>Tume</item>
         <item>Punakas</item>
         <item>Tumeroheline</item>
-        <item>DTumehall</item>
+        <item>Tumehall</item>
     </string-array>
 
     <string-array name="array_setting_tracker_position">
@@ -240,7 +240,7 @@
     <string name="config_validation_text">Kontrolli seadeid</string>
     <string name="config_valid_message_text">Kontrolli oma seadeid kui oled neis hiljuti muutusi teinud ja tahad veenduda, et kõik on korrektne</string>
     <string name="check_config_text">Seadete kontroll</string>
-    <string name="config_valid_text">Seaded on korras</string>
+    <string name="config_valid_text">Seaded on korrektsed</string>
     <string name="config_invalid_text">Viga seadetes</string>
     <string name="failed_to_check_config">Seadete kontroll nurjus. Proovi uuesti</string>
     <string name="config_reload_text">Seadete taaslaadimine</string>
@@ -286,7 +286,7 @@
     <string name="clear_text">Liikumine puudub</string>
     <string name="hot_text">Soe</string>
     <string name="light_detected_text">Valgustatud</string>
-    <string name="no_light_text">Pimet</string>
+    <string name="no_light_text">Pime</string>
     <string name="wet_text">Niiske</string>
     <string name="dry_text">Kuiv</string>
     <string name="motion_detected_text">Tuvastati liikumine</string>
@@ -324,7 +324,7 @@
     <string name="wi_fi_message">Saada oma seadme WiFi teave</string>
 
     <string name="clear_current_config">Eemalda praegune teave</string>
-    <string name="current_external_config_cleared">Välise ligipääsu teave on eemaldatud</string>
+    <string name="current_external_config_cleared">Välise juurdepääsu teave on eemaldatud</string>
     <string name="call_state">Kõnede olek</string>
     <string name="call_state_message">Saada oma seadme kõnede teave</string>
 
@@ -368,7 +368,7 @@
     <string name="relative_humidity">Suhteline niiskus</string>
     <string name="relative_humidity_message">Saada oma seadme õhuniiskuse andmed</string>
 
-    <string name="apps_mqtt_text">Saada sellesse seadmesse paigaldatud rakenduste teve</string>
+    <string name="apps_mqtt_text">Saada sellesse seadmesse paigaldatud rakenduste teave</string>
     <string name="apps_text">Rakendused</string>
 
     <string name="setting_fullscreen_summary">Selle sättega täidab Ariela kogu ekraani</string>
@@ -431,7 +431,7 @@
     </string-array>
 
     <string name="number_of_columns_cards">Kaartide veerge</string>
-    <string name="number_of_columns_cards_info">Vali mitu veerge kaarte kasutada.</string>
+    <string name="number_of_columns_cards_info">Vali mitu veergu kaarte kasutada.</string>
 
     <string name="debug_enabled_message">Silumine on lubatud. Taaskäivita rakendus ja taasloo probleemne olek. Edasi kasuta Ariela teabe all e-kirja valikut logide saatmiseks. Kui see nurjub, edasta kirje \'ariela_logfile.log\' aadressile: \'micro.criss.dev@gmail.com\'.</string>
     <string name="picture_text">Pilt</string>
@@ -443,7 +443,7 @@
     <string name="service_text">Teenus</string>
     <string name="services_text">Teenused</string>
     <string name="services_summary_text">Arendaja tööriist lubab kutsuda iga Home Assistanti saada olevat teenust.</string>
-    <string name="service_data_text">Service Data (JSON, optional)</string>
+    <string name="service_data_text">Teenuse andmed (JSON, valikuline)</string>
     <string name="call_service_text">Kutsu teenus</string>
 
     <string name="intro_text">Alustamine</string>
@@ -456,9 +456,9 @@
 
     <string name="please_enter_wifi_name">Sisesta olemasoleva pääsupunkti nimi.</string>
     <string name="local_ip_address">Home Assistanti IP aadress</string>
-    <string name="local_ip_address_msg">Sisesta Home Assistant IP aadress. Kui kohalik ühendus puudub võib kasutada välise ligipääsu aadressi.</string>
+    <string name="local_ip_address_msg">Sisesta Home Assistant IP aadress. Kui kohalik ühendus puudub võib kasutada välise juurdepääsu aadressi.</string>
     <string name="check_connection_text">Kontrolli ühendust</string>
-    <string name="external_ip_address_msg">Sisesta Home Assistanti välise ligipaasu IP aadress. Kui väline ligipääs puudub vajuta enne jätkamist \"Jäta vahele\".</string>
+    <string name="external_ip_address_msg">Sisesta Home Assistanti välise juurdepääsu IP aadress. Kui väline juurdepääs puudub vajuta enne jätkamist \"Jäta vahele\".</string>
     <string name="credentials_message">Sisesta kasutajatunnus ja salasõna. Kui sisenemisega on probleeme või kasutusel on kaheastmeline autentimine, kasuta veebi kaudu sisenemist.</string>
     <string name="home_wifi_network_choose">WiFi võrgu valik</string>
 
@@ -516,11 +516,11 @@
     <string name="start_app_boot_summary">Käivita Ariela seadme käivitumisel.</string>
 
     <string name="ariela_available_mqtt_sensor">Ariela viimatine ühendus</string>
-    <string name="ariela_available_mqtt_sensor_summary">Millal Ariel oli viimati Home Assistantiga ühenduses</string>
+    <string name="ariela_available_mqtt_sensor_summary">Millal Ariela oli viimati Home Assistantiga ühenduses</string>
 
     <string name="notification_entities_empty">Mine Sätted -> Teavitused, et lisada siia mõned olemid.</string>
     <string name="notification_entities_title">Teavituste olemid</string>
-    <string name="notification_entities_summary">Vali olemid mida kasutada püsitevitustes</string>
+    <string name="notification_entities_summary">Vali olemid mida kasutada püsiteavitustes</string>
     <string name="notification_entities_max_reached">Kuvatavate olemite maksimumarv on ületatud. Kustuta mõni olem ja proovi uuesti.</string>
     <string name="choose_entity_text">Vali olem</string>
 
@@ -528,7 +528,7 @@
     <string name="internal_ip_summary">Muuda koduvõrgu IP aadressi mida kasutab Home Assistant</string>
 
     <string name="external_ip">Välisvõrgu IP</string>
-    <string name="external_ip_summary">Muuda välise ligipääsu IP aadressi mida kasutab Home Assistant</string>
+    <string name="external_ip_summary">Muuda välise juurdepääsu IP aadressi mida kasutab Home Assistant</string>
 
     <string name="force_vertical_stack">Eelista püstist paigutust</string>
     <string name="force_vertical_summary">Selle sättega käituvad horisontaalse pinu kaardid püstpinu kaartidena</string>
@@ -579,7 +579,7 @@
     <string name="mqtt_camera_resolution">MQTT kaamera kvaliteet</string>
     <string name="mqtt_camera_resolution_summary">Vali MQTT kaamera eraldusvõime</string>
 
-    <string name="states_dev_summary">Seadme oleku seadmine Home Assistantis. See ei suhle füüsilise seadmega. </string>
+    <string name="states_dev_summary">Seadme oleku seadmine Home Assistantis. See ei suhtle füüsilise seadmega. </string>
     <string name="set_state_text">Seadme olek</string>
     <string name="entity_text">Olem</string>
     <string name="state_text">Olek</string>
@@ -635,13 +635,13 @@
     <string name="mobile_app_force_succeeded">Mobiilirakenduse sidumine on valmis</string>
     <string name="mobile_app_text">Mobiilirakendus</string>
     <string name="sensors_disabled_text">Kõik andurid on keelatud. Ariela andurite oleku uuendamiseks luba need.</string>
-    <string name="mobile_app_credential_force_warning">Mitme sidumise vältimisels mine Home Assistant -> Sidumised ja eemalda see seade. Kas eemaldan selle seadme?</string>
+    <string name="mobile_app_credential_force_warning">Mitme sidumise vältimiseks mine Home Assistant -> Sidumised ja eemalda see seade. Kas eemaldan selle seadme?</string>
     <string name="vibrate_ui_controls_title">Värinaga tagasiside</string>
     <string name="vibrate_ui_controls_summary">Anna värinaga märku nupu, lüliti vms. vajutamisest</string>
 
     <string name="setting_device_tracker_mobile_app">Seadme asukohateave</string>
     <string name="setting_device_tracker_mobile_app_summary">Kasuta rakenduse asukohateavitusi</string>
-    <string name="setting_device_tracker_see">Asukoha teave - See</string>
+    <string name="setting_device_tracker_see">Asukoha teave - SEE</string>
     <string name="setting_device_tracker_see_summary">Kasuta asuloha määramiseks SEE teenust</string>
 
     <string name="wear_battery_sensor">Android Wear aku</string>
@@ -651,7 +651,7 @@
     <string name="device_tracker_accuracy_message">Ära edasta asukoha muutust kuitäpsus (meetrites) on suurem. Sisesta 0 (null), et edastada igal juhul.</string>
 
     <string name="allow_background_running">Luba taustal töötamine</string>
-    <string name="allow_background_running_summary">Lubab Arielal töötada taustal. Võimaldab saada infot reaalajas kuid võib kasutada rohkem akut.</string>
+    <string name="allow_background_running_summary">Lubab Arielal töötada taustal. Võimaldab saada infot reaalajas kuid see võib kasutada rohkem akut.</string>
 
     <string name="entity_registry_text">Olemite register</string>
     <string name="entity_registry_summary">Saadaval olevate olemite nimekiri.</string>
@@ -678,19 +678,19 @@
     <string name="language_setting_summary">Vali rakenduse kuvakeel.</string>
 
     <string-array name="array_setting_language_column">
-        <item>English</item>
-        <item>German</item>
-        <item>Spanish</item>
-        <item>Italian</item>
-        <item>Norwegian</item>
-        <item>Dutch</item>
-        <item>Polish</item>
-        <item>Portuguese</item>
-        <item>Romanian</item>
-        <item>Russian</item>
-        <item>Swedish</item>
-        <item>French</item>
-        <item>Chinese</item>
+        <item>Inglise</item>
+        <item>Saksa</item>
+        <item>Hispaania</item>
+        <item>Itaalia</item>
+        <item>Norra</item>
+        <item>Hollandi</item>
+        <item>Poola</item>
+        <item>Portugali</item>
+        <item>Rumeenia</item>
+        <item>Vene</item>
+        <item>Rootsi</item>
+        <item>Prantsuse</item>
+        <item>Hiina</item>
         <item>Eesti</item>
    </string-array>
 
@@ -704,7 +704,7 @@
     <string name="language_changed_dialog_message">Kuvakeele muutmiseks taaskäivita rakendus.</string>
     <string name="attention_text">Tähelepanu</string>
     <string name="web_ui_enable_mode_message">Rakendusse naasmiseks või sätete muutmiseks libista ekraani vasakust servast paremale.</string>
-    <string name="push_notifications_text_aa">Android Auto tevitused</string>
+    <string name="push_notifications_text_aa">Android Auto teavitused</string>
     <string name="add_wifi_text">Lisa WiFi pääsupunkt</string>
     <string name="zone_text">Tsoon</string>
     <string name="wifi_name_cannot_be_empty">WiFi nimi on kohustuslik</string>
@@ -721,13 +721,13 @@
     <string name="accelerometer_sensor_summary">Edasta Home Assistantile seadme kiirendusanduri teave</string>
 
     <string name="device_tracker_distance_title">Asukohtade vaheline kaugus</string>
-    <string name="device_tracker_distance_message">Ära edasta GPS asukohta kui kauguse erinevus eelmisest edatatust on väiksem kui valtud(meetrites). Sisesta 0 (null), et saata igal juhul.</string>
+    <string name="device_tracker_distance_message">Ära edasta GPS asukohta kui kauguse erinevus eelmisest edastatust on väiksem kui valitud (meetrites). Sisesta 0 (null), et saata igal juhul.</string>
     <string name="proximity_sensor">Lähedusandur</string>
     <string name="proximity_sensor_summary">Edasta Home Assistantile lähedusanduri olek</string>
 
     <string name="rtsp_camera_text">MJPEG kaamera voogedastus</string>
     <string name="rtsp_camera_enable_text">Luba MJPEG kaamera voogedastus</string>
-    <string name="rtsp_camera_enable_summary">Luba MJPEG kaamera voogedastus. Pane tähele, et see lõpetab kaamera MQTT sidumise töö.</string>
+    <string name="rtsp_camera_enable_summary">Luba MJPEG kaamera voogedastus. Pane tähele, et see lõpetab MQTT kaamera töö.</string>
     <string name="configuration_text">Sätted</string>
     <string name="streaming_source_text">Videovoo allikas</string>
     <string name="streaming_source_summary">Vali voogedastav kaamera</string>
@@ -818,7 +818,7 @@
     <string name="show_tabs_bottom_setting_summary">Kuvab vaadete sakid ekraani alumises servas (kasulik suure ekraani puhul)</string>
 
     <string name="background_image_text">Taustapilt</string>
-    <string name="copy_certificate_text">Salvesta oma sertifikaat asukohta \"%s\". Android 10+ turvasätted ei luba seda kahjuks automatiseerida.</string>
+    <string name="copy_certificate_text">Salvesta oma sertifikaat asukohta \"%s\". Android 10+ turvasätted ei luba seda kahjuks automaatselt teha.</string>
     <string name="view_visible_in_ariela">Peida see vaade Ariela rakenduses</string>
     <string name="clear_hidden_lovelace_views">Kuva peidetud vaated</string>
     <string name="clear_hidden_lovelace_views_summary">Taasta peidetud vaadete kuvamine Ariela Lovelace režiimis.</string>
