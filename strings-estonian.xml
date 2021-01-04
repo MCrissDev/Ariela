@@ -11,7 +11,6 @@
     <string name="password_text">Salasõna</string>
     <string name="incorrect_password_message_text">Sisestatud andmetega sisselogimine nurjus. Kontrolli andmeid ja proovi uuesti.</string>
     <string name="setup_complete_text">Seadistatud</string>
-    <string name="setup_complete_message_text">Home Assistanti seadistamine on lõpetatud. Saad rakendust kasutada Home Assistanti juhtimiseks.</string>
     <string name="configure_text">Seadista</string>
     <string name="connection_server_failed_splash">Ühendus Home Assistanti serveriga nurjus. Proovi uuesti või seadista ühendus uuesti. Mida Sa soovid teha?</string>
     <string name="server_not_configured_text">Server pole õigesti seadistatud</string>
