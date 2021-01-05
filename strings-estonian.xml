@@ -855,4 +855,25 @@
     <string name="forecast_text">Ennustus</string>
     <string name="edit_current_view_text">Muuda praegust vaadet</string>
     <string name="native_rendering_text">Rakenduse määratud vaade</string>
+
+    <string name="quick_launch_enable_instructions">Instructions</string>
+    <string name="quick_launch_enable_instructions_desc">Click here in order to find how you can enable the Ariela Quick Launch function.</string>
+    <string name="quick_launch_items">Quick Launch Entities</string>
+    <string name="quick_launch_items_desc">Choose the entities you want to be displayed in Ariela: Quick Launch.</string>
+    <string name="select_all_text">Select All</string>
+    <string name="deselect_all_text">Deselect All</string>
+    <string name="no_entities_available_text">No entities available. Add entities to be displayed here from Ariela -> Settings -> Quick launch.</string>
+    <string name="ariela_wear_text">Ariela: Wear (Watch)</string>
+    <string name="wear_watch_items">Android Wear Entities</string>
+    <string name="wear_watch_items_desc">Choose the entities you want to be displayed on your Android Wear watch.</string>
+    <string name="wear_enable_instructions_desc">Click here in order to find how you can enable the Ariela on your smartwatch.</string>
+    <string name="watch_enable_instructions">Instructions</string>
+
+    <string name="donate_text">Donate \n %s</string>
+    <string name="quick_launch_lock_screen_text">Allow on Lock Screen</string>
+    <string name="quick_launch_lock_screen_desc">Control your home without having to unlock your device.</string>
+    <string name="enable_quick_launch_assistant_text">Enable Assistant Mode</string>
+    <string name="enable_quick_launch_assistant_desc">Click here in order to choose the default Assistant from your Phone. If you will choose Ariela, you will be able to trigger Ariela: Quick Launch feature by long pressing the Home key button.</string>
+    <string name="install_wear_os_app">Install Wear OS app</string>
+    <string name="install_wear_os_app_desc">Click here in order to install Ariela on your Wear OS smart-watch.</string>
 </resources>
