@@ -1,4 +1,4 @@
-﻿<!-- asuta<resources> -->
+<resources>
     <string name="click_next_for_setup">Vajuta Jätka et alustada seadistamist</string>
     <string name="try_again_text">Proovi uuesti</string>
     <string name="continue_text">Jätka</string>
@@ -243,7 +243,7 @@
     <string name="config_invalid_text">Viga seadetes</string>
     <string name="failed_to_check_config">Seadete kontroll nurjus. Proovi uuesti</string>
     <string name="config_reload_text">Seadete taaslaadimine</string>
-    <string name="config_reload_msg_text">Mõned Home Assistant'i komponendid on taaslaetavad ilma taaskäivituseta. Taaslaadimise klõpsamisel tühistatakse nende praegused seaded ja laetakse uued. </string>
+    <string name="config_reload_msg_text">Mõned Home Assistant\'i komponendid on taaslaetavad ilma taaskäivituseta. Taaslaadimise klõpsamisel tühistatakse nende praegused seaded ja laetakse uued. </string>
 
     <string name="reload_core_text">Taaslae tuum</string>
     <string name="reload_groups_text">Taaslae grupid</string>
@@ -264,7 +264,7 @@
     <string name="general_config_summary">Kontrolli oma sätteid ja halda serverit</string>
     <string name="delete_text">Kustuta</string>
     <string name="failed_to_retrieve_users">Kasutajaid ei leitud. Proovi uuesti.</string>
-    <string name="something_went_wrong">Midagi läks valesti...</string>
+    <string name="something_went_wrong">Midagi läks valesti…</string>
     <string name="unable_to_delete_own_account">Enda kontot ei saa eemaldada</string>
     <string name="alarm_code_text">Valvestamise kood</string>
     <string name="arm_home_text">VALVESTA KODUS</string>
@@ -410,23 +410,6 @@
         <item>2</item>
         <item>3</item>
         <item>4</item>
-    </string-array>
-
-    <string-array name="array_setting_languages_values">
-        <item>en</item>
-        <item>de</item>
-        <item>es</item>
-        <item>it</item>
-        <item>nb</item>
-        <item>nl</item>
-        <item>pl-rPL</item>
-        <item>pt</item>
-        <item>ro</item>
-        <item>ru</item>
-        <item>sv</item>
-        <item>fr</item>
-        <item>zh</item>
-        <item>et</item>
     </string-array>
 
     <string name="number_of_columns_cards">Kaartide veerge</string>
@@ -691,7 +674,7 @@
         <item>Prantsuse</item>
         <item>Hiina</item>
         <item>Eesti</item>
-   </string-array>
+    </string-array>
 
     <string-array name="array_setting_rtsp_stream_resolution">
         <item>320 x 240</item>
